@@ -1,8 +1,13 @@
 # ai-gospel-music-api
 
-# Using AI to generate biblically accurate gospel songs, among other genres, and music videos. Various Python scripts to auto generate prompts for Suno API requests and integration with Chat-GPT, YouTube, and more.
+# Using AI to generate biblically accurate gospel songs, among other genres, and music videos. Various Python scripts to auto generate prompts for Suno API requests and integration with Chat-GPT, YouTube, and more. Using AI to generate instrumentals for vocalists from a variety of genres, musical keys, and modes. Python script to send an API request to generate songs via SUNO AI, save the API response JSON format, read that data, parse the JSON array to get the information that we need, and write that information to execute more api requests or to a text file for logging. Utilizes dictionaries of instruments, books of the bible, musical keys and modes, and vocalists of varying ranges and types to randomaly generate prompts for Suno AI requests.
 
-# This project utilizes an existing open source API for Suno.ai which can be found here on GitHub at
+# Visit my Suno profile
+```
+https://suno.com/@crossofthemessiah
+```
+
+# This project utilizes and builds off of an existing open source API for Suno.ai which is required for these scripts to work. A Docker, an OS-level virtualization software, container can be used to run the Suno API, or you can stand up a dedicated server to house this application in which case the base url of the api scripts will need to be modified from local host. The complete repo can be found here on GitHub at
 ```
 https://github.com/gcui-art/suno-api/
 ```
@@ -11,13 +16,7 @@ https://github.com/gcui-art/suno-api/
 https://suno.gcui.ai/
 ```
 
-# Using AI to generate instrumentals for vocalists from a variety of genres, musical keys, and modes.
-
-# Python script to send an API request to generate songs via SUNO AI, save the API response JSON format, read that data, parse the JSON array to get the information that we need, and write that information to execute more api requests or to a text file for logging. 
-
-# Utilizes dictionaries of instruments, books of the bible, musical keys and modes, and vocalists of varying ranges and types to randomaly generate prompts for Suno AI requests.
-
-# Bible Gateway can be implemented to pull the verse of the day for generating lyrics. For the King James Version, use this url
+# Bible Gateway can be implemented to pull the verse of the day for generating lyrics instead of using the bible book dictionary. For the King James Version, use this url
 ```
 https://www.biblegateway.com/votd/get/?format=JSON&version=9
 ```
