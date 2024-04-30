@@ -1,6 +1,15 @@
-# ai-gospel-music
+# ai-gospel-music-api
 
-# Using AI to generate biblically accurate gospel songs, among other genres, and music videos. Various Python scripts to auto generate prompts for Suno API and integration with Chat-GPT, YouTube, and more.
+# Using AI to generate biblically accurate gospel songs, among other genres, and music videos. Various Python scripts to auto generate prompts for Suno API requests and integration with Chat-GPT, YouTube, and more.
+
+# This project utilizes an existing open source API for Suno.ai which can be found here on GitHub at
+```
+https://github.com/gcui-art/suno-api/
+```
+# Or at their web-page at
+```
+https://suno.gcui.ai/
+```
 
 # Using AI to generate instrumentals for vocalists from a variety of genres, musical keys, and modes.
 
@@ -255,274 +264,6 @@ progressive metal djent, Db Mixolydian (Major), male Basso Profondo Bass singer,
 ```
 smooth vaporwave jazz lo-fi hip-hop, guttural throat singing, in the key of F# Mixolydian (Major)
 ```
-
-# The King James Version (KJV) of the Bible is Public Domain and contains 66 books, divided into two main sections: the Old Testament and the New Testament. Here's a list of each book along with a brief description and the number of chapters in each:
-
-```
-    # List of tuples to store every Bible Book and total number of Chapters
-    bible_chapters = [
-        ("Genesis", 50),
-        ("Exodus", 40),
-        ("Leviticus", 27),
-        ("Numbers", 36),
-        ("Deuteronomy", 34),
-        ("Joshua", 24),
-        ("Judges", 21),
-        ("Ruth", 4),
-        ("1 Samuel", 31),
-        ("2 Samuel", 24),
-        ("1 Kings", 22),
-        ("2 Kings", 25),
-        ("1 Chronicles", 29),
-        ("2 Chronicles", 36),
-        ("Ezra", 10),
-        ("Nehemiah", 13),
-        ("Esther", 10),
-        ("Job", 42),
-        ("Psalms", 150),
-        ("Proverbs", 31),
-        ("Ecclesiastes", 12),
-        ("Song of Solomon", 8),
-        ("Isaiah", 66),
-        ("Jeremiah", 52),
-        ("Lamentations", 5),
-        ("Ezekiel", 48),
-        ("Daniel", 12),
-        ("Hosea", 14),
-        ("Joel", 3),
-        ("Amos", 9),
-        ("Obadiah", 1),
-        ("Jonah", 4),
-        ("Micah", 7),
-        ("Nahum", 3),
-        ("Habakkuk", 3),
-        ("Zephaniah", 3),
-        ("Haggai", 2),
-        ("Zechariah", 14),
-        ("Malachi", 4),
-        ("Matthew", 28),
-        ("Mark", 16),
-        ("Luke", 24),
-        ("John", 21),
-        ("Acts", 28),
-        ("Romans", 16),
-        ("1 Corinthians", 16),
-        ("2 Corinthians", 13),
-        ("Galatians", 6),
-        ("Ephesians", 6),
-        ("Philippians", 4),
-        ("Colossians", 4),
-        ("1 Thessalonians", 5),
-        ("2 Thessalonians", 3),
-        ("1 Timothy", 6),
-        ("2 Timothy", 4),
-        ("Titus", 3),
-        ("Philemon", 1),
-        ("Hebrews", 13),
-        ("James", 5),
-        ("1 Peter", 5),
-        ("2 Peter", 3),
-        ("1 John", 5),
-        ("2 John", 1),
-        ("3 John", 1),
-        ("Jude", 1),
-        ("Revelation", 22)
-    ]
-```
-
-# Old Testament:
-
-# Genesis (50 chapters)
-# This book begins with the creation story and covers the early history of mankind, including the patriarchs Abraham, Isaac, and Jacob.
-
-# Exodus (40 chapters)
-# Exodus narrates the liberation of the Israelites from slavery in Egypt, the receiving of the Ten Commandments, and the establishment of the covenant between God and Israel.
-
-# Leviticus (27 chapters)
-# Leviticus focuses on laws related to worship, purity, and morality, including regulations for sacrifices, offerings, and priestly conduct.
-
-# Numbers (36 chapters)
-# Numbers recounts the journey of the Israelites from Mount Sinai to the borders of the Promised Land, including the census of the Israelites and various laws.
-
-# Deuteronomy (34 chapters)
-# Deuteronomy consists largely of speeches by Moses, reviewing the laws and events of the Israelites' journey and preparing them for their entrance into the Promised Land.
-
-# Joshua (24 chapters)
-# Joshua details the conquest of Canaan under the leadership of Joshua, successor to Moses, and the division of the land among the tribes of Israel.
-
-# Judges (21 chapters)
-# Judges tells the stories of various leaders called judges who guided Israel before the time of the kings, often highlighting cycles of sin, oppression, repentance, and deliverance.
-
-# Ruth (4 chapters)
-# Ruth is a narrative of loyalty and faithfulness, centered on Ruth, a Moabite woman, who becomes the great-grandmother of King David.
-
-# 1 Samuel (31 chapters)
-# 1 Samuel describes the transition from the period of the judges to the monarchy in Israel, focusing on the lives of Samuel, Saul, and David.
-
-# 2 Samuel (24 chapters)
-# 2 Samuel continues the story of David's reign as king, including his victories, failures, and the establishment of the Davidic covenant.
-
-# 1 Kings (22 chapters)
-# 1 Kings covers the reigns of Solomon, the division of the kingdom after his death, and the history of the kings of Israel and Judah.
-
-# 2 Kings (25 chapters)
-# 2 Kings provides a continuation of the history of the divided kingdoms of Israel and Judah, including the fall of both kingdoms and the exile of the Israelites.
-
-# 1 Chronicles (29 chapters)
-# 1 Chronicles traces the genealogies of Israel and provides a selective history from Adam to King David, emphasizing David's reign.
-
-# 2 Chronicles (36 chapters)
-# 2 Chronicles focuses primarily on the reign of Solomon and the history of the kingdom of Judah, highlighting the importance of the temple and proper worship.
-
-# Ezra (10 chapters)
-# Ezra recounts the return of the exiled Israelites from Babylon to Jerusalem and the efforts to rebuild the temple.
-
-# Nehemiah (13 chapters)
-# Nehemiah continues the story of the restoration of Jerusalem, focusing on the efforts of Nehemiah to rebuild the city walls and restore the people's faithfulness to God's law.
-
-# Esther (10 chapters)
-# Esther tells the story of a Jewish girl who becomes queen of Persia and, with the help of her cousin Mordecai, saves her people from destruction.
-
-# Job (42 chapters)
-# Job explores the question of why the righteous suffer, focusing on the experiences of a man named Job who faces severe trials but maintains his faith in God.
-
-# Psalms (150 chapters)
-# Psalms is a collection of 150 poetic songs and prayers, expressing a wide range of human emotions and experiences, including praise, lament, thanksgiving, and trust in God.
-
-# Proverbs (31 chapters)
-# Proverbs contains wise sayings and instructions for living a godly and prudent life, often attributed to King Solomon.
-
-# Ecclesiastes (12 chapters)
-# Ecclesiastes reflects on the meaninglessness of life apart from God and emphasizes the importance of fearing God and obeying His commandments.
-
-# Song of Solomon (8 chapters)
-# Song of Solomon, also known as Song of Songs, is a collection of love poems celebrating the beauty of romantic love within marriage.
-
-# Isaiah (66 chapters)
-# Isaiah contains prophecies concerning the coming judgment on Israel and the nations, as well as promises of restoration and the coming Messiah.
-
-# Jeremiah (52 chapters)
-# Jeremiah prophesies the impending judgment on Judah for its disobedience to God, as well as the promise of restoration and the new covenant.
-
-# Lamentations (5 chapters)
-# Lamentations mourns the destruction of Jerusalem and the suffering of the people, yet it also expresses hope in God's faithfulness and mercy.
-
-# Ezekiel (48 chapters)
-# Ezekiel contains visions and prophecies concerning the judgment on Israel, the future restoration, and the coming of the kingdom of God.
-
-# Daniel (12 chapters)
-# Daniel features stories of faithfulness in the face of persecution, as well as apocalyptic visions concerning the future kingdoms and the ultimate victory of God.
-
-# Hosea (14 chapters)
-# Hosea prophesies against the idolatry and unfaithfulness of Israel, using his own troubled marriage as a metaphor for God's relationship with His people.
-
-# Joel (3 chapters)
-# Joel calls for repentance in the face of an impending locust plague, while also prophesying future judgment and restoration.
-
-# Amos (9 chapters)
-# Amos denounces the social injustices and religious hypocrisy of Israel, warning of the coming judgment and calling for repentance.
-
-# Obadiah (1 chapter)
-# Obadiah pronounces judgment against the nation of Edom for its violence against Israel and predicts its eventual downfall.
-
-# Jonah (4 chapters)
-# Jonah tells the story of a reluctant prophet sent to preach to the city of Nineveh, highlighting God's mercy and concern for all peoples.
-
-# Micah (7 chapters)
-# Micah condemns the corruption and injustice in Israel and Judah, while also offering hope for a future restoration under a righteous ruler.
-
-# Nahum (3 chapters)
-# Nahum prophesies the destruction of Nineveh, the capital of Assyria, as a judgment for its violence and oppression.
-
-# Habakkuk (3 chapters)
-# Habakkuk questions God's justice in the face of evil and violence but ultimately expresses trust and confidence in God's sovereignty.
-
-# Zephaniah (3 chapters)
-# Zephaniah warns of the coming judgment on Judah and the nations, yet also offers hope of restoration for a remnant of God's people.
-
-# New Testament:
-
-# Matthew (28 chapters)
-# Matthew presents Jesus as the fulfillment of Old Testament prophecies, focusing on His teachings, miracles, and the establishment of the kingdom of God.
-
-# Mark (16 chapters)
-# Mark emphasizes Jesus' actions and His role as the suffering servant, highlighting His miracles and the significance of His death and resurrection.
-
-# Luke (24 chapters)
-# Luke provides a detailed account of Jesus' life, ministry, death, and resurrection, with an emphasis on His compassion for the marginalized and His universal message of salvation.
-
-# John (21 chapters)
-# John focuses on the divinity of Jesus, presenting Him as the eternal Word made flesh and emphasizing the importance of faith in Him for eternal life.
-
-# Acts (28 chapters)
-# Acts narrates the growth of the early Christian church, from the Day of Pentecost to Paul's missionary journeys and eventual imprisonment in Rome.
-
-# Romans (16 chapters)
-# Romans explains the gospel message of salvation by grace through faith in Jesus Christ, emphasizing the righteousness of God and the universal need for redemption.
-
-# 1 Corinthians (16 chapters)
-# 1 Corinthians addresses various issues within the Corinthian church, including divisions, immorality, lawsuits, and proper conduct in worship.
-
-# 2 Corinthians (13 chapters)
-# 2 Corinthians is Paul's follow-up letter to the Corinthians, defending his apostolic authority and addressing challenges and criticisms he faced.
-
-# Galatians (6 chapters)
-# Galatians argues against the necessity of circumcision and observance of the Mosaic law for salvation, emphasizing justification by faith alone.
-
-# Ephesians (6 chapters)
-# Ephesians highlights the unity of believers in Christ and describes the spiritual blessings and responsibilities of being part of God's family.
-
-# Philippians (4 chapters)
-# Philippians expresses joy and gratitude amidst suffering and encourages believers to have the mindset of Christ, focusing on humility, unity, and perseverance.
-
-# Colossians (4 chapters)
-# Colossians warns against false teachings and emphasizes the supremacy of Christ, urging believers to live in accordance with their identity in Him.
-
-# 1 Thessalonians (5 chapters)
-# 1 Thessalonians encourages believers in their faithfulness amidst persecution and addresses questions about Christ's return.
-
-# 2 Thessalonians (3 chapters)
-# 2 Thessalonians addresses misunderstandings about Christ's return and encourages believers to stand firm in their faith.
-
-# 1 Timothy (6 chapters)
-# 1 Timothy provides instructions for church leadership and conduct, addressing issues such as false teaching, prayer, and the role of women.
-
-# 2 Timothy (4 chapters)
-# 2 Timothy is Paul's final letter, written to encourage and instruct Timothy in his ministry and to urge him to remain faithful in the face of challenges.
-
-# Titus (3 chapters)
-# Titus contains instructions for appointing elders, maintaining sound doctrine, and living in a manner consistent with the gospel.
-
-# Philemon (1 chapter)
-# Philemon is a personal letter from Paul to Philemon, urging him to forgive his runaway slave Onesimus and to receive him back as a brother in Christ.
-
-# Hebrews (13 chapters)
-# Hebrews presents Jesus as the ultimate High Priest and mediator of a better covenant, encouraging believers to persevere in faith and not to return to Judaism.
-
-# James (5 chapters)
-# James emphasizes the importance of genuine faith, expressed through good works and practical wisdom in daily life.
-
-# 1 Peter (5 chapters)
-# 1 Peter encourages believers to endure suffering with hope and to live as holy witnesses in a hostile world, focusing on the future inheritance awaiting them.
-
-# 2 Peter (3 chapters)
-# 2 Peter warns against false teachers and encourages believers to grow in knowledge and to remain steadfast in their faith.
-
-# 1 John (5 chapters)
-# 1 John emphasizes the importance of love, obedience, and fellowship with God, with a focus on the assurance of salvation and the reality of Christ's incarnation.
-
-# 2 John (1 chapter)
-# 2 John warns against false teachers and emphasizes the importance of truth and love in the Christian life.
-
-# 3 John (1 chapter)
-# 3 John commends hospitality and support for faithful ministers while warning against the arrogance and hostility of Diotrephes.
-
-# Jude (1 chapter)
-# Jude warns against false teachers and encourages believers to contend earnestly for the faith once for all delivered to the saints.
-
-# Revelation (22 chapters)
-# Revelation contains apocalyptic visions of the future, including the return of Christ, the final judgment, and the establishment of God's eternal kingdom.
-
 
 # In Western music, a musical key refers to a set of notes and chords that revolve around a central note, called the tonic. Each key can be associated with one of the seven diatonic modes, which are scales that are derived from the major scale. The seven diatonic modes are:
 
@@ -862,3 +603,271 @@ mongolian_throat_singing_styles = [
         ("american folk", True)
     ]
 ```
+
+
+# The King James Version (KJV) of the Bible is Public Domain and contains 66 books, divided into two main sections: the Old Testament and the New Testament. Here's a list of each book along with a brief description and the number of chapters in each:
+
+```
+    # List of tuples to store every Bible Book and total number of Chapters
+    bible_chapters = [
+        ("Genesis", 50),
+        ("Exodus", 40),
+        ("Leviticus", 27),
+        ("Numbers", 36),
+        ("Deuteronomy", 34),
+        ("Joshua", 24),
+        ("Judges", 21),
+        ("Ruth", 4),
+        ("1 Samuel", 31),
+        ("2 Samuel", 24),
+        ("1 Kings", 22),
+        ("2 Kings", 25),
+        ("1 Chronicles", 29),
+        ("2 Chronicles", 36),
+        ("Ezra", 10),
+        ("Nehemiah", 13),
+        ("Esther", 10),
+        ("Job", 42),
+        ("Psalms", 150),
+        ("Proverbs", 31),
+        ("Ecclesiastes", 12),
+        ("Song of Solomon", 8),
+        ("Isaiah", 66),
+        ("Jeremiah", 52),
+        ("Lamentations", 5),
+        ("Ezekiel", 48),
+        ("Daniel", 12),
+        ("Hosea", 14),
+        ("Joel", 3),
+        ("Amos", 9),
+        ("Obadiah", 1),
+        ("Jonah", 4),
+        ("Micah", 7),
+        ("Nahum", 3),
+        ("Habakkuk", 3),
+        ("Zephaniah", 3),
+        ("Haggai", 2),
+        ("Zechariah", 14),
+        ("Malachi", 4),
+        ("Matthew", 28),
+        ("Mark", 16),
+        ("Luke", 24),
+        ("John", 21),
+        ("Acts", 28),
+        ("Romans", 16),
+        ("1 Corinthians", 16),
+        ("2 Corinthians", 13),
+        ("Galatians", 6),
+        ("Ephesians", 6),
+        ("Philippians", 4),
+        ("Colossians", 4),
+        ("1 Thessalonians", 5),
+        ("2 Thessalonians", 3),
+        ("1 Timothy", 6),
+        ("2 Timothy", 4),
+        ("Titus", 3),
+        ("Philemon", 1),
+        ("Hebrews", 13),
+        ("James", 5),
+        ("1 Peter", 5),
+        ("2 Peter", 3),
+        ("1 John", 5),
+        ("2 John", 1),
+        ("3 John", 1),
+        ("Jude", 1),
+        ("Revelation", 22)
+    ]
+```
+
+# Old Testament:
+
+# Genesis (50 chapters)
+# This book begins with the creation story and covers the early history of mankind, including the patriarchs Abraham, Isaac, and Jacob.
+
+# Exodus (40 chapters)
+# Exodus narrates the liberation of the Israelites from slavery in Egypt, the receiving of the Ten Commandments, and the establishment of the covenant between God and Israel.
+
+# Leviticus (27 chapters)
+# Leviticus focuses on laws related to worship, purity, and morality, including regulations for sacrifices, offerings, and priestly conduct.
+
+# Numbers (36 chapters)
+# Numbers recounts the journey of the Israelites from Mount Sinai to the borders of the Promised Land, including the census of the Israelites and various laws.
+
+# Deuteronomy (34 chapters)
+# Deuteronomy consists largely of speeches by Moses, reviewing the laws and events of the Israelites' journey and preparing them for their entrance into the Promised Land.
+
+# Joshua (24 chapters)
+# Joshua details the conquest of Canaan under the leadership of Joshua, successor to Moses, and the division of the land among the tribes of Israel.
+
+# Judges (21 chapters)
+# Judges tells the stories of various leaders called judges who guided Israel before the time of the kings, often highlighting cycles of sin, oppression, repentance, and deliverance.
+
+# Ruth (4 chapters)
+# Ruth is a narrative of loyalty and faithfulness, centered on Ruth, a Moabite woman, who becomes the great-grandmother of King David.
+
+# 1 Samuel (31 chapters)
+# 1 Samuel describes the transition from the period of the judges to the monarchy in Israel, focusing on the lives of Samuel, Saul, and David.
+
+# 2 Samuel (24 chapters)
+# 2 Samuel continues the story of David's reign as king, including his victories, failures, and the establishment of the Davidic covenant.
+
+# 1 Kings (22 chapters)
+# 1 Kings covers the reigns of Solomon, the division of the kingdom after his death, and the history of the kings of Israel and Judah.
+
+# 2 Kings (25 chapters)
+# 2 Kings provides a continuation of the history of the divided kingdoms of Israel and Judah, including the fall of both kingdoms and the exile of the Israelites.
+
+# 1 Chronicles (29 chapters)
+# 1 Chronicles traces the genealogies of Israel and provides a selective history from Adam to King David, emphasizing David's reign.
+
+# 2 Chronicles (36 chapters)
+# 2 Chronicles focuses primarily on the reign of Solomon and the history of the kingdom of Judah, highlighting the importance of the temple and proper worship.
+
+# Ezra (10 chapters)
+# Ezra recounts the return of the exiled Israelites from Babylon to Jerusalem and the efforts to rebuild the temple.
+
+# Nehemiah (13 chapters)
+# Nehemiah continues the story of the restoration of Jerusalem, focusing on the efforts of Nehemiah to rebuild the city walls and restore the people's faithfulness to God's law.
+
+# Esther (10 chapters)
+# Esther tells the story of a Jewish girl who becomes queen of Persia and, with the help of her cousin Mordecai, saves her people from destruction.
+
+# Job (42 chapters)
+# Job explores the question of why the righteous suffer, focusing on the experiences of a man named Job who faces severe trials but maintains his faith in God.
+
+# Psalms (150 chapters)
+# Psalms is a collection of 150 poetic songs and prayers, expressing a wide range of human emotions and experiences, including praise, lament, thanksgiving, and trust in God.
+
+# Proverbs (31 chapters)
+# Proverbs contains wise sayings and instructions for living a godly and prudent life, often attributed to King Solomon.
+
+# Ecclesiastes (12 chapters)
+# Ecclesiastes reflects on the meaninglessness of life apart from God and emphasizes the importance of fearing God and obeying His commandments.
+
+# Song of Solomon (8 chapters)
+# Song of Solomon, also known as Song of Songs, is a collection of love poems celebrating the beauty of romantic love within marriage.
+
+# Isaiah (66 chapters)
+# Isaiah contains prophecies concerning the coming judgment on Israel and the nations, as well as promises of restoration and the coming Messiah.
+
+# Jeremiah (52 chapters)
+# Jeremiah prophesies the impending judgment on Judah for its disobedience to God, as well as the promise of restoration and the new covenant.
+
+# Lamentations (5 chapters)
+# Lamentations mourns the destruction of Jerusalem and the suffering of the people, yet it also expresses hope in God's faithfulness and mercy.
+
+# Ezekiel (48 chapters)
+# Ezekiel contains visions and prophecies concerning the judgment on Israel, the future restoration, and the coming of the kingdom of God.
+
+# Daniel (12 chapters)
+# Daniel features stories of faithfulness in the face of persecution, as well as apocalyptic visions concerning the future kingdoms and the ultimate victory of God.
+
+# Hosea (14 chapters)
+# Hosea prophesies against the idolatry and unfaithfulness of Israel, using his own troubled marriage as a metaphor for God's relationship with His people.
+
+# Joel (3 chapters)
+# Joel calls for repentance in the face of an impending locust plague, while also prophesying future judgment and restoration.
+
+# Amos (9 chapters)
+# Amos denounces the social injustices and religious hypocrisy of Israel, warning of the coming judgment and calling for repentance.
+
+# Obadiah (1 chapter)
+# Obadiah pronounces judgment against the nation of Edom for its violence against Israel and predicts its eventual downfall.
+
+# Jonah (4 chapters)
+# Jonah tells the story of a reluctant prophet sent to preach to the city of Nineveh, highlighting God's mercy and concern for all peoples.
+
+# Micah (7 chapters)
+# Micah condemns the corruption and injustice in Israel and Judah, while also offering hope for a future restoration under a righteous ruler.
+
+# Nahum (3 chapters)
+# Nahum prophesies the destruction of Nineveh, the capital of Assyria, as a judgment for its violence and oppression.
+
+# Habakkuk (3 chapters)
+# Habakkuk questions God's justice in the face of evil and violence but ultimately expresses trust and confidence in God's sovereignty.
+
+# Zephaniah (3 chapters)
+# Zephaniah warns of the coming judgment on Judah and the nations, yet also offers hope of restoration for a remnant of God's people.
+
+# New Testament:
+
+# Matthew (28 chapters)
+# Matthew presents Jesus as the fulfillment of Old Testament prophecies, focusing on His teachings, miracles, and the establishment of the kingdom of God.
+
+# Mark (16 chapters)
+# Mark emphasizes Jesus' actions and His role as the suffering servant, highlighting His miracles and the significance of His death and resurrection.
+
+# Luke (24 chapters)
+# Luke provides a detailed account of Jesus' life, ministry, death, and resurrection, with an emphasis on His compassion for the marginalized and His universal message of salvation.
+
+# John (21 chapters)
+# John focuses on the divinity of Jesus, presenting Him as the eternal Word made flesh and emphasizing the importance of faith in Him for eternal life.
+
+# Acts (28 chapters)
+# Acts narrates the growth of the early Christian church, from the Day of Pentecost to Paul's missionary journeys and eventual imprisonment in Rome.
+
+# Romans (16 chapters)
+# Romans explains the gospel message of salvation by grace through faith in Jesus Christ, emphasizing the righteousness of God and the universal need for redemption.
+
+# 1 Corinthians (16 chapters)
+# 1 Corinthians addresses various issues within the Corinthian church, including divisions, immorality, lawsuits, and proper conduct in worship.
+
+# 2 Corinthians (13 chapters)
+# 2 Corinthians is Paul's follow-up letter to the Corinthians, defending his apostolic authority and addressing challenges and criticisms he faced.
+
+# Galatians (6 chapters)
+# Galatians argues against the necessity of circumcision and observance of the Mosaic law for salvation, emphasizing justification by faith alone.
+
+# Ephesians (6 chapters)
+# Ephesians highlights the unity of believers in Christ and describes the spiritual blessings and responsibilities of being part of God's family.
+
+# Philippians (4 chapters)
+# Philippians expresses joy and gratitude amidst suffering and encourages believers to have the mindset of Christ, focusing on humility, unity, and perseverance.
+
+# Colossians (4 chapters)
+# Colossians warns against false teachings and emphasizes the supremacy of Christ, urging believers to live in accordance with their identity in Him.
+
+# 1 Thessalonians (5 chapters)
+# 1 Thessalonians encourages believers in their faithfulness amidst persecution and addresses questions about Christ's return.
+
+# 2 Thessalonians (3 chapters)
+# 2 Thessalonians addresses misunderstandings about Christ's return and encourages believers to stand firm in their faith.
+
+# 1 Timothy (6 chapters)
+# 1 Timothy provides instructions for church leadership and conduct, addressing issues such as false teaching, prayer, and the role of women.
+
+# 2 Timothy (4 chapters)
+# 2 Timothy is Paul's final letter, written to encourage and instruct Timothy in his ministry and to urge him to remain faithful in the face of challenges.
+
+# Titus (3 chapters)
+# Titus contains instructions for appointing elders, maintaining sound doctrine, and living in a manner consistent with the gospel.
+
+# Philemon (1 chapter)
+# Philemon is a personal letter from Paul to Philemon, urging him to forgive his runaway slave Onesimus and to receive him back as a brother in Christ.
+
+# Hebrews (13 chapters)
+# Hebrews presents Jesus as the ultimate High Priest and mediator of a better covenant, encouraging believers to persevere in faith and not to return to Judaism.
+
+# James (5 chapters)
+# James emphasizes the importance of genuine faith, expressed through good works and practical wisdom in daily life.
+
+# 1 Peter (5 chapters)
+# 1 Peter encourages believers to endure suffering with hope and to live as holy witnesses in a hostile world, focusing on the future inheritance awaiting them.
+
+# 2 Peter (3 chapters)
+# 2 Peter warns against false teachers and encourages believers to grow in knowledge and to remain steadfast in their faith.
+
+# 1 John (5 chapters)
+# 1 John emphasizes the importance of love, obedience, and fellowship with God, with a focus on the assurance of salvation and the reality of Christ's incarnation.
+
+# 2 John (1 chapter)
+# 2 John warns against false teachers and emphasizes the importance of truth and love in the Christian life.
+
+# 3 John (1 chapter)
+# 3 John commends hospitality and support for faithful ministers while warning against the arrogance and hostility of Diotrephes.
+
+# Jude (1 chapter)
+# Jude warns against false teachers and encourages believers to contend earnestly for the faith once for all delivered to the saints.
+
+# Revelation (22 chapters)
+# Revelation contains apocalyptic visions of the future, including the return of Christ, the final judgment, and the establishment of God's eternal kingdom.
