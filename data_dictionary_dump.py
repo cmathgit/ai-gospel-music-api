@@ -319,6 +319,7 @@ except IOError as e:
 # A list of tuples representing song genre and whether it is instrumental or not
 bible_song_genre = [
     ("progressive metal djent", False),
+    ("progressive metal djent screamo", False),
     ("bluegrass gospel", False),
     ("classical celtic guitar", False),
     ("gospel hymn", False),
@@ -343,6 +344,7 @@ except IOError as e:
 instrumental_song_genre = [
     ("classical acoustic guitar", True),
     ("progressive metal djent", True),
+    ("progressive metal djent screamo", True),
     ("classical acoustic guitar melody", True),
     ("classical celtic guitar melody", True),
     ("fast aggressive phonk", True),
