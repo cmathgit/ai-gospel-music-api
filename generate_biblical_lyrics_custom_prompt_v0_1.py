@@ -105,12 +105,12 @@ if __name__ == '__main__':
     
     #style_of_music_prompt = f"{random_genre}, {random_key} ({majorminor}), {lead_vocalist} singer, {random_instrument}"
     
-    style_of_music_prompt = f"{random_genre}, {random_key} ({majorminor}), {lead_vocalist} singer, {random_instrument_1}, {random_instrument_2}"
+    style_of_music_prompt = f"{random_genre}, {random_key} ({majorminor}), {lead_vocalist} singer, [{random_instrument_1} solo], [{random_instrument_2}solo], [end]"
     
     print("Style of Music Prompt: ", style_of_music_prompt)
     
     gen_lyric_prompts = [
-        f"Generate passionate and meaningful lyrics to a song inspired by and devoted to preserving the message of {biblereference} taken directly from the {bibleversion} bible with remnants of the Gospel of Jesus Christ"
+        f"Generate passionate and meaningful lyrics to a song inspired by and devoted to preserving the message of {biblereference} taken directly from the {bibleversion} bible with remnants of the Gospel of Jesus Christ with an [{random_instrument_1} solo] and an [{random_instrument_2} solo]."
     ]
 
     #gen_lyric_prompts = [f"Generate passionate, meaningful, heartfelt, and profound lyrics to a song inspired by and devoted to preserving the message of {biblereference} taken directly from the {bibleversion} bible with remnants of the Gospel of Jesus Christ"]
@@ -132,61 +132,32 @@ if __name__ == '__main__':
         print("===== PROMPTING SUNO FOR LYRICS =====")
         print("Lyrics Prompt: ", gen_lyric_prompt)
         
-        lyrics1 = generate_song_lyrics({
+        lyrics = generate_song_lyrics({
            "prompt": gen_lyric_prompt
          })
         
-        print("Generate Lyrics Response Body 1: ", lyrics1)
-        print("Lyrics 1 generated: ", lyrics1['text'])
-        print("Title 1 generated: ", lyrics1['title'])
+        print("Generate Lyrics Response Body: ", lyrics)
+        print("Lyrics generated: ", lyrics['text'])
+        print("Title generated: ", lyrics['title'])
         print("Genre Chosen: ", random_genre)
         print("Mode Chosen: ", majorminor)
         
-        suno_api_generate_lyrics_response_file = 'log/last_response_received_from_suno_api_generate_lyrics.txt'
-        
         # write api responses to log file
-        if lyrics1 is not None:
-            print("Response received from Suno api/generate_lyrics: ", lyrics1)
+        if lyrics is not None:
+            print("Response received from Suno api/generate_lyrics: ", lyrics)
+            suno_api_generate_lyrics_response_file = 'log/last_response_received_from_suno_api_generate_lyrics.txt'
             try:
                 with open(suno_api_generate_lyrics_response_file, "w") as file:
-                    file.write(f"{lyrics1}")
+                    file.write(f"{lyrics}")
             except IOError as e:
                 print(f"Error writing to {suno_api_generate_lyrics_response_file}: ", e)
         else: 
             print("Request to Suno api/generate_lyrics failed.")
         
         
-        text1 = lyrics1['text']
-        
-        # grab the 1st title generated and ignore the 2nd
-        title = lyrics1['title']
-        
-        
-        lyrics2 = generate_song_lyrics({
-           "prompt": gen_lyric_prompt
-         })
-        
-        print("Generate Lyrics Response Body 2: ", lyrics2)
-        print("Lyrics 2 generated: ", lyrics2['text'])
-        print("Title 2 generated: ", lyrics2['title'])
-        
-        # write api responses to log file
-        if lyrics2 is not None:
-            print("Response received from Suno api/generate_lyrics: ", lyrics2)
-            try:
-                with open(suno_api_generate_lyrics_response_file, "w") as file:
-                    file.write(f"{lyrics2}")
-            except IOError as e:
-                print(f"Error writing to {suno_api_generate_lyrics_response_file}: ", e)
-        else: 
-            print("Request to Suno api/generate_lyrics failed.")
-        
-        text2 = lyrics2['text']
-        
-        lyrics_modded = f"[intro]\n\n{text1}\n\n[{random_instrument_1} solo]\n\n{text2}\n\n[{random_instrument_2} solo]\n\n[outro]\n\n[end]"
-        
-        print("Final Lyrics Prompt: ", lyrics_modded)
-        
+        text = lyrics['text']
+        title = lyrics['title']
+
         print("===== PROMPTING SUNO FOR SONG =====")
         print("Style of Music Prompt: ", style_of_music_prompt)
         
@@ -195,17 +166,17 @@ if __name__ == '__main__':
         py_script_used = "generate_biblical_lyrics_custom_prompt.py"
         gen_lyric_prompt_len = len(gen_lyric_prompt)
         title_prompt_len = len(title)
-        lyrics_prompt_len = len(lyrics_modded)
+        lyrics_prompt_len = len(text)
         style_of_music_prompt_len = len(style_of_music_prompt)
         
         try:
             with open(dbug_prompt_file, "w") as file:
-                file.write(f"Python Script: {py_script_used}\nFor debugging prompts\n\nGenerate Lyrics Prompt sent to Suno /api/generate_lyrics: {gen_lyric_prompt}\nGenerate Lyrics Prompt String Length: {gen_lyric_prompt_len}\nGenerate Lyrics Prompt Max Allotted String Length: 399\n\nSong Title Prompt sent to Suno /api/custom_generate:\n{title}\nSong Title Prompt String Length: {title_prompt_len}\nSong Title Prompt Max Allotted String Length: 80\n\nLyrics Prompt sent to Suno /api/custom_generate:\n{lyrics_modded}\nLyrics Prompt Length: {lyrics_prompt_len}\nLyrics Prompt Max Allotted String Length: 1250\n\nCustom Style of Music Prompt sent to Suno /api/custom_generate: {style_of_music_prompt}\nCustom Style of Music Prompt String Length: {style_of_music_prompt_len}\nCustom Style of Music Max Allotted String Length: 120")
+                file.write(f"Python Script: {py_script_used}\nFor debugging prompts\n\nGenerate Lyrics Prompt sent to Suno /api/generate_lyrics: {gen_lyric_prompt}\nGenerate Lyrics Prompt String Length: {gen_lyric_prompt_len}\nGenerate Lyrics Prompt Max Allotted String Length: 399\n\nSong Title Prompt sent to Suno /api/custom_generate:\n{title}\nSong Title Prompt String Length: {title_prompt_len}\nSong Title Prompt Max Allotted String Length: 80\n\nLyrics Prompt sent to Suno /api/custom_generate:\n{text}\nLyrics Prompt Length: {lyrics_prompt_len}\nLyrics Prompt Max Allotted String Length: 1250\n\nCustom Style of Music Prompt sent to Suno /api/custom_generate: {style_of_music_prompt}\nCustom Style of Music Prompt String Length: {style_of_music_prompt_len}\nCustom Style of Music Max Allotted String Length: 120")
         except IOError as e:
             print(f"Error writing to {dbug_prompt_file}: ", e)
 
         data = custom_generate_audio({
-           "prompt": lyrics_modded,
+           "prompt": text,
            "tags": style_of_music_prompt,
            "title": title,
            "make_instrumental": instrumental,
