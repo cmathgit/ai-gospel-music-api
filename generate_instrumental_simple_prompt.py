@@ -25,7 +25,7 @@ if __name__ == '__main__':
     print(f"Randomly selected mode: {mode}")
 
 
-    # Randomly select an instrument
+    # Generate instrument list
     instrument_data_file_path = 'lib/instrument_dict.json'
     try:
         with open(instrument_data_file_path, 'r') as instrument_file:
@@ -34,9 +34,17 @@ if __name__ == '__main__':
         print("Error reading from file:", e)
     
     #print(instruments)
-    random_instrument = random.choice(instruments)
-    print(f"Randomly selected instrument: {random_instrument}")
+    # Randomly select an instrument 1
+    random_instrument_1 = random.choice(instruments)
+    print(f"Randomly selected instrument: {random_instrument_1}")
 
+    # Randomly select instrument 2
+    random_instrument_2 = random.choice(instruments)
+    print(f"Randomly selected instrument: {random_instrument_2}")
+    
+    # Randomly select instrument 3
+    random_instrument_3 = random.choice(instruments)
+    print(f"Randomly selected instrument: {random_instrument_3}")
 
     # Randomly select a genre
     song_genre_data_file_path = 'lib/instrumental_song_genre_dict.json'
@@ -48,13 +56,23 @@ if __name__ == '__main__':
  
     #print(song_genre)
     
-    random_genre, instrumental = random.choice(song_genre)
-    print(f"Randomly selected genre: {random_genre}")
+    # randomly select genre 1
+    random_genre_1, instrumental = random.choice(song_genre)
+    print(f"Randomly selected genre: {random_genre_1}")
     print(f"Instrumental: {instrumental}")
     
+    # randomly select genre 2, do not use instrumental flag, only one needed
+    random_genre_2, temp = random.choice(song_genre)
+    print(f"Randomly selected genre: {random_genre_2}")
+    print(f"Instrumental: {temp}")
+    
+    # combine the two genres
+    random_genres = f"{random_genre_1} and {random_genre_2}"
+    
     prompts = [ 
-        f"{random_genre}, {random_instrument}, in the key of {random_key} ({majorminor})"
-        #f"Popular {random_genre} song in key of {random_key} ({majorminor})"
+        f"{random_genres} with {random_instrument_1}, {random_instrument_2}, and {random_instrument_3} in the key of {random_key} ({majorminor})"
+        #f"{random_genres}, {random_instrument}, in the key of {random_key} ({majorminor})"
+        #f"Popular {random_genres} song in key of {random_key} ({majorminor})"
         #f"Starting with these exact words {biblecontent} generate lyrics inspired by the message of {biblereference} directly taken from the {bibleversion} bible"
     ]
 
@@ -92,4 +110,4 @@ if __name__ == '__main__':
             wait_for_song(id)
             data_audio_info = get_audio_information(id)
             song_info = data_audio_info[0]
-            print_instrumental_video_descr_simple(id, user, random_genre, random_instrument, random_key, majorminor, prompt, song_info)
+            print_instrumental_video_descr_simple(id, user, random_genres, random_instrument, random_key, majorminor, prompt, song_info)

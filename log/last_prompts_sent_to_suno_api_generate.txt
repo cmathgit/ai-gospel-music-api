@@ -1,0 +1,6 @@
+Python Script: generate_instrumental_simple_prompt.py
+For debugging prompts
+
+Prompt sent to Suno /api/generate: zydeco and classical acoustic guitar melody with mandolin, synthesizer, and harp in the key of Ab Lydian (Major)
+Simple Song Description String Length: 112
+Simple Song Description Max Allotted String Length: 200

@@ -231,5 +231,5 @@ if __name__ == '__main__':
             wait_for_song(id)
             data_audio_info = get_audio_information(id)
             song_info = data_audio_info[0]
-            print_lyric_video_descr_custom(id, user, title, text, style_of_music_prompt, random_genre, random_key, majorminor, biblereference, bibleversion, gen_lyric_prompt, song_info)
+            print_lyric_video_descr_custom(id, user, title, lyrics_modded, style_of_music_prompt, random_genre, random_key, majorminor, biblereference, bibleversion, gen_lyric_prompt, song_info)
 
