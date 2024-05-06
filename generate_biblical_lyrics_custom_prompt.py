@@ -110,8 +110,10 @@ if __name__ == '__main__':
     print("Style of Music Prompt: ", style_of_music_prompt)
     
     gen_lyric_prompts = [
-        f"Generate passionate and meaningful lyrics to a song inspired by and devoted to preserving the message of {biblereference} taken directly from the {bibleversion} bible with remnants of the Gospel of Jesus Christ"
+        f"Generate lyrics inspired by the message of {biblereference} directly taken from the {bibleversion} bible"
     ]
+    
+    #gen_lyric_prompts = [f"Generate passionate and meaningful lyrics to a song inspired by and devoted to preserving the message of {biblereference} taken directly from the {bibleversion} bible with remnants of the Gospel of Jesus Christ"]
 
     #gen_lyric_prompts = [f"Generate passionate, meaningful, heartfelt, and profound lyrics to a song inspired by and devoted to preserving the message of {biblereference} taken directly from the {bibleversion} bible with remnants of the Gospel of Jesus Christ"]
     
