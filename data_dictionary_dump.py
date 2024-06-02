@@ -293,7 +293,9 @@ instruments = [
     ("horn"),
     ("beat"),
     ("sub-bass"),
-    ("oud")
+    ("oud"),
+    ("kemenche"),
+    ("bağlama")
 ]
 
 # Writing to file with error handling
