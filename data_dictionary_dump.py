@@ -287,7 +287,13 @@ instruments = [
     ("bajo sexto"),
     ("vihuela"),
     ("jarana"),
-    ("horsehead fiddle")
+    ("horsehead fiddle"),
+    ("plucked bass"),
+    ("synth"),
+    ("horn"),
+    ("beat"),
+    ("sub-bass"),
+    ("oud")
 ]
 
 # Writing to file with error handling

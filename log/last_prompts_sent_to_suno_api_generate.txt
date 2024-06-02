@@ -1,6 +1,6 @@
 Python Script: generate_instrumental_simple_prompt.py
 For debugging prompts
 
-Prompt sent to Suno /api/generate: zydeco and classical acoustic guitar melody with mandolin, synthesizer, and harp in the key of Ab Lydian (Major)
-Simple Song Description String Length: 112
+Prompt sent to Suno /api/generate: fast thrash metal and classical celtic guitar with accordion, harmonica, and cello in the key of F Locrian (Minor)
+Simple Song Description String Length: 114
 Simple Song Description Max Allotted String Length: 200
