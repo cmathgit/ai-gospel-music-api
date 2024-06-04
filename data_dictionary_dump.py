@@ -340,8 +340,12 @@ vocalists = [
     ("Chylandyk", "", "male"), # bird-like sounds
     
     # rhythmic vocalists
-    ("Rapper","MC","Emcee"),
-    ("Rhythm","MC (Master of Ceremonies)","Emcee")
+    ("Rapper","MC","Male"),
+    ("Rapper","MC","Female"),
+    ("Rapper","Emcee","Male"),
+    ("Rapper","Emcee","Female"),
+    ("Emcee","Master of Ceremonies","Male"),
+    ("Emcee","Master of Ceremonies","Female")
 ]
 
 # Writing to file with error handling
