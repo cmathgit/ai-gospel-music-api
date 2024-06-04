@@ -450,7 +450,9 @@ bible_song_genre = [
     ("NYC Hip Hop", False),
     ("J-Pop", False),
     ("Hip Hop/Rap", False),
-    ("Gospel Rap", False)
+    ("Gospel Rap", False),
+    ("American hip hop", False),
+    ("New Jersey Hip Hop", False)
 ]
 
 # Writing to file with error handling
@@ -628,7 +630,9 @@ instrumental_song_genre = [
     ("NYC Hip Hop", True),
     ("J-Pop", True),
     ("Hip Hop/Rap", True),
-    ("Gospel Rap", True)
+    ("Gospel Rap", True),
+    ("American hip hop", True),
+    ("New Jersey Hip Hop", True)
 ]
 
 # Writing to file with error handling
@@ -804,7 +808,9 @@ song_genre = [
     ("NYC Hip Hop", False),
     ("J-Pop", False),
     ("Hip Hop/Rap", False),
-    ("Gospel Rap", False)
+    ("Gospel Rap", False),
+    ("American hip hop", False),
+    ("New Jersey Hip Hop", False)
 ]
 
 # Writing to file with error handling
