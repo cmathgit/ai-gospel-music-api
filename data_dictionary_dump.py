@@ -342,10 +342,14 @@ vocalists = [
     # rhythmic vocalists
     ("Rapper","MC","Male"),
     ("Rapper","MC","Female"),
+    ("MC","Rapper","Male"),
+    ("MC","Rapper","Female"),
+    ("Emcee","Rapper","Male"),
+    ("Emcee","Rapper","Female"),
     ("Rapper","Emcee","Male"),
     ("Rapper","Emcee","Female"),
-    ("Emcee","Master of Ceremonies","Male"),
-    ("Emcee","Master of Ceremonies","Female")
+    ("MC","Master of Ceremonies","Male"),
+    ("MC","Master of Ceremonies","Female")
 ]
 
 # Writing to file with error handling
