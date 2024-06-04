@@ -434,7 +434,11 @@ bible_song_genre = [
     ("Oldschool jungle", False),
     ("Drumstep", False),
     ("Neurofunk 170-180 BPM", False),
-    ("Grime 140 BPM", False),
+    ("American Christian hip hop", False),
+    ("NYC Hip Hop", False),
+    ("J-Pop", False),
+    ("Hip Hop/Rap", False),
+    ("Gospel Rap", False)
 ]
 
 # Writing to file with error handling
@@ -607,7 +611,12 @@ instrumental_song_genre = [
     ("Oldschool jungle", True),
     ("Drumstep", True),
     ("Neurofunk 170-180 BPM", True),
-    ("Grime 140 BPM", True)
+    ("Grime 140 BPM", True),
+    ("American Christian hip hop", True),
+    ("NYC Hip Hop", True),
+    ("J-Pop", True),
+    ("Hip Hop/Rap", True),
+    ("Gospel Rap", True)
 ]
 
 # Writing to file with error handling
@@ -778,7 +787,12 @@ song_genre = [
     ("Oldschool jungle", False),
     ("Drumstep", False),
     ("Neurofunk 170-180 BPM", False),
-    ("Grime 140 BPM", False)
+    ("Grime 140 BPM", False),
+    ("American Christian hip hop", False),
+    ("NYC Hip Hop", False),
+    ("J-Pop", False),
+    ("Hip Hop/Rap", False),
+    ("Gospel Rap", False)
 ]
 
 # Writing to file with error handling
