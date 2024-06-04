@@ -337,7 +337,11 @@ vocalists = [
     ("Kargyraa", "", "male"), # deep, growling sound
     ("Borbangnadyr", "", "male"), # pulsating rhythm 
     ("Ezengileer", "", "male"), # emphasizes nasal resonance
-    ("Chylandyk", "", "male") # bird-like sounds
+    ("Chylandyk", "", "male"), # bird-like sounds
+    
+    # rhythmic vocalists
+    ("Rapper","MC","Emcee"),
+    ("Rhythm","MC (Master of Ceremonies)","Emcee")
 ]
 
 # Writing to file with error handling
