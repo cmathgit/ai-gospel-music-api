@@ -364,14 +364,14 @@ except IOError as e:
 bible_song_genre = [
     ("progressive metal djent", False),
     ("progressive metal", False),
-    ("progressive metal djent screamo", False),
+    ("metal djent screamo", False),
     ("metalcore djent screamo", False),
     ("bluegrass gospel", False),
     ("classical celtic guitar", False),
     ("gospel hymn", False),
     ("christian worship", False),
     ("contemporary worship", False),
-    ("slow ambient drone christian worship", False),
+    ("ambient christian worship", False),
     ("mongolian folk", False),
     ("mongolian folk metal", False),
     ("western", False),
@@ -388,7 +388,6 @@ bible_song_genre = [
     ("chicano rap", False),
     ("american folk", False),
     ("middle-eastern", False),
-    ("classic 80s heart throb freestyle", False),
     ("Electronic", False),
     ("heart throb freestyle", False),
     ("Fusion Freestyle", False),
@@ -446,13 +445,20 @@ bible_song_genre = [
     ("Oldschool jungle", False),
     ("Drumstep", False),
     ("Neurofunk 170-180 BPM", False),
-    ("American Christian hip hop", False),
+    ("Christian hip hop", False),
     ("NYC Hip Hop", False),
     ("J-Pop", False),
     ("Hip Hop/Rap", False),
     ("Gospel Rap", False),
     ("American hip hop", False),
-    ("New Jersey Hip Hop", False)
+    ("New Jersey Hip Hop", False),
+    ("Hip Hop", False),
+    ("Freestyle Dance Music", False),
+    ("Freestyle Electro", False),
+    ("Freestyle EDM", False),
+    ("Freestyle Music Mix", False),
+    ("Oldskool Latin Freestyle", False),
+    ("Oldskool Freestyle Mix", False)
 ]
 
 # Writing to file with error handling
@@ -632,7 +638,12 @@ instrumental_song_genre = [
     ("Hip Hop/Rap", True),
     ("Gospel Rap", True),
     ("American hip hop", True),
-    ("New Jersey Hip Hop", True)
+    ("New Jersey Hip Hop", True),
+    ("Freestyle Dance Music", True),
+    ("Freestyle Electro", True),
+    ("Freestyle EDM", True),
+    ("Early 90s Freestyle Dance Music Mix", True),
+    ("Early 90s Heart Throb Freestyle", True)
 ]
 
 # Writing to file with error handling
@@ -651,6 +662,7 @@ song_genre = [
     ("classical celtic guitar melody", False),
     ("fast aggressive phonk", False),
     ("slow ambient drone", False),
+    ("slow ambient drone christian worship", False),
     ("heavy metal", False),
     ("fast jazz fusion", False),
     ("heavy electronic dance music", False),
@@ -805,12 +817,22 @@ song_genre = [
     ("Neurofunk 170-180 BPM", False),
     ("Grime 140 BPM", False),
     ("American Christian hip hop", False),
+    ("Christian hip hop", False),
     ("NYC Hip Hop", False),
     ("J-Pop", False),
     ("Hip Hop/Rap", False),
     ("Gospel Rap", False),
     ("American hip hop", False),
-    ("New Jersey Hip Hop", False)
+    ("New Jersey Hip Hop", False),
+    ("Freestyle Dance Music", False),
+    ("Freestyle Electro", False),
+    ("Freestyle EDM", False),
+    ("Early 90s Freestyle Dance Music Mix", False),
+    ("Early 90s Heart Throb Freestyle", False),
+    #("Too Cool Chris, Early 90s Heart Throb Freestyle Dance Underground DJ Mix, female falsetto singer flat", False),
+    ("Freestyle Music Mix", False),
+    ("Oldskool Latin Freestyle Mix", False),
+    ("Oldskool Freestyle Mix", False)
 ]
 
 # Writing to file with error handling
@@ -818,5 +840,83 @@ song_genre_dump_file = f"{base_file_path}song_genre_dict.json"
 try:
     with open(song_genre_dump_file, 'w') as song_genre_data_dump_file:
         json.dump(song_genre, song_genre_data_dump_file)
+except IOError as e:
+    print("Error writing to file:", e)
+    
+    
+simple_bible_prompts = [
+    ("slow bossa nova, Tenor (Leggero), saxophone, Psalms 72, Largo 45, C Lydian"),
+    ("kpop, Soprano (Dramatic), guitar, Genesis 12, Allegro 145, G# Ionian"),
+    ("darkwave, Contralto (Alto), drums, Exodus 22, Presto 190, F# Aeolian"),
+    ("EDM Techno, Countertenor (Countertenor), piano, Ruth 3, Moderato 115, A# Dorian"),
+    ("smooth fusion jazz, Baritone (Dramatic), violin, Isaiah 48, Andante 85, D# Mixolydian"),
+    ("fast reggae, Khoomei (Tuvan Style), trumpet, Matthew 14, Allegro 130, B Locrian"),
+    ("acid jazz, MC (Rapper), clarinet, Revelation 6, Larghetto 64, Eb Phrygian"),
+    ("fast disco, Soprano (Lyric), electric guitar, Job 22, Presto 180, G# Lydian"),
+    ("heavy industrial, Mezzo-Soprano (Lyric), accordion, Nehemiah 7, Moderato 110, C# Ionian"),
+    ("fast hip-hop, Tenor (Lyric), cello, Acts 18, Allegro 160, Bb Aeolian"),
+    ("lo-fi house, Bass (Lyric), bass guitar, Daniel 4, Andante 100, E Mixolydian"),
+    ("smooth vaporwave jazz, Rapper (MC), flute, 1 Samuel 11, Largo 55, Ab Ionian"),
+    ("slow tango, Khoomei (Kharkhiraa Khoomei), harmonica, Romans 8, Larghetto 63, A# Locrian"),
+    ("lo-fi hip hop, Bass (Dramatic), drums, Deuteronomy 25, Presto 175, G# Aeolian"),
+    ("fast salsa, Soprano (Coloratura), harp, Judges 9, Allegro 155, D Lydian"),
+    ("fast drum and bass, Rapper (Emcee), ukulele, Ezekiel 22, Moderato 115, F# Phrygian"),
+    ("minimalist techno, Mezzo-Soprano (Dramatic), mandolin, James 3, Larghetto 61, Bb Ionian"),
+    ("heavy dubstep, Bass (Basso Profondo), guitar, Haggai 1, Presto 195, Eb Lydian"),
+    ("haunting atmospheric witch house, Soprano (Dramatic), violin, Amos 5, Allegro 140, C# Phrygian"),
+    ("fast breakbeat, Tenor (Dramatic), oboe, Lamentations 4, Andante 95, E Aeolian"),
+    ("fast flamenco, Baritone (Lyric), bagpipes, Proverbs 15, Presto 185, G# Mixolydian"),
+    ("slow country folk, Soprano (Dramatic), synthesizer, Leviticus 18, Larghetto 55, F# Dorian"),
+    ("fast bluegrass, Mezzo-Soprano (Coloratura), accordion, Exodus 15, Allegro 150, D Mixolydian"),
+    ("fast screamo, Countertenor (Countertenor), violin, Numbers 28, Presto 195, Bb Locrian"),
+    ("slow indie rock, Contralto (Alto), electric guitar, Joshua 9, Larghetto 62, A Aeolian"),
+    ("fast reggaeton, Soprano (Lyric), drums, Job 40, Allegro 155, C Dorian"),
+    ("fast progressive house, Tenor (Leggero), saxophone, Jeremiah 14, Presto 180, G Lydian"),
+    ("fast trap, Mezzo-Soprano (Dramatic), trombone, Nehemiah 3, Allegro 165, A Mixolydian"),
+    ("slow psychedelic rock, Baritone (Lyric), bass guitar, Ecclesiastes 10, Larghetto 60, F Phrygian"),
+    ("fast techno, Bass (Basso Profondo), synthesizer, Judges 5, Allegro 170, B Mixolydian"),
+    ("slow blues, Contralto (Alto), harmonica, Psalms 119, Larghetto 56, E Aeolian"),
+    ("slow R&B, Tenor (Lyric), electric guitar, Ezekiel 40, Larghetto 58, D Mixolydian"),
+    ("fast punk rock, Soprano (Coloratura), drums, Deuteronomy 7, Allegro 155, G Mixolydian"),
+    ("heavy dubstep, Mezzo-Soprano (Lyric), synthesizer, Genesis 29, Presto 190, Eb Phrygian"),
+    ("fast thrash metal, Countertenor (Countertenor), electric guitar, 1 Chronicles 22, Allegro 175, Bb Dorian"),
+    ("slow bossa nova, Baritone (Lyric), piano, Ruth 2, Larghetto 58, C Phrygian"),
+    ("fast salsa, Soprano (Dramatic), trumpet, Job 4, Allegro 160, E Phrygian"),
+    ("slow tango, Contralto (Alto), violin, Zechariah 5, Larghetto 59, F Lydian"),
+    ("fast flamenco, Tenor (Leggero), flamenco guitar, Psalms 110, Allegro 165, G Mixolydian"),
+    ("heavy metal, Mezzo-Soprano (Dramatic), drums, Jeremiah 48, Presto 185, D Phrygian"),
+    ("fast jazz fusion, Soprano (Lyric), saxophone, Ecclesiastes 7, Allegro 160, A Mixolydian"),
+    ("slow reggae, Countertenor (Countertenor), bass guitar, Exodus 2, Larghetto 54, C Dorian"),
+    ("heavy ambient drone, Baritone (Lyric), synthesizer, Leviticus 1, Presto 200, F# Locrian"),
+    ("slow country folk, Contralto (Alto), banjo, Esther 1, Larghetto 57, G Mixolydian"),
+    ("fast hip-hop, Soprano (Dramatic), electric guitar, Judges 16, Allegro 155, E Dorian"),
+    ("fast bluegrass, Mezzo-Soprano (Coloratura), mandolin, Isaiah 50, Allegro 155, A Mixolydian"),
+    ("fast punk rock, Countertenor (Countertenor), drums, Hosea 3, Allegro 170, G Dorian"),
+    ("slow bossa nova, Baritone (Lyric), accordion, Haggai 2, Larghetto 57, Bb Ionian"),
+    ("fast disco, Tenor (Leggero), synthesizer, Song of Solomon 2, Allegro 175, E Mixolydian"),
+    ("slow tango, Contralto (Alto), bandoneon, Psalms 25, Larghetto 61, Ab Mixolydian"),
+    ("fast flamenco, Mezzo-Soprano (Dramatic), guitar, 1 Samuel 31, Allegro 160, F Phrygian"),
+    ("heavy metal, Soprano (Lyric), drums, Jeremiah 44, Presto 190, D Phrygian"),
+    ("fast jazz fusion, Countertenor (Countertenor), saxophone, Ezekiel 33, Allegro 165, Bb Dorian"),
+    ("slow reggae, Baritone (Lyric), bass guitar, Job 1, Larghetto 56, G# Aeolian"),
+    ("heavy ambient drone, Tenor (Leggero), synthesizer, Numbers 6, Presto 200, C Phrygian"),
+    ("fast hip-hop, Contralto (Alto), electric guitar, Judges 19, Allegro 155, D Dorian"),
+    ("fast bluegrass, Soprano (Dramatic), banjo, Isaiah 2, Allegro 160, E Mixolydian"),
+    ("fast punk rock, Mezzo-Soprano (Coloratura), drums, Hosea 6, Allegro 170, A Mixolydian"),
+    ("slow bossa nova, Countertenor (Countertenor), piano, Haggai 1, Larghetto 58, F# Locrian"),
+    ("fast disco, Baritone (Lyric), synthesizer, Song of Solomon 7, Allegro 175, G Mixolydian"),
+    ("slow tango, Tenor (Leggero), bandoneon, Psalms 2, Larghetto 62, A Mixolydian"),
+    ("fast flamenco, Contralto (Alto), guitar, 1 Samuel 20, Allegro 160, F# Phrygian"),
+    ("heavy metal, Soprano (Lyric), drums, Jeremiah 1, Presto 195, C# Phrygian"),
+    ("fast jazz fusion, Mezzo-Soprano (Dramatic), saxophone, Ezekiel 18, Allegro 165, Bb Dorian"),
+    ("slow reggae, Countertenor (Countertenor), bass guitar, Job 3, Larghetto 56, G Aeolian"),
+    ("heavy ambient drone, Baritone (Lyric), synthesizer, Numbers 10, Presto 200, C# Locrian")
+]
+
+# Writing to file with error handling
+simple_bible_prompts_dump_file = f"{base_file_path}simple_bible_prompts_dict.json"
+try:
+    with open(simple_bible_prompts_dump_file, 'w') as simple_bible_prompts_data_dump_file:
+        json.dump(simple_bible_prompts, simple_bible_prompts_data_dump_file)
 except IOError as e:
     print("Error writing to file:", e)

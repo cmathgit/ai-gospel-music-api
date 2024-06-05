@@ -100,6 +100,7 @@ if __name__ == '__main__':
         #f"Starting with these exact words {biblecontent} generate lyrics inspired by the message of {biblereference} directly taken from the {bibleversion} bible"
     ]
 
+    # create while loop to produce prompt less than 200 characters
     for prompt in prompts:
         if len(prompt) > 200:
             print("Prompt too long, max character limit is 200, yours is: ", len(prompt))
