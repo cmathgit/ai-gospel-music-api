@@ -12,7 +12,8 @@ tempos = [
     ("Moderato", 108, 120),
     ("Allegro", 120, 168),
     ("Presto", 168, 200),
-    ("Prestissimo", 200, float('inf'))
+    #("Prestissimo", 200, float('inf'))
+    ("Prestissimo", 200, 420)
 ]
 
 # Writing to file with error handling
@@ -371,7 +372,7 @@ bible_song_genre = [
     ("gospel hymn", False),
     ("christian worship", False),
     ("contemporary worship", False),
-    ("ambient christian worship", False),
+    ("ambient Christian worship", False),
     ("mongolian folk", False),
     ("mongolian folk metal", False),
     ("western", False),
