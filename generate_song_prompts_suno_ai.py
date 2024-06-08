@@ -80,7 +80,7 @@ def generate_combination():
 def generate_biblical_song_simple():
     song_descr_prompt = ""
     while True:
-        bible_song_genre_choice = random.choice(bible_song_genre)
+        bible_song_genre_choice = random.choice(song_genre)
         vocalist_choice = random.choice(vocalists)
         instrument_choice_1 = random.choice(instruments)
         instrument_choice_2 = random.choice(instruments)
@@ -113,7 +113,7 @@ def generate_biblical_song_custom():
     lyrics_prompt = ""
     style_of_music_prompt = ""
     while True:
-        song_genre_choice = random.choice(song_genre)
+        song_genre_choice = random.choice(bible_song_genre)
         vocalist_choice = random.choice(vocalists)
         instrument_choice_1 = random.choice(instruments)
         instrument_choice_2 = random.choice(instruments)
@@ -181,7 +181,7 @@ def generate_bible_gateway_votd_song_custom():
     lyrics_prompt = ""
     style_of_music_prompt = ""
     while True:
-        song_genre_choice = random.choice(song_genre)
+        song_genre_choice = random.choice(bible_song_genre)
         vocalist_choice = random.choice(vocalists)
         instrument_choice_1 = random.choice(instruments)
         instrument_choice_2 = random.choice(instruments)
