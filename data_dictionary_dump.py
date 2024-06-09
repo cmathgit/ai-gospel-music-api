@@ -1138,7 +1138,8 @@ simple_bible_prompts = [
     ("heavy metal, Soprano (Lyric), drums, Jeremiah 1, Presto 195, C# Phrygian"),
     ("fast jazz fusion, Mezzo-Soprano (Dramatic), saxophone, Ezekiel 18, Allegro 165, Bb Dorian"),
     ("slow reggae, Countertenor (Countertenor), bass guitar, Job 3, Larghetto 56, G Aeolian"),
-    ("heavy ambient drone, Baritone (Lyric), synthesizer, Numbers 10, Presto 200, C# Locrian")
+    ("heavy ambient drone, Baritone (Lyric), synthesizer, Numbers 10, Presto 200, C# Locrian"),
+    ("experimental hip hop, punk rap, noise, industrial, rap rock, electropunk, Avant-garde, death trips, synth, math drums, cryptic lyricism, MC Ryde shouting, rapid-fire vocals, biblically inspired lyrics")
 ]
 
 # Writing to file with error handling
