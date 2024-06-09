@@ -350,7 +350,11 @@ vocalists = [
     ("Rapper","Emcee","Male"),
     ("Rapper","Emcee","Female"),
     ("MC","Master of Ceremonies","Male"),
-    ("MC","Master of Ceremonies","Female")
+    ("MC","Master of Ceremonies","Female"),
+    ("cryptic lyricism","rapid-fire vocals","Male"),
+    ("cryptic lyricism","rapid-fire vocals","Female"),
+    ("rapid-fire vocals","cryptic lyricism","Male"),
+    ("rapid-fire vocals","cryptic lyricism","Female")
 ]
 
 # Writing to file with error handling
@@ -364,6 +368,15 @@ except IOError as e:
 # A list of tuples representing song genre and whether it is instrumental or not
 bible_song_genre = [
     ('zydeco', False),
+    ("experimental hip hop", False),
+    ("punk rap", False),
+    ("noise", False),
+    ("industrial", False),
+    ("rap rock", False),
+    ("electropunk", False),
+    ("Avant-garde", False),
+    ("death trips", False),
+    ("math drums", False),
     ('fast drum and bass', False),
     ('slow ambient drone', False),
     ('progressive metal djent', False),
@@ -664,6 +677,15 @@ except IOError as e:
 # A list of tuples representing song genre
 instrumental_song_genre = [
     ("classical acoustic guitar", True),
+    ("experimental hip hop", True),
+    ("punk rap", True),
+    ("noise", True),
+    ("industrial", True),
+    ("rap rock", True),
+    ("electropunk", True),
+    ("Avant-garde", True),
+    ("death trips", True),
+    ("math drums", True),
     ("progressive metal djent", True),
     ("progressive metal", True),
     ("progressive metal djent screamo", True),
@@ -849,6 +871,15 @@ except IOError as e:
 # A list of tuples representing song genre
 song_genre = [
     ("classical acoustic guitar", False),
+    ("experimental hip hop", False),
+    ("punk rap", False),
+    ("noise", False),
+    ("industrial", False),
+    ("rap rock", False),
+    ("electropunk", False),
+    ("Avant-garde", False),
+    ("death trips", False),
+    ("math drums", False),
     ("progressive metal djent", False),
     ("classical acoustic guitar melody", False),
     ("classical celtic guitar melody", False),
