@@ -561,7 +561,10 @@ bible_song_genre = [
     ('Psychedelic ', False),
     ('electronic dance music', False),
     ('Acid Techno', False),
-    ('UK garage/2-step', False)
+    ('UK garage/2-step', False),
+    ('Motown', False),
+    ('Mo Town', False),
+    ('Soulful Motown', False)
 ]
 
 '''
@@ -1060,7 +1063,10 @@ song_genre = [
     #("Too Cool Chris, Early 90s Heart Throb Freestyle Dance Underground DJ Mix, female falsetto singer flat", False),
     ("Freestyle Music Mix", False),
     ("Oldskool Latin Freestyle Mix", False),
-    ("Oldskool Freestyle Mix", False)
+    ("Oldskool Freestyle Mix", False),
+    ('Motown', False),
+    ('Mo Town', False),
+    ('Soulful Motown', False)
 ]
 
 # Writing to file with error handling
