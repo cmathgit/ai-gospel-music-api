@@ -1,152 +1,52 @@
-
-
- Lyrics_Here
-
-------------------------------New Prompt-------------------------------------
-Song_Title_Here [Joel 1] [Heavy Blues] [Eb Mixolydian] [Largo] [AI Music]
-
-Using AI to generate biblically accurate Heavy Blues songs and music videos.
-
 Generated using Suno AI
  Suno_Link_Here
 
 Style of Music Prompt:
-Heavy Blues, Mezzo-Soprano (female), piano, guttural throat singing, biblically inspired lyrics book of Joel chapter 1, Largo 44 bpm, Eb Mixolydian
-
- Lyrics_Here
-
-------------------------------New Prompt-------------------------------------
-Song_Title_Here [1 Samuel 24] [Fusion Freestyle] [Ab Lydian] [Andante] [AI Music]
-
-Using AI to generate biblically accurate Fusion Freestyle songs and music videos.
-
-Generated using Suno AI
- Suno_Link_Here
-
-Style of Music Prompt:
-Fusion Freestyle, Emcee (Male), vibraphone, trumpet, didgeridoo, Andante 107 bpm, Ab Lydian
+Early Metal, Chylandyk (male), vibraphone, mandolin, harp, Larghetto 64 bpm, Bb Phrygian
 
 Lyrics Prompt:
-Generate biblically accurate lyrics inspired by the message of the book of 1 Samuel chapter 24 quoting verses taken from the King James Version bible
+Generate biblically accurate lyrics inspired by the message of the book of Ecclesiastes chapter 5 quoting verses taken from the King James Version bible
 
 
  Lyrics_Here
 
 ------------------------------New Prompt-------------------------------------
-Song_Title_Here [Instrumental] [Breakcore Drum n Bass] [A# Phrygian] [Prestissimo] [AI Music]
+Song_Title_Here [Instrumental] [slow waltz] [B Locrian] [Andante] [AI Music]
 
-Using AI to generate Breakcore Drum n Bass instrumentals for vocalists from a variety of genres, musical keys, and modes.
+Using AI to generate slow waltz instrumentals for vocalists from a variety of genres, musical keys, and modes.
 
 Generated using Suno AI
  Suno_Link_Here
 
 Style of Music Prompt:
-Breakcore Drum n Bass, accordion, oud, bagpipes, castanets, Prestissimo 403 bpm, A# Phrygian
+slow waltz, french horn, ukulele, harp, xylophone, Andante 96 bpm, B Locrian
 
 [Instrumental]
 
 ------------------------------New Prompt-------------------------------------
-Song_Title_Here [Habakkuk 3:19] [J-Pop] [A Lydian] [Presto] [AI Music]
+Song_Title_Here [Romans 12:3] [fast salsa] [B Ionian] [Prestissimo] [AI Music]
 
-Using AI to generate biblically accurate J-Pop songs and music videos.
+Using AI to generate biblically accurate fast salsa songs and music videos.
 
 Generated using Suno AI
  Suno_Link_Here
 
 Style of Music Prompt:
-J-Pop, MC (Female), ukulele, violin, bassoon, Presto 197 bpm, A Lydian
+fast salsa, Kargyraa (male), tuba, organ, beat, Prestissimo 218 bpm, B Ionian
 
 Lyrics Prompt:
-Generate biblically accurate lyrics inspired by the message of Habakkuk 3:19 quoting this verse verbatim taken from the King James Version bible: The <span class="small-caps" >Lord</span> God is my strength, and he will make my feet like hinds' feet, and he will make me to walk upon mine high places. To the chief singer on my stringed instruments.
+Generate biblically accurate lyrics inspired by the message of Romans 12:3 quoting this verse verbatim taken from the King James Version bible: For I say, through the grace given unto me, to every man that is among you, not to think of himself more highly than he ought to think; but to think soberly, according as God hath dealt to every man the measure of faith.
 
 King James Version
 Public Domain
 
 Prompt generated using Verse of the Day (votd) endpoint provided by BibleGateway
-https://www.biblegateway.com/passage/?search=Habakkuk%203:19&amp;version=KJV
+https://www.biblegateway.com/passage/?search=Romans%2012:3&amp;version=KJV
 
  Lyrics_Here
 
 ------------------------------New Prompt-------------------------------------
-Song_Title_Here [Acts 15] [heavy ambient drone] [C Aeolian] [Largo] [AI Music]
-
-Using AI to generate biblically accurate heavy ambient drone songs and music videos.
-
-Generated using Suno AI
- Suno_Link_Here
-
-Style of Music Prompt:
-heavy ambient drone, Tenor (male), trumpet, accordion, biblically inspired lyrics book of Acts chapter 15, Largo 52 bpm, C Aeolian
-
- Lyrics_Here
-
-------------------------------New Prompt-------------------------------------
-Song_Title_Here [Joel 2] [Progressive House] [E Lydian] [Adagio] [AI Music]
-
-Using AI to generate biblically accurate Progressive House songs and music videos.
-
-Generated using Suno AI
- Suno_Link_Here
-
-Style of Music Prompt:
-Progressive House, MC (Male), xylophone, tabla, sub-bass, Adagio 67 bpm, E Lydian
-
-Lyrics Prompt:
-Generate biblically accurate lyrics inspired by the message of the book of Joel chapter 2 quoting verses taken from the King James Version bible
-
-
- Lyrics_Here
-
-------------------------------New Prompt-------------------------------------
-Song_Title_Here [Instrumental] [Early 90s Heart Throb Freestyle] [G# Phrygian] [Andante] [AI Music]
-
-Using AI to generate Early 90s Heart Throb Freestyle instrumentals for vocalists from a variety of genres, musical keys, and modes.
-
-Generated using Suno AI
- Suno_Link_Here
-
-Style of Music Prompt:
-Early 90s Heart Throb Freestyle, harmonica, bass guitar, banjo, clarinet, Andante 84 bpm, G# Phrygian
-
-[Instrumental]
-
-------------------------------New Prompt-------------------------------------
-Song_Title_Here [Habakkuk 3:19] [ranchera-Mariachi Fusion] [C Locrian] [Larghetto] [AI Music]
-
-Using AI to generate biblically accurate ranchera-Mariachi Fusion songs and music videos.
-
-Generated using Suno AI
- Suno_Link_Here
-
-Style of Music Prompt:
-ranchera-Mariachi Fusion, Kargyraa (male), piano, conga, zither, Larghetto 61 bpm, C Locrian
-
-Lyrics Prompt:
-Generate biblically accurate lyrics inspired by the message of Habakkuk 3:19 quoting this verse verbatim taken from the King James Version bible: The <span class="small-caps" >Lord</span> God is my strength, and he will make my feet like hinds' feet, and he will make me to walk upon mine high places. To the chief singer on my stringed instruments.
-
-King James Version
-Public Domain
-
-Prompt generated using Verse of the Day (votd) endpoint provided by BibleGateway
-https://www.biblegateway.com/passage/?search=Habakkuk%203:19&amp;version=KJV
-
- Lyrics_Here
-
-------------------------------New Prompt-------------------------------------
-Song_Title_Here [Colossians 3] [fast ska] [C Aeolian] [Moderato] [AI Music]
-
-Using AI to generate biblically accurate fast ska songs and music videos.
-
-Generated using Suno AI
- Suno_Link_Here
-
-Style of Music Prompt:
-fast ska, Borbangnadyr (male), ukulele, kemenche, biblically inspired lyrics book of Colossians chapter 3, Moderato 112 bpm, C Aeolian
-
- Lyrics_Here
-
-------------------------------New Prompt-------------------------------------
-Song_Title_Here [2 Samuel 21] [chicano rap] [Bb Mixolydian] [Allegro] [AI Music]
+Song_Title_Here [Nahum 2] [chicano rap] [G Phrygian] [Moderato] [AI Music]
 
 Using AI to generate biblically accurate chicano rap songs and music videos.
 
@@ -154,324 +54,42 @@ Generated using Suno AI
  Suno_Link_Here
 
 Style of Music Prompt:
-chicano rap, MC (Female), french horn, guttural throat singing, bass guitar, Allegro 135 bpm, Bb Mixolydian
-
-Lyrics Prompt:
-Generate biblically accurate lyrics inspired by the message of the book of 2 Samuel chapter 21 quoting verses taken from the King James Version bible
-
+chicano rap, Mezzo-Soprano (female), harp, mandolin, biblically inspired lyrics book of Nahum chapter 2, Moderato 109 bpm, G Phrygian
 
  Lyrics_Here
 
 ------------------------------New Prompt-------------------------------------
-Song_Title_Here [Instrumental] [Early 2000s Drum n Bass] [E Dorian] [Larghetto] [AI Music]
+Song_Title_Here [Daniel 2] [fast ska] [C Phrygian] [Prestissimo] [AI Music]
 
-Using AI to generate Early 2000s Drum n Bass instrumentals for vocalists from a variety of genres, musical keys, and modes.
+Using AI to generate biblically accurate fast ska songs and music videos.
 
 Generated using Suno AI
  Suno_Link_Here
 
 Style of Music Prompt:
-Early 2000s Drum n Bass, oboe, piano, trumpet, mongolian guitar, Larghetto 64 bpm, E Dorian
+fast ska, Soprano (female), castanets, marimba, oud, Prestissimo 337 bpm, C Phrygian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of the book of Daniel chapter 2 quoting verses taken from the King James Version bible
+
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Instrumental] [metalcore djent screamo] [A# Locrian] [Prestissimo] [AI Music]
+
+Using AI to generate metalcore djent screamo instrumentals for vocalists from a variety of genres, musical keys, and modes.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+metalcore djent screamo, bass guitar, drums, tambourine, bassoon, Prestissimo 275 bpm, A# Locrian
 
 [Instrumental]
 
 ------------------------------New Prompt-------------------------------------
-Song_Title_Here [Habakkuk 3:19] [heavy ambient drone] [B Mixolydian] [Moderato] [AI Music]
-
-Using AI to generate biblically accurate heavy ambient drone songs and music videos.
-
-Generated using Suno AI
- Suno_Link_Here
-
-Style of Music Prompt:
-heavy ambient drone, Baritone (male), mandolin, cello, saxophone, Moderato 112 bpm, B Mixolydian
-
-Lyrics Prompt:
-Generate biblically accurate lyrics inspired by the message of Habakkuk 3:19 quoting this verse verbatim taken from the King James Version bible: The <span class="small-caps" >Lord</span> God is my strength, and he will make my feet like hinds' feet, and he will make me to walk upon mine high places. To the chief singer on my stringed instruments.
-
-King James Version
-Public Domain
-
-Prompt generated using Verse of the Day (votd) endpoint provided by BibleGateway
-https://www.biblegateway.com/passage/?search=Habakkuk%203:19&amp;version=KJV
-
- Lyrics_Here
-
-------------------------------New Prompt-------------------------------------
-Song_Title_Here [Ecclesiastes 7] [american folk] [G Dorian] [Allegro] [AI Music]
-
-Using AI to generate biblically accurate american folk songs and music videos.
-
-Generated using Suno AI
- Suno_Link_Here
-
-Style of Music Prompt:
-american folk, Bass (male), kazoo, kazoo, biblically inspired lyrics book of Ecclesiastes chapter 7, Allegro 151 bpm, G Dorian
-
- Lyrics_Here
-
-------------------------------New Prompt-------------------------------------
-Song_Title_Here [Malachi 4] [fast thrash metal] [Eb Lydian] [Prestissimo] [AI Music]
-
-Using AI to generate biblically accurate fast thrash metal songs and music videos.
-
-Generated using Suno AI
- Suno_Link_Here
-
-Style of Music Prompt:
-fast thrash metal, Contralto (female), flute, cowbell, clarinet, Prestissimo 361 bpm, Eb Lydian
-
-Lyrics Prompt:
-Generate biblically accurate lyrics inspired by the message of the book of Malachi chapter 4 quoting verses taken from the King James Version bible
-
-
- Lyrics_Here
-
-------------------------------New Prompt-------------------------------------
-Song_Title_Here [Instrumental] [slow country folk] [Ab Locrian] [Prestissimo] [AI Music]
-
-Using AI to generate slow country folk instrumentals for vocalists from a variety of genres, musical keys, and modes.
-
-Generated using Suno AI
- Suno_Link_Here
-
-Style of Music Prompt:
-slow country folk, bağlama, guitar, beat, harp, Prestissimo 206 bpm, Ab Locrian
-
-[Instrumental]
-
-------------------------------New Prompt-------------------------------------
-Song_Title_Here [Habakkuk 3:19] [lo-fi house] [Eb Aeolian] [Presto] [AI Music]
-
-Using AI to generate biblically accurate lo-fi house songs and music videos.
-
-Generated using Suno AI
- Suno_Link_Here
-
-Style of Music Prompt:
-lo-fi house, MC (Male), mandolin, kazoo, castanets, Presto 176 bpm, Eb Aeolian
-
-Lyrics Prompt:
-Generate biblically accurate lyrics inspired by the message of Habakkuk 3:19 quoting this verse verbatim taken from the King James Version bible: The <span class="small-caps" >Lord</span> God is my strength, and he will make my feet like hinds' feet, and he will make me to walk upon mine high places. To the chief singer on my stringed instruments.
-
-King James Version
-Public Domain
-
-Prompt generated using Verse of the Day (votd) endpoint provided by BibleGateway
-https://www.biblegateway.com/passage/?search=Habakkuk%203:19&amp;version=KJV
-
- Lyrics_Here
-
-------------------------------New Prompt-------------------------------------
-Song_Title_Here [Romans 8] [smooth vaporwave jazz lo-fi hip-hop] [Gb Lydian] [Largo] [AI Music]
-
-Using AI to generate biblically accurate smooth vaporwave jazz lo-fi hip-hop songs and music videos.
-
-Generated using Suno AI
- Suno_Link_Here
-
-Style of Music Prompt:
-smooth vaporwave jazz lo-fi hip-hop, Mezzo-Soprano (female), synth, vibraphone, biblically inspired lyrics book of Romans chapter 8, Largo 42 bpm, Gb Lydian
-
- Lyrics_Here
-
-------------------------------New Prompt-------------------------------------
-Song_Title_Here [Zechariah 8] [Dubstep] [G# Dorian] [Prestissimo] [AI Music]
-
-Using AI to generate biblically accurate Dubstep songs and music videos.
-
-Generated using Suno AI
- Suno_Link_Here
-
-Style of Music Prompt:
-Dubstep, Emcee (Female), tambourine, sub-bass, bassoon, Prestissimo 326 bpm, G# Dorian
-
-Lyrics Prompt:
-Generate biblically accurate lyrics inspired by the message of the book of Zechariah chapter 8 quoting verses taken from the King James Version bible
-
-
- Lyrics_Here
-
-------------------------------New Prompt-------------------------------------
-Song_Title_Here [Instrumental] [chicano rap] [E Mixolydian] [Adagio] [AI Music]
-
-Using AI to generate chicano rap instrumentals for vocalists from a variety of genres, musical keys, and modes.
-
-Generated using Suno AI
- Suno_Link_Here
-
-Style of Music Prompt:
-chicano rap, tabla, trumpet, vihuela, guitar, Adagio 67 bpm, E Mixolydian
-
-[Instrumental]
-
-------------------------------New Prompt-------------------------------------
-Song_Title_Here [Habakkuk 3:19] [kpop] [Db Dorian] [Adagio] [AI Music]
-
-Using AI to generate biblically accurate kpop songs and music videos.
-
-Generated using Suno AI
- Suno_Link_Here
-
-Style of Music Prompt:
-kpop, Countertenor (male), french horn, harmonica, horsehead fiddle, Adagio 70 bpm, Db Dorian
-
-Lyrics Prompt:
-Generate biblically accurate lyrics inspired by the message of Habakkuk 3:19 quoting this verse verbatim taken from the King James Version bible: The <span class="small-caps" >Lord</span> God is my strength, and he will make my feet like hinds' feet, and he will make me to walk upon mine high places. To the chief singer on my stringed instruments.
-
-King James Version
-Public Domain
-
-Prompt generated using Verse of the Day (votd) endpoint provided by BibleGateway
-https://www.biblegateway.com/passage/?search=Habakkuk%203:19&amp;version=KJV
-
- Lyrics_Here
-
-------------------------------New Prompt-------------------------------------
-Song_Title_Here [Leviticus 14] [bluegrass gospel] [F# Phrygian] [Prestissimo] [AI Music]
-
-Using AI to generate biblically accurate bluegrass gospel songs and music videos.
-
-Generated using Suno AI
- Suno_Link_Here
-
-Style of Music Prompt:
-bluegrass gospel, Contralto (female), kazoo, clarinet, biblically inspired lyrics book of Leviticus chapter 14, Prestissimo 383 bpm, F# Phrygian
-
- Lyrics_Here
-
-------------------------------New Prompt-------------------------------------
-Song_Title_Here [Hosea 5] [american folk] [F# Aeolian] [Prestissimo] [AI Music]
-
-Using AI to generate biblically accurate american folk songs and music videos.
-
-Generated using Suno AI
- Suno_Link_Here
-
-Style of Music Prompt:
-american folk, Chylandyk (male), didgeridoo, ukulele, electric guitar, Prestissimo 249 bpm, F# Aeolian
-
-Lyrics Prompt:
-Generate biblically accurate lyrics inspired by the message of the book of Hosea chapter 5 quoting verses taken from the King James Version bible
-
-
- Lyrics_Here
-
-------------------------------New Prompt-------------------------------------
-Song_Title_Here [Instrumental] [fast salsa] [Bb Ionian] [Adagio] [AI Music]
-
-Using AI to generate fast salsa instrumentals for vocalists from a variety of genres, musical keys, and modes.
-
-Generated using Suno AI
- Suno_Link_Here
-
-Style of Music Prompt:
-fast salsa, oboe, trumpet, piano, oud, Adagio 76 bpm, Bb Ionian
-
-[Instrumental]
-
-------------------------------New Prompt-------------------------------------
-Song_Title_Here [Habakkuk 3:19] [Early 2000s Drum n Bass] [B Mixolydian] [Prestissimo] [AI Music]
-
-Using AI to generate biblically accurate Early 2000s Drum n Bass songs and music videos.
-
-Generated using Suno AI
- Suno_Link_Here
-
-Style of Music Prompt:
-Early 2000s Drum n Bass, MC (Male), clarinet, synthesizer, trombone, Prestissimo 350 bpm, B Mixolydian
-
-Lyrics Prompt:
-Generate biblically accurate lyrics inspired by the message of Habakkuk 3:19 quoting this verse verbatim taken from the King James Version bible: The <span class="small-caps" >Lord</span> God is my strength, and he will make my feet like hinds' feet, and he will make me to walk upon mine high places. To the chief singer on my stringed instruments.
-
-King James Version
-Public Domain
-
-Prompt generated using Verse of the Day (votd) endpoint provided by BibleGateway
-https://www.biblegateway.com/passage/?search=Habakkuk%203:19&amp;version=KJV
-
- Lyrics_Here
-
-------------------------------New Prompt-------------------------------------
-Song_Title_Here [Galatians 5] [Early 90s Heart Throb Freestyle] [Bb Ionian] [Larghetto] [AI Music]
-
-Using AI to generate biblically accurate Early 90s Heart Throb Freestyle songs and music videos.
-
-Generated using Suno AI
- Suno_Link_Here
-
-Style of Music Prompt:
-Early 90s Heart Throb Freestyle, MC (Male), guitar, electric guitar, biblically inspired lyrics book of Galatians chapter 5, Larghetto 66 bpm, Bb Ionian
-
- Lyrics_Here
-
-------------------------------New Prompt-------------------------------------
-Song_Title_Here [1 Peter 5] [slow country folk] [G Lydian] [Allegro] [AI Music]
-
-Using AI to generate biblically accurate slow country folk songs and music videos.
-
-Generated using Suno AI
- Suno_Link_Here
-
-Style of Music Prompt:
-slow country folk, Khoomei (male), trombone, organ, mandolin, Allegro 129 bpm, G Lydian
-
-Lyrics Prompt:
-Generate biblically accurate lyrics inspired by the message of the book of 1 Peter chapter 5 quoting verses taken from the King James Version bible
-
-
- Lyrics_Here
-
-------------------------------New Prompt-------------------------------------
-Song_Title_Here [Instrumental] [fast garage rock] [Eb Aeolian] [Larghetto] [AI Music]
-
-Using AI to generate fast garage rock instrumentals for vocalists from a variety of genres, musical keys, and modes.
-
-Generated using Suno AI
- Suno_Link_Here
-
-Style of Music Prompt:
-fast garage rock, trumpet, vihuela, trumpet, plucked bass, Larghetto 65 bpm, Eb Aeolian
-
-[Instrumental]
-
-------------------------------New Prompt-------------------------------------
-Song_Title_Here [Habakkuk 3:19] [Avant Garde] [A# Aeolian] [Moderato] [AI Music]
-
-Using AI to generate biblically accurate Avant Garde songs and music videos.
-
-Generated using Suno AI
- Suno_Link_Here
-
-Style of Music Prompt:
-Avant Garde, Khoomei (male), saxophone, bongo, accordion, Moderato 111 bpm, A# Aeolian
-
-Lyrics Prompt:
-Generate biblically accurate lyrics inspired by the message of Habakkuk 3:19 quoting this verse verbatim taken from the King James Version bible: The <span class="small-caps" >Lord</span> God is my strength, and he will make my feet like hinds' feet, and he will make me to walk upon mine high places. To the chief singer on my stringed instruments.
-
-King James Version
-Public Domain
-
-Prompt generated using Verse of the Day (votd) endpoint provided by BibleGateway
-https://www.biblegateway.com/passage/?search=Habakkuk%203:19&amp;version=KJV
-
- Lyrics_Here
-
-------------------------------New Prompt-------------------------------------
-Song_Title_Here [Acts 23] [post-rock] [G# Phrygian] [Adagio] [AI Music]
-
-Using AI to generate biblically accurate post-rock songs and music videos.
-
-Generated using Suno AI
- Suno_Link_Here
-
-Style of Music Prompt:
-post-rock, Sygyt (male), harmonica, bassoon, biblically inspired lyrics book of Acts chapter 23, Adagio 67 bpm, G# Phrygian
-
- Lyrics_Here
-
-------------------------------New Prompt-------------------------------------
-Song_Title_Here [Deuteronomy 3] [contemporary classical] [F# Ionian] [Andante] [AI Music]
+Song_Title_Here [Romans 12:3] [contemporary classical] [D Aeolian] [Larghetto] [AI Music]
 
 Using AI to generate biblically accurate contemporary classical songs and music videos.
 
@@ -479,259 +97,194 @@ Generated using Suno AI
  Suno_Link_Here
 
 Style of Music Prompt:
-contemporary classical, Sygyt (male), bassoon, cello, bass guitar, Andante 104 bpm, F# Ionian
+contemporary classical, Tenor (male), electric guitar, oud, jarana, Larghetto 63 bpm, D Aeolian
 
 Lyrics Prompt:
-Generate biblically accurate lyrics inspired by the message of the book of Deuteronomy chapter 3 quoting verses taken from the King James Version bible
-
-
- Lyrics_Here
-
-------------------------------New Prompt-------------------------------------
-Song_Title_Here [Instrumental] [acid jazz] [C Ionian] [Largo] [AI Music]
-
-Using AI to generate acid jazz instrumentals for vocalists from a variety of genres, musical keys, and modes.
-
-Generated using Suno AI
- Suno_Link_Here
-
-Style of Music Prompt:
-acid jazz, sub-bass, tambourine, xylophone, ukulele, Largo 60 bpm, C Ionian
-
-[Instrumental]
-
-------------------------------New Prompt-------------------------------------
-Song_Title_Here [Habakkuk 3:19] [Neurofunk 170-180 BPM] [F Locrian] [Allegro] [AI Music]
-
-Using AI to generate biblically accurate Neurofunk 170-180 BPM songs and music videos.
-
-Generated using Suno AI
- Suno_Link_Here
-
-Style of Music Prompt:
-Neurofunk 170-180 BPM, MC (Male), tabla, bass guitar, cello, Allegro 121 bpm, F Locrian
-
-Lyrics Prompt:
-Generate biblically accurate lyrics inspired by the message of Habakkuk 3:19 quoting this verse verbatim taken from the King James Version bible: The <span class="small-caps" >Lord</span> God is my strength, and he will make my feet like hinds' feet, and he will make me to walk upon mine high places. To the chief singer on my stringed instruments.
+Generate biblically accurate lyrics inspired by the message of Romans 12:3 quoting this verse verbatim taken from the King James Version bible: For I say, through the grace given unto me, to every man that is among you, not to think of himself more highly than he ought to think; but to think soberly, according as God hath dealt to every man the measure of faith.
 
 King James Version
 Public Domain
 
 Prompt generated using Verse of the Day (votd) endpoint provided by BibleGateway
-https://www.biblegateway.com/passage/?search=Habakkuk%203:19&amp;version=KJV
+https://www.biblegateway.com/passage/?search=Romans%2012:3&amp;version=KJV
 
  Lyrics_Here
 
 ------------------------------New Prompt-------------------------------------
-Song_Title_Here [Ezra 3] [slow reggae] [E Phrygian] [Andante] [AI Music]
+Song_Title_Here [1 Timothy 3] [Freestyle Electro] [Eb Dorian] [Allegro] [AI Music]
 
-Using AI to generate biblically accurate slow reggae songs and music videos.
+Using AI to generate biblically accurate Freestyle Electro songs and music videos.
 
 Generated using Suno AI
  Suno_Link_Here
 
 Style of Music Prompt:
-slow reggae, Tenor (male), tabla, cowbell, biblically inspired lyrics book of Ezra chapter 3, Andante 95 bpm, E Phrygian
+Freestyle Electro, Bass (male), harp, horsehead fiddle, biblically inspired lyrics book of 1 Timothy chapter 3, Allegro 155 bpm, Eb Dorian
 
  Lyrics_Here
 
 ------------------------------New Prompt-------------------------------------
-Song_Title_Here [1 Corinthians 14] [Avant Garde] [D# Aeolian] [Adagio] [AI Music]
+Song_Title_Here [Romans 2] [EDM Techno] [G Dorian] [Larghetto] [AI Music]
 
-Using AI to generate biblically accurate Avant Garde songs and music videos.
+Using AI to generate biblically accurate EDM Techno songs and music videos.
 
 Generated using Suno AI
  Suno_Link_Here
 
 Style of Music Prompt:
-Avant Garde, Kargyraa (male), ukulele, saxophone, harp, Adagio 67 bpm, D# Aeolian
+EDM Techno, Soprano (female), marimba, beat, bajo sexto, Larghetto 60 bpm, G Dorian
 
 Lyrics Prompt:
-Generate biblically accurate lyrics inspired by the message of the book of 1 Corinthians chapter 14 quoting verses taken from the King James Version bible
+Generate biblically accurate lyrics inspired by the message of the book of Romans chapter 2 quoting verses taken from the King James Version bible
 
 
  Lyrics_Here
 
 ------------------------------New Prompt-------------------------------------
-Song_Title_Here [Instrumental] [vaporwave] [D Ionian] [Allegro] [AI Music]
+Song_Title_Here [Instrumental] [alternative rock] [G# Lydian] [Larghetto] [AI Music]
 
-Using AI to generate vaporwave instrumentals for vocalists from a variety of genres, musical keys, and modes.
+Using AI to generate alternative rock instrumentals for vocalists from a variety of genres, musical keys, and modes.
 
 Generated using Suno AI
  Suno_Link_Here
 
 Style of Music Prompt:
-vaporwave, trombone, guttural throat singing, clarinet, mandolin, Allegro 155 bpm, D Ionian
+alternative rock, oud, tambourine, didgeridoo, fiddle, Larghetto 65 bpm, G# Lydian
 
 [Instrumental]
 
 ------------------------------New Prompt-------------------------------------
-Song_Title_Here [Habakkuk 3:19] [banda] [Ab Ionian] [Larghetto] [AI Music]
+Song_Title_Here [Romans 12:3] [80s heart throb freestyle] [Gb Dorian] [Presto] [AI Music]
 
-Using AI to generate biblically accurate banda songs and music videos.
+Using AI to generate biblically accurate 80s heart throb freestyle songs and music videos.
 
 Generated using Suno AI
  Suno_Link_Here
 
 Style of Music Prompt:
-banda, Bass (male), zither, flute, oud, Larghetto 63 bpm, Ab Ionian
+80s heart throb freestyle, Baritone (male), oboe, tuba, bagpipes, Presto 184 bpm, Gb Dorian
 
 Lyrics Prompt:
-Generate biblically accurate lyrics inspired by the message of Habakkuk 3:19 quoting this verse verbatim taken from the King James Version bible: The <span class="small-caps" >Lord</span> God is my strength, and he will make my feet like hinds' feet, and he will make me to walk upon mine high places. To the chief singer on my stringed instruments.
+Generate biblically accurate lyrics inspired by the message of Romans 12:3 quoting this verse verbatim taken from the King James Version bible: For I say, through the grace given unto me, to every man that is among you, not to think of himself more highly than he ought to think; but to think soberly, according as God hath dealt to every man the measure of faith.
 
 King James Version
 Public Domain
 
 Prompt generated using Verse of the Day (votd) endpoint provided by BibleGateway
-https://www.biblegateway.com/passage/?search=Habakkuk%203:19&amp;version=KJV
+https://www.biblegateway.com/passage/?search=Romans%2012:3&amp;version=KJV
 
  Lyrics_Here
 
 ------------------------------New Prompt-------------------------------------
-Song_Title_Here [2 Thessalonians 3] [haunting atmospheric witch house] [G Phrygian] [Andante] [AI Music]
+Song_Title_Here [Malachi 4] [EDM Techno] [Ab Ionian] [Allegro] [AI Music]
 
-Using AI to generate biblically accurate haunting atmospheric witch house songs and music videos.
+Using AI to generate biblically accurate EDM Techno songs and music videos.
 
 Generated using Suno AI
  Suno_Link_Here
 
 Style of Music Prompt:
-haunting atmospheric witch house, Rapper (Female), saxophone, vibraphone, biblically inspired lyrics book of 2 Thessalonians chapter 3, Andante 81 bpm, G Phrygian
+EDM Techno, MC (Male), banjo, clarinet, biblically inspired lyrics book of Malachi chapter 4, Allegro 157 bpm, Ab Ionian
 
  Lyrics_Here
 
 ------------------------------New Prompt-------------------------------------
-Song_Title_Here [Philemon 1] [Hardstyle 150 BPM] [D# Aeolian] [Allegro] [AI Music]
+Song_Title_Here [1 Chronicles 13] [future garage] [Eb Dorian] [Larghetto] [AI Music]
 
-Using AI to generate biblically accurate Hardstyle 150 BPM songs and music videos.
+Using AI to generate biblically accurate future garage songs and music videos.
 
 Generated using Suno AI
  Suno_Link_Here
 
 Style of Music Prompt:
-Hardstyle 150 BPM, Emcee (Female), bağlama, bajo sexto, marimba, Allegro 128 bpm, D# Aeolian
+future garage, Contralto (female), zither, tambourine, harp, Larghetto 66 bpm, Eb Dorian
 
 Lyrics Prompt:
-Generate biblically accurate lyrics inspired by the message of the book of Philemon chapter 1 quoting verses taken from the King James Version bible
+Generate biblically accurate lyrics inspired by the message of the book of 1 Chronicles chapter 13 quoting verses taken from the King James Version bible
 
 
  Lyrics_Here
 
 ------------------------------New Prompt-------------------------------------
-Song_Title_Here [Instrumental] [Acid Techno] [Ab Ionian] [Prestissimo] [AI Music]
+Song_Title_Here [Instrumental] [Hardstyle] [E Ionian] [Allegro] [AI Music]
 
-Using AI to generate Acid Techno instrumentals for vocalists from a variety of genres, musical keys, and modes.
+Using AI to generate Hardstyle instrumentals for vocalists from a variety of genres, musical keys, and modes.
 
 Generated using Suno AI
  Suno_Link_Here
 
 Style of Music Prompt:
-Acid Techno, drums, banjo, electric guitar, bajo sexto, Prestissimo 322 bpm, Ab Ionian
+Hardstyle, horn, banjo, triangle, french horn, Allegro 141 bpm, E Ionian
 
 [Instrumental]
 
 ------------------------------New Prompt-------------------------------------
-Song_Title_Here [Habakkuk 3:19] [American Christian hip hop] [Eb Lydian] [Presto] [AI Music]
+Song_Title_Here [Romans 12:3] [heart throb freestyle] [F Lydian] [Largo] [AI Music]
 
-Using AI to generate biblically accurate American Christian hip hop songs and music videos.
+Using AI to generate biblically accurate heart throb freestyle songs and music videos.
 
 Generated using Suno AI
  Suno_Link_Here
 
 Style of Music Prompt:
-American Christian hip hop, Rapper (Female), bağlama, djembe, synthesizer, Presto 179 bpm, Eb Lydian
+heart throb freestyle, Mezzo-Soprano (female), synthesizer, organ, jarana, Largo 47 bpm, F Lydian
 
 Lyrics Prompt:
-Generate biblically accurate lyrics inspired by the message of Habakkuk 3:19 quoting this verse verbatim taken from the King James Version bible: The <span class="small-caps" >Lord</span> God is my strength, and he will make my feet like hinds' feet, and he will make me to walk upon mine high places. To the chief singer on my stringed instruments.
+Generate biblically accurate lyrics inspired by the message of Romans 12:3 quoting this verse verbatim taken from the King James Version bible: For I say, through the grace given unto me, to every man that is among you, not to think of himself more highly than he ought to think; but to think soberly, according as God hath dealt to every man the measure of faith.
 
 King James Version
 Public Domain
 
 Prompt generated using Verse of the Day (votd) endpoint provided by BibleGateway
-https://www.biblegateway.com/passage/?search=Habakkuk%203:19&amp;version=KJV
+https://www.biblegateway.com/passage/?search=Romans%2012:3&amp;version=KJV
 
  Lyrics_Here
 
 ------------------------------New Prompt-------------------------------------
-Song_Title_Here [3 John 1] [Math Prog Rock] [Gb Locrian] [Adagio] [AI Music]
+Song_Title_Here [Job 30] [fast hardcore punk] [B Locrian] [Moderato] [AI Music]
 
-Using AI to generate biblically accurate Math Prog Rock songs and music videos.
+Using AI to generate biblically accurate fast hardcore punk songs and music videos.
 
 Generated using Suno AI
  Suno_Link_Here
 
 Style of Music Prompt:
-Math Prog Rock, Mezzo-Soprano (female), mongolian guitar, kazoo, biblically inspired lyrics book of 3 John chapter 1, Adagio 74 bpm, Gb Locrian
+fast hardcore punk, Baritone (male), mongolian guitar, horsehead fiddle, biblically inspired lyrics book of Job chapter 30, Moderato 112 bpm, B Locrian
 
  Lyrics_Here
 
 ------------------------------New Prompt-------------------------------------
-Song_Title_Here [2 Kings 20] [progressive metal] [Eb Dorian] [Largo] [AI Music]
+Song_Title_Here [2 Peter 1] [aggressive witch house] [D Mixolydian] [Prestissimo] [AI Music]
 
-Using AI to generate biblically accurate progressive metal songs and music videos.
+Using AI to generate biblically accurate aggressive witch house songs and music videos.
 
 Generated using Suno AI
  Suno_Link_Here
 
 Style of Music Prompt:
-progressive metal, Kargyraa (male), beat, flute, kazoo, Largo 52 bpm, Eb Dorian
+aggressive witch house, cryptic lyricism (Female), Sampler, sub-bass, harp, Prestissimo 268 bpm, D Mixolydian
 
 Lyrics Prompt:
-Generate biblically accurate lyrics inspired by the message of the book of 2 Kings chapter 20 quoting verses taken from the King James Version bible
+Generate biblically accurate lyrics inspired by the message of the book of 2 Peter chapter 1 quoting verses taken from the King James Version bible
 
 
  Lyrics_Here
 
 ------------------------------New Prompt-------------------------------------
-Song_Title_Here [Instrumental] [Drum n Bass BPM 160-180] [E Ionian] [Largo] [AI Music]
+Song_Title_Here [Instrumental] [Juke/Footwork] [D Lydian] [Presto] [AI Music]
 
-Using AI to generate Drum n Bass BPM 160-180 instrumentals for vocalists from a variety of genres, musical keys, and modes.
+Using AI to generate Juke/Footwork instrumentals for vocalists from a variety of genres, musical keys, and modes.
 
 Generated using Suno AI
  Suno_Link_Here
 
 Style of Music Prompt:
-Drum n Bass BPM 160-180, jarana, steel drum, kemenche, violin, Largo 59 bpm, E Ionian
+Juke/Footwork, oud, cowbell, acoustic guitar, synth, Presto 169 bpm, D Lydian
 
 [Instrumental]
 
 ------------------------------New Prompt-------------------------------------
-Song_Title_Here [Habakkuk 3:19] [wonky] [D# Dorian] [Adagio] [AI Music]
-
-Using AI to generate biblically accurate wonky songs and music videos.
-
-Generated using Suno AI
- Suno_Link_Here
-
-Style of Music Prompt:
-wonky, MC (Female), didgeridoo, bajo sexto, triangle, Adagio 66 bpm, D# Dorian
-
-Lyrics Prompt:
-Generate biblically accurate lyrics inspired by the message of Habakkuk 3:19 quoting this verse verbatim taken from the King James Version bible: The <span class="small-caps" >Lord</span> God is my strength, and he will make my feet like hinds' feet, and he will make me to walk upon mine high places. To the chief singer on my stringed instruments.
-
-King James Version
-Public Domain
-
-Prompt generated using Verse of the Day (votd) endpoint provided by BibleGateway
-https://www.biblegateway.com/passage/?search=Habakkuk%203:19&amp;version=KJV
-
- Lyrics_Here
-
-------------------------------New Prompt-------------------------------------
-Song_Title_Here [Galatians 3] [Early 90s Freestyle Dance Music Mix] [G Mixolydian] [Presto] [AI Music]
-
-Using AI to generate biblically accurate Early 90s Freestyle Dance Music Mix songs and music videos.
-
-Generated using Suno AI
- Suno_Link_Here
-
-Style of Music Prompt:
-Early 90s Freestyle Dance Music Mix, Mezzo-Soprano (female), tambourine, harmonica, biblically inspired lyrics book of Galatians chapter 3, Presto 198 bpm, G Mixolydian
-
- Lyrics_Here
-
-------------------------------New Prompt-------------------------------------
-Song_Title_Here [Joshua 8] [slow bossa nova] [E Lydian] [Adagio] [AI Music]
+Song_Title_Here [Romans 12:3] [slow bossa nova] [Db Lydian] [Moderato] [AI Music]
 
 Using AI to generate biblically accurate slow bossa nova songs and music videos.
 
@@ -739,175 +292,340 @@ Generated using Suno AI
  Suno_Link_Here
 
 Style of Music Prompt:
-slow bossa nova, Bass (male), trumpet, bass guitar, bass guitar, Adagio 69 bpm, E Lydian
+slow bossa nova, cryptic lyricism (Male), double bass, trombone, horsehead fiddle, Moderato 113 bpm, Db Lydian
 
 Lyrics Prompt:
-Generate biblically accurate lyrics inspired by the message of the book of Joshua chapter 8 quoting verses taken from the King James Version bible
-
-
- Lyrics_Here
-
-------------------------------New Prompt-------------------------------------
-Song_Title_Here [Instrumental] [Schranz] [Bb Lydian] [Larghetto] [AI Music]
-
-Using AI to generate Schranz instrumentals for vocalists from a variety of genres, musical keys, and modes.
-
-Generated using Suno AI
- Suno_Link_Here
-
-Style of Music Prompt:
-Schranz, violin, vihuela, castanets, banjo, Larghetto 62 bpm, Bb Lydian
-
-[Instrumental]
-
-------------------------------New Prompt-------------------------------------
-Song_Title_Here [Habakkuk 3:19] [Dubstep] [C Mixolydian] [Andante] [AI Music]
-
-Using AI to generate biblically accurate Dubstep songs and music videos.
-
-Generated using Suno AI
- Suno_Link_Here
-
-Style of Music Prompt:
-Dubstep, Tenor (male), organ, tambourine, tabla, Andante 102 bpm, C Mixolydian
-
-Lyrics Prompt:
-Generate biblically accurate lyrics inspired by the message of Habakkuk 3:19 quoting this verse verbatim taken from the King James Version bible: The <span class="small-caps" >Lord</span> God is my strength, and he will make my feet like hinds' feet, and he will make me to walk upon mine high places. To the chief singer on my stringed instruments.
+Generate biblically accurate lyrics inspired by the message of Romans 12:3 quoting this verse verbatim taken from the King James Version bible: For I say, through the grace given unto me, to every man that is among you, not to think of himself more highly than he ought to think; but to think soberly, according as God hath dealt to every man the measure of faith.
 
 King James Version
 Public Domain
 
 Prompt generated using Verse of the Day (votd) endpoint provided by BibleGateway
-https://www.biblegateway.com/passage/?search=Habakkuk%203:19&amp;version=KJV
+https://www.biblegateway.com/passage/?search=Romans%2012:3&amp;version=KJV
 
  Lyrics_Here
 
 ------------------------------New Prompt-------------------------------------
-Song_Title_Here [Ezekiel 26] [fast screamo] [F Lydian] [Prestissimo] [AI Music]
+Song_Title_Here [Judges 7] [New Jersey Hip Hop] [C# Ionian] [Andante] [AI Music]
 
-Using AI to generate biblically accurate fast screamo songs and music videos.
+Using AI to generate biblically accurate New Jersey Hip Hop songs and music videos.
 
 Generated using Suno AI
  Suno_Link_Here
 
 Style of Music Prompt:
-fast screamo, MC (Female), accordion, guttural throat singing, biblically inspired lyrics book of Ezekiel chapter 26, Prestissimo 347 bpm, F Lydian
+New Jersey Hip Hop, Tenor (male), xylophone, Sampler, biblically inspired lyrics book of Judges chapter 7, Andante 103 bpm, C# Ionian
 
  Lyrics_Here
 
 ------------------------------New Prompt-------------------------------------
-Song_Title_Here [1 Samuel 20] [slow bossa nova] [Db Mixolydian] [Allegro] [AI Music]
+Song_Title_Here [Nehemiah 2] [cumbia] [F# Ionian] [Largo] [AI Music]
 
-Using AI to generate biblically accurate slow bossa nova songs and music videos.
+Using AI to generate biblically accurate cumbia songs and music videos.
 
 Generated using Suno AI
  Suno_Link_Here
 
 Style of Music Prompt:
-slow bossa nova, Baritone (male), ukulele, vihuela, drums, Allegro 133 bpm, Db Mixolydian
+cumbia, Baritone (male), Strings, bajo sexto, sub-bass, Largo 53 bpm, F# Ionian
 
 Lyrics Prompt:
-Generate biblically accurate lyrics inspired by the message of the book of 1 Samuel chapter 20 quoting verses taken from the King James Version bible
+Generate biblically accurate lyrics inspired by the message of the book of Nehemiah chapter 2 quoting verses taken from the King James Version bible
 
 
  Lyrics_Here
 
 ------------------------------New Prompt-------------------------------------
-Song_Title_Here [Instrumental] [banda] [Ab Locrian] [Larghetto] [AI Music]
+Song_Title_Here [Instrumental] [slow chamber music] [D Locrian] [Larghetto] [AI Music]
 
-Using AI to generate banda instrumentals for vocalists from a variety of genres, musical keys, and modes.
+Using AI to generate slow chamber music instrumentals for vocalists from a variety of genres, musical keys, and modes.
 
 Generated using Suno AI
  Suno_Link_Here
 
 Style of Music Prompt:
-banda, bajo sexto, conga, piano, synth, Larghetto 65 bpm, Ab Locrian
+slow chamber music, organ, tuba, french horn, electric guitar, Larghetto 64 bpm, D Locrian
 
 [Instrumental]
 
 ------------------------------New Prompt-------------------------------------
-Song_Title_Here [Habakkuk 3:19] [fast garage rock] [Db Ionian] [Presto] [AI Music]
+Song_Title_Here [Romans 12:3] [Early 90s Freestyle Dance] [Eb Dorian] [Moderato] [AI Music]
 
-Using AI to generate biblically accurate fast garage rock songs and music videos.
+Using AI to generate biblically accurate Early 90s Freestyle Dance songs and music videos.
 
 Generated using Suno AI
  Suno_Link_Here
 
 Style of Music Prompt:
-fast garage rock, Tenor (male), castanets, guttural throat singing, oud, Presto 171 bpm, Db Ionian
+Early 90s Freestyle Dance, Mezzo-Soprano (female), oud, synthesizer, mongolian guitar, Moderato 114 bpm, Eb Dorian
 
 Lyrics Prompt:
-Generate biblically accurate lyrics inspired by the message of Habakkuk 3:19 quoting this verse verbatim taken from the King James Version bible: The <span class="small-caps" >Lord</span> God is my strength, and he will make my feet like hinds' feet, and he will make me to walk upon mine high places. To the chief singer on my stringed instruments.
+Generate biblically accurate lyrics inspired by the message of Romans 12:3 quoting this verse verbatim taken from the King James Version bible: For I say, through the grace given unto me, to every man that is among you, not to think of himself more highly than he ought to think; but to think soberly, according as God hath dealt to every man the measure of faith.
 
 King James Version
 Public Domain
 
 Prompt generated using Verse of the Day (votd) endpoint provided by BibleGateway
-https://www.biblegateway.com/passage/?search=Habakkuk%203:19&amp;version=KJV
+https://www.biblegateway.com/passage/?search=Romans%2012:3&amp;version=KJV
 
  Lyrics_Here
 
 ------------------------------New Prompt-------------------------------------
-Song_Title_Here [Obadiah 1] [fast aggressive witch house] [G Lydian] [Moderato] [AI Music]
+Song_Title_Here [2 John 1] [Heavy Psyche] [G Aeolian] [Largo] [AI Music]
 
-Using AI to generate biblically accurate fast aggressive witch house songs and music videos.
+Using AI to generate biblically accurate Heavy Psyche songs and music videos.
 
 Generated using Suno AI
  Suno_Link_Here
 
 Style of Music Prompt:
-fast aggressive witch house, Soprano (female), didgeridoo, flute, biblically inspired lyrics book of Obadiah chapter 1, Moderato 110 bpm, G Lydian
+Heavy Psyche, Khoomei (male), bongo, electric guitar, biblically inspired lyrics book of 2 John chapter 1, Largo 54 bpm, G Aeolian
 
  Lyrics_Here
 
 ------------------------------New Prompt-------------------------------------
-Song_Title_Here [Joshua 11] [Progressive Trance] [Gb Lydian] [Adagio] [AI Music]
+Song_Title_Here [Song of Solomon 7] [Space music ] [F Aeolian] [Largo] [AI Music]
 
-Using AI to generate biblically accurate Progressive Trance songs and music videos.
+Using AI to generate biblically accurate Space music  songs and music videos.
 
 Generated using Suno AI
  Suno_Link_Here
 
 Style of Music Prompt:
-Progressive Trance, MC (Female), steel drum, harp, flute, Adagio 73 bpm, Gb Lydian
+Space music , rapid-fire vocals (Male), piano, bongo, guttural throat singing, Largo 49 bpm, F Aeolian
 
 Lyrics Prompt:
-Generate biblically accurate lyrics inspired by the message of the book of Joshua chapter 11 quoting verses taken from the King James Version bible
+Generate biblically accurate lyrics inspired by the message of the book of Song of Solomon chapter 7 quoting verses taken from the King James Version bible
 
 
  Lyrics_Here
 
 ------------------------------New Prompt-------------------------------------
-Song_Title_Here [Instrumental] [New Jersey Hip Hop] [F# Aeolian] [Allegro] [AI Music]
+Song_Title_Here [Instrumental] [Early Metal] [D Lydian] [Prestissimo] [AI Music]
 
-Using AI to generate New Jersey Hip Hop instrumentals for vocalists from a variety of genres, musical keys, and modes.
+Using AI to generate Early Metal instrumentals for vocalists from a variety of genres, musical keys, and modes.
 
 Generated using Suno AI
  Suno_Link_Here
 
 Style of Music Prompt:
-New Jersey Hip Hop, bağlama, drums, plucked bass, mandolin, Allegro 126 bpm, F# Aeolian
+Early Metal, flute, vibraphone, Computer-based Effects, trumpet, Prestissimo 280 bpm, D Lydian
 
 [Instrumental]
 
 ------------------------------New Prompt-------------------------------------
-Song_Title_Here [Habakkuk 3:19] [Intelligent Drum n Bass] [D# Locrian] [Prestissimo] [AI Music]
+Song_Title_Here [Romans 12:3] [heavy industrial] [G# Locrian] [Andante] [AI Music]
 
-Using AI to generate biblically accurate Intelligent Drum n Bass songs and music videos.
+Using AI to generate biblically accurate heavy industrial songs and music videos.
 
 Generated using Suno AI
  Suno_Link_Here
 
 Style of Music Prompt:
-Intelligent Drum n Bass, Tenor (male), cowbell, synth, organ, Prestissimo 322 bpm, D# Locrian
+heavy industrial, Tenor (male), cello, Harmonium, electric guitar, Andante 102 bpm, G# Locrian
 
 Lyrics Prompt:
-Generate biblically accurate lyrics inspired by the message of Habakkuk 3:19 quoting this verse verbatim taken from the King James Version bible: The <span class="small-caps" >Lord</span> God is my strength, and he will make my feet like hinds' feet, and he will make me to walk upon mine high places. To the chief singer on my stringed instruments.
+Generate biblically accurate lyrics inspired by the message of Romans 12:3 quoting this verse verbatim taken from the King James Version bible: For I say, through the grace given unto me, to every man that is among you, not to think of himself more highly than he ought to think; but to think soberly, according as God hath dealt to every man the measure of faith.
 
 King James Version
 Public Domain
 
 Prompt generated using Verse of the Day (votd) endpoint provided by BibleGateway
-https://www.biblegateway.com/passage/?search=Habakkuk%203:19&amp;version=KJV
+https://www.biblegateway.com/passage/?search=Romans%2012:3&amp;version=KJV
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Micah 2] [smooth vaporwave jazz] [Ab Ionian] [Largo] [AI Music]
+
+Using AI to generate biblically accurate smooth vaporwave jazz songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+smooth vaporwave jazz, rapid-fire vocals (Female), Brass, tuba, biblically inspired lyrics book of Micah chapter 2, Largo 44 bpm, Ab Ionian
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [1 Corinthians 15] [noise rock] [F Mixolydian] [Presto] [AI Music]
+
+Using AI to generate biblically accurate noise rock songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+noise rock, Rapper (Female), harmonica, kemenche, fiddle, Presto 197 bpm, F Mixolydian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of the book of 1 Corinthians chapter 15 quoting verses taken from the King James Version bible
+
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Instrumental] [son jarocho] [B Ionian] [Larghetto] [AI Music]
+
+Using AI to generate son jarocho instrumentals for vocalists from a variety of genres, musical keys, and modes.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+son jarocho, fiddle, tabla, guitar, organ, Larghetto 62 bpm, B Ionian
+
+[Instrumental]
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Romans 12:3] [fast hardstyle] [E Aeolian] [Larghetto] [AI Music]
+
+Using AI to generate biblically accurate fast hardstyle songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+fast hardstyle, Kargyraa (male), piano, accordion, trumpet, Larghetto 66 bpm, E Aeolian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of Romans 12:3 quoting this verse verbatim taken from the King James Version bible: For I say, through the grace given unto me, to every man that is among you, not to think of himself more highly than he ought to think; but to think soberly, according as God hath dealt to every man the measure of faith.
+
+King James Version
+Public Domain
+
+Prompt generated using Verse of the Day (votd) endpoint provided by BibleGateway
+https://www.biblegateway.com/passage/?search=Romans%2012:3&amp;version=KJV
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Judges 19] [fast reggaeton] [G# Phrygian] [Adagio] [AI Music]
+
+Using AI to generate biblically accurate fast reggaeton songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+fast reggaeton, MC (Male), saxophone, xylophone, biblically inspired lyrics book of Judges chapter 19, Adagio 73 bpm, G# Phrygian
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Genesis 28] [Christian hip hop] [D# Dorian] [Andante] [AI Music]
+
+Using AI to generate biblically accurate Christian hip hop songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+Christian hip hop, Chylandyk (male), marimba, flute, plucked bass, Andante 96 bpm, D# Dorian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of the book of Genesis chapter 28 quoting verses taken from the King James Version bible
+
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Instrumental] [fast thrash metal] [Bb Mixolydian] [Moderato] [AI Music]
+
+Using AI to generate fast thrash metal instrumentals for vocalists from a variety of genres, musical keys, and modes.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+fast thrash metal, accordion, mandolin, harp, electric guitar, Moderato 116 bpm, Bb Mixolydian
+
+[Instrumental]
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Romans 12:3] [Oldskool Latin Freestyle] [Ab Dorian] [Presto] [AI Music]
+
+Using AI to generate biblically accurate Oldskool Latin Freestyle songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+Oldskool Latin Freestyle, Countertenor (male), saxophone, oud, marimba, Presto 175 bpm, Ab Dorian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of Romans 12:3 quoting this verse verbatim taken from the King James Version bible: For I say, through the grace given unto me, to every man that is among you, not to think of himself more highly than he ought to think; but to think soberly, according as God hath dealt to every man the measure of faith.
+
+King James Version
+Public Domain
+
+Prompt generated using Verse of the Day (votd) endpoint provided by BibleGateway
+https://www.biblegateway.com/passage/?search=Romans%2012:3&amp;version=KJV
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Judges 5] [mariachi] [G Mixolydian] [Presto] [AI Music]
+
+Using AI to generate biblically accurate mariachi songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+mariachi, Borbangnadyr (male), accordion, drums, biblically inspired lyrics book of Judges chapter 5, Presto 188 bpm, G Mixolydian
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Romans 9] [chillwave] [A Locrian] [Presto] [AI Music]
+
+Using AI to generate biblically accurate chillwave songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+chillwave, Rapper (Female), acoustic guitar, piano, horn, Presto 192 bpm, A Locrian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of the book of Romans chapter 9 quoting verses taken from the King James Version bible
+
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Instrumental] [Fusion Freestyle] [Ab Locrian] [Adagio] [AI Music]
+
+Using AI to generate Fusion Freestyle instrumentals for vocalists from a variety of genres, musical keys, and modes.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+Fusion Freestyle, oud, flute, Harmonium, oud, Adagio 67 bpm, Ab Locrian
+
+[Instrumental]
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Romans 12:3] [ranchera-Mariachi Fusion] [A# Ionian] [Largo] [AI Music]
+
+Using AI to generate biblically accurate ranchera-Mariachi Fusion songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+ranchera-Mariachi Fusion, Khoomei (male), mongolian guitar, drums, horn, Largo 43 bpm, A# Ionian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of Romans 12:3 quoting this verse verbatim taken from the King James Version bible: For I say, through the grace given unto me, to every man that is among you, not to think of himself more highly than he ought to think; but to think soberly, according as God hath dealt to every man the measure of faith.
+
+King James Version
+Public Domain
+
+Prompt generated using Verse of the Day (votd) endpoint provided by BibleGateway
+https://www.biblegateway.com/passage/?search=Romans%2012:3&amp;version=KJV
 
  Lyrics_Here
