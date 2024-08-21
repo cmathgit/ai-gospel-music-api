@@ -1008,7 +1008,10 @@ instrumental_song_genre = [
     ('art pop', True),
     ('Britpop', True),
     ('Progressive Rock', True),
-    ('Post-Rock', True)
+    ('Post-Rock', True),
+    ('Upbeat Jazz', True),
+    ('Burning Jazz', True),
+    ('Burning Jazz, Liquid Drum and Bass', True)
 ]
 
 # Writing to file with error handling
@@ -1300,7 +1303,10 @@ simple_bible_prompts = [
     ("fast jazz fusion, Mezzo-Soprano (Dramatic), saxophone, Ezekiel 18, Allegro 165, Bb Dorian"),
     ("slow reggae, Countertenor (Countertenor), bass guitar, Job 3, Larghetto 56, G Aeolian"),
     ("heavy ambient drone, Baritone (Lyric), synthesizer, Numbers 10, Presto 200, C# Locrian"),
-    ("experimental hip hop, punk rap, noise, industrial, rap rock, electropunk, Avant-garde, death trips, synth, math drums, cryptic lyricism, MC Ryde shouting, rapid-fire vocals, biblically inspired lyrics")
+    ("experimental hip hop, punk rap, noise, industrial, rap rock, electropunk, Avant-garde, death trips, synth, math drums, cryptic lyricism, MC Ryde shouting, rapid-fire vocals, biblically inspired lyrics"),
+    ("gospel soul, A Capella, voices, church choir, Baritone (male), Soprano (female), lo-fi, jazz-infused beats, drums, warm, rich basslines, jazzy guitar riffs, soft keys, mellow synths, 70-90 BPM, smooth, emotive vocals, harmonies, reverb, echo, dreamy, atmospheric"),
+    ("lo-fi, jazz-infused beats, drums, warm, rich basslines, jazzy guitar riffs, soft keys, mellow synths, 70-90 BPM, smooth, emotive vocals, harmonies, reverb, echo, dreamy, atmospheric"),
+    ("rich basslines, jazzy guitar riffs, soft keys, mellow synths, 70-90 BPM, smooth, emotive vocals, harmonies, reverb, echo, dreamy, atmospheric")
 ]
 
 # Writing to file with error handling
