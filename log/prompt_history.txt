@@ -3,45 +3,58 @@
  Lyrics_Here
 
 ------------------------------New Prompt-------------------------------------
-Song_Title_Here [Ezekiel 45] [Grime 140 BPM] [F Mixolydian] [Presto] [AI Music]
+Song_Title_Here [Nahum 2] [contemporary classical] [A# Ionian] [Moderato] [AI Music]
 
-Using AI to generate biblically accurate Grime 140 BPM songs and music videos.
+Using AI to generate biblically accurate contemporary classical songs and music videos.
 
 Generated using Suno AI
  Suno_Link_Here
 
 Style of Music Prompt:
-Grime 140 BPM, Rapper (Male), djembe, xylophone, djembe, Presto 196 bpm, F Mixolydian
+contemporary classical, Soprano (female), oboe, didgeridoo, biblically inspired lyrics book of Nahum chapter 2, Moderato 119 bpm, A# Ionian
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Mark 9] [Freestyle Electro] [Bb Lydian] [Allegro] [AI Music]
+
+Using AI to generate biblically accurate Freestyle Electro songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+Freestyle Electro, Bass (male), Harmonium, double bass, Computer-based Effects, Allegro 144 bpm, Bb Lydian
 
 Lyrics Prompt:
-Generate biblically accurate lyrics inspired by the message of the book of Ezekiel chapter 45 quoting verses taken from the King James Version bible
+Generate biblically accurate lyrics inspired by the message of the book of Mark chapter 9 quoting verses taken from the King James Version bible
 
 
  Lyrics_Here
 
 ------------------------------New Prompt-------------------------------------
-Song_Title_Here [Instrumental] [fast thrash metal] [D# Aeolian] [Larghetto] [AI Music]
+Song_Title_Here [Instrumental] [Oldschool jungle] [G Phrygian] [Adagio] [AI Music]
 
-Using AI to generate fast thrash metal instrumentals for vocalists from a variety of genres, musical keys, and modes.
+Using AI to generate Oldschool jungle instrumentals for vocalists from a variety of genres, musical keys, and modes.
 
 Generated using Suno AI
  Suno_Link_Here
 
 Style of Music Prompt:
-fast thrash metal, harmonica, plucked bass, Sampler, vihuela, Larghetto 62 bpm, D# Aeolian
+Oldschool jungle, flute, clarinet, harmonica, synthesizer, Adagio 74 bpm, G Phrygian
 
 [Instrumental]
 
 ------------------------------New Prompt-------------------------------------
-Song_Title_Here [Psalm 42:8] [Hardstyle 150 BPM] [F# Ionian] [Presto] [AI Music]
+Song_Title_Here [Psalm 42:8] [Acid Rock] [D Dorian] [Prestissimo] [AI Music]
 
-Using AI to generate biblically accurate Hardstyle 150 BPM songs and music videos.
+Using AI to generate biblically accurate Acid Rock songs and music videos.
 
 Generated using Suno AI
  Suno_Link_Here
 
 Style of Music Prompt:
-Hardstyle 150 BPM, Emcee (Female), bajo sexto, horn, bongo, Presto 179 bpm, F# Ionian
+Acid Rock, Tenor (male), bassoon, Brass, oboe, Prestissimo 278 bpm, D Dorian
 
 Lyrics Prompt:
 Generate biblically accurate lyrics inspired by the message of Psalm 42:8 quoting this verse verbatim taken from the King James Version bible: Yet the <span class="small-caps" >Lord</span> will command his lovingkindness in the day time, and in the night his song shall be with me, and my prayer unto the God of my life.
@@ -55,58 +68,58 @@ https://www.biblegateway.com/passage/?search=Psalm%2042%3A8&amp;version=KJV
  Lyrics_Here
 
 ------------------------------New Prompt-------------------------------------
-Song_Title_Here [2 John 1] [UK garage/2-step] [Bb Phrygian] [Andante] [AI Music]
+Song_Title_Here [Jude 1] [Hardstyle] [C# Aeolian] [Adagio] [AI Music]
 
-Using AI to generate biblically accurate UK garage/2-step songs and music videos.
+Using AI to generate biblically accurate Hardstyle songs and music videos.
 
 Generated using Suno AI
  Suno_Link_Here
 
 Style of Music Prompt:
-UK garage/2-step, cryptic lyricism (Female), tabla, sub-bass, biblically inspired lyrics book of 2 John chapter 1, Andante 90 bpm, Bb Phrygian
+Hardstyle, Rapper (Female), castanets, bongo, biblically inspired lyrics book of Jude chapter 1, Adagio 67 bpm, C# Aeolian
 
  Lyrics_Here
 
 ------------------------------New Prompt-------------------------------------
-Song_Title_Here [2 Samuel 23] [Oldskool Latin Freestyle] [G# Locrian] [Presto] [AI Music]
+Song_Title_Here [Nehemiah 7] [shoegaze] [E Lydian] [Larghetto] [AI Music]
 
-Using AI to generate biblically accurate Oldskool Latin Freestyle songs and music videos.
+Using AI to generate biblically accurate shoegaze songs and music videos.
 
 Generated using Suno AI
  Suno_Link_Here
 
 Style of Music Prompt:
-Oldskool Latin Freestyle, Tenor (male), marimba, tambourine, cello, Presto 193 bpm, G# Locrian
+shoegaze, Borbangnadyr (male), drums, banjo, cello, Larghetto 61 bpm, E Lydian
 
 Lyrics Prompt:
-Generate biblically accurate lyrics inspired by the message of the book of 2 Samuel chapter 23 quoting verses taken from the King James Version bible
+Generate biblically accurate lyrics inspired by the message of the book of Nehemiah chapter 7 quoting verses taken from the King James Version bible
 
 
  Lyrics_Here
 
 ------------------------------New Prompt-------------------------------------
-Song_Title_Here [Instrumental] [math rock] [A# Dorian] [Larghetto] [AI Music]
+Song_Title_Here [Instrumental] [witch house] [B Dorian] [Presto] [AI Music]
 
-Using AI to generate math rock instrumentals for vocalists from a variety of genres, musical keys, and modes.
+Using AI to generate witch house instrumentals for vocalists from a variety of genres, musical keys, and modes.
 
 Generated using Suno AI
  Suno_Link_Here
 
 Style of Music Prompt:
-math rock, french horn, fiddle, double bass, Harmonium, Larghetto 60 bpm, A# Dorian
+witch house, bagpipes, Ondes Martenot, bagpipes, djembe, Presto 174 bpm, B Dorian
 
 [Instrumental]
 
 ------------------------------New Prompt-------------------------------------
-Song_Title_Here [Psalm 42:8] [Freestyle EDM] [B Locrian] [Larghetto] [AI Music]
+Song_Title_Here [Psalm 42:8] [A Capella] [B Dorian] [Largo] [AI Music]
 
-Using AI to generate biblically accurate Freestyle EDM songs and music videos.
+Using AI to generate biblically accurate A Capella songs and music videos.
 
 Generated using Suno AI
  Suno_Link_Here
 
 Style of Music Prompt:
-Freestyle EDM, MC (Female), tambourine, violin, clarinet, Larghetto 66 bpm, B Locrian
+A Capella, Rapper (Male), tambourine, didgeridoo, vibraphone, Largo 42 bpm, B Dorian
 
 Lyrics Prompt:
 Generate biblically accurate lyrics inspired by the message of Psalm 42:8 quoting this verse verbatim taken from the King James Version bible: Yet the <span class="small-caps" >Lord</span> will command his lovingkindness in the day time, and in the night his song shall be with me, and my prayer unto the God of my life.
@@ -120,58 +133,513 @@ https://www.biblegateway.com/passage/?search=Psalm%2042%3A8&amp;version=KJV
  Lyrics_Here
 
 ------------------------------New Prompt-------------------------------------
-Song_Title_Here [2 Corinthians 2] [heavy doom metal] [D# Phrygian] [Larghetto] [AI Music]
+Song_Title_Here [2 Corinthians 1] [fast electroswing] [C Locrian] [Largo] [AI Music]
 
-Using AI to generate biblically accurate heavy doom metal songs and music videos.
+Using AI to generate biblically accurate fast electroswing songs and music videos.
 
 Generated using Suno AI
  Suno_Link_Here
 
 Style of Music Prompt:
-heavy doom metal, rapid-fire vocals (Male), ukulele, bagpipes, biblically inspired lyrics book of 2 Corinthians chapter 2, Larghetto 61 bpm, D# Phrygian
+fast electroswing, Tenor (male), saxophone, oboe, biblically inspired lyrics book of 2 Corinthians chapter 1, Largo 40 bpm, C Locrian
 
  Lyrics_Here
 
 ------------------------------New Prompt-------------------------------------
-Song_Title_Here [Matthew 28] [fast grindcore] [C# Lydian] [Largo] [AI Music]
+Song_Title_Here [Hosea 8] [Mo Town] [D Lydian] [Andante] [AI Music]
 
-Using AI to generate biblically accurate fast grindcore songs and music videos.
+Using AI to generate biblically accurate Mo Town songs and music videos.
 
 Generated using Suno AI
  Suno_Link_Here
 
 Style of Music Prompt:
-fast grindcore, Tenor (male), bass guitar, organ, cello, Largo 48 bpm, C# Lydian
+Mo Town, Khoomei (male), drums, horn, electric guitar, Andante 79 bpm, D Lydian
 
 Lyrics Prompt:
-Generate biblically accurate lyrics inspired by the message of the book of Matthew chapter 28 quoting verses taken from the King James Version bible
+Generate biblically accurate lyrics inspired by the message of the book of Hosea chapter 8 quoting verses taken from the King James Version bible
 
 
  Lyrics_Here
 
 ------------------------------New Prompt-------------------------------------
-Song_Title_Here [Instrumental] [alternative rock] [A Phrygian] [Andante] [AI Music]
+Song_Title_Here [Instrumental] [darkwave] [Ab Aeolian] [Prestissimo] [AI Music]
 
-Using AI to generate alternative rock instrumentals for vocalists from a variety of genres, musical keys, and modes.
+Using AI to generate darkwave instrumentals for vocalists from a variety of genres, musical keys, and modes.
 
 Generated using Suno AI
  Suno_Link_Here
 
 Style of Music Prompt:
-alternative rock, banjo, synthesizer, saxophone, bağlama, Andante 104 bpm, A Phrygian
+darkwave, acoustic guitar, harmonica, horn, vihuela, Prestissimo 332 bpm, Ab Aeolian
 
 [Instrumental]
 
 ------------------------------New Prompt-------------------------------------
-Song_Title_Here [Psalm 42:8] [Freestyle Music Mix] [A# Ionian] [Prestissimo] [AI Music]
+Song_Title_Here [Psalm 42:8] [jazz-infused beats] [Db Phrygian] [Presto] [AI Music]
 
-Using AI to generate biblically accurate Freestyle Music Mix songs and music videos.
+Using AI to generate biblically accurate jazz-infused beats songs and music videos.
 
 Generated using Suno AI
  Suno_Link_Here
 
 Style of Music Prompt:
-Freestyle Music Mix, Emcee (Female), didgeridoo, Strings, marimba, Prestissimo 413 bpm, A# Ionian
+jazz-infused beats, Rapper (Male), oud, accordion, horn, Presto 180 bpm, Db Phrygian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of Psalm 42:8 quoting this verse verbatim taken from the King James Version bible: Yet the <span class="small-caps" >Lord</span> will command his lovingkindness in the day time, and in the night his song shall be with me, and my prayer unto the God of my life.
+
+King James Version
+Public Domain
+
+Prompt generated using Verse of the Day (votd) endpoint provided by BibleGateway
+https://www.biblegateway.com/passage/?search=Psalm%2042%3A8&amp;version=KJV
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [James 2] [atmospheric] [F# Aeolian] [Larghetto] [AI Music]
+
+Using AI to generate biblically accurate atmospheric songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+atmospheric, cryptic lyricism (Male), synthesizer, bass guitar, biblically inspired lyrics book of James chapter 2, Larghetto 66 bpm, F# Aeolian
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Romans 4] [Fusion House] [C# Phrygian] [Larghetto] [AI Music]
+
+Using AI to generate biblically accurate Fusion House songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+Fusion House, Tenor (male), fiddle, Brass, guitar, Larghetto 61 bpm, C# Phrygian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of the book of Romans chapter 4 quoting verses taken from the King James Version bible
+
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Instrumental] [Soundtrack] [G Lydian] [Larghetto] [AI Music]
+
+Using AI to generate Soundtrack instrumentals for vocalists from a variety of genres, musical keys, and modes.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+Soundtrack, accordion, Sampler, steel drum, Harmonium, Larghetto 61 bpm, G Lydian
+
+[Instrumental]
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Psalm 42:8] [gospel hymn] [A Locrian] [Larghetto] [AI Music]
+
+Using AI to generate biblically accurate gospel hymn songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+gospel hymn, Countertenor (male), tambourine, xylophone, organ, Larghetto 60 bpm, A Locrian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of Psalm 42:8 quoting this verse verbatim taken from the King James Version bible: Yet the <span class="small-caps" >Lord</span> will command his lovingkindness in the day time, and in the night his song shall be with me, and my prayer unto the God of my life.
+
+King James Version
+Public Domain
+
+Prompt generated using Verse of the Day (votd) endpoint provided by BibleGateway
+https://www.biblegateway.com/passage/?search=Psalm%2042%3A8&amp;version=KJV
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Daniel 9] [emotive vocals] [Gb Lydian] [Prestissimo] [AI Music]
+
+Using AI to generate biblically accurate emotive vocals songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+emotive vocals, MC (Male), horsehead fiddle, guttural throat singing, biblically inspired lyrics book of Daniel chapter 9, Prestissimo 207 bpm, Gb Lydian
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [1 Kings 9] [metalcore djent screamo] [A# Phrygian] [Larghetto] [AI Music]
+
+Using AI to generate biblically accurate metalcore djent screamo songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+metalcore djent screamo, Rapper (Male), double bass, didgeridoo, trumpet, Larghetto 63 bpm, A# Phrygian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of the book of 1 Kings chapter 9 quoting verses taken from the King James Version bible
+
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Instrumental] [wonky] [G# Mixolydian] [Moderato] [AI Music]
+
+Using AI to generate wonky instrumentals for vocalists from a variety of genres, musical keys, and modes.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+wonky, oud, electric guitar, sub-bass, didgeridoo, Moderato 111 bpm, G# Mixolydian
+
+[Instrumental]
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Psalm 42:8] [Soulful Motown] [E Aeolian] [Larghetto] [AI Music]
+
+Using AI to generate biblically accurate Soulful Motown songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+Soulful Motown, Tenor (male), organ, organ, french horn, Larghetto 62 bpm, E Aeolian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of Psalm 42:8 quoting this verse verbatim taken from the King James Version bible: Yet the <span class="small-caps" >Lord</span> will command his lovingkindness in the day time, and in the night his song shall be with me, and my prayer unto the God of my life.
+
+King James Version
+Public Domain
+
+Prompt generated using Verse of the Day (votd) endpoint provided by BibleGateway
+https://www.biblegateway.com/passage/?search=Psalm%2042%3A8&amp;version=KJV
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Numbers 12] [smooth fusion jazz] [F# Ionian] [Adagio] [AI Music]
+
+Using AI to generate biblically accurate smooth fusion jazz songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+smooth fusion jazz, cryptic lyricism (Female), mandolin, xylophone, biblically inspired lyrics book of Numbers chapter 12, Adagio 70 bpm, F# Ionian
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Ecclesiastes 10] [heavy death metal] [D# Ionian] [Moderato] [AI Music]
+
+Using AI to generate biblically accurate heavy death metal songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+heavy death metal, Chylandyk (male), tabla, drums, bassoon, Moderato 108 bpm, D# Ionian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of the book of Ecclesiastes chapter 10 quoting verses taken from the King James Version bible
+
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Instrumental] [Early 90s Heart Throb Freestyle] [C Lydian] [Prestissimo] [AI Music]
+
+Using AI to generate Early 90s Heart Throb Freestyle instrumentals for vocalists from a variety of genres, musical keys, and modes.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+Early 90s Heart Throb Freestyle, trombone, synth, horsehead fiddle, french horn, Prestissimo 209 bpm, C Lydian
+
+[Instrumental]
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Psalm 42:8] [slow country folk] [C Lydian] [Adagio] [AI Music]
+
+Using AI to generate biblically accurate slow country folk songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+slow country folk, rapid-fire vocals (Female), tuba, fiddle, castanets, Adagio 69 bpm, C Lydian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of Psalm 42:8 quoting this verse verbatim taken from the King James Version bible: Yet the <span class="small-caps" >Lord</span> will command his lovingkindness in the day time, and in the night his song shall be with me, and my prayer unto the God of my life.
+
+King James Version
+Public Domain
+
+Prompt generated using Verse of the Day (votd) endpoint provided by BibleGateway
+https://www.biblegateway.com/passage/?search=Psalm%2042%3A8&amp;version=KJV
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Matthew 7] [Early 2000s Drum n Bass] [B Locrian] [Adagio] [AI Music]
+
+Using AI to generate biblically accurate Early 2000s Drum n Bass songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+Early 2000s Drum n Bass, Tenor (male), cello, bassoon, biblically inspired lyrics book of Matthew chapter 7, Adagio 71 bpm, B Locrian
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Joshua 19] [heavy thrash metal] [G Locrian] [Moderato] [AI Music]
+
+Using AI to generate biblically accurate heavy thrash metal songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+heavy thrash metal, MC (Male), clarinet, Strings, jarana, Moderato 116 bpm, G Locrian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of the book of Joshua chapter 19 quoting verses taken from the King James Version bible
+
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Instrumental] [Club/Dance] [F Dorian] [Larghetto] [AI Music]
+
+Using AI to generate Club/Dance instrumentals for vocalists from a variety of genres, musical keys, and modes.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+Club/Dance, oboe, guitar, bass guitar, Harmonium, Larghetto 66 bpm, F Dorian
+
+[Instrumental]
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Psalm 42:8] [slow indie rock] [B Lydian] [Allegro] [AI Music]
+
+Using AI to generate biblically accurate slow indie rock songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+slow indie rock, Baritone (male), drums, cello, guitar, Allegro 153 bpm, B Lydian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of Psalm 42:8 quoting this verse verbatim taken from the King James Version bible: Yet the <span class="small-caps" >Lord</span> will command his lovingkindness in the day time, and in the night his song shall be with me, and my prayer unto the God of my life.
+
+King James Version
+Public Domain
+
+Prompt generated using Verse of the Day (votd) endpoint provided by BibleGateway
+https://www.biblegateway.com/passage/?search=Psalm%2042%3A8&amp;version=KJV
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Habakkuk 3] [smooth fusion jazz] [A Lydian] [Larghetto] [AI Music]
+
+Using AI to generate biblically accurate smooth fusion jazz songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+smooth fusion jazz, Tenor (male), oboe, banjo, biblically inspired lyrics book of Habakkuk chapter 3, Larghetto 62 bpm, A Lydian
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Genesis 27] [celtic guitar melody] [Gb Locrian] [Moderato] [AI Music]
+
+Using AI to generate biblically accurate celtic guitar melody songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+celtic guitar melody, Mezzo-Soprano (female), bass guitar, drums, bagpipes, Moderato 108 bpm, Gb Locrian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of the book of Genesis chapter 27 quoting verses taken from the King James Version bible
+
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Instrumental] [fast progressive house] [Bb Aeolian] [Allegro] [AI Music]
+
+Using AI to generate fast progressive house instrumentals for vocalists from a variety of genres, musical keys, and modes.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+fast progressive house, Strings, Harmonium, Ondes Martenot, guttural throat singing, Allegro 124 bpm, Bb Aeolian
+
+[Instrumental]
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Psalm 42:8] [american folk] [Bb Phrygian] [Presto] [AI Music]
+
+Using AI to generate biblically accurate american folk songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+american folk, Ezengileer (male), guttural throat singing, horsehead fiddle, saxophone, Presto 180 bpm, Bb Phrygian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of Psalm 42:8 quoting this verse verbatim taken from the King James Version bible: Yet the <span class="small-caps" >Lord</span> will command his lovingkindness in the day time, and in the night his song shall be with me, and my prayer unto the God of my life.
+
+King James Version
+Public Domain
+
+Prompt generated using Verse of the Day (votd) endpoint provided by BibleGateway
+https://www.biblegateway.com/passage/?search=Psalm%2042%3A8&amp;version=KJV
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Isaiah 20] [Hip Hop 80-115 BPM] [Gb Lydian] [Presto] [AI Music]
+
+Using AI to generate biblically accurate Hip Hop 80-115 BPM songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+Hip Hop 80-115 BPM, Chylandyk (male), jarana, trumpet, biblically inspired lyrics book of Isaiah chapter 20, Presto 179 bpm, Gb Lydian
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Titus 1] [Heavy Blues] [G# Locrian] [Prestissimo] [AI Music]
+
+Using AI to generate biblically accurate Heavy Blues songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+Heavy Blues, Contralto (female), synth, oboe, oboe, Prestissimo 338 bpm, G# Locrian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of the book of Titus chapter 1 quoting verses taken from the King James Version bible
+
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Instrumental] [smooth fusion jazz] [G# Phrygian] [Presto] [AI Music]
+
+Using AI to generate smooth fusion jazz instrumentals for vocalists from a variety of genres, musical keys, and modes.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+smooth fusion jazz, castanets, harp, mandolin, kazoo, Presto 173 bpm, G# Phrygian
+
+[Instrumental]
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Psalm 42:8] [slow R&B] [G# Aeolian] [Andante] [AI Music]
+
+Using AI to generate biblically accurate slow R&B songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+slow R&B, Contralto (female), marimba, harp, mongolian guitar, Andante 79 bpm, G# Aeolian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of Psalm 42:8 quoting this verse verbatim taken from the King James Version bible: Yet the <span class="small-caps" >Lord</span> will command his lovingkindness in the day time, and in the night his song shall be with me, and my prayer unto the God of my life.
+
+King James Version
+Public Domain
+
+Prompt generated using Verse of the Day (votd) endpoint provided by BibleGateway
+https://www.biblegateway.com/passage/?search=Psalm%2042%3A8&amp;version=KJV
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Romans 10] [fast house] [Ab Lydian] [Prestissimo] [AI Music]
+
+Using AI to generate biblically accurate fast house songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+fast house, Soprano (female), didgeridoo, trumpet, biblically inspired lyrics book of Romans chapter 10, Prestissimo 398 bpm, Ab Lydian
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [1 Peter 5] [Burning Jazz] [C# Dorian] [Largo] [AI Music]
+
+Using AI to generate biblically accurate Burning Jazz songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+Burning Jazz, Baritone (male), Strings, guitar, accordion, Largo 42 bpm, C# Dorian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of the book of 1 Peter chapter 5 quoting verses taken from the King James Version bible
+
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Instrumental] [slow indie rock] [D Locrian] [Moderato] [AI Music]
+
+Using AI to generate slow indie rock instrumentals for vocalists from a variety of genres, musical keys, and modes.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+slow indie rock, accordion, Brass, oboe, sub-bass, Moderato 119 bpm, D Locrian
+
+[Instrumental]
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Psalm 42:8] [glitch] [D# Lydian] [Presto] [AI Music]
+
+Using AI to generate biblically accurate glitch songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+glitch, Bass (male), tambourine, synth, electric guitar, Presto 174 bpm, D# Lydian
 
 Lyrics Prompt:
 Generate biblically accurate lyrics inspired by the message of Psalm 42:8 quoting this verse verbatim taken from the King James Version bible: Yet the <span class="small-caps" >Lord</span> will command his lovingkindness in the day time, and in the night his song shall be with me, and my prayer unto the God of my life.
