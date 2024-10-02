@@ -180,47 +180,52 @@ def generate_instrumental_song_simple():
 def generate_bible_gateway_votd_song_custom():
     lyrics_prompt = ""
     style_of_music_prompt = ""
-    while True:
-        song_genre_choice = random.choice(bible_song_genre)
-        vocalist_choice = random.choice(vocalists)
-        instrument_choice_1 = random.choice(instruments)
-        instrument_choice_2 = random.choice(instruments)
-        instrument_choice_3 = random.choice(instruments)
+    
+    # Remove while loop. Need to limit length of payload returned from end point first.
+    # while True:
+    song_genre_choice = random.choice(bible_song_genre)
+    vocalist_choice = random.choice(vocalists)
+    instrument_choice_1 = random.choice(instruments)
+    instrument_choice_2 = random.choice(instruments)
+    instrument_choice_3 = random.choice(instruments)
         
-        #bible_book_choice = random.choice(bible_chapters)
-        #bible_chap_choice = random.randint(1, bible_book_choice[1])
+    #bible_book_choice = random.choice(bible_chapters)
+    #bible_chap_choice = random.randint(1, bible_book_choice[1])
         
-        # Use Bible Gateway Verse of the Day
-        votds = get_bible_votd_kjv()
-        print("Bible Verse Content: ", votds['votd']['content'])
-        print("Bible Verse reference: ", votds['votd']['reference'])
-        print("Bible Verse reference: ", votds['votd']['version'])
-        biblecontent = votds['votd']['content']
-        biblereference = votds['votd']['reference']
-        bibleversion = votds['votd']['version']
-        verselink = votds['votd']['permalink']
-        print(verselink)
+    # Use Bible Gateway Verse of the Day
+    votds = get_bible_votd_kjv()
+    print("Bible Verse Content: ", votds['votd']['content'])
+    print("Bible Verse reference: ", votds['votd']['reference'])
+    print("Bible Verse reference: ", votds['votd']['version'])
+    biblecontent = votds['votd']['content']
+    biblereference = votds['votd']['reference']
+    bibleversion = votds['votd']['version']
+    verselink = votds['votd']['permalink']
+    print(verselink)
         
-        tempo_choice = random.choice(tempos)
-        musical_key_choice = random.choice(musical_keys)
+    tempo_choice = random.choice(tempos)
+    musical_key_choice = random.choice(musical_keys)
         
-        yt_title = f"Song_Title_Here [{biblereference}] [{song_genre_choice[0]}] [{musical_key_choice[0]}] [{tempo_choice[0]}] [AI Music]\n\n"
-        check_and_write_to_file('log/prompt_history.txt', yt_title)
-        print(yt_title)
-        print("")
+    yt_title = f"Song_Title_Here [{biblereference}] [{song_genre_choice[0]}] [{musical_key_choice[0]}] [{tempo_choice[0]}] [AI Music]\n\n"
+    check_and_write_to_file('log/prompt_history.txt', yt_title)
+    print(yt_title)
+    print("")
         
-        yt_descr = f"Using AI to generate biblically accurate {song_genre_choice[0]} songs and music videos.\n\n"
-        check_and_write_to_file('log/prompt_history.txt', yt_descr)
-        print(yt_descr)
-        print("")
+    yt_descr = f"Using AI to generate biblically accurate {song_genre_choice[0]} songs and music videos.\n\n"
+    check_and_write_to_file('log/prompt_history.txt', yt_descr)
+    print(yt_descr)
+    print("")
         
-        lyrics_prompt = f'Generate biblically accurate lyrics inspired by the message of {biblereference} quoting this verse verbatim taken from the {bibleversion} bible: {biblecontent}'
+    lyrics_prompt = f'Generate biblically accurate lyrics inspired by the message of {biblereference} quoting this verse verbatim taken from the {bibleversion} bible: {biblecontent}'
+    
+    if len(lyrics_prompt) > 399:
+        lyrics_prompt = {biblecontent}
         
-        style_of_music_prompt = f'{song_genre_choice[0]}, {vocalist_choice[0]} ({vocalist_choice[2]}), {instrument_choice_1}, {instrument_choice_2}, {instrument_choice_3}, {tempo_choice[0]} {random.randint(tempo_choice[1], tempo_choice[2])} bpm, {musical_key_choice[0]}'
+    style_of_music_prompt = f'{song_genre_choice[0]}, {vocalist_choice[0]} ({vocalist_choice[2]}), {instrument_choice_1}, {instrument_choice_2}, {instrument_choice_3}, {tempo_choice[0]} {random.randint(tempo_choice[1], tempo_choice[2])} bpm, {musical_key_choice[0]}'
         
-        if len(style_of_music_prompt) < 120 and len(lyrics_prompt) < 399:
-            concat_prompts = f"Generated using Suno AI\n Suno_Link_Here\n\nStyle of Music Prompt:\n{style_of_music_prompt}\n\nLyrics Prompt:\n{lyrics_prompt}\n\n{bibleversion}\nPublic Domain\n\nPrompt generated using Verse of the Day (votd) endpoint provided by BibleGateway\n{verselink}"
-            break
+        # if len(style_of_music_prompt) < 120 and len(lyrics_prompt) < 399:
+    concat_prompts = f"Generated using Suno AI\n Suno_Link_Here\n\nStyle of Music Prompt:\n{style_of_music_prompt}\n\nLyrics Prompt:\n{lyrics_prompt}\n\n{bibleversion}\nPublic Domain\n\nPrompt generated using Verse of the Day (votd) endpoint provided by BibleGateway\n{verselink}"
+            # break
             
     return concat_prompts
 

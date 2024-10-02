@@ -773,7 +773,22 @@ bible_song_genre = [
     ("Avant-Garde, unconventional, Experimental", False),
     ("Renaissance, Polyphonic, modal, vocal", False),
     ("Choral Music, choir, religious, ceremonial", False),
-    ("Programmatic Music", False)
+    ("Programmatic Music", False),
+    ("binaural beats", False),
+    ("binaural beats, theta wave", False),
+    ("binaural beats, beta wave", False),
+    ("binaural beats, alpha wave", False),
+    ("binaural beats, gamma wave", False),
+    ("Minimalist Soundscapes", False),
+    ("Minimalist Soundscapes", False),
+    ("Minimalist Soundscapes", False),
+    ("Corporate or Upbeat Instrumental", False),
+    ("Corporate Instrumental", False),
+    ("Upbeat Instrumental", False),
+    ("Corporate Upbeat", False),
+    ("Corporate or Upbeat Instrumental", False),
+    ("Chillhop", False),
+    ("Futuristic Sound Design", False)
 ]
 
 '''
@@ -1140,7 +1155,22 @@ instrumental_song_genre = [
     ("Avant-Garde, unconventional, Experimental", True),
     ("Renaissance, Polyphonic, modal, vocal", True),
     ("Choral Music, choir, religious, ceremonial", True),
-    ("Programmatic Music", True)
+    ("Programmatic Music", True),
+    ("binaural beats", True),
+    ("binaural beats, theta wave", True),
+    ("binaural beats, beta wave", True),
+    ("binaural beats, alpha wave", True),
+    ("binaural beats, gamma wave", True),
+    ("Minimalist Soundscapes", True),
+    ("Minimalist Soundscapes", True),
+    ("Minimalist Soundscapes", True),
+    ("Corporate or Upbeat Instrumental", True),
+    ("Corporate Instrumental", True),
+    ("Upbeat Instrumental", True),
+    ("Corporate Upbeat", True),
+    ("Corporate or Upbeat Instrumental", True),
+    ("Chillhop", True),
+    ("Futuristic Sound Design", True)
 ]
 
 # Writing to file with error handling
@@ -1414,7 +1444,22 @@ song_genre = [
     ("Avant-Garde, unconventional, Experimental", False),
     ("Renaissance, Polyphonic, modal, vocal", False),
     ("Choral Music, choir, religious, ceremonial", False),
-    ("Programmatic Music", False)
+    ("Programmatic Music", False),
+    ("binaural beats", False),
+    ("binaural beats, theta wave", False),
+    ("binaural beats, beta wave", False),
+    ("binaural beats, alpha wave", False),
+    ("binaural beats, gamma wave", False),
+    ("Minimalist Soundscapes", False),
+    ("Minimalist Soundscapes", False),
+    ("Minimalist Soundscapes", False),
+    ("Corporate or Upbeat Instrumental", False),
+    ("Corporate Instrumental", False),
+    ("Upbeat Instrumental", False),
+    ("Corporate Upbeat", False),
+    ("Corporate or Upbeat Instrumental", False),
+    ("Chillhop", False),
+    ("Futuristic Sound Design", False)
 ]
 
 # Writing to file with error handling
@@ -1496,7 +1541,8 @@ simple_bible_prompts = [
     ("experimental hip hop, punk rap, noise, industrial, rap rock, electropunk, Avant-garde, death trips, synth, math drums, cryptic lyricism, MC Ryde shouting, rapid-fire vocals, biblically inspired lyrics"),
     ("gospel soul, A Capella, voices, church choir, Baritone (male), Soprano (female), lo-fi, jazz-infused beats, drums, warm, rich basslines, jazzy guitar riffs, soft keys, mellow synths, 70-90 BPM, smooth, emotive vocals, harmonies, reverb, echo, dreamy, atmospheric"),
     ("lo-fi, jazz-infused beats, drums, warm, rich basslines, jazzy guitar riffs, soft keys, mellow synths, 70-90 BPM, smooth, emotive vocals, harmonies, reverb, echo, dreamy, atmospheric"),
-    ("rich basslines, jazzy guitar riffs, soft keys, mellow synths, 70-90 BPM, smooth, emotive vocals, harmonies, reverb, echo, dreamy, atmospheric")
+    ("rich basslines, jazzy guitar riffs, soft keys, mellow synths, 70-90 BPM, smooth, emotive vocals, harmonies, reverb, echo, dreamy, atmospheric"),
+    ("slow ambient drone, binaural beats, theta wave, E Dorian, Larghetto 66 bpm")
 ]
 
 # Writing to file with error handling
