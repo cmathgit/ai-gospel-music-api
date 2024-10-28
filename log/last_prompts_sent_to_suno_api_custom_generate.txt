@@ -1,0 +1,50 @@
+Python Script: generate_biblical_lyrics_custom_prompt.py
+For debugging prompts
+
+Generate Lyrics Prompt sent to Suno /api/generate_lyrics: Generate passionate, meaningful, heartfelt, and profound lyrics to a complete song inspired by and devoted to preserving the message of Titus 1 taken directly from the King James Version bible with remnants of the Gospel of Jesus Christ using at least 1200 but no more than 1249 characters
+Generate Lyrics Prompt String Length: 289
+Generate Lyrics Prompt Max Allotted String Length: 399
+
+Song Title Prompt sent to Suno /api/custom_generate:
+Divine Calling
+Song Title Prompt String Length: 14
+Song Title Prompt Max Allotted String Length: 80
+
+Lyrics Prompt sent to Suno /api/custom_generate:
+[Verse]
+In the book of Titus
+A message so divine
+Spreading love and truth
+The Gospel of Christ is thine
+"Paul
+A servant for God
+An apostle by His will"
+Teaching justice and peace
+His purpose to fulfill
+
+[Verse 2]
+For the believers
+A life transformed by grace
+Living with integrity and love
+In every place
+To the pure
+All things are pure
+In their hearts so true
+Following His teachings
+In everything they do
+
+[Chorus]
+Oh
+Let the words of Titus echo in our souls
+Guiding us to righteousness
+Making us whole
+With passionate hearts
+Let us spread His glorious name
+Forever faithful
+His message we proclaim
+Lyrics Prompt Length: 600
+Lyrics Prompt Max Allotted String Length: 1250
+
+Custom Style of Music Prompt sent to Suno /api/custom_generate: christian worship, A Dorian (Minor), female Dramatic Mezzo-Soprano singer, djembe
+Custom Style of Music Prompt String Length: 81
+Custom Style of Music Max Allotted String Length: 120

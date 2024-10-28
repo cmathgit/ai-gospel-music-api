@@ -30,6 +30,15 @@ with open('lib/bible_song_genre_dict.json') as f:
 with open('lib/instrumental_song_genre_dict.json') as f:
     instrumental_song_genre = json.load(f)
 
+with open('lib/drum_loop_genres_dict.json') as f:
+    drum_loop_genre = json.load(f)
+
+with open('lib/drum_kits_dict.json') as f:
+    drum_kits = json.load(f)
+
+with open('lib/percussion_instruments_dict.json') as f:
+    percussion_instruments = json.load(f)
+
 def check_and_write_to_file(filename, new_text):
     # Define the maximum file size in bytes (5 KB)
     max_size = 5 * 1024 * 10
@@ -161,7 +170,7 @@ def generate_instrumental_song_simple():
         print(yt_title)
         print("")
         
-        yt_descr = f"Using AI to generate {instrumental_song_genre_choice[0]} instrumentals for vocalists from a variety of genres, musical keys, and modes.\n\n"
+        yt_descr = f"Using AI to generate {instrumental_song_genre_choice[0]} instrumentals and loops for vocalists and musicians from a variety of genres, musical keys, and modes.\n\n"
         check_and_write_to_file('log/prompt_history.txt', yt_descr)
         print(yt_descr)
         print("")
@@ -229,6 +238,38 @@ def generate_bible_gateway_votd_song_custom():
             
     return concat_prompts
 
+def generate_drum_loop_simple():
+    combination = ""
+    while True:
+        drum_loop_genre_choice = random.choice(drum_loop_genre)
+        drum_kit_choice = random.choice(drum_kits)
+        percussion_instrument_choice_1 = random.choice(percussion_instruments)
+        percussion_instrument_choice_2 = random.choice(percussion_instruments)
+        percussion_instrument_choice_3 = random.choice(percussion_instruments)
+        percussion_instrument_choice_4 = random.choice(percussion_instruments)
+        style_choice = random.choice(["Rhythm-Only", "Pitched Drum Elements", "Electronic"])
+        tempo_choice = random.choice(tempos)
+        musical_key_choice = random.choice(musical_keys)
+        
+        yt_title = f"Song_Title_Here [Drum Loop] [{drum_loop_genre_choice[0]}] [{drum_kit_choice[0]}] [{style_choice}] [{tempo_choice[0]}] [AI Music]\n\n"
+        check_and_write_to_file('log/prompt_history.txt', yt_title)
+        print(yt_title)
+        print("")
+        
+        yt_descr = f"Using AI to generate {drum_loop_genre_choice[0]} drum loops from a variety of genres, musical keys, and modes for musicians to rehearse with.\n\n"
+        check_and_write_to_file('log/prompt_history.txt', yt_descr)
+        print(yt_descr)
+        print("")
+        
+        combination = f'{drum_loop_genre_choice[0]}, {drum_kit_choice[0]}, {drum_kit_choice[1]}, {drum_kit_choice[2]}, {drum_kit_choice[3]}, {drum_kit_choice[4]}, {percussion_instrument_choice_1[0]}, {percussion_instrument_choice_2[0]}, {percussion_instrument_choice_3[0]}, {percussion_instrument_choice_4[0]}, {style_choice}, {tempo_choice[0]} {random.randint(tempo_choice[1], tempo_choice[2])} bpm, {musical_key_choice[0]}'
+        
+        if len(combination) < 200:
+            check_and_write_to_file('log/prompt_history.txt', "Generated using Suno AI\n Suno_Link_Here\n\nStyle of Music Prompt:\n")
+            print("Generated using Suno AI\n Suno_Link_Here\n\nStyle of Music Prompt:")
+            break
+        
+    return combination
+
 new_prompt_div = "\n\n------------------------------New Prompt-------------------------------------\n"
 
 check_and_write_to_file('log/prompt_history.txt', new_prompt_div)
@@ -271,3 +312,12 @@ print(bible_gateway_votd_song_prompt_custom)
 check_and_write_to_file('log/prompt_history.txt', "\n\n Lyrics_Here")
 print("\n Lyrics_Here")
 
+check_and_write_to_file('log/prompt_history.txt', new_prompt_div)
+print("\n------------------------------New Prompt-------------------------------------\n")
+# Generate and print the drum_loop_simple string
+# print("Drum loop prompt less than 200 characters in string length:")
+drum_loop_simple_prompt = generate_drum_loop_simple()
+check_and_write_to_file('log/prompt_history.txt', drum_loop_simple_prompt)
+print(drum_loop_simple_prompt)
+check_and_write_to_file('log/prompt_history.txt', "\n\n[Drum Loop]")
+print("\n[Drum Loop]")

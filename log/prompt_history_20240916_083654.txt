@@ -1,0 +1,1370 @@
+
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Philemon 1] [Heavy Blues] [F Ionian] [Allegro] [AI Music]
+
+Using AI to generate biblically accurate Heavy Blues songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+Heavy Blues, Mezzo-Soprano (female), beat, tambourine, biblically inspired lyrics book of Philemon chapter 1, Allegro 155 bpm, F Ionian
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Romans 6] [Baroque] [C Aeolian] [Presto] [AI Music]
+
+Using AI to generate biblically accurate Baroque songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+Baroque, Kargyraa (male), Sampler, bassoon, beat, Presto 181 bpm, C Aeolian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of the book of Romans chapter 6 quoting verses taken from the King James Version bible
+
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Instrumental] [RPG Video Game Original Sound Track] [Eb Lydian] [Andante] [AI Music]
+
+Using AI to generate RPG Video Game Original Sound Track instrumentals for vocalists from a variety of genres, musical keys, and modes.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+RPG Video Game Original Sound Track, kazoo, bağlama, guttural throat singing, Strings, Andante 102 bpm, Eb Lydian
+
+[Instrumental]
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [James 3:13] [Baroque, Complex polyphony, ornate melodies] [G Ionian] [Allegro] [AI Music]
+
+Using AI to generate biblically accurate Baroque, Complex polyphony, ornate melodies songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+Baroque, Complex polyphony, ornate melodies, Rapper (Male), beat, harp, violin, Allegro 126 bpm, G Ionian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of James 3:13 quoting this verse verbatim taken from the King James Version bible: Who is a wise man and endued with knowledge among you? let him shew out of a good conversation his works with meekness of wisdom.
+
+King James Version
+Public Domain
+
+Prompt generated using Verse of the Day (votd) endpoint provided by BibleGateway
+https://www.biblegateway.com/passage/?search=James%203%3A13&amp;version=KJV
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Ezekiel 3] [fast hardcore punk] [Db Ionian] [Presto] [AI Music]
+
+Using AI to generate biblically accurate fast hardcore punk songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+fast hardcore punk, MC (Male), zither, banjo, biblically inspired lyrics book of Ezekiel chapter 3, Presto 187 bpm, Db Ionian
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Matthew 16] [60s Proto Metal] [A# Ionian] [Allegro] [AI Music]
+
+Using AI to generate biblically accurate 60s Proto Metal songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+60s Proto Metal, Baritone (male), Harmonium, oboe, electric guitar, Allegro 160 bpm, A# Ionian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of the book of Matthew chapter 16 quoting verses taken from the King James Version bible
+
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Instrumental] [Oldschool jungle] [F# Phrygian] [Larghetto] [AI Music]
+
+Using AI to generate Oldschool jungle instrumentals for vocalists from a variety of genres, musical keys, and modes.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+Oldschool jungle, mandolin, organ, piano, tambourine, Larghetto 63 bpm, F# Phrygian
+
+[Instrumental]
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [James 3:13] [fast trap] [Gb Mixolydian] [Larghetto] [AI Music]
+
+Using AI to generate biblically accurate fast trap songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+fast trap, Tenor (male), Harmonium, french horn, electric guitar, Larghetto 64 bpm, Gb Mixolydian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of James 3:13 quoting this verse verbatim taken from the King James Version bible: Who is a wise man and endued with knowledge among you? let him shew out of a good conversation his works with meekness of wisdom.
+
+King James Version
+Public Domain
+
+Prompt generated using Verse of the Day (votd) endpoint provided by BibleGateway
+https://www.biblegateway.com/passage/?search=James%203%3A13&amp;version=KJV
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [1 Chronicles 23] [lo-fi house] [G# Mixolydian] [Allegro] [AI Music]
+
+Using AI to generate biblically accurate lo-fi house songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+lo-fi house, Rapper (Male), Sampler, double bass, biblically inspired lyrics book of 1 Chronicles chapter 23, Allegro 144 bpm, G# Mixolydian
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Lamentations 4] [Techstep Drum n Bass] [G Ionian] [Moderato] [AI Music]
+
+Using AI to generate biblically accurate Techstep Drum n Bass songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+Techstep Drum n Bass, Countertenor (male), fiddle, harp, zither, Moderato 118 bpm, G Ionian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of the book of Lamentations chapter 4 quoting verses taken from the King James Version bible
+
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Instrumental] [Concert marches] [C# Mixolydian] [Largo] [AI Music]
+
+Using AI to generate Concert marches instrumentals for vocalists from a variety of genres, musical keys, and modes.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+Concert marches, ukulele, cowbell, oud, synthesizer, Largo 55 bpm, C# Mixolydian
+
+[Instrumental]
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [James 3:13] [Techstep Drum n Bass] [D Lydian] [Larghetto] [AI Music]
+
+Using AI to generate biblically accurate Techstep Drum n Bass songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+Techstep Drum n Bass, Soprano (female), sub-bass, sub-bass, synthesizer, Larghetto 66 bpm, D Lydian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of James 3:13 quoting this verse verbatim taken from the King James Version bible: Who is a wise man and endued with knowledge among you? let him shew out of a good conversation his works with meekness of wisdom.
+
+King James Version
+Public Domain
+
+Prompt generated using Verse of the Day (votd) endpoint provided by BibleGateway
+https://www.biblegateway.com/passage/?search=James%203%3A13&amp;version=KJV
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Daniel 5] [gospel hymn] [C# Locrian] [Allegro] [AI Music]
+
+Using AI to generate biblically accurate gospel hymn songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+gospel hymn, Bass (male), saxophone, ukulele, biblically inspired lyrics book of Daniel chapter 5, Allegro 157 bpm, C# Locrian
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Malachi 1] [RPG Video Game Original Sound Track] [A# Lydian] [Larghetto] [AI Music]
+
+Using AI to generate biblically accurate RPG Video Game Original Sound Track songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+RPG Video Game Original Sound Track, cryptic lyricism (Female), conga, violin, Harmonium, Larghetto 65 bpm, A# Lydian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of the book of Malachi chapter 1 quoting verses taken from the King James Version bible
+
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Instrumental] [Fusion Freestyle] [Eb Dorian] [Adagio] [AI Music]
+
+Using AI to generate Fusion Freestyle instrumentals for vocalists from a variety of genres, musical keys, and modes.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+Fusion Freestyle, trumpet, trombone, ukulele, banjo, Adagio 76 bpm, Eb Dorian
+
+[Instrumental]
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [James 3:13] [slow waltz] [Ab Locrian] [Adagio] [AI Music]
+
+Using AI to generate biblically accurate slow waltz songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+slow waltz, Countertenor (male), castanets, guttural throat singing, Brass, Adagio 70 bpm, Ab Locrian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of James 3:13 quoting this verse verbatim taken from the King James Version bible: Who is a wise man and endued with knowledge among you? let him shew out of a good conversation his works with meekness of wisdom.
+
+King James Version
+Public Domain
+
+Prompt generated using Verse of the Day (votd) endpoint provided by BibleGateway
+https://www.biblegateway.com/passage/?search=James%203%3A13&amp;version=KJV
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Joel 1] [ranchera] [E Aeolian] [Allegro] [AI Music]
+
+Using AI to generate biblically accurate ranchera songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+ranchera, Rapper (Female), trumpet, Sampler, biblically inspired lyrics book of Joel chapter 1, Allegro 147 bpm, E Aeolian
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Jonah 2] [heavy doom metal] [D# Aeolian] [Prestissimo] [AI Music]
+
+Using AI to generate biblically accurate heavy doom metal songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+heavy doom metal, Rapper (Male), violin, beat, djembe, Prestissimo 221 bpm, D# Aeolian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of the book of Jonah chapter 2 quoting verses taken from the King James Version bible
+
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Instrumental] [Programmatic Music] [Ab Aeolian] [Largo] [AI Music]
+
+Using AI to generate Programmatic Music instrumentals for vocalists from a variety of genres, musical keys, and modes.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+Programmatic Music, bajo sexto, synthesizer, Harmonium, synth, Largo 53 bpm, Ab Aeolian
+
+[Instrumental]
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [James 3:13] [Oldskool Freestyle Mix] [C# Mixolydian] [Prestissimo] [AI Music]
+
+Using AI to generate biblically accurate Oldskool Freestyle Mix songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+Oldskool Freestyle Mix, Tenor (male), harp, banjo, drums, Prestissimo 319 bpm, C# Mixolydian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of James 3:13 quoting this verse verbatim taken from the King James Version bible: Who is a wise man and endued with knowledge among you? let him shew out of a good conversation his works with meekness of wisdom.
+
+King James Version
+Public Domain
+
+Prompt generated using Verse of the Day (votd) endpoint provided by BibleGateway
+https://www.biblegateway.com/passage/?search=James%203%3A13&amp;version=KJV
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Colossians 2] [classical celtic guitar] [C# Lydian] [Moderato] [AI Music]
+
+Using AI to generate biblically accurate classical celtic guitar songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+classical celtic guitar, Tenor (male), drums, drums, biblically inspired lyrics book of Colossians chapter 2, Moderato 110 bpm, C# Lydian
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Ephesians 2] [Programmatic Music] [D Locrian] [Presto] [AI Music]
+
+Using AI to generate biblically accurate Programmatic Music songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+Programmatic Music, Tenor (male), double bass, harp, bagpipes, Presto 196 bpm, D Locrian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of the book of Ephesians chapter 2 quoting verses taken from the King James Version bible
+
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Instrumental] [IDM (Intelligent Dance Music)] [Eb Lydian] [Allegro] [AI Music]
+
+Using AI to generate IDM (Intelligent Dance Music) instrumentals for vocalists from a variety of genres, musical keys, and modes.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+IDM (Intelligent Dance Music), Brass, marimba, conga, trombone, Allegro 128 bpm, Eb Lydian
+
+[Instrumental]
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [James 3:13] [Schranz] [Ab Locrian] [Moderato] [AI Music]
+
+Using AI to generate biblically accurate Schranz songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+Schranz, MC (Male), mandolin, flute, bassoon, Moderato 113 bpm, Ab Locrian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of James 3:13 quoting this verse verbatim taken from the King James Version bible: Who is a wise man and endued with knowledge among you? let him shew out of a good conversation his works with meekness of wisdom.
+
+King James Version
+Public Domain
+
+Prompt generated using Verse of the Day (votd) endpoint provided by BibleGateway
+https://www.biblegateway.com/passage/?search=James%203%3A13&amp;version=KJV
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Zephaniah 2] [Progressive Trance] [G# Mixolydian] [Largo] [AI Music]
+
+Using AI to generate biblically accurate Progressive Trance songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+Progressive Trance, Baritone (male), beat, cowbell, biblically inspired lyrics book of Zephaniah chapter 2, Largo 46 bpm, G# Mixolydian
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Judges 7] [Neoclassicism] [C# Dorian] [Moderato] [AI Music]
+
+Using AI to generate biblically accurate Neoclassicism songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+Neoclassicism, rapid-fire vocals (Female), marimba, vihuela, bassoon, Moderato 116 bpm, C# Dorian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of the book of Judges chapter 7 quoting verses taken from the King James Version bible
+
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Instrumental] [Math Rock] [Db Aeolian] [Moderato] [AI Music]
+
+Using AI to generate Math Rock instrumentals for vocalists from a variety of genres, musical keys, and modes.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+Math Rock, Sampler, accordion, kazoo, triangle, Moderato 120 bpm, Db Aeolian
+
+[Instrumental]
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [James 3:13] [experimental hip hop] [G Dorian] [Largo] [AI Music]
+
+Using AI to generate biblically accurate experimental hip hop songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+experimental hip hop, Borbangnadyr (male), bağlama, piano, vibraphone, Largo 41 bpm, G Dorian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of James 3:13 quoting this verse verbatim taken from the King James Version bible: Who is a wise man and endued with knowledge among you? let him shew out of a good conversation his works with meekness of wisdom.
+
+King James Version
+Public Domain
+
+Prompt generated using Verse of the Day (votd) endpoint provided by BibleGateway
+https://www.biblegateway.com/passage/?search=James%203%3A13&amp;version=KJV
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [2 Peter 1] [lo-fi hip-hop] [C Mixolydian] [Allegro] [AI Music]
+
+Using AI to generate biblically accurate lo-fi hip-hop songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+lo-fi hip-hop, Emcee (Male), xylophone, banjo, biblically inspired lyrics book of 2 Peter chapter 1, Allegro 133 bpm, C Mixolydian
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [2 Chronicles 34] [warm] [Db Aeolian] [Prestissimo] [AI Music]
+
+Using AI to generate biblically accurate warm songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+warm, Tenor (male), electric guitar, marimba, bajo sexto, Prestissimo 357 bpm, Db Aeolian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of the book of 2 Chronicles chapter 34 quoting verses taken from the King James Version bible
+
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Instrumental] [Electronic Drum n Bass] [A Ionian] [Presto] [AI Music]
+
+Using AI to generate Electronic Drum n Bass instrumentals for vocalists from a variety of genres, musical keys, and modes.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+Electronic Drum n Bass, synth, drums, Sampler, bajo sexto, Presto 192 bpm, A Ionian
+
+[Instrumental]
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [James 3:13] [slow R&B] [Gb Aeolian] [Presto] [AI Music]
+
+Using AI to generate biblically accurate slow R&B songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+slow R&B, Rapper (Male), oboe, horn, fiddle, Presto 177 bpm, Gb Aeolian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of James 3:13 quoting this verse verbatim taken from the King James Version bible: Who is a wise man and endued with knowledge among you? let him shew out of a good conversation his works with meekness of wisdom.
+
+King James Version
+Public Domain
+
+Prompt generated using Verse of the Day (votd) endpoint provided by BibleGateway
+https://www.biblegateway.com/passage/?search=James%203%3A13&amp;version=KJV
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [3 John 1] [film score] [Bb Ionian] [Presto] [AI Music]
+
+Using AI to generate biblically accurate film score songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+film score, Rapper (Female), banjo, beat, biblically inspired lyrics book of 3 John chapter 1, Presto 176 bpm, Bb Ionian
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Ezra 6] [narcocorridos] [E Ionian] [Adagio] [AI Music]
+
+Using AI to generate biblically accurate narcocorridos songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+narcocorridos, Tenor (male), Ondes Martenot, drums, cello, Adagio 75 bpm, E Ionian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of the book of Ezra chapter 6 quoting verses taken from the King James Version bible
+
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Instrumental] [Post-Rock] [G Aeolian] [Larghetto] [AI Music]
+
+Using AI to generate Post-Rock instrumentals for vocalists from a variety of genres, musical keys, and modes.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+Post-Rock, synthesizer, fiddle, beat, conga, Larghetto 62 bpm, G Aeolian
+
+[Instrumental]
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [James 3:13] [Impressionist] [F# Phrygian] [Largo] [AI Music]
+
+Using AI to generate biblically accurate Impressionist songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+Impressionist, Baritone (male), bassoon, synthesizer, harp, Largo 50 bpm, F# Phrygian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of James 3:13 quoting this verse verbatim taken from the King James Version bible: Who is a wise man and endued with knowledge among you? let him shew out of a good conversation his works with meekness of wisdom.
+
+King James Version
+Public Domain
+
+Prompt generated using Verse of the Day (votd) endpoint provided by BibleGateway
+https://www.biblegateway.com/passage/?search=James%203%3A13&amp;version=KJV
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [John 2] [UK garage/2-step] [Eb Phrygian] [Moderato] [AI Music]
+
+Using AI to generate biblically accurate UK garage/2-step songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+UK garage/2-step, Sygyt (male), mandolin, clarinet, biblically inspired lyrics book of John chapter 2, Moderato 108 bpm, Eb Phrygian
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Haggai 2] [slow waltz] [Eb Mixolydian] [Presto] [AI Music]
+
+Using AI to generate biblically accurate slow waltz songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+slow waltz, Ezengileer (male), Ondes Martenot, beat, drums, Presto 183 bpm, Eb Mixolydian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of the book of Haggai chapter 2 quoting verses taken from the King James Version bible
+
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Instrumental] [Electronic Dance] [Db Dorian] [Andante] [AI Music]
+
+Using AI to generate Electronic Dance instrumentals for vocalists from a variety of genres, musical keys, and modes.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+Electronic Dance, Ondes Martenot, tambourine, fiddle, beat, Andante 94 bpm, Db Dorian
+
+[Instrumental]
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [James 3:13] [Fusion Freestyle] [F Aeolian] [Prestissimo] [AI Music]
+
+Using AI to generate biblically accurate Fusion Freestyle songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+Fusion Freestyle, Soprano (female), accordion, cello, Brass, Prestissimo 275 bpm, F Aeolian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of James 3:13 quoting this verse verbatim taken from the King James Version bible: Who is a wise man and endued with knowledge among you? let him shew out of a good conversation his works with meekness of wisdom.
+
+King James Version
+Public Domain
+
+Prompt generated using Verse of the Day (votd) endpoint provided by BibleGateway
+https://www.biblegateway.com/passage/?search=James%203%3A13&amp;version=KJV
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Titus 1] [gospel hymn] [A# Aeolian] [Presto] [AI Music]
+
+Using AI to generate biblically accurate gospel hymn songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+gospel hymn, Tenor (male), cowbell, plucked bass, biblically inspired lyrics book of Titus chapter 1, Presto 176 bpm, A# Aeolian
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [2 Timothy 4] [lo-fi house] [G Locrian] [Presto] [AI Music]
+
+Using AI to generate biblically accurate lo-fi house songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+lo-fi house, cryptic lyricism (Female), flute, flute, Computer-based Effects, Presto 197 bpm, G Locrian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of the book of 2 Timothy chapter 4 quoting verses taken from the King James Version bible
+
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Instrumental] [90s Tech House] [D Ionian] [Allegro] [AI Music]
+
+Using AI to generate 90s Tech House instrumentals for vocalists from a variety of genres, musical keys, and modes.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+90s Tech House, tuba, trumpet, Harmonium, cowbell, Allegro 140 bpm, D Ionian
+
+[Instrumental]
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [James 3:13] [Dubstep] [G# Phrygian] [Prestissimo] [AI Music]
+
+Using AI to generate biblically accurate Dubstep songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+Dubstep, Sygyt (male), bagpipes, french horn, Sampler, Prestissimo 343 bpm, G# Phrygian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of James 3:13 quoting this verse verbatim taken from the King James Version bible: Who is a wise man and endued with knowledge among you? let him shew out of a good conversation his works with meekness of wisdom.
+
+King James Version
+Public Domain
+
+Prompt generated using Verse of the Day (votd) endpoint provided by BibleGateway
+https://www.biblegateway.com/passage/?search=James%203%3A13&amp;version=KJV
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Lamentations 1] [Techstep Drum n Bass] [Db Phrygian] [Andante] [AI Music]
+
+Using AI to generate biblically accurate Techstep Drum n Bass songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+Techstep Drum n Bass, cryptic lyricism (Male), vihuela, flute, biblically inspired lyrics book of Lamentations chapter 1, Andante 87 bpm, Db Phrygian
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Titus 2] [Drum n Bass BPM 160-180] [Gb Dorian] [Moderato] [AI Music]
+
+Using AI to generate biblically accurate Drum n Bass BPM 160-180 songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+Drum n Bass BPM 160-180, cryptic lyricism (Male), piano, zither, Strings, Moderato 111 bpm, Gb Dorian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of the book of Titus chapter 2 quoting verses taken from the King James Version bible
+
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Instrumental] [industrial] [Bb Aeolian] [Allegro] [AI Music]
+
+Using AI to generate industrial instrumentals for vocalists from a variety of genres, musical keys, and modes.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+industrial, drums, Harmonium, electric guitar, organ, Allegro 145 bpm, Bb Aeolian
+
+[Instrumental]
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [James 3:13] [Fantasy RPG Original Sound Track] [B Mixolydian] [Moderato] [AI Music]
+
+Using AI to generate biblically accurate Fantasy RPG Original Sound Track songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+Fantasy RPG Original Sound Track, Rapper (Female), castanets, mongolian guitar, guitar, Moderato 118 bpm, B Mixolydian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of James 3:13 quoting this verse verbatim taken from the King James Version bible: Who is a wise man and endued with knowledge among you? let him shew out of a good conversation his works with meekness of wisdom.
+
+King James Version
+Public Domain
+
+Prompt generated using Verse of the Day (votd) endpoint provided by BibleGateway
+https://www.biblegateway.com/passage/?search=James%203%3A13&amp;version=KJV
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Isaiah 36] [fast disco] [G Aeolian] [Andante] [AI Music]
+
+Using AI to generate biblically accurate fast disco songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+fast disco, Khoomei (male), Computer-based Effects, electric guitar, biblically inspired lyrics book of Isaiah chapter 36, Andante 92 bpm, G Aeolian
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Nahum 1] [Romantic, programmatic music, lyrical melodies] [C# Phrygian] [Presto] [AI Music]
+
+Using AI to generate biblically accurate Romantic, programmatic music, lyrical melodies songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+Romantic, programmatic music, lyrical melodies, Tenor (male), harp, guitar, tambourine, Presto 188 bpm, C# Phrygian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of the book of Nahum chapter 1 quoting verses taken from the King James Version bible
+
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Instrumental] [warm] [C# Ionian] [Larghetto] [AI Music]
+
+Using AI to generate warm instrumentals for vocalists from a variety of genres, musical keys, and modes.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+warm, conga, electric guitar, synth, triangle, Larghetto 64 bpm, C# Ionian
+
+[Instrumental]
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [James 3:13] [Avant-Garde, unconventional, Experimental] [Db Ionian] [Moderato] [AI Music]
+
+Using AI to generate biblically accurate Avant-Garde, unconventional, Experimental songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+Avant-Garde, unconventional, Experimental, Rapper (Male), Harmonium, saxophone, cowbell, Moderato 112 bpm, Db Ionian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of James 3:13 quoting this verse verbatim taken from the King James Version bible: Who is a wise man and endued with knowledge among you? let him shew out of a good conversation his works with meekness of wisdom.
+
+King James Version
+Public Domain
+
+Prompt generated using Verse of the Day (votd) endpoint provided by BibleGateway
+https://www.biblegateway.com/passage/?search=James%203%3A13&amp;version=KJV
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Jude 1] [alternative rock] [Ab Dorian] [Largo] [AI Music]
+
+Using AI to generate biblically accurate alternative rock songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+alternative rock, Contralto (female), horsehead fiddle, accordion, biblically inspired lyrics book of Jude chapter 1, Largo 50 bpm, Ab Dorian
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [James 4] [Baroque, Complex polyphony, ornate melodies] [C# Mixolydian] [Larghetto] [AI Music]
+
+Using AI to generate biblically accurate Baroque, Complex polyphony, ornate melodies songs and music videos.
+
+Song_Title_Here [Leviticus 26] [industrial] [Db Dorian] [Prestissimo] [AI Music]
+
+Using AI to generate biblically accurate industrial songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+industrial, Emcee (Female), synth, tuba, bongo, Prestissimo 366 bpm, Db Dorian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of the book of Leviticus chapter 26 quoting verses taken from the King James Version bible
+
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Instrumental] [Breakcore Drum n Bass] [Eb Lydian] [Prestissimo] [AI Music]
+
+Using AI to generate Breakcore Drum n Bass instrumentals for vocalists from a variety of genres, musical keys, and modes.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+Breakcore Drum n Bass, tuba, kemenche, organ, Computer-based Effects, Prestissimo 241 bpm, Eb Lydian
+
+[Instrumental]
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [James 3:13] [Oldskool Latin Freestyle] [Db Mixolydian] [Andante] [AI Music]
+
+Using AI to generate biblically accurate Oldskool Latin Freestyle songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+Oldskool Latin Freestyle, Mezzo-Soprano (female), cello, oboe, steel drum, Andante 87 bpm, Db Mixolydian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of James 3:13 quoting this verse verbatim taken from the King James Version bible: Who is a wise man and endued with knowledge among you? let him shew out of a good conversation his works with meekness of wisdom.
+
+King James Version
+Public Domain
+
+Prompt generated using Verse of the Day (votd) endpoint provided by BibleGateway
+https://www.biblegateway.com/passage/?search=James%203%3A13&amp;version=KJV
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Numbers 2] [Motown] [A# Dorian] [Andante] [AI Music]
+
+Using AI to generate biblically accurate Motown songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+Motown, Ezengileer (male), trumpet, harmonica, biblically inspired lyrics book of Numbers chapter 2, Andante 81 bpm, A# Dorian
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Daniel 8] [Acid Rock] [Ab Phrygian] [Prestissimo] [AI Music]
+
+Using AI to generate biblically accurate Acid Rock songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+Acid Rock, rapid-fire vocals (Female), mongolian guitar, kazoo, conga, Prestissimo 234 bpm, Ab Phrygian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of the book of Daniel chapter 8 quoting verses taken from the King James Version bible
+
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Instrumental] [classical acoustic guitar] [Gb Dorian] [Largo] [AI Music]
+
+Using AI to generate classical acoustic guitar instrumentals for vocalists from a variety of genres, musical keys, and modes.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+classical acoustic guitar, cello, steel drum, drums, tabla, Largo 45 bpm, Gb Dorian
+
+[Instrumental]
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [James 3:13] [electropunk] [Db Dorian] [Presto] [AI Music]
+
+Using AI to generate biblically accurate electropunk songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+electropunk, Soprano (female), harp, horsehead fiddle, electric guitar, Presto 185 bpm, Db Dorian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of James 3:13 quoting this verse verbatim taken from the King James Version bible: Who is a wise man and endued with knowledge among you? let him shew out of a good conversation his works with meekness of wisdom.
+
+King James Version
+Public Domain
+
+Prompt generated using Verse of the Day (votd) endpoint provided by BibleGateway
+https://www.biblegateway.com/passage/?search=James%203%3A13&amp;version=KJV
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Habakkuk 3] [echo] [Db Dorian] [Largo] [AI Music]
+
+Using AI to generate biblically accurate echo songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+echo, Contralto (female), bajo sexto, electric guitar, biblically inspired lyrics book of Habakkuk chapter 3, Largo 45 bpm, Db Dorian
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Micah 6] [classical celtic guitar] [G# Mixolydian] [Allegro] [AI Music]
+
+Using AI to generate biblically accurate classical celtic guitar songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+classical celtic guitar, Khoomei (male), vibraphone, bongo, Harmonium, Allegro 156 bpm, G# Mixolydian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of the book of Micah chapter 6 quoting verses taken from the King James Version bible
+
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Instrumental] [breakcore] [F Ionian] [Largo] [AI Music]
+
+Using AI to generate breakcore instrumentals for vocalists from a variety of genres, musical keys, and modes.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+breakcore, Sampler, saxophone, bagpipes, marimba, Largo 58 bpm, F Ionian
+
+[Instrumental]
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [James 3:13] [Burning Jazz, Liquid Drum and Bass] [Eb Locrian] [Largo] [AI Music]
+
+Using AI to generate biblically accurate Burning Jazz, Liquid Drum and Bass songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+Burning Jazz, Liquid Drum and Bass, Khoomei (male), oud, marimba, synth, Largo 48 bpm, Eb Locrian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of James 3:13 quoting this verse verbatim taken from the King James Version bible: Who is a wise man and endued with knowledge among you? let him shew out of a good conversation his works with meekness of wisdom.
+
+King James Version
+Public Domain
+
+Prompt generated using Verse of the Day (votd) endpoint provided by BibleGateway
+https://www.biblegateway.com/passage/?search=James%203%3A13&amp;version=KJV
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Philemon 1] [kpop] [F Aeolian] [Allegro] [AI Music]
+
+Using AI to generate biblically accurate kpop songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+kpop, Rapper (Female), steel drum, accordion, biblically inspired lyrics book of Philemon chapter 1, Allegro 137 bpm, F Aeolian
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Psalms 42] [fast progressive house] [Db Phrygian] [Prestissimo] [AI Music]
+
+Using AI to generate biblically accurate fast progressive house songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+fast progressive house, Rapper (Male), tambourine, mongolian guitar, bagpipes, Prestissimo 312 bpm, Db Phrygian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of the book of Psalms chapter 42 quoting verses taken from the King James Version bible
+
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Instrumental] [norteño] [Eb Mixolydian] [Prestissimo] [AI Music]
+
+Using AI to generate norteño instrumentals for vocalists from a variety of genres, musical keys, and modes.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+norteño, fiddle, djembe, sub-bass, tambourine, Prestissimo 357 bpm, Eb Mixolydian
+
+[Instrumental]
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [James 3:13] [Freestyle EDM] [Gb Aeolian] [Moderato] [AI Music]
+
+Using AI to generate biblically accurate Freestyle EDM songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+Freestyle EDM, MC (Female), djembe, trumpet, fiddle, Moderato 110 bpm, Gb Aeolian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of James 3:13 quoting this verse verbatim taken from the King James Version bible: Who is a wise man and endued with knowledge among you? let him shew out of a good conversation his works with meekness of wisdom.
+
+King James Version
+Public Domain
+
+Prompt generated using Verse of the Day (votd) endpoint provided by BibleGateway
+https://www.biblegateway.com/passage/?search=James%203%3A13&amp;version=KJV
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Zechariah 10] [J-Pop] [E Locrian] [Larghetto] [AI Music]
+
+Using AI to generate biblically accurate J-Pop songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+J-Pop, cryptic lyricism (Male), vibraphone, bassoon, biblically inspired lyrics book of Zechariah chapter 10, Larghetto 65 bpm, E Locrian
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Ezekiel 10] [Expressionist] [F Ionian] [Moderato] [AI Music]
+
+Using AI to generate biblically accurate Expressionist songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+Expressionist, MC (Female), djembe, trombone, oboe, Moderato 111 bpm, F Ionian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of the book of Ezekiel chapter 10 quoting verses taken from the King James Version bible
+
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Instrumental] [slow country folk] [A# Dorian] [Allegro] [AI Music]
+
+Using AI to generate slow country folk instrumentals for vocalists from a variety of genres, musical keys, and modes.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+slow country folk, harp, plucked bass, cello, accordion, Allegro 125 bpm, A# Dorian
+
+[Instrumental]
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [James 3:13] [Trance] [G Aeolian] [Larghetto] [AI Music]
+
+Using AI to generate biblically accurate Trance songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+Trance, Chylandyk (male), guitar, clarinet, jarana, Larghetto 60 bpm, G Aeolian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of James 3:13 quoting this verse verbatim taken from the King James Version bible: Who is a wise man and endued with knowledge among you? let him shew out of a good conversation his works with meekness of wisdom.
+
+King James Version
+Public Domain
+
+Prompt generated using Verse of the Day (votd) endpoint provided by BibleGateway
+https://www.biblegateway.com/passage/?search=James%203%3A13&amp;version=KJV
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [John 9] [70s Proto Metal] [B Ionian] [Prestissimo] [AI Music]
+
+Using AI to generate biblically accurate 70s Proto Metal songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+70s Proto Metal, cryptic lyricism (Male), cowbell, cello, biblically inspired lyrics book of John chapter 9, Prestissimo 270 bpm, B Ionian
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [1 Chronicles 4] [fast salsa] [E Locrian] [Moderato] [AI Music]
+
+Using AI to generate biblically accurate fast salsa songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+fast salsa, rapid-fire vocals (Female), kemenche, bassoon, tambourine, Moderato 119 bpm, E Locrian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of the book of 1 Chronicles chapter 4 quoting verses taken from the King James Version bible
+
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Instrumental] [Hardstyle] [Eb Dorian] [Allegro] [AI Music]
+
+Using AI to generate Hardstyle instrumentals for vocalists from a variety of genres, musical keys, and modes.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+Hardstyle, tuba, drums, horsehead fiddle, plucked bass, Allegro 144 bpm, Eb Dorian
+
+[Instrumental]
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [James 3:13] [art pop] [Ab Mixolydian] [Largo] [AI Music]
+
+Using AI to generate biblically accurate art pop songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+art pop, Chylandyk (male), double bass, guttural throat singing, conga, Largo 49 bpm, Ab Mixolydian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of James 3:13 quoting this verse verbatim taken from the King James Version bible: Who is a wise man and endued with knowledge among you? let him shew out of a good conversation his works with meekness of wisdom.
+
+King James Version
+Public Domain
+
+Prompt generated using Verse of the Day (votd) endpoint provided by BibleGateway
+https://www.biblegateway.com/passage/?search=James%203%3A13&amp;version=KJV
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [2 Thessalonians 3] [haunting atmospheric witch house] [D Mixolydian] [Allegro] [AI Music]
+
+Using AI to generate biblically accurate haunting atmospheric witch house songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+haunting atmospheric witch house, Tenor (male), clarinet, bongo, biblically inspired lyrics book of 2 Thessalonians chapter 3, Allegro 138 bpm, D Mixolydian
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [1 Chronicles 1] [rap rock] [Ab Ionian] [Prestissimo] [AI Music]
+
+Using AI to generate biblically accurate rap rock songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+rap rock, Bass (male), electric guitar, Harmonium, triangle, Prestissimo 418 bpm, Ab Ionian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of the book of 1 Chronicles chapter 1 quoting verses taken from the King James Version bible
+
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Instrumental] [classical acoustic guitar melody] [G Ionian] [Adagio] [AI Music]
+
+Using AI to generate classical acoustic guitar melody instrumentals for vocalists from a variety of genres, musical keys, and modes.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+classical acoustic guitar melody, drums, cowbell, acoustic guitar, trumpet, Adagio 74 bpm, G Ionian
+
+[Instrumental]
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [James 3:13] [future garage] [E Ionian] [Larghetto] [AI Music]
+
+Using AI to generate biblically accurate future garage songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+future garage, Mezzo-Soprano (female), organ, Strings, drums, Larghetto 64 bpm, E Ionian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of James 3:13 quoting this verse verbatim taken from the King James Version bible: Who is a wise man and endued with knowledge among you? let him shew out of a good conversation his works with meekness of wisdom.
+
+King James Version
+Public Domain
+
+Prompt generated using Verse of the Day (votd) endpoint provided by BibleGateway
+https://www.biblegateway.com/passage/?search=James%203%3A13&amp;version=KJV
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Zechariah 12] [Electronic] [Bb Aeolian] [Allegro] [AI Music]
+
+Using AI to generate biblically accurate Electronic songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+Electronic, MC (Female), kazoo, tuba, biblically inspired lyrics book of Zechariah chapter 12, Allegro 156 bpm, Bb Aeolian
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [1 John 1] [noise] [B Ionian] [Prestissimo] [AI Music]
+
+Using AI to generate biblically accurate noise songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+noise, Sygyt (male), bagpipes, harp, french horn, Prestissimo 235 bpm, B Ionian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of the book of 1 John chapter 1 quoting verses taken from the King James Version bible
+
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Instrumental] [reverb] [C Lydian] [Adagio] [AI Music]
+
+Using AI to generate reverb instrumentals for vocalists from a variety of genres, musical keys, and modes.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+reverb, bagpipes, cowbell, bongo, beat, Adagio 71 bpm, C Lydian
+
+[Instrumental]
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [James 3:13] [banda] [Db Aeolian] [Moderato] [AI Music]
+
+Using AI to generate biblically accurate banda songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+banda, Khoomei (male), guitar, saxophone, french horn, Moderato 111 bpm, Db Aeolian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of James 3:13 quoting this verse verbatim taken from the King James Version bible: Who is a wise man and endued with knowledge among you? let him shew out of a good conversation his works with meekness of wisdom.
+
+King James Version
+Public Domain
+
+Prompt generated using Verse of the Day (votd) endpoint provided by BibleGateway
+https://www.biblegateway.com/passage/?search=James%203%3A13&amp;version=KJV

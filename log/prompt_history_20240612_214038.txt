@@ -1,0 +1,1353 @@
+
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Instrumental] [Club/Dance] [Gb Lydian] [Andante] [AI Music]
+
+Using AI to generate Club/Dance instrumentals for vocalists from a variety of genres, musical keys, and modes.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+Club/Dance, conga, accordion, triangle, tambourine, Andante 89 bpm, Gb Lydian
+
+[Instrumental]
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Psalm 19:1-2] [fast electroswing] [C# Aeolian] [Presto] [AI Music]
+
+Using AI to generate biblically accurate fast electroswing songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+fast electroswing, Mezzo-Soprano (female), guitar, mongolian guitar, bassoon, Presto 184 bpm, C# Aeolian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of Psalm 19:1-2 quoting this verse verbatim taken from the King James Version bible: The heavens declare the glory of God; and the firmament sheweth his handywork. Day unto day uttereth speech, and night unto night sheweth knowledge.
+
+King James Version
+Public Domain
+
+Prompt generated using Verse of the Day (votd) endpoint provided by BibleGateway
+https://www.biblegateway.com/passage/?search=Psalm%2019:1-2&amp;version=KJV
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Habakkuk 1] [math drums] [Db Phrygian] [Largo] [AI Music]
+
+Using AI to generate biblically accurate math drums songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+math drums, Rapper (Male), djembe, mongolian guitar, biblically inspired lyrics book of Habakkuk chapter 1, Largo 54 bpm, Db Phrygian
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Matthew 8] [middle-eastern] [E Mixolydian] [Presto] [AI Music]
+
+Using AI to generate biblically accurate middle-eastern songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+middle-eastern, Bass (male), clarinet, cello, fiddle, Presto 176 bpm, E Mixolydian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of the book of Matthew chapter 8 quoting verses taken from the King James Version bible
+
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Instrumental] [Electronic] [Bb Dorian] [Larghetto] [AI Music]
+
+Using AI to generate Electronic instrumentals for vocalists from a variety of genres, musical keys, and modes.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+Electronic, bagpipes, oud, organ, drums, Larghetto 61 bpm, Bb Dorian
+
+[Instrumental]
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Psalm 19:1-2] [post-rock] [G Ionian] [Presto] [AI Music]
+
+Using AI to generate biblically accurate post-rock songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+post-rock, Emcee (Female), marimba, tabla, harmonica, Presto 190 bpm, G Ionian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of Psalm 19:1-2 quoting this verse verbatim taken from the King James Version bible: The heavens declare the glory of God; and the firmament sheweth his handywork. Day unto day uttereth speech, and night unto night sheweth knowledge.
+
+King James Version
+Public Domain
+
+Prompt generated using Verse of the Day (votd) endpoint provided by BibleGateway
+https://www.biblegateway.com/passage/?search=Psalm%2019:1-2&amp;version=KJV
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Jeremiah 49] [fast grindcore] [C Phrygian] [Largo] [AI Music]
+
+Using AI to generate biblically accurate fast grindcore songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+fast grindcore, Emcee (Male), ukulele, mandolin, biblically inspired lyrics book of Jeremiah chapter 49, Largo 50 bpm, C Phrygian
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Jonah 3] [slow indie rock] [Bb Locrian] [Larghetto] [AI Music]
+
+Using AI to generate biblically accurate slow indie rock songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+slow indie rock, Baritone (male), accordion, accordion, castanets, Larghetto 61 bpm, Bb Locrian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of the book of Jonah chapter 3 quoting verses taken from the King James Version bible
+
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Instrumental] [Jungle Drum n Bass] [C# Mixolydian] [Prestissimo] [AI Music]
+
+Using AI to generate Jungle Drum n Bass instrumentals for vocalists from a variety of genres, musical keys, and modes.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+Jungle Drum n Bass, clarinet, synthesizer, vihuela, sub-bass, Prestissimo 264 bpm, C# Mixolydian
+
+[Instrumental]
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Psalm 19:1-2] [Sambass Drum n Bass] [G# Dorian] [Largo] [AI Music]
+
+Using AI to generate biblically accurate Sambass Drum n Bass songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+Sambass Drum n Bass, Rapper (Female), cello, vibraphone, jarana, Largo 54 bpm, G# Dorian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of Psalm 19:1-2 quoting this verse verbatim taken from the King James Version bible: The heavens declare the glory of God; and the firmament sheweth his handywork. Day unto day uttereth speech, and night unto night sheweth knowledge.
+
+King James Version
+Public Domain
+
+Prompt generated using Verse of the Day (votd) endpoint provided by BibleGateway
+https://www.biblegateway.com/passage/?search=Psalm%2019:1-2&amp;version=KJV
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Daniel 4] [heavy sludge metal] [Ab Locrian] [Allegro] [AI Music]
+
+Using AI to generate biblically accurate heavy sludge metal songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+heavy sludge metal, Bass (male), sub-bass, saxophone, biblically inspired lyrics book of Daniel chapter 4, Allegro 138 bpm, Ab Locrian
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Exodus 27] [American Christian hip hop] [C# Aeolian] [Andante] [AI Music]
+
+Using AI to generate biblically accurate American Christian hip hop songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+American Christian hip hop, cryptic lyricism (Male), castanets, cowbell, accordion, Andante 83 bpm, C# Aeolian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of the book of Exodus chapter 27 quoting verses taken from the King James Version bible
+
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Instrumental] [UK funky] [F Aeolian] [Moderato] [AI Music]
+
+Using AI to generate UK funky instrumentals for vocalists from a variety of genres, musical keys, and modes.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+UK funky, accordion, violin, jarana, organ, Moderato 115 bpm, F Aeolian
+
+[Instrumental]
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Psalm 19:1-2] [chillwave] [C Mixolydian] [Moderato] [AI Music]
+
+Using AI to generate biblically accurate chillwave songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+chillwave, Baritone (male), violin, oboe, bass guitar, Moderato 111 bpm, C Mixolydian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of Psalm 19:1-2 quoting this verse verbatim taken from the King James Version bible: The heavens declare the glory of God; and the firmament sheweth his handywork. Day unto day uttereth speech, and night unto night sheweth knowledge.
+
+King James Version
+Public Domain
+
+Prompt generated using Verse of the Day (votd) endpoint provided by BibleGateway
+https://www.biblegateway.com/passage/?search=Psalm%2019:1-2&amp;version=KJV
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [1 Corinthians 1] [Motown] [A# Aeolian] [Largo] [AI Music]
+
+Using AI to generate biblically accurate Motown songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+Motown, Bass (male), banjo, double bass, biblically inspired lyrics book of 1 Corinthians chapter 1, Largo 45 bpm, A# Aeolian
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Ecclesiastes 8] [Gospel Rap] [Db Lydian] [Allegro] [AI Music]
+
+Using AI to generate biblically accurate Gospel Rap songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+Gospel Rap, Khoomei (male), kemenche, steel drum, sub-bass, Allegro 159 bpm, Db Lydian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of the book of Ecclesiastes chapter 8 quoting verses taken from the King James Version bible
+
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Instrumental] [fast aggressive phonk] [C# Lydian] [Moderato] [AI Music]
+
+Using AI to generate fast aggressive phonk instrumentals for vocalists from a variety of genres, musical keys, and modes.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+fast aggressive phonk, bağlama, bajo sexto, drums, oboe, Moderato 117 bpm, C# Lydian
+
+[Instrumental]
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Psalm 19:1-2] [industrial] [C Phrygian] [Presto] [AI Music]
+
+Using AI to generate biblically accurate industrial songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+industrial, Tenor (male), synth, trumpet, plucked bass, Presto 192 bpm, C Phrygian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of Psalm 19:1-2 quoting this verse verbatim taken from the King James Version bible: The heavens declare the glory of God; and the firmament sheweth his handywork. Day unto day uttereth speech, and night unto night sheweth knowledge.
+
+King James Version
+Public Domain
+
+Prompt generated using Verse of the Day (votd) endpoint provided by BibleGateway
+https://www.biblegateway.com/passage/?search=Psalm%2019:1-2&amp;version=KJV
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Song of Solomon 7] [Early 2000s Drum n Bass] [Ab Mixolydian] [Largo] [AI Music]
+
+Using AI to generate biblically accurate Early 2000s Drum n Bass songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+Early 2000s Drum n Bass, Tenor (male), bajo sexto, horn, biblically inspired lyrics book of Song of Solomon chapter 7, Largo 42 bpm, Ab Mixolydian
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [John 21] [slow reggae] [C# Locrian] [Allegro] [AI Music]
+
+Using AI to generate biblically accurate slow reggae songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+slow reggae, rapid-fire vocals (Male), saxophone, mongolian guitar, bass guitar, Allegro 152 bpm, C# Locrian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of the book of John chapter 21 quoting verses taken from the King James Version bible
+
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Instrumental] [acid jazz] [D Ionian] [Moderato] [AI Music]
+
+Using AI to generate acid jazz instrumentals for vocalists from a variety of genres, musical keys, and modes.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+acid jazz, saxophone, didgeridoo, djembe, plucked bass, Moderato 119 bpm, D Ionian
+
+[Instrumental]
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Psalm 19:1-2] [darkwave] [D Locrian] [Prestissimo] [AI Music]
+
+Using AI to generate biblically accurate darkwave songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+darkwave, Contralto (female), steel drum, marimba, steel drum, Prestissimo 393 bpm, D Locrian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of Psalm 19:1-2 quoting this verse verbatim taken from the King James Version bible: The heavens declare the glory of God; and the firmament sheweth his handywork. Day unto day uttereth speech, and night unto night sheweth knowledge.
+
+King James Version
+Public Domain
+
+Prompt generated using Verse of the Day (votd) endpoint provided by BibleGateway
+https://www.biblegateway.com/passage/?search=Psalm%2019:1-2&amp;version=KJV
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Ezra 1] [breakcore] [F# Locrian] [Larghetto] [AI Music]
+
+Using AI to generate biblically accurate breakcore songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+breakcore, Tenor (male), saxophone, electric guitar, biblically inspired lyrics book of Ezra chapter 1, Larghetto 64 bpm, F# Locrian
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Luke 2] [krautrock] [B Aeolian] [Larghetto] [AI Music]
+
+Using AI to generate biblically accurate krautrock songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+krautrock, rapid-fire vocals (Male), sub-bass, steel drum, piano, Larghetto 64 bpm, B Aeolian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of the book of Luke chapter 2 quoting verses taken from the King James Version bible
+
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Instrumental] [chicano rap] [Ab Dorian] [Largo] [AI Music]
+
+Using AI to generate chicano rap instrumentals for vocalists from a variety of genres, musical keys, and modes.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+chicano rap, cello, harp, cello, beat, Largo 53 bpm, Ab Dorian
+
+[Instrumental]
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Psalm 19:1-2] [electronic dance music] [Eb Lydian] [Moderato] [AI Music]
+
+Using AI to generate biblically accurate electronic dance music songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+electronic dance music, rapid-fire vocals (Male), french horn, oud, plucked bass, Moderato 114 bpm, Eb Lydian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of Psalm 19:1-2 quoting this verse verbatim taken from the King James Version bible: The heavens declare the glory of God; and the firmament sheweth his handywork. Day unto day uttereth speech, and night unto night sheweth knowledge.
+
+King James Version
+Public Domain
+
+Prompt generated using Verse of the Day (votd) endpoint provided by BibleGateway
+https://www.biblegateway.com/passage/?search=Psalm%2019:1-2&amp;version=KJV
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Obadiah 1] [Oldskool Freestyle Mix] [Eb Locrian] [Largo] [AI Music]
+
+Using AI to generate biblically accurate Oldskool Freestyle Mix songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+Oldskool Freestyle Mix, Sygyt (male), harp, tambourine, biblically inspired lyrics book of Obadiah chapter 1, Largo 42 bpm, Eb Locrian
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Galatians 4] [post-rock] [Gb Locrian] [Moderato] [AI Music]
+
+Using AI to generate biblically accurate post-rock songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+post-rock, Kargyraa (male), tambourine, jarana, tabla, Moderato 116 bpm, Gb Locrian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of the book of Galatians chapter 4 quoting verses taken from the King James Version bible
+
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Instrumental] [Early 90s Heart Throb Freestyle] [B Aeolian] [Andante] [AI Music]
+
+Using AI to generate Early 90s Heart Throb Freestyle instrumentals for vocalists from a variety of genres, musical keys, and modes.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+Early 90s Heart Throb Freestyle, didgeridoo, electric guitar, saxophone, triangle, Andante 100 bpm, B Aeolian
+
+[Instrumental]
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Psalm 19:1-2] [contemporary classical] [B Dorian] [Allegro] [AI Music]
+
+Using AI to generate biblically accurate contemporary classical songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+contemporary classical, Baritone (male), drums, violin, banjo, Allegro 141 bpm, B Dorian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of Psalm 19:1-2 quoting this verse verbatim taken from the King James Version bible: The heavens declare the glory of God; and the firmament sheweth his handywork. Day unto day uttereth speech, and night unto night sheweth knowledge.
+
+King James Version
+Public Domain
+
+Prompt generated using Verse of the Day (votd) endpoint provided by BibleGateway
+https://www.biblegateway.com/passage/?search=Psalm%2019:1-2&amp;version=KJV
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Jeremiah 44] [classical acoustic guitar melody] [A Aeolian] [Larghetto] [AI Music]
+
+Using AI to generate biblically accurate classical acoustic guitar melody songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+classical acoustic guitar melody, Rapper (Female), bongo, cowbell, biblically inspired lyrics book of Jeremiah chapter 44, Larghetto 64 bpm, A Aeolian
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [3 John 1] [heavy sludge metal] [D Locrian] [Larghetto] [AI Music]
+
+Using AI to generate biblically accurate heavy sludge metal songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+heavy sludge metal, Rapper (Female), piano, tabla, saxophone, Larghetto 65 bpm, D Locrian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of the book of 3 John chapter 1 quoting verses taken from the King James Version bible
+
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Instrumental] [fast hardcore punk] [A# Aeolian] [Largo] [AI Music]
+
+Using AI to generate fast hardcore punk instrumentals for vocalists from a variety of genres, musical keys, and modes.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+fast hardcore punk, tambourine, mandolin, accordion, piano, Largo 45 bpm, A# Aeolian
+
+[Instrumental]
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Psalm 19:1-2] [slow ambient drone] [Eb Phrygian] [Largo] [AI Music]
+
+Using AI to generate biblically accurate slow ambient drone songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+slow ambient drone, Rapper (Male), drums, conga, double bass, Largo 45 bpm, Eb Phrygian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of Psalm 19:1-2 quoting this verse verbatim taken from the King James Version bible: The heavens declare the glory of God; and the firmament sheweth his handywork. Day unto day uttereth speech, and night unto night sheweth knowledge.
+
+King James Version
+Public Domain
+
+Prompt generated using Verse of the Day (votd) endpoint provided by BibleGateway
+https://www.biblegateway.com/passage/?search=Psalm%2019:1-2&amp;version=KJV
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Ecclesiastes 11] [Intelligent Drum n Bass] [A Locrian] [Largo] [AI Music]
+
+Using AI to generate biblically accurate Intelligent Drum n Bass songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+Intelligent Drum n Bass, Khoomei (male), banjo, kazoo, biblically inspired lyrics book of Ecclesiastes chapter 11, Largo 58 bpm, A Locrian
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Daniel 3] [fast bluegrass] [E Locrian] [Moderato] [AI Music]
+
+Using AI to generate biblically accurate fast bluegrass songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+fast bluegrass, Rapper (Female), kazoo, sub-bass, trumpet, Moderato 112 bpm, E Locrian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of the book of Daniel chapter 3 quoting verses taken from the King James Version bible
+
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Instrumental] [acid jazz] [F Phrygian] [Allegro] [AI Music]
+
+Using AI to generate acid jazz instrumentals for vocalists from a variety of genres, musical keys, and modes.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+acid jazz, kemenche, trumpet, sub-bass, oboe, Allegro 130 bpm, F Phrygian
+
+[Instrumental]
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Psalm 19:1-2] [western] [Ab Ionian] [Allegro] [AI Music]
+
+Using AI to generate biblically accurate western songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+western, Rapper (Male), didgeridoo, harp, bass guitar, Allegro 141 bpm, Ab Ionian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of Psalm 19:1-2 quoting this verse verbatim taken from the King James Version bible: The heavens declare the glory of God; and the firmament sheweth his handywork. Day unto day uttereth speech, and night unto night sheweth knowledge.
+
+King James Version
+Public Domain
+
+Prompt generated using Verse of the Day (votd) endpoint provided by BibleGateway
+https://www.biblegateway.com/passage/?search=Psalm%2019:1-2&amp;version=KJV
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [2 Timothy 3] [rap rock] [Gb Mixolydian] [Presto] [AI Music]
+
+Using AI to generate biblically accurate rap rock songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+rap rock, MC (Female), accordion, ukulele, biblically inspired lyrics book of 2 Timothy chapter 3, Presto 182 bpm, Gb Mixolydian
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Numbers 14] [christian worship] [D Locrian] [Moderato] [AI Music]
+
+Using AI to generate biblically accurate christian worship songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+christian worship, Tenor (male), accordion, accordion, french horn, Moderato 108 bpm, D Locrian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of the book of Numbers chapter 14 quoting verses taken from the King James Version bible
+
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Instrumental] [Hardstyle 150 BPM] [C# Phrygian] [Allegro] [AI Music]
+
+Using AI to generate Hardstyle 150 BPM instrumentals for vocalists from a variety of genres, musical keys, and modes.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+Hardstyle 150 BPM, french horn, piano, marimba, clarinet, Allegro 136 bpm, C# Phrygian
+
+[Instrumental]
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Psalm 19:1-2] [zydeco] [A# Lydian] [Andante] [AI Music]
+
+Using AI to generate biblically accurate zydeco songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+zydeco, Tenor (male), synthesizer, harp, tambourine, Andante 86 bpm, A# Lydian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of Psalm 19:1-2 quoting this verse verbatim taken from the King James Version bible: The heavens declare the glory of God; and the firmament sheweth his handywork. Day unto day uttereth speech, and night unto night sheweth knowledge.
+
+King James Version
+Public Domain
+
+Prompt generated using Verse of the Day (votd) endpoint provided by BibleGateway
+https://www.biblegateway.com/passage/?search=Psalm%2019:1-2&amp;version=KJV
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Nahum 2] [fast hardcore punk] [G Aeolian] [Moderato] [AI Music]
+
+Using AI to generate biblically accurate fast hardcore punk songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+fast hardcore punk, Rapper (Male), bongo, kemenche, biblically inspired lyrics book of Nahum chapter 2, Moderato 111 bpm, G Aeolian
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Romans 15] [slow ambient drone] [E Dorian] [Andante] [AI Music]
+
+Using AI to generate biblically accurate slow ambient drone songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+slow ambient drone, Soprano (female), bass guitar, harp, tambourine, Andante 77 bpm, E Dorian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of the book of Romans chapter 15 quoting verses taken from the King James Version bible
+
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Instrumental] [narcocorridos] [Ab Lydian] [Allegro] [AI Music]
+
+Using AI to generate narcocorridos instrumentals for vocalists from a variety of genres, musical keys, and modes.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+narcocorridos, bongo, harp, bass guitar, organ, Allegro 137 bpm, Ab Lydian
+
+[Instrumental]
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Psalm 19:1-2] [NYC Hip Hop] [Bb Ionian] [Larghetto] [AI Music]
+
+Using AI to generate biblically accurate NYC Hip Hop songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+NYC Hip Hop, MC (Male), xylophone, clarinet, fiddle, Larghetto 63 bpm, Bb Ionian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of Psalm 19:1-2 quoting this verse verbatim taken from the King James Version bible: The heavens declare the glory of God; and the firmament sheweth his handywork. Day unto day uttereth speech, and night unto night sheweth knowledge.
+
+King James Version
+Public Domain
+
+Prompt generated using Verse of the Day (votd) endpoint provided by BibleGateway
+https://www.biblegateway.com/passage/?search=Psalm%2019:1-2&amp;version=KJV
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Isaiah 52] [Mo Town] [Bb Mixolydian] [Moderato] [AI Music]
+
+Using AI to generate biblically accurate Mo Town songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+Mo Town, Kargyraa (male), trumpet, bagpipes, biblically inspired lyrics book of Isaiah chapter 52, Moderato 113 bpm, Bb Mixolydian
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [3 John 1] [heavy thrash metal] [Ab Aeolian] [Moderato] [AI Music]
+
+Using AI to generate biblically accurate heavy thrash metal songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+heavy thrash metal, Khoomei (male), oud, bongo, kemenche, Moderato 119 bpm, Ab Aeolian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of the book of 3 John chapter 1 quoting verses taken from the King James Version bible
+
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Instrumental] [Early 2000s Drum n Bass] [F# Phrygian] [Adagio] [AI Music]
+
+Using AI to generate Early 2000s Drum n Bass instrumentals for vocalists from a variety of genres, musical keys, and modes.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+Early 2000s Drum n Bass, french horn, saxophone, tambourine, cello, Adagio 75 bpm, F# Phrygian
+
+[Instrumental]
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Psalm 19:1-2] [slow country folk] [C# Ionian] [Adagio] [AI Music]
+
+Using AI to generate biblically accurate slow country folk songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+slow country folk, Chylandyk (male), guitar, bajo sexto, flute, Adagio 74 bpm, C# Ionian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of Psalm 19:1-2 quoting this verse verbatim taken from the King James Version bible: The heavens declare the glory of God; and the firmament sheweth his handywork. Day unto day uttereth speech, and night unto night sheweth knowledge.
+
+King James Version
+Public Domain
+
+Prompt generated using Verse of the Day (votd) endpoint provided by BibleGateway
+https://www.biblegateway.com/passage/?search=Psalm%2019:1-2&amp;version=KJV
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Genesis 10] [Freestyle Dance Music] [G Ionian] [Andante] [AI Music]
+
+Using AI to generate biblically accurate Freestyle Dance Music songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+Freestyle Dance Music, Baritone (male), double bass, organ, biblically inspired lyrics book of Genesis chapter 10, Andante 77 bpm, G Ionian
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Exodus 19] [Jazz Fusion] [A# Lydian] [Largo] [AI Music]
+
+Using AI to generate biblically accurate Jazz Fusion songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+Jazz Fusion, Baritone (male), electric guitar, guitar, steel drum, Largo 48 bpm, A# Lydian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of the book of Exodus chapter 19 quoting verses taken from the King James Version bible
+
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Instrumental] [Schranz] [Eb Locrian] [Moderato] [AI Music]
+
+Using AI to generate Schranz instrumentals for vocalists from a variety of genres, musical keys, and modes.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+Schranz, plucked bass, jarana, piano, oud, Moderato 119 bpm, Eb Locrian
+
+[Instrumental]
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Psalm 19:1-2] [Hip Hop 80-115 BPM] [A Lydian] [Moderato] [AI Music]
+
+Using AI to generate biblically accurate Hip Hop 80-115 BPM songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+Hip Hop 80-115 BPM, Baritone (male), bongo, fiddle, harp, Moderato 117 bpm, A Lydian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of Psalm 19:1-2 quoting this verse verbatim taken from the King James Version bible: The heavens declare the glory of God; and the firmament sheweth his handywork. Day unto day uttereth speech, and night unto night sheweth knowledge.
+
+King James Version
+Public Domain
+
+Prompt generated using Verse of the Day (votd) endpoint provided by BibleGateway
+https://www.biblegateway.com/passage/?search=Psalm%2019:1-2&amp;version=KJV
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Psalms 23] [Freestyle Music Mix] [F Ionian] [Andante] [AI Music]
+
+Using AI to generate biblically accurate Freestyle Music Mix songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+Freestyle Music Mix, Kargyraa (male), cowbell, triangle, biblically inspired lyrics book of Psalms chapter 23, Andante 97 bpm, F Ionian
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Lamentations 1] [Early 90s Freestyle Dance] [G# Locrian] [Andante] [AI Music]
+
+Using AI to generate biblically accurate Early 90s Freestyle Dance songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+Early 90s Freestyle Dance, Mezzo-Soprano (female), harp, fiddle, synthesizer, Andante 95 bpm, G# Locrian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of the book of Lamentations chapter 1 quoting verses taken from the King James Version bible
+
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Instrumental] [slow psychedelic rock] [C# Ionian] [Larghetto] [AI Music]
+
+Using AI to generate slow psychedelic rock instrumentals for vocalists from a variety of genres, musical keys, and modes.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+slow psychedelic rock, kemenche, marimba, oud, zither, Larghetto 66 bpm, C# Ionian
+
+[Instrumental]
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Psalm 19:1-2] [70s Proto Metal] [A Phrygian] [Allegro] [AI Music]
+
+Using AI to generate biblically accurate 70s Proto Metal songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+70s Proto Metal, Bass (male), cowbell, horsehead fiddle, tuba, Allegro 163 bpm, A Phrygian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of Psalm 19:1-2 quoting this verse verbatim taken from the King James Version bible: The heavens declare the glory of God; and the firmament sheweth his handywork. Day unto day uttereth speech, and night unto night sheweth knowledge.
+
+King James Version
+Public Domain
+
+Prompt generated using Verse of the Day (votd) endpoint provided by BibleGateway
+https://www.biblegateway.com/passage/?search=Psalm%2019:1-2&amp;version=KJV
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Zephaniah 1] [Breakcore Drum n Bass] [A Mixolydian] [Larghetto] [AI Music]
+
+Using AI to generate biblically accurate Breakcore Drum n Bass songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+Breakcore Drum n Bass, MC (Male), mongolian guitar, plucked bass, biblically inspired lyrics book of Zephaniah chapter 1, Larghetto 66 bpm, A Mixolydian
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Nehemiah 1] [Drum n Bass BPM 160-180] [D Mixolydian] [Adagio] [AI Music]
+
+Using AI to generate biblically accurate Drum n Bass BPM 160-180 songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+Drum n Bass BPM 160-180, MC (Female), ukulele, french horn, accordion, Adagio 70 bpm, D Mixolydian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of the book of Nehemiah chapter 1 quoting verses taken from the King James Version bible
+
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Instrumental] [Progressive Trance] [C Ionian] [Prestissimo] [AI Music]
+
+Using AI to generate Progressive Trance instrumentals for vocalists from a variety of genres, musical keys, and modes.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+Progressive Trance, vibraphone, zither, marimba, drums, Prestissimo 321 bpm, C Ionian
+
+[Instrumental]
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Psalm 19:1-2] [narcocorridos] [E Mixolydian] [Allegro] [AI Music]
+
+Using AI to generate biblically accurate narcocorridos songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+narcocorridos, Rapper (Male), bajo sexto, double bass, fiddle, Allegro 142 bpm, E Mixolydian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of Psalm 19:1-2 quoting this verse verbatim taken from the King James Version bible: The heavens declare the glory of God; and the firmament sheweth his handywork. Day unto day uttereth speech, and night unto night sheweth knowledge.
+
+King James Version
+Public Domain
+
+Prompt generated using Verse of the Day (votd) endpoint provided by BibleGateway
+https://www.biblegateway.com/passage/?search=Psalm%2019:1-2&amp;version=KJV
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [2 Corinthians 6] [classic 80s heart throb freestyle] [Ab Dorian] [Allegro] [AI Music]
+
+Using AI to generate biblically accurate classic 80s heart throb freestyle songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+classic 80s heart throb freestyle, Baritone (male), bass guitar, organ, biblically inspired lyrics book of 2 Corinthians chapter 6, Allegro 130 bpm, Ab Dorian
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Ezra 9] [Acid Techno] [D Phrygian] [Larghetto] [AI Music]
+
+Using AI to generate biblically accurate Acid Techno songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+Acid Techno, MC (Female), marimba, harmonica, bass guitar, Larghetto 64 bpm, D Phrygian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of the book of Ezra chapter 9 quoting verses taken from the King James Version bible
+
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Instrumental] [70s Proto Metal] [A# Mixolydian] [Andante] [AI Music]
+
+Using AI to generate 70s Proto Metal instrumentals for vocalists from a variety of genres, musical keys, and modes.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+70s Proto Metal, castanets, guttural throat singing, tuba, kazoo, Andante 90 bpm, A# Mixolydian
+
+[Instrumental]
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Psalm 19:1-2] [Avant-garde] [B Ionian] [Largo] [AI Music]
+
+Using AI to generate biblically accurate Avant-garde songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+Avant-garde, Soprano (female), cello, ukulele, double bass, Largo 59 bpm, B Ionian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of Psalm 19:1-2 quoting this verse verbatim taken from the King James Version bible: The heavens declare the glory of God; and the firmament sheweth his handywork. Day unto day uttereth speech, and night unto night sheweth knowledge.
+
+King James Version
+Public Domain
+
+Prompt generated using Verse of the Day (votd) endpoint provided by BibleGateway
+https://www.biblegateway.com/passage/?search=Psalm%2019:1-2&amp;version=KJV
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Leviticus 24] [Oldskool Latin Freestyle Mix] [D# Phrygian] [Prestissimo] [AI Music]
+
+Using AI to generate biblically accurate Oldskool Latin Freestyle Mix songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+Oldskool Latin Freestyle Mix, Mezzo-Soprano (female), drums, steel drum, biblically inspired lyrics book of Leviticus chapter 24, Prestissimo 392 bpm, D# Phrygian
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Jude 1] [90s Tech House] [D# Locrian] [Presto] [AI Music]
+
+Using AI to generate biblically accurate 90s Tech House songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+90s Tech House, Ezengileer (male), drums, drums, vibraphone, Presto 183 bpm, D# Locrian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of the book of Jude chapter 1 quoting verses taken from the King James Version bible
+
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Instrumental] [math rock] [Db Locrian] [Adagio] [AI Music]
+
+Using AI to generate math rock instrumentals for vocalists from a variety of genres, musical keys, and modes.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+math rock, zither, trombone, drums, clarinet, Adagio 71 bpm, Db Locrian
+
+[Instrumental]
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Psalm 19:1-2] [fast thrash metal] [G Phrygian] [Prestissimo] [AI Music]
+
+Using AI to generate biblically accurate fast thrash metal songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+fast thrash metal, Bass (male), banjo, tuba, drums, Prestissimo 339 bpm, G Phrygian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of Psalm 19:1-2 quoting this verse verbatim taken from the King James Version bible: The heavens declare the glory of God; and the firmament sheweth his handywork. Day unto day uttereth speech, and night unto night sheweth knowledge.
+
+King James Version
+Public Domain
+
+Prompt generated using Verse of the Day (votd) endpoint provided by BibleGateway
+https://www.biblegateway.com/passage/?search=Psalm%2019:1-2&amp;version=KJV
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Proverbs 16] [classical acoustic guitar melody] [A# Lydian] [Moderato] [AI Music]
+
+Using AI to generate biblically accurate classical acoustic guitar melody songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+classical acoustic guitar melody, Khoomei (male), guttural throat singing, triangle, biblically inspired lyrics book of Proverbs chapter 16, Moderato 118 bpm, A# Lydian
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Ephesians 2] [American Christian hip hop] [D# Mixolydian] [Larghetto] [AI Music]
+
+Using AI to generate biblically accurate American Christian hip hop songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+American Christian hip hop, Mezzo-Soprano (female), drums, synthesizer, conga, Larghetto 63 bpm, D# Mixolydian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of the book of Ephesians chapter 2 quoting verses taken from the King James Version bible
+
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Instrumental] [Hip Hop 80-115 BPM] [F Dorian] [Allegro] [AI Music]
+
+Using AI to generate Hip Hop 80-115 BPM instrumentals for vocalists from a variety of genres, musical keys, and modes.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+Hip Hop 80-115 BPM, vibraphone, banjo, harmonica, bağlama, Allegro 137 bpm, F Dorian
+
+[Instrumental]
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Psalm 19:1-2] [christian worship] [Eb Lydian] [Presto] [AI Music]
+
+Using AI to generate biblically accurate christian worship songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+christian worship, Bass (male), vihuela, bongo, drums, Presto 191 bpm, Eb Lydian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of Psalm 19:1-2 quoting this verse verbatim taken from the King James Version bible: The heavens declare the glory of God; and the firmament sheweth his handywork. Day unto day uttereth speech, and night unto night sheweth knowledge.
+
+King James Version
+Public Domain
+
+Prompt generated using Verse of the Day (votd) endpoint provided by BibleGateway
+https://www.biblegateway.com/passage/?search=Psalm%2019:1-2&amp;version=KJV
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Ephesians 1] [glitch] [G# Dorian] [Andante] [AI Music]
+
+Using AI to generate biblically accurate glitch songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+glitch, rapid-fire vocals (Female), bongo, guitar, biblically inspired lyrics book of Ephesians chapter 1, Andante 91 bpm, G# Dorian
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Esther 5] [slow R&B] [F# Aeolian] [Andante] [AI Music]
+
+Using AI to generate biblically accurate slow R&B songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+slow R&B, cryptic lyricism (Female), castanets, piano, horsehead fiddle, Andante 85 bpm, F# Aeolian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of the book of Esther chapter 5 quoting verses taken from the King James Version bible
+
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Instrumental] [slow waltz] [G# Phrygian] [Presto] [AI Music]
+
+Using AI to generate slow waltz instrumentals for vocalists from a variety of genres, musical keys, and modes.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+slow waltz, double bass, saxophone, organ, djembe, Presto 178 bpm, G# Phrygian
+
+[Instrumental]
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Psalm 19:1-2] [fast hip-hop] [C Ionian] [Moderato] [AI Music]
+
+Using AI to generate biblically accurate fast hip-hop songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+fast hip-hop, Rapper (Female), french horn, accordion, triangle, Moderato 108 bpm, C Ionian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of Psalm 19:1-2 quoting this verse verbatim taken from the King James Version bible: The heavens declare the glory of God; and the firmament sheweth his handywork. Day unto day uttereth speech, and night unto night sheweth knowledge.
+
+King James Version
+Public Domain
+
+Prompt generated using Verse of the Day (votd) endpoint provided by BibleGateway
+https://www.biblegateway.com/passage/?search=Psalm%2019:1-2&amp;version=KJV
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Obadiah 1] [Heavy Blues] [G# Aeolian] [Adagio] [AI Music]
+
+Using AI to generate biblically accurate Heavy Blues songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+Heavy Blues, Bass (male), sub-bass, conga, biblically inspired lyrics book of Obadiah chapter 1, Adagio 71 bpm, G# Aeolian
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [2 John 1] [Progressive House] [Db Phrygian] [Moderato] [AI Music]
+
+Using AI to generate biblically accurate Progressive House songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+Progressive House, Mezzo-Soprano (female), cowbell, piano, synth, Moderato 109 bpm, Db Phrygian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of the book of 2 John chapter 1 quoting verses taken from the King James Version bible
+
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Instrumental] [fast progressive house] [E Dorian] [Largo] [AI Music]
+
+Using AI to generate fast progressive house instrumentals for vocalists from a variety of genres, musical keys, and modes.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+fast progressive house, fiddle, trombone, plucked bass, oboe, Largo 49 bpm, E Dorian
+
+[Instrumental]
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Psalm 19:1-2] [J-Pop] [Ab Aeolian] [Prestissimo] [AI Music]
+
+Using AI to generate biblically accurate J-Pop songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+J-Pop, Tenor (male), bagpipes, double bass, bagpipes, Prestissimo 287 bpm, Ab Aeolian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of Psalm 19:1-2 quoting this verse verbatim taken from the King James Version bible: The heavens declare the glory of God; and the firmament sheweth his handywork. Day unto day uttereth speech, and night unto night sheweth knowledge.
+
+King James Version
+Public Domain
+
+Prompt generated using Verse of the Day (votd) endpoint provided by BibleGateway
+https://www.biblegateway.com/passage/?search=Psalm%2019:1-2&amp;version=KJV
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [1 Timothy 5] [NYC Hip Hop] [G Dorian] [Adagio] [AI Music]
+
+Using AI to generate biblically accurate NYC Hip Hop songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+NYC Hip Hop, Bass (male), bağlama, bagpipes, biblically inspired lyrics book of 1 Timothy chapter 5, Adagio 72 bpm, G Dorian
+
+ Lyrics_Here
+
+------------------------------New Prompt-------------------------------------
