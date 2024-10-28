@@ -6,6 +6,7 @@
 ```
 https://suno.com/@crossofthemessiah
 ```
+# Ownership and commercial use rights is retained for any songs created during active subscription, even after cancelling. Proof of ownership is available upon request. For more information, please reference Suno KB at https://help.suno.com/en/articles/2421505
 
 # This project utilizes and builds off of an existing open source API for Suno.ai which is required for these scripts to work. A Docker, an OS-level virtualization software, container can be used to run the Suno API, or you can stand up a dedicated server to house this application in which case the base url of the api scripts will need to be modified from local host. The complete repo can be found here on GitHub at
 ```
