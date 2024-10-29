@@ -102,11 +102,20 @@ def generate_biblical_song_simple():
         bible_book_choice = random.choice(bible_chapters)
         bible_chap_choice = random.randint(1, bible_book_choice[1])
         tempo_choice = random.choice(tempos)
+        tempo_choice_int = random.randint(tempo_choice[1], tempo_choice[2])
         musical_key_choice = random.choice(musical_keys)
         
-        yt_title = f"Song_Title_Here [{bible_book_choice[0]} {bible_chap_choice}] [{bible_song_genre_choice[0]}] [{musical_key_choice[0]}] [{tempo_choice[0]}] [AI Music]\n\n"
+      
+        timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+        yt_title = f"VOTD {bible_book_choice[0]} {bible_chap_choice} {bible_song_genre_choice[0]} {timestamp} [{musical_key_choice[0]}] [{tempo_choice[0]}] [AI Music]\n\n"
         check_and_write_to_file('log/prompt_history.txt', yt_title)
         print(yt_title)
+        print("")
+
+        suno_song_title = f"VOTD {bible_book_choice[0]} {bible_chap_choice} {bible_song_genre_choice[0]} {tempo_choice[0]} {tempo_choice_int} {musical_key_choice[0]} {timestamp}\n\n"
+        suno_song_title_clean = suno_song_title.replace(",", "")
+        check_and_write_to_file('log/prompt_history.txt', suno_song_title_clean)
+        print(suno_song_title_clean)
         print("")
         
         yt_descr = f"Using AI to generate biblically accurate {bible_song_genre_choice[0]} songs and music videos.\n\n"
@@ -114,7 +123,7 @@ def generate_biblical_song_simple():
         print(yt_descr)
         print("")
         
-        song_descr_prompt = f'{bible_song_genre_choice[0]}, {vocalist_choice[0]} ({vocalist_choice[2]}), {instrument_choice_1}, {instrument_choice_2}, biblically inspired lyrics book of {bible_book_choice[0]} chapter {bible_chap_choice}, {tempo_choice[0]} {random.randint(tempo_choice[1], tempo_choice[2])} bpm, {musical_key_choice[0]}'
+        song_descr_prompt = f'{bible_song_genre_choice[0]}, {vocalist_choice[0]} ({vocalist_choice[2]}), {instrument_choice_1}, {instrument_choice_2}, biblically inspired lyrics book of {bible_book_choice[0]} chapter {bible_chap_choice}, {tempo_choice[0]} {tempo_choice_int} bpm, {musical_key_choice[0]}'
         
         if len(song_descr_prompt) < 200:
             check_and_write_to_file('log/prompt_history.txt', "Generated using Suno AI\n Suno_Link_Here\n\nStyle of Music Prompt:\n")
@@ -136,13 +145,21 @@ def generate_biblical_song_custom():
         bible_book_choice = random.choice(bible_chapters)
         bible_chap_choice = random.randint(1, bible_book_choice[1])
         tempo_choice = random.choice(tempos)
+        tempo_choice_int = random.randint(tempo_choice[1], tempo_choice[2])
         musical_key_choice = random.choice(musical_keys)
-        
-        yt_title = f"Song_Title_Here [{bible_book_choice[0]} {bible_chap_choice}] [{song_genre_choice[0]}] [{musical_key_choice[0]}] [{tempo_choice[0]}] [AI Music]\n\n"
+
+        timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+        yt_title = f"VOTD {bible_book_choice[0]} {bible_chap_choice} {song_genre_choice[0]} {timestamp} [{musical_key_choice[0]}] [{tempo_choice[0]}] [AI Music]\n\n"
         check_and_write_to_file('log/prompt_history.txt', yt_title)
         print(yt_title)
         print("")
         
+        suno_song_title = f"VOTD {bible_book_choice[0]} {bible_chap_choice} {song_genre_choice[0]} {tempo_choice[0]} {tempo_choice_int} {musical_key_choice[0]} {timestamp}\n\n"
+        suno_song_title_clean = suno_song_title.replace(",", "")
+        check_and_write_to_file('log/prompt_history.txt', suno_song_title_clean)
+        print(suno_song_title_clean)
+        print("")
+
         yt_descr = f"Using AI to generate biblically accurate {song_genre_choice[0]} songs and music videos.\n\n"
         check_and_write_to_file('log/prompt_history.txt', yt_descr)
         print(yt_descr)
@@ -150,7 +167,7 @@ def generate_biblical_song_custom():
         
         lyrics_prompt = f'Generate biblically accurate lyrics inspired by the message of the book of {bible_book_choice[0]} chapter {bible_chap_choice} quoting verses taken from the King James Version bible'
         
-        style_of_music_prompt = f'{song_genre_choice[0]}, {vocalist_choice[0]} ({vocalist_choice[2]}), {instrument_choice_1}, {instrument_choice_2}, {instrument_choice_3}, {tempo_choice[0]} {random.randint(tempo_choice[1], tempo_choice[2])} bpm, {musical_key_choice[0]}'
+        style_of_music_prompt = f'{song_genre_choice[0]}, {vocalist_choice[0]} ({vocalist_choice[2]}), {instrument_choice_1}, {instrument_choice_2}, {instrument_choice_3}, {tempo_choice[0]} {tempo_choice_int} bpm, {musical_key_choice[0]}'
         
         if len(style_of_music_prompt) < 120 and len(lyrics_prompt) < 399:
             concat_prompts = f"Generated using Suno AI\n Suno_Link_Here\n\nStyle of Music Prompt:\n{style_of_music_prompt}\n\nLyrics Prompt:\n{lyrics_prompt}\n"
@@ -169,11 +186,19 @@ def generate_instrumental_song_simple():
         instrument_choice_3 = random.choice(instruments)
         instrument_choice_4 = random.choice(instruments)
         tempo_choice = random.choice(tempos)
+        tempo_choice_int = random.randint(tempo_choice[1], tempo_choice[2])
         musical_key_choice = random.choice(musical_keys)
         
-        yt_title = f"Song_Title_Here [Instrumental] [{instrumental_song_genre_choice[0]}] [{musical_key_choice[0]}] [{tempo_choice[0]}] [AI Music]\n\n"
+        timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+        yt_title = f"Instrumental {instrumental_song_genre_choice[0]} {timestamp} [{musical_key_choice[0]}] [{tempo_choice[0]}] [AI Music]\n\n"
         check_and_write_to_file('log/prompt_history.txt', yt_title)
         print(yt_title)
+        print("")
+
+        suno_song_title = f"Instrumental {instrumental_song_genre_choice[0]} {tempo_choice[0]} {tempo_choice_int} {musical_key_choice[0]} {timestamp}\n\n"
+        suno_song_title_clean = suno_song_title.replace(",", "")
+        check_and_write_to_file('log/prompt_history.txt', suno_song_title_clean)
+        print(suno_song_title_clean)
         print("")
         
         yt_descr = f"Using AI to generate {instrumental_song_genre_choice[0]} instrumentals and loops for vocalists and musicians from a variety of genres, musical keys, and modes.\n\n"
@@ -181,7 +206,7 @@ def generate_instrumental_song_simple():
         print(yt_descr)
         print("")
         
-        combination = f'{instrumental_song_genre_choice[0]}, {instrument_choice_1}, {instrument_choice_2}, {instrument_choice_3}, {instrument_choice_4}, {tempo_choice[0]} {random.randint(tempo_choice[1], tempo_choice[2])} bpm, {musical_key_choice[0]}'
+        combination = f'{instrumental_song_genre_choice[0]}, {instrument_choice_1}, {instrument_choice_2}, {instrument_choice_3}, {instrument_choice_4}, {tempo_choice[0]} {tempo_choice_int} bpm, {musical_key_choice[0]}'
         
         if len(combination) < 200:
             check_and_write_to_file('log/prompt_history.txt', "Generated using Suno AI\n Suno_Link_Here\n\nStyle of Music Prompt:\n")
@@ -214,16 +239,25 @@ def generate_bible_gateway_votd_song_custom():
     print("Bible Verse reference: ", votds['votd']['version'])
     biblecontent = votds['votd']['content']
     biblereference = votds['votd']['reference']
+    biblereference_clean = biblereference.replace(":", "_")
     bibleversion = votds['votd']['version']
     verselink = votds['votd']['permalink']
     print(verselink)
         
     tempo_choice = random.choice(tempos)
+    tempo_choice_int = random.randint(tempo_choice[1], tempo_choice[2])
     musical_key_choice = random.choice(musical_keys)
         
-    yt_title = f"Song_Title_Here [{biblereference}] [{song_genre_choice[0]}] [{musical_key_choice[0]}] [{tempo_choice[0]}] [AI Music]\n\n"
+    timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+    yt_title = f"VOTD {biblereference} {song_genre_choice[0]} {timestamp} [{musical_key_choice[0]}] [{tempo_choice[0]}] [AI Music]\n\n"
     check_and_write_to_file('log/prompt_history.txt', yt_title)
     print(yt_title)
+    print("")
+
+    suno_song_title = f"VOTD {biblereference_clean} {song_genre_choice[0]} {tempo_choice[0]} {tempo_choice_int} {musical_key_choice[0]} {timestamp}\n\n"
+    suno_song_title_clean = suno_song_title.replace(",", "")
+    check_and_write_to_file('log/prompt_history.txt', suno_song_title_clean)
+    print(suno_song_title_clean)
     print("")
         
     yt_descr = f"Using AI to generate biblically accurate {song_genre_choice[0]} songs and music videos.\n\n"
@@ -236,7 +270,7 @@ def generate_bible_gateway_votd_song_custom():
     if len(lyrics_prompt) > 399:
         lyrics_prompt = {biblecontent}
         
-    style_of_music_prompt = f'{song_genre_choice[0]}, {vocalist_choice[0]} ({vocalist_choice[2]}), {instrument_choice_1}, {instrument_choice_2}, {instrument_choice_3}, {tempo_choice[0]} {random.randint(tempo_choice[1], tempo_choice[2])} bpm, {musical_key_choice[0]}'
+    style_of_music_prompt = f'{song_genre_choice[0]}, {vocalist_choice[0]} ({vocalist_choice[2]}), {instrument_choice_1}, {instrument_choice_2}, {instrument_choice_3}, {tempo_choice[0]} {tempo_choice_int} bpm, {musical_key_choice[0]}'
         
         # if len(style_of_music_prompt) < 120 and len(lyrics_prompt) < 399:
     concat_prompts = f"Generated using Suno AI\n Suno_Link_Here\n\nStyle of Music Prompt:\n{style_of_music_prompt}\n\nLyrics Prompt:\n{lyrics_prompt}\n\n{bibleversion}\nPublic Domain\n\nPrompt generated using Verse of the Day (votd) endpoint provided by BibleGateway\n{verselink}"
@@ -255,11 +289,19 @@ def generate_drum_loop_simple():
         percussion_instrument_choice_4 = random.choice(percussion_instruments)
         style_choice = random.choice(["Rhythm-Only", "Pitched Drum Elements", "Electronic"])
         tempo_choice = random.choice(tempos)
+        tempo_choice_int = random.randint(tempo_choice[1], tempo_choice[2])
         musical_key_choice = random.choice(musical_keys)
         
-        yt_title = f"Song_Title_Here [Drum Loop] [{drum_loop_genre_choice[0]}] [{drum_kit_choice[0]}] [{style_choice}] [{tempo_choice[0]}] [AI Music]\n\n"
+        timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+        yt_title = f"{drum_loop_genre_choice[0]} [{drum_kit_choice[0]}] [{tempo_choice[0]}] [AI Music]\n\n"
         check_and_write_to_file('log/prompt_history.txt', yt_title)
         print(yt_title)
+        print("")
+
+        suno_song_title = f"{drum_loop_genre_choice[0]} {drum_kit_choice[0]} {tempo_choice[0]} {tempo_choice_int} {timestamp}\n\n"
+        suno_song_title_clean = suno_song_title.replace(",", "")
+        check_and_write_to_file('log/prompt_history.txt', suno_song_title_clean)
+        print(suno_song_title_clean)
         print("")
         
         yt_descr = f"Using AI to generate {drum_loop_genre_choice[0]} drum loops from a variety of genres, musical keys, and modes for musicians to rehearse with.\n\n"
@@ -267,7 +309,7 @@ def generate_drum_loop_simple():
         print(yt_descr)
         print("")
         
-        combination = f'{drum_loop_genre_choice[0]}, {drum_kit_choice[0]}, {drum_kit_choice[1]}, {drum_kit_choice[2]}, {drum_kit_choice[3]}, {drum_kit_choice[4]}, {percussion_instrument_choice_1[0]}, {percussion_instrument_choice_2[0]}, {percussion_instrument_choice_3[0]}, {percussion_instrument_choice_4[0]}, {style_choice}, {tempo_choice[0]} {random.randint(tempo_choice[1], tempo_choice[2])} bpm, {musical_key_choice[0]}'
+        combination = f'{drum_loop_genre_choice[0]}, {drum_kit_choice[0]}, {drum_kit_choice[1]}, {drum_kit_choice[2]}, {drum_kit_choice[3]}, {drum_kit_choice[4]}, {percussion_instrument_choice_1[0]}, {percussion_instrument_choice_2[0]}, {percussion_instrument_choice_3[0]}, {percussion_instrument_choice_4[0]}, {style_choice}, {tempo_choice[0]} {tempo_choice_int} bpm, {musical_key_choice[0]}'
         
         if len(combination) < 200:
             check_and_write_to_file('log/prompt_history.txt', "Generated using Suno AI\n Suno_Link_Here\n\nStyle of Music Prompt:\n")
