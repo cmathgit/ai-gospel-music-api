@@ -1922,19 +1922,40 @@ try:
         json.dump(percussion_instruments, percussion_instruments_data_dump_file)
 except IOError as e:
     print("Error writing to file:", e)
-'''
-# converts a list of tuples to a set. This operation will remove any duplicate tuples automatically.
-# Convert the lists to sets to remove duplicates
-bible_song_genre_set = set(bible_song_genre)
-song_genre_set = set(song_genre)
 
-# Combine the sets
-combined_set = bible_song_genre_set.union(song_genre_set)
+#exclude non percussion instruments
+anti_percussion_instruments = [
+    "guitar",
+    "piano",
+    "bass guitar",
+    "horns",
+    "winds",
+    "vocals",
+    "strings",
+    "pads",
+    "synths",
+    "woodwinds",
+    "brass",
+    "organ",
+    "accordion",
+    "harp"
+]
 
-# Convert the combined set back to a list
-combined_list = list(combined_set)
+# Writing to file with error handling
+anti_percussion_instruments_dump_file = f"{base_file_path}anti_percussion_instruments_dict.json"
+try:
+    with open(anti_percussion_instruments_dump_file, 'w') as anti_percussion_instruments_data_dump_file:
+        json.dump(anti_percussion_instruments, anti_percussion_instruments_data_dump_file)
+except IOError as e:
+    print("Error writing to file:", e)
 
-# Print the combined list
-for genre in combined_list:
-    print(f'{genre},')
-'''
+#exclude pop genres
+exclude_pop_genres_prompt = ["pop", "electropop", "synthpop", "indie pop", "K-pop", "J-pop", "dance-pop", "art pop", "teen pop", "hyperpop"]
+
+# Writing to file with error handling
+exclude_pop_genres_dump_file = f"{base_file_path}exclude_pop_genres_dict.json"
+try:
+    with open(exclude_pop_genres_dump_file, 'w') as exclude_pop_genres_data_dump_file:
+        json.dump(exclude_pop_genres_prompt, exclude_pop_genres_data_dump_file)
+except IOError as e:
+    print("Error writing to file:", e)
