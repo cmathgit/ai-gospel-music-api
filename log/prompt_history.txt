@@ -1,74 +1,13 @@
-Generated using Suno AI
- Suno_Link_Here
-
-Style of Music Prompt:
-fast trap, trumpet, didgeridoo, bongo, piano, Allegro 124 bpm, C Phrygian
-
-[Instrumental]
-
-------------------------------New Prompt-------------------------------------
-Song_Title_Here [1 Peter 1:24-25] [Freestyle Electro] [C# Dorian] [Larghetto] [AI Music]
-
-Using AI to generate biblically accurate Freestyle Electro songs and music videos.
+Using AI to generate biblically accurate Soundtrack songs and music videos.
 
 Generated using Suno AI
  Suno_Link_Here
 
 Style of Music Prompt:
-Freestyle Electro, Tenor (male), banjo, zither, banjo, Larghetto 62 bpm, C# Dorian
+Soundtrack, Rapper (Male), oud, mandolin, beat, Larghetto 60 bpm, A# Ionian
 
 Lyrics Prompt:
-Generate biblically accurate lyrics inspired by the message of 1 Peter 1:24-25 quoting this verse verbatim taken from the King James Version bible: For all flesh is as grass, and all the glory of man as the flower of grass. The grass withereth, and the flower thereof falleth away: But the word of the Lord endureth for ever. And this is the word which by the gospel is preached unto you.
-
-King James Version
-Public Domain
-
-Prompt generated using Verse of the Day (votd) endpoint provided by BibleGateway
-https://www.biblegateway.com/passage/?search=1%20Peter%201%3A24-25&amp;version=KJV
-
- Lyrics_Here
-
-------------------------------New Prompt-------------------------------------
-Song_Title_Here [Drum Loop] [Indie Rock Drum Loop] [Orchestral Drum Kit] [Rhythm-Only] [Presto] [AI Music]
-
-Using AI to generate Indie Rock Drum Loop drum loops from a variety of genres, musical keys, and modes for musicians to rehearse with.
-
-Generated using Suno AI
- Suno_Link_Here
-
-Style of Music Prompt:
-Indie Rock Drum Loop, Orchestral Drum Kit, Timpani, Bass Drum, Snare, Cymbals, Castanets, Congas, Rack Tom, Surdo, Rhythm-Only, Presto 200 bpm, Bb Locrian
-
-[Drum Loop]
-
-------------------------------New Prompt-------------------------------------
-Song_Title_Here [Judges 11] [Drumstep] [D# Ionian] [Moderato] [AI Music]
-
-Using AI to generate biblically accurate Drumstep songs and music videos.
-
-Generated using Suno AI
- Suno_Link_Here
-
-Style of Music Prompt:
-Drumstep, Rapper (Female), conga, horn, biblically inspired lyrics book of Judges chapter 11, Moderato 120 bpm, D# Ionian
-
- Lyrics_Here
-
-Ownership and commercial use rights is retained for any songs created during active subscription, even after cancelling. Proof of ownership is available upon request. For more information, please reference Suno KB at https://help.suno.com/en/articles/2421505
-
-------------------------------New Prompt-------------------------------------
-Song_Title_Here [2 Timothy 4] [experimental rock] [D Locrian] [Presto] [AI Music]
-
-Using AI to generate biblically accurate experimental rock songs and music videos.
-
-Generated using Suno AI
- Suno_Link_Here
-
-Style of Music Prompt:
-experimental rock, Khoomei (male), cello, kazoo, triangle, Presto 198 bpm, D Locrian
-
-Lyrics Prompt:
-Generate biblically accurate lyrics inspired by the message of the book of 2 Timothy chapter 4 quoting verses taken from the King James Version bible
+Generate biblically accurate lyrics inspired by the message of the book of John chapter 2 quoting verses taken from the King James Version bible
 
 
  Lyrics_Here
@@ -76,55 +15,357 @@ Generate biblically accurate lyrics inspired by the message of the book of 2 Tim
 Ownership and commercial use rights is retained for any songs created during active subscription, even after cancelling. Proof of ownership is available upon request. For more information, please reference Suno KB at https://help.suno.com/en/articles/2421505
 
 ------------------------------New Prompt-------------------------------------
-Song_Title_Here [Instrumental] [future garage] [Db Aeolian] [Presto] [AI Music]
+Song_Title_Here [Instrumental] [Oldschool jungle] [G# Dorian] [Presto] [AI Music]
 
-Using AI to generate future garage instrumentals and loops for vocalists and musicians from a variety of genres, musical keys, and modes.
+Using AI to generate Oldschool jungle instrumentals and loops for vocalists and musicians from a variety of genres, musical keys, and modes.
 
 Generated using Suno AI
  Suno_Link_Here
 
 Style of Music Prompt:
-future garage, marimba, bongo, accordion, oboe, Presto 189 bpm, Db Aeolian
+Oldschool jungle, tuba, trumpet, banjo, ukulele, Presto 189 bpm, G# Dorian
 
 [Instrumental]
 
 Ownership and commercial use rights is retained for any songs created during active subscription, even after cancelling. Proof of ownership is available upon request. For more information, please reference Suno KB at https://help.suno.com/en/articles/2421505
 
 ------------------------------New Prompt-------------------------------------
-Song_Title_Here [1 Peter 1:24-25] [Modernism, dissonant, abstract.] [G# Aeolian] [Adagio] [AI Music]
+Song_Title_Here [Romans 12:1] [Minimalist Soundscapes] [Db Lydian] [Largo] [AI Music]
 
-Using AI to generate biblically accurate Modernism, dissonant, abstract. songs and music videos.
+Using AI to generate biblically accurate Minimalist Soundscapes songs and music videos.
 
 Generated using Suno AI
  Suno_Link_Here
 
 Style of Music Prompt:
-Modernism, dissonant, abstract., Mezzo-Soprano (female), french horn, bassoon, organ, Adagio 71 bpm, G# Aeolian
+Minimalist Soundscapes, MC (Female), horsehead fiddle, bongo, cowbell, Largo 54 bpm, Db Lydian
 
 Lyrics Prompt:
-Generate biblically accurate lyrics inspired by the message of 1 Peter 1:24-25 quoting this verse verbatim taken from the King James Version bible: For all flesh is as grass, and all the glory of man as the flower of grass. The grass withereth, and the flower thereof falleth away: But the word of the Lord endureth for ever. And this is the word which by the gospel is preached unto you.
+Generate biblically accurate lyrics inspired by the message of Romans 12:1 quoting this verse verbatim taken from the King James Version bible: I beseech you therefore, brethren, by the mercies of God, that ye present your bodies a living sacrifice, holy, acceptable unto God, which is your reasonable service.
 
 King James Version
 Public Domain
 
 Prompt generated using Verse of the Day (votd) endpoint provided by BibleGateway
-https://www.biblegateway.com/passage/?search=1%20Peter%201%3A24-25&amp;version=KJV
+https://www.biblegateway.com/passage/?search=Romans%2012%3A1&amp;version=KJV
+
+[Verse]
+From the depths of my soul I cry and plead
+With God's mercies my heart is freed
+We offer ourselves a living sacrifice
+Holy and pure in Jesus Christ
+
+[Verse 2]
+In the light of His grace we rise
+Shine for Him every day and night
+Presenting lives holy and true
+Reasonable service in all we do
+
+[Chorus]
+I beseech you therefore brethren
+By the mercies of our God so high
+Present your bodies as a living sacrifice
+Holy and pure in His sight
+
+[Bridge]
+Let our lives reflect His love
+Guided by the heavens above
+In His name we stand and serve
+Living for a cause so grand
+
+[Verse 3]
+With hearts renewed and minds set free
+Following His path eternally
+Embracing the call we rise to be
+Living sacrifices you and me
+
+[Chorus]
+I beseech you therefore brethren
+By the mercies of our God so high
+Present your bodies as a living sacrifice
+Holy and pure in His sight
+
+Ownership and commercial use rights is retained for any songs generated by my self using Suno during active subscription, even after cancelling. Proof of ownership is available upon request. For more information, please reference Suno Knowledge Base Articles at https://help.suno.com/en/articles/2421505
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Drum Loop] [Indie Pop Drum Loop] [Funk Drum Kit] [Electronic] [Andante] [AI Music]
+
+Using AI to generate Indie Pop Drum Loop drum loops from a variety of genres, musical keys, and modes for musicians to rehearse with.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+Indie Pop Drum Loop, Funk Drum Kit, Tight Snare, Quick Hi-Hats, Smaller Toms, Ride Cymbal, Hybrid Kits, Bullroarer, Snare Drum, Swish Cymbal, Electronic, Andante 78 bpm, Gb Dorian
+
+[Drum Loop]
+
+Ownership and commercial use rights is retained for any songs created during active subscription, even after cancelling. Proof of ownership is available upon request. For more information, please reference Suno KB at https://help.suno.com/en/articles/2421505
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [2 Corinthians 4] [slow chamber music] [A# Aeolian] [Larghetto] [AI Music]
+
+Using AI to generate biblically accurate slow chamber music songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+slow chamber music, Rapper (Male), zither, flute, biblically inspired lyrics book of 2 Corinthians chapter 4, Larghetto 66 bpm, A# Aeolian
 
  Lyrics_Here
 
 Ownership and commercial use rights is retained for any songs created during active subscription, even after cancelling. Proof of ownership is available upon request. For more information, please reference Suno KB at https://help.suno.com/en/articles/2421505
 
 ------------------------------New Prompt-------------------------------------
-Song_Title_Here [Drum Loop] [Minimalism Drum Loop] [Afro-Cuban Kit] [Electronic] [Adagio] [AI Music]
+Song_Title_Here [1 Thessalonians 1] [Cinematic Score] [Bb Dorian] [Largo] [AI Music]
 
-Using AI to generate Minimalism Drum Loop drum loops from a variety of genres, musical keys, and modes for musicians to rehearse with.
+Using AI to generate biblically accurate Cinematic Score songs and music videos.
 
 Generated using Suno AI
  Suno_Link_Here
 
 Style of Music Prompt:
-Minimalism Drum Loop, Afro-Cuban Kit, Congas, Claves, Cowbells, Bongos, Thunder Sheet, Doumbek, Frame Drum, Bodhrán, Electronic, Adagio 66 bpm, D# Aeolian
+Cinematic Score, Rapper (Female), xylophone, Harmonium, acoustic guitar, Largo 41 bpm, Bb Dorian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of the book of 1 Thessalonians chapter 1 quoting verses taken from the King James Version bible
+
+
+ Lyrics_Here
+
+Ownership and commercial use rights is retained for any songs created during active subscription, even after cancelling. Proof of ownership is available upon request. For more information, please reference Suno KB at https://help.suno.com/en/articles/2421505
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Instrumental] [Jump Up Drum n Bass] [Db Locrian] [Larghetto] [AI Music]
+
+Using AI to generate Jump Up Drum n Bass instrumentals and loops for vocalists and musicians from a variety of genres, musical keys, and modes.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+Jump Up Drum n Bass, trombone, trumpet, fiddle, zither, Larghetto 62 bpm, Db Locrian
+
+[Instrumental]
+
+Ownership and commercial use rights is retained for any songs created during active subscription, even after cancelling. Proof of ownership is available upon request. For more information, please reference Suno KB at https://help.suno.com/en/articles/2421505
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Romans 12:1] [mongolian folk metal] [E Dorian] [Prestissimo] [AI Music]
+
+Using AI to generate biblically accurate mongolian folk metal songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+mongolian folk metal, Ezengileer (male), accordion, beat, accordion, Prestissimo 418 bpm, E Dorian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of Romans 12:1 quoting this verse verbatim taken from the King James Version bible: I beseech you therefore, brethren, by the mercies of God, that ye present your bodies a living sacrifice, holy, acceptable unto God, which is your reasonable service.
+
+King James Version
+Public Domain
+
+Prompt generated using Verse of the Day (votd) endpoint provided by BibleGateway
+https://www.biblegateway.com/passage/?search=Romans%2012%3A1&amp;version=KJV
+
+ Lyrics_Here
+
+Ownership and commercial use rights is retained for any songs created during active subscription, even after cancelling. Proof of ownership is available upon request. For more information, please reference Suno KB at https://help.suno.com/en/articles/2421505
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Drum Loop] [Alternative Drum Loop] [Jazz Drum Kit] [Rhythm-Only] [Adagio] [AI Music]
+
+Using AI to generate Alternative Drum Loop drum loops from a variety of genres, musical keys, and modes for musicians to rehearse with.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+Alternative Drum Loop, Jazz Drum Kit, Smaller Bass Drum, Ride Cymbal, Snare, Hi-Hats, Hybrid Kits, Drum Machines, Chimes, Djembe, Rhythm-Only, Adagio 72 bpm, Gb Mixolydian
 
 [Drum Loop]
 
 Ownership and commercial use rights is retained for any songs created during active subscription, even after cancelling. Proof of ownership is available upon request. For more information, please reference Suno KB at https://help.suno.com/en/articles/2421505
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Nahum 1] [minimalist techno] [Ab Aeolian] [Larghetto] [AI Music]
+
+Using AI to generate biblically accurate minimalist techno songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+minimalist techno, Countertenor (male), accordion, saxophone, biblically inspired lyrics book of Nahum chapter 1, Larghetto 61 bpm, Ab Aeolian
+
+ Lyrics_Here
+
+Ownership and commercial use rights is retained for any songs created during active subscription, even after cancelling. Proof of ownership is available upon request. For more information, please reference Suno KB at https://help.suno.com/en/articles/2421505
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Leviticus 27] [Techstep Drum n Bass] [D Aeolian] [Prestissimo] [AI Music]
+
+Using AI to generate biblically accurate Techstep Drum n Bass songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+Techstep Drum n Bass, Mezzo-Soprano (female), marimba, drums, Strings, Prestissimo 270 bpm, D Aeolian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of the book of Leviticus chapter 27 quoting verses taken from the King James Version bible
+
+
+ Lyrics_Here
+
+Ownership and commercial use rights is retained for any songs created during active subscription, even after cancelling. Proof of ownership is available upon request. For more information, please reference Suno KB at https://help.suno.com/en/articles/2421505
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Instrumental] [experimental rock] [C Aeolian] [Andante] [AI Music]
+
+Using AI to generate experimental rock instrumentals and loops for vocalists and musicians from a variety of genres, musical keys, and modes.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+experimental rock, oboe, bass guitar, cowbell, Computer-based Effects, Andante 97 bpm, C Aeolian
+
+[Instrumental]
+
+Ownership and commercial use rights is retained for any songs created during active subscription, even after cancelling. Proof of ownership is available upon request. For more information, please reference Suno KB at https://help.suno.com/en/articles/2421505
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Romans 12:1] [norteño] [E Ionian] [Allegro] [AI Music]
+
+Using AI to generate biblically accurate norteño songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+norteño, Rapper (Female), trumpet, tuba, castanets, Allegro 153 bpm, E Ionian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of Romans 12:1 quoting this verse verbatim taken from the King James Version bible: I beseech you therefore, brethren, by the mercies of God, that ye present your bodies a living sacrifice, holy, acceptable unto God, which is your reasonable service.
+
+King James Version
+Public Domain
+
+Prompt generated using Verse of the Day (votd) endpoint provided by BibleGateway
+https://www.biblegateway.com/passage/?search=Romans%2012%3A1&amp;version=KJV
+
+ Lyrics_Here
+
+Ownership and commercial use rights is retained for any songs created during active subscription, even after cancelling. Proof of ownership is available upon request. For more information, please reference Suno KB at https://help.suno.com/en/articles/2421505
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Drum Loop] [Glitch Hop Drum Loop] [Analog Drum Machine] [Pitched Drum Elements] [Moderato] [AI Music]
+
+Using AI to generate Glitch Hop Drum Loop drum loops from a variety of genres, musical keys, and modes for musicians to rehearse with.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+Glitch Hop Drum Loop, Analog Drum Machine, Roland TR-808, TR-909, Bass Drum Synth, Hi-Hats, China Cymbal, China Cymbal, Temple Blocks, Guiro, Pitched Drum Elements, Moderato 116 bpm, B Lydian
+
+[Drum Loop]
+
+Ownership and commercial use rights is retained for any songs created during active subscription, even after cancelling. Proof of ownership is available upon request. For more information, please reference Suno KB at https://help.suno.com/en/articles/2421505
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Obadiah 1] [Early 2000s Drum n Bass] [B Locrian] [Moderato] [AI Music]
+
+Using AI to generate biblically accurate Early 2000s Drum n Bass songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+Early 2000s Drum n Bass, Sygyt (male), flute, synthesizer, biblically inspired lyrics book of Obadiah chapter 1, Moderato 109 bpm, B Locrian
+
+ Lyrics_Here
+
+Ownership and commercial use rights is retained for any songs generated by my self using Suno during active subscription, even after cancelling. Proof of ownership is available upon request. For more information, please reference Suno Knowledge Base Articles at https://help.suno.com/en/articles/2421505
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Colossians 2] [shoegaze] [G# Ionian] [Largo] [AI Music]
+
+Using AI to generate biblically accurate shoegaze songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+shoegaze, rapid-fire vocals (Male), drums, horn, mongolian guitar, Largo 41 bpm, G# Ionian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of the book of Colossians chapter 2 quoting verses taken from the King James Version bible
+
+
+ Lyrics_Here
+
+Ownership and commercial use rights is retained for any songs generated by my self using Suno during active subscription, even after cancelling. Proof of ownership is available upon request. For more information, please reference Suno Knowledge Base Articles at https://help.suno.com/en/articles/2421505
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Instrumental] [fast grindcore] [C Locrian] [Prestissimo] [AI Music]
+
+Using AI to generate fast grindcore instrumentals and loops for vocalists and musicians from a variety of genres, musical keys, and modes.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+fast grindcore, bagpipes, violin, cello, guttural throat singing, Prestissimo 258 bpm, C Locrian
+
+[Instrumental]
+
+Ownership and commercial use rights is retained for any songs generated by my self using Suno during active subscription, even after cancelling. Proof of ownership is available upon request. For more information, please reference Suno Knowledge Base Articles at https://help.suno.com/en/articles/2421505
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Romans 12:1] [Early Metal] [F Aeolian] [Adagio] [AI Music]
+
+Using AI to generate biblically accurate Early Metal songs and music videos.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+Early Metal, Tenor (male), double bass, flute, bongo, Adagio 69 bpm, F Aeolian
+
+Lyrics Prompt:
+Generate biblically accurate lyrics inspired by the message of Romans 12:1 quoting this verse verbatim taken from the King James Version bible: I beseech you therefore, brethren, by the mercies of God, that ye present your bodies a living sacrifice, holy, acceptable unto God, which is your reasonable service.
+
+King James Version
+Public Domain
+
+Prompt generated using Verse of the Day (votd) endpoint provided by BibleGateway
+https://www.biblegateway.com/passage/?search=Romans%2012%3A1&amp;version=KJV
+
+ Lyrics_Here
+
+Ownership and commercial use rights is retained for any songs generated by my self using Suno during active subscription, even after cancelling. Proof of ownership is available upon request. For more information, please reference Suno Knowledge Base Articles at https://help.suno.com/en/articles/2421505
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Drum Loop] [Neo-Soul Drum Loop] [Metal Drum Kit] [Pitched Drum Elements] [Largo] [AI Music]
+
+Using AI to generate Neo-Soul Drum Loop drum loops from a variety of genres, musical keys, and modes for musicians to rehearse with.
+
+Song_Title_Here [Drum Loop] [Dubstep Drum Loop] [Funk Drum Kit] [Pitched Drum Elements] [Larghetto] [AI Music]
+
+Using AI to generate Dubstep Drum Loop drum loops from a variety of genres, musical keys, and modes for musicians to rehearse with.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+Dubstep Drum Loop, Funk Drum Kit, Tight Snare, Quick Hi-Hats, Smaller Toms, Ride Cymbal, Pandeiro, Surdo, Ride Cymbal, Talking Drum, Pitched Drum Elements, Larghetto 65 bpm, G# Mixolydian
+
+[Drum Loop]
+
+Ownership and commercial use rights is retained for any songs generated by my self using Suno during active subscription, even after cancelling. Proof of ownership is available upon request. For more information, please reference Suno Knowledge Base Articles at https://help.suno.com/en/articles/2421505
