@@ -88,3 +88,4 @@ check_and_write_to_file('log/drum_loop_prompt_history.txt', drum_loop_simple_pro
 print(drum_loop_simple_prompt)
 check_and_write_to_file('log/drum_loop_prompt_history.txt', "\n\n[Drum Loop]")
 print("\n[Drum Loop]")
+check_and_write_to_file('log/drum_loop_prompt_history.txt', "\n\nOwnership and commercial use rights is retained for any songs created during active subscription, even after cancelling. Proof of ownership is available upon request. For more information, please reference Suno KB at https://help.suno.com/en/articles/2421505")

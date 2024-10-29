@@ -633,3 +633,18 @@ Style of Music Prompt:
 Middle Eastern Drum Loop, Travel Drum Kit, Collapsible, Lightweight, Snare, Bass Drum, Slit Drum, Xylophone, Rototoms, Flexatone, Pitched Drum Elements, Larghetto 64 bpm, Bb Phrygian
 
 [Drum Loop]
+
+------------------------------New Prompt-------------------------------------
+Song_Title_Here [Drum Loop] [Heavy Dubstep Drum Loop] [Vintage Drum Kit] [Electronic] [Allegro] [AI Music]
+
+Using AI to generate Heavy Dubstep Drum Loop drum loops from a variety of genres, musical keys, and modes for musicians to rehearse with.
+
+Generated using Suno AI
+ Suno_Link_Here
+
+Style of Music Prompt:
+Heavy Dubstep Drum Loop, Vintage Drum Kit, Old Shells, Vintage Tone, Snare, Bass Drum, Crotales, Bullroarer, Synth Drums, Xylophone, Electronic, Allegro 151 bpm, A Ionian
+
+[Drum Loop]
+
+Ownership and commercial use rights is retained for any songs created during active subscription, even after cancelling. Proof of ownership is available upon request. For more information, please reference Suno KB at https://help.suno.com/en/articles/2421505
