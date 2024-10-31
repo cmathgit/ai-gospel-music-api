@@ -45,6 +45,27 @@ with open('lib/anti_percussion_instruments_dict.json') as f:
 with open('lib/exclude_pop_genres_dict.json') as f:
     exclude_pop_genres = json.load(f)
 
+# with open('lib/concerto_instrument_families_dict.json') as f:
+#     concerto_instrument_families = json.load(f)
+
+with open('lib/concerto_variants_dict.json') as f:
+    concerto_variants = json.load(f)
+
+with open('lib/concerto_instrument_family_woodwinds_dict.json') as f:
+    concerto_instrument_family_woodwinds = json.load(f)
+
+with open('lib/concerto_instrument_family_brass_dict.json') as f:
+    concerto_instrument_family_brass = json.load(f) 
+
+with open('lib/concerto_instrument_family_percussion_dict.json') as f:
+    concerto_instrument_family_percussion = json.load(f)
+
+with open('lib/concerto_instrument_family_string_dict.json') as f:
+    concerto_instrument_family_strings = json.load(f)
+
+with open('lib/concerto_instrument_family_keys_dict.json') as f:
+    concerto_instrument_family_keys = json.load(f)
+
 def check_and_write_to_file(filename, new_text):
     # Define the maximum file size in bytes (5 KB)
     max_size = 5 * 1024 * 10
@@ -278,7 +299,7 @@ def generate_bible_gateway_votd_song_custom():
             
     return concat_prompts
 
-def generate_drum_loop_simple():
+def generate_drum_loop():
     combination = ""
     while True:
         drum_loop_genre_choice = random.choice(drum_loop_genre)
@@ -293,7 +314,7 @@ def generate_drum_loop_simple():
         musical_key_choice = random.choice(musical_keys)
         
         timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
-        yt_title = f"{drum_loop_genre_choice[0]} [{drum_kit_choice[0]}] [{tempo_choice[0]}] [AI Music]\n\n"
+        yt_title = f"{drum_loop_genre_choice[0]} {timestamp} [{drum_kit_choice[0]}] [{tempo_choice[0]}] [AI Music]\n\n"
         check_and_write_to_file('log/prompt_history.txt', yt_title)
         print(yt_title)
         print("")
@@ -318,11 +339,123 @@ def generate_drum_loop_simple():
         
     return combination
 
+def generate_concerto_prompt():
+    combination = ""
+    while True:
+        concerto_variant_choice = random.choice(concerto_variants)
+        concerto_variant_name = concerto_variant_choice['name']
+        concerto_variant_number_of_soloists = concerto_variant_choice['soloists']
+        concerto_variant_ensemble = concerto_variant_choice['ensemble']
+        #concerto_variant_description = concerto_variant_choice['description']
+        tempo_choice = random.choice(tempos)
+        tempo_choice_int = random.randint(tempo_choice[1], tempo_choice[2])
+        musical_key_choice = random.choice(musical_keys)
+        
+        timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+        yt_title = f"{concerto_variant_name} {concerto_variant_ensemble} {timestamp} [{tempo_choice[0]}] [{musical_key_choice[0]}] [AI Music]\n\n"
+        check_and_write_to_file('log/prompt_history.txt', yt_title)
+        print(yt_title)
+        print("")
+
+        suno_song_title = f"{concerto_variant_name} {concerto_variant_ensemble} {tempo_choice[0]} {tempo_choice_int} {musical_key_choice[0]} {timestamp}\n\n"
+        suno_song_title_clean = suno_song_title.replace(",", "")
+        check_and_write_to_file('log/prompt_history.txt', suno_song_title_clean)
+        print(suno_song_title_clean)
+        print("")
+        
+        yt_descr = f"Using AI to generate concertos in spite of Geoffrey Jefferson's reflections on artificial intelligence.\n\nOn June 9, at Manchester University’s Lister Oration, British brain surgeon Geoffrey Jefferson states, \"Not until a machine can write a sonnet or compose a concerto because of thoughts and emotions felt, and not by the chance fall of symbols, could we agree that machine equals brain – that is, not only write it but know that it had written it. No mechanism could feel (and not merely artificially signal, an easy contrivance) pleasure at its successes, grief when its valves fuse, be warmed by flattery, be made miserable by its mistakes, be charmed by sex, be angry or miserable when it cannot get what it wants.\""
+        check_and_write_to_file('log/prompt_history.txt', yt_descr)
+        print(yt_descr)
+        print("")
+
+        if concerto_variant_number_of_soloists < 4:
+            concerto_number_of_soloist_choice = concerto_variant_number_of_soloists
+        else:
+            concerto_number_of_soloist_choice = random.randint(2, concerto_variant_number_of_soloists)
+
+        print(concerto_number_of_soloist_choice)
+        print(concerto_variant_ensemble)
+        print("\n")
+
+        if concerto_variant_ensemble == "Symphony":
+            if concerto_number_of_soloist_choice == 1:
+                combination = f'{concerto_variant_name}, {random.choice(concerto_instrument_family_woodwinds)["name"]}, {tempo_choice[0]} {tempo_choice_int} bpm, {musical_key_choice[0]}' # single soloist
+            elif concerto_number_of_soloist_choice == 2:
+                combination = f'{concerto_variant_name}, {concerto_variant_ensemble}, {random.choice(concerto_instrument_family_woodwinds)["name"]}, {random.choice(concerto_instrument_family_woodwinds)["name"]}, {tempo_choice[0]} {tempo_choice_int} bpm, {musical_key_choice[0]}' # double soloists
+            elif concerto_number_of_soloist_choice == 3:
+                combination = f'{concerto_variant_name}, {concerto_variant_ensemble}, {random.choice(concerto_instrument_family_woodwinds)["name"]}, {random.choice(concerto_instrument_family_woodwinds)["name"]}, {random.choice(concerto_instrument_family_woodwinds)["name"]}, {tempo_choice[0]} {tempo_choice_int} bpm, {musical_key_choice[0]}' # triple soloists
+            elif concerto_number_of_soloist_choice == 4:
+                combination = f'{concerto_variant_name}, {concerto_variant_ensemble}, {random.choice(concerto_instrument_family_woodwinds)["name"]}, {random.choice(concerto_instrument_family_woodwinds)["name"]}, {random.choice(concerto_instrument_family_woodwinds)["name"]}, {random.choice(concerto_instrument_family_woodwinds)["name"]}, {tempo_choice[0]} {tempo_choice_int} bpm, {musical_key_choice[0]}' # quadruple soloists
+            else:
+                combination = f'{concerto_variant_name}, {concerto_variant_ensemble}, {concerto_instrument_family_woodwinds[0]["name"]}, {concerto_instrument_family_woodwinds[1]["name"]}, {concerto_instrument_family_woodwinds[2]["name"]}, {concerto_instrument_family_woodwinds[3]["name"]}, {concerto_instrument_family_woodwinds[4]["name"]}, {tempo_choice[0]} {tempo_choice_int} bpm, {musical_key_choice[0]}'
+        elif concerto_variant_ensemble == "Baroque Ensemble":
+            if concerto_number_of_soloist_choice == 1:
+                combination = f'{concerto_variant_name}, {random.choice([random.choice(concerto_instrument_family_woodwinds)["name"],random.choice(concerto_instrument_family_strings)["name"],random.choice(concerto_instrument_family_percussion)["name"],"Harpsichord"])}, {tempo_choice[0]} {tempo_choice_int} bpm, {musical_key_choice[0]}' # single soloist
+            elif concerto_number_of_soloist_choice == 2:
+                combination = f'{concerto_variant_name}, {concerto_variant_ensemble}, {random.choice([random.choice(concerto_instrument_family_woodwinds)["name"],random.choice(concerto_instrument_family_strings)["name"],random.choice(concerto_instrument_family_percussion)["name"],"Harpsichord"])}, {random.choice([random.choice(concerto_instrument_family_woodwinds)["name"],random.choice(concerto_instrument_family_strings)["name"],random.choice(concerto_instrument_family_percussion)["name"],"Harpsichord"])}, {tempo_choice[0]} {tempo_choice_int} bpm, {musical_key_choice[0]}' # double soloists
+            elif concerto_number_of_soloist_choice == 3:
+                combination = f'{concerto_variant_name}, {concerto_variant_ensemble}, {random.choice([random.choice(concerto_instrument_family_woodwinds)["name"],random.choice(concerto_instrument_family_strings)["name"],random.choice(concerto_instrument_family_percussion)["name"],"Harpsichord"])}, {random.choice([random.choice(concerto_instrument_family_woodwinds)["name"],random.choice(concerto_instrument_family_strings)["name"],random.choice(concerto_instrument_family_percussion)["name"],"Harpsichord"])}, {random.choice([random.choice(concerto_instrument_family_woodwinds)["name"],random.choice(concerto_instrument_family_strings)["name"],random.choice(concerto_instrument_family_percussion)["name"],"Harpsichord"])}, {tempo_choice[0]} {tempo_choice_int} bpm, {musical_key_choice[0]}' # triple soloists
+            elif concerto_number_of_soloist_choice == 4:
+                combination = f'{concerto_variant_name}, {concerto_variant_ensemble}, {random.choice([random.choice(concerto_instrument_family_woodwinds)["name"],random.choice(concerto_instrument_family_strings)["name"],random.choice(concerto_instrument_family_percussion)["name"],"Harpsichord"])}, {random.choice([random.choice(concerto_instrument_family_woodwinds)["name"],random.choice(concerto_instrument_family_strings)["name"],random.choice(concerto_instrument_family_percussion)["name"],"Harpsichord"])}, {random.choice([random.choice(concerto_instrument_family_woodwinds)["name"],random.choice(concerto_instrument_family_strings)["name"],random.choice(concerto_instrument_family_percussion)["name"],"Harpsichord"])}, {random.choice([random.choice(concerto_instrument_family_woodwinds)["name"],random.choice(concerto_instrument_family_strings)["name"],random.choice(concerto_instrument_family_percussion)["name"],"Harpsichord"])}, {tempo_choice[0]} {tempo_choice_int} bpm, {musical_key_choice[0]}' # quadruple soloists
+            else:
+                combination = f'{concerto_variant_name}, {concerto_variant_ensemble}, {random.choice(concerto_instrument_family_woodwinds)["name"]}, {random.choice(concerto_instrument_family_strings)["name"]}, {random.choice(concerto_instrument_family_strings)["name"]}, Harpsichord, {random.choice(concerto_instrument_family_percussion)["name"]}, {tempo_choice[0]} {tempo_choice_int} bpm, {musical_key_choice[0]}'
+        elif concerto_variant_ensemble == "Baroque Orchestra":
+            if concerto_number_of_soloist_choice == 1:
+                combination = f'{concerto_variant_name}, {random.choice([random.choice(concerto_instrument_family_woodwinds)["name"],random.choice(concerto_instrument_family_strings)["name"],random.choice(concerto_instrument_family_percussion)["name"],random.choice(["Trumpet","Horn"]),random.choice(["Harpsichord","Organ"])])}, {tempo_choice[0]} {tempo_choice_int} bpm, {musical_key_choice[0]}' # single soloist
+            elif concerto_number_of_soloist_choice == 2:
+                combination = f'{concerto_variant_name}, {concerto_variant_ensemble}, {random.choice([random.choice(concerto_instrument_family_woodwinds)["name"],random.choice(concerto_instrument_family_strings)["name"],random.choice(concerto_instrument_family_percussion)["name"],random.choice(["Trumpet","Horn"]),random.choice(["Harpsichord","Organ"])])}, {random.choice([random.choice(concerto_instrument_family_woodwinds)["name"],random.choice(concerto_instrument_family_strings)["name"],random.choice(concerto_instrument_family_percussion)["name"],random.choice(["Trumpet","Horn"]),random.choice(["Harpsichord","Organ"])])}, {tempo_choice[0]} {tempo_choice_int} bpm, {musical_key_choice[0]}' # double soloists
+            elif concerto_number_of_soloist_choice == 3:
+                combination = f'{concerto_variant_name}, {concerto_variant_ensemble}, {random.choice([random.choice(concerto_instrument_family_woodwinds)["name"],random.choice(concerto_instrument_family_strings)["name"],random.choice(concerto_instrument_family_percussion)["name"],random.choice(["Trumpet","Horn"]),random.choice(["Harpsichord","Organ"])])}, {random.choice([random.choice(concerto_instrument_family_woodwinds)["name"],random.choice(concerto_instrument_family_strings)["name"],random.choice(concerto_instrument_family_percussion)["name"],random.choice(["Trumpet","Horn"]),random.choice(["Harpsichord","Organ"])])}, {random.choice([random.choice(concerto_instrument_family_woodwinds)["name"],random.choice(concerto_instrument_family_strings)["name"],random.choice(concerto_instrument_family_percussion)["name"],random.choice(["Trumpet","Horn"]),random.choice(["Harpsichord","Organ"])])}, {tempo_choice[0]} {tempo_choice_int} bpm, {musical_key_choice[0]}' # triple soloists
+            elif concerto_number_of_soloist_choice == 4:
+                combination = f'{concerto_variant_name}, {concerto_variant_ensemble}, {random.choice([random.choice(concerto_instrument_family_woodwinds)["name"],random.choice(concerto_instrument_family_strings)["name"],random.choice(concerto_instrument_family_percussion)["name"],random.choice(["Trumpet","Horn"]),random.choice(["Harpsichord","Organ"])])}, {random.choice([random.choice(concerto_instrument_family_woodwinds)["name"],random.choice(concerto_instrument_family_strings)["name"],random.choice(concerto_instrument_family_percussion)["name"],random.choice(["Trumpet","Horn"]),random.choice(["Harpsichord","Organ"])])}, {random.choice([random.choice(concerto_instrument_family_woodwinds)["name"],random.choice(concerto_instrument_family_strings)["name"],random.choice(concerto_instrument_family_percussion)["name"],random.choice(["Trumpet","Horn"]),random.choice(["Harpsichord","Organ"])])}, {random.choice([random.choice(concerto_instrument_family_woodwinds)["name"],random.choice(concerto_instrument_family_strings)["name"],random.choice(concerto_instrument_family_percussion)["name"],random.choice(["Trumpet","Horn"]),random.choice(["Harpsichord","Organ"])])}, {tempo_choice[0]} {tempo_choice_int} bpm, {musical_key_choice[0]}' # quadruple soloists
+            else:
+                combination = f'{concerto_variant_name}, {concerto_variant_ensemble}, {random.choice(concerto_instrument_family_woodwinds)["name"]}, {random.choice(concerto_instrument_family_strings)["name"]}, {random.choice(["Trumpet","Horn"])}, {random.choice(["Harpsichord","Organ"])}, {random.choice(concerto_instrument_family_percussion)["name"]}, {tempo_choice[0]} {tempo_choice_int} bpm, {musical_key_choice[0]}'
+        elif concerto_variant_ensemble == "Classical Orchestra":
+            if concerto_number_of_soloist_choice == 1:
+                combination = f'{concerto_variant_name}, {random.choice([random.choice(concerto_instrument_family_woodwinds)["name"],random.choice(concerto_instrument_family_strings)["name"],random.choice(concerto_instrument_family_percussion)["name"],random.choice(concerto_instrument_family_brass)["name"],random.choice(["Harpsichord","Fortepiano"])])}, {tempo_choice[0]} {tempo_choice_int} bpm, {musical_key_choice[0]}' # single soloist
+            elif concerto_number_of_soloist_choice == 2:
+                combination = f'{concerto_variant_name}, {concerto_variant_ensemble}, {random.choice([random.choice(concerto_instrument_family_woodwinds)["name"],random.choice(concerto_instrument_family_strings)["name"],random.choice(concerto_instrument_family_percussion)["name"],random.choice(concerto_instrument_family_brass)["name"],random.choice(["Harpsichord","Fortepiano"])])}, {random.choice([random.choice(concerto_instrument_family_woodwinds)["name"],random.choice(concerto_instrument_family_strings)["name"],random.choice(concerto_instrument_family_percussion)["name"],random.choice(concerto_instrument_family_brass)["name"],random.choice(["Harpsichord","Fortepiano"])])}, {tempo_choice[0]} {tempo_choice_int} bpm, {musical_key_choice[0]}' # double soloists
+            elif concerto_number_of_soloist_choice == 3:
+                combination = f'{concerto_variant_name}, {concerto_variant_ensemble}, {random.choice([random.choice(concerto_instrument_family_woodwinds)["name"],random.choice(concerto_instrument_family_strings)["name"],random.choice(concerto_instrument_family_percussion)["name"],random.choice(concerto_instrument_family_brass)["name"],random.choice(["Harpsichord","Fortepiano"])])}, {random.choice([random.choice(concerto_instrument_family_woodwinds)["name"],random.choice(concerto_instrument_family_strings)["name"],random.choice(concerto_instrument_family_percussion)["name"],random.choice(concerto_instrument_family_brass)["name"],random.choice(["Harpsichord","Fortepiano"])])}, {random.choice([random.choice(concerto_instrument_family_woodwinds)["name"],random.choice(concerto_instrument_family_strings)["name"],random.choice(concerto_instrument_family_percussion)["name"],random.choice(concerto_instrument_family_brass)["name"],random.choice(["Harpsichord","Fortepiano"])])}, {tempo_choice[0]} {tempo_choice_int} bpm, {musical_key_choice[0]}' # triple soloists
+            elif concerto_number_of_soloist_choice == 4:
+                combination = f'{concerto_variant_name}, {concerto_variant_ensemble}, {random.choice([random.choice(concerto_instrument_family_woodwinds)["name"],random.choice(concerto_instrument_family_strings)["name"],random.choice(concerto_instrument_family_percussion)["name"],random.choice(concerto_instrument_family_brass)["name"],random.choice(["Harpsichord","Fortepiano"])])}, {random.choice([random.choice(concerto_instrument_family_woodwinds)["name"],random.choice(concerto_instrument_family_strings)["name"],random.choice(concerto_instrument_family_percussion)["name"],random.choice(concerto_instrument_family_brass)["name"],random.choice(["Harpsichord","Fortepiano"])])}, {random.choice([random.choice(concerto_instrument_family_woodwinds)["name"],random.choice(concerto_instrument_family_strings)["name"],random.choice(concerto_instrument_family_percussion)["name"],random.choice(concerto_instrument_family_brass)["name"],random.choice(["Harpsichord","Fortepiano"])])}, {random.choice([random.choice(concerto_instrument_family_woodwinds)["name"],random.choice(concerto_instrument_family_strings)["name"],random.choice(concerto_instrument_family_percussion)["name"],random.choice(concerto_instrument_family_brass)["name"],random.choice(["Harpsichord","Fortepiano"])])}, {tempo_choice[0]} {tempo_choice_int} bpm, {musical_key_choice[0]}' # quadruple soloists
+            else:
+                combination = f'{concerto_variant_name}, {concerto_variant_ensemble}, {random.choice(concerto_instrument_family_woodwinds)["name"]}, {random.choice(concerto_instrument_family_strings)["name"]}, {random.choice(concerto_instrument_family_brass)["name"]}, {random.choice(["Harpsichord","Fortepiano"])}, {random.choice(concerto_instrument_family_percussion)["name"]}, {tempo_choice[0]} {tempo_choice_int} bpm, {musical_key_choice[0]}'
+        elif concerto_variant_ensemble == "Romantic Orchestra":
+            if concerto_number_of_soloist_choice == 1:
+                combination = f'{concerto_variant_name}, {random.choice([random.choice(concerto_instrument_family_woodwinds)["name"],random.choice(concerto_instrument_family_strings)["name"],random.choice(concerto_instrument_family_percussion)["name"],random.choice(concerto_instrument_family_brass)["name"],random.choice(["Organ","Piano"])])}, {tempo_choice[0]} {tempo_choice_int} bpm, {musical_key_choice[0]}' # single soloist
+            elif concerto_number_of_soloist_choice == 2:
+                combination = f'{concerto_variant_name}, {concerto_variant_ensemble}, {random.choice([random.choice(concerto_instrument_family_woodwinds)["name"],random.choice(concerto_instrument_family_strings)["name"],random.choice(concerto_instrument_family_percussion)["name"],random.choice(concerto_instrument_family_brass)["name"],random.choice(["Organ","Piano"])])}, {random.choice([random.choice(concerto_instrument_family_woodwinds)["name"],random.choice(concerto_instrument_family_strings)["name"],random.choice(concerto_instrument_family_percussion)["name"],random.choice(concerto_instrument_family_brass)["name"],random.choice(["Organ","Piano"])])}, {tempo_choice[0]} {tempo_choice_int} bpm, {musical_key_choice[0]}' # double soloists
+            elif concerto_number_of_soloist_choice == 3:
+                combination = f'{concerto_variant_name}, {concerto_variant_ensemble}, {random.choice([random.choice(concerto_instrument_family_woodwinds)["name"],random.choice(concerto_instrument_family_strings)["name"],random.choice(concerto_instrument_family_percussion)["name"],random.choice(concerto_instrument_family_brass)["name"],random.choice(["Organ","Piano"])])}, {random.choice([random.choice(concerto_instrument_family_woodwinds)["name"],random.choice(concerto_instrument_family_strings)["name"],random.choice(concerto_instrument_family_percussion)["name"],random.choice(concerto_instrument_family_brass)["name"],random.choice(["Organ","Piano"])])}, {random.choice([random.choice(concerto_instrument_family_woodwinds)["name"],random.choice(concerto_instrument_family_strings)["name"],random.choice(concerto_instrument_family_percussion)["name"],random.choice(concerto_instrument_family_brass)["name"],random.choice(["Organ","Piano"])])}, {tempo_choice[0]} {tempo_choice_int} bpm, {musical_key_choice[0]}' # triple soloists
+            elif concerto_number_of_soloist_choice == 4:
+                combination = f'{concerto_variant_name}, {concerto_variant_ensemble}, {random.choice([random.choice(concerto_instrument_family_woodwinds)["name"],random.choice(concerto_instrument_family_strings)["name"],random.choice(concerto_instrument_family_percussion)["name"],random.choice(concerto_instrument_family_brass)["name"],random.choice(["Organ","Piano"])])}, {random.choice([random.choice(concerto_instrument_family_woodwinds)["name"],random.choice(concerto_instrument_family_strings)["name"],random.choice(concerto_instrument_family_percussion)["name"],random.choice(concerto_instrument_family_brass)["name"],random.choice(["Organ","Piano"])])}, {random.choice([random.choice(concerto_instrument_family_woodwinds)["name"],random.choice(concerto_instrument_family_strings)["name"],random.choice(concerto_instrument_family_percussion)["name"],random.choice(concerto_instrument_family_brass)["name"],random.choice(["Organ","Piano"])])}, {random.choice([random.choice(concerto_instrument_family_woodwinds)["name"],random.choice(concerto_instrument_family_strings)["name"],random.choice(concerto_instrument_family_percussion)["name"],random.choice(concerto_instrument_family_brass)["name"],random.choice(["Organ","Piano"])])}, {tempo_choice[0]} {tempo_choice_int} bpm, {musical_key_choice[0]}' # quadruple soloists
+            else:
+                combination = f'{concerto_variant_name}, {concerto_variant_ensemble}, {random.choice(concerto_instrument_family_woodwinds)["name"]}, {random.choice(concerto_instrument_family_strings)["name"]}, {random.choice(concerto_instrument_family_brass)["name"]}, {random.choice(["Piano","Organ"])}, {random.choice(concerto_instrument_family_percussion)["name"]}, {tempo_choice[0]} {tempo_choice_int} bpm, {musical_key_choice[0]}'
+        else:
+            if concerto_number_of_soloist_choice == 1:
+                combination = f'{concerto_variant_name}, {random.choice([random.choice(concerto_instrument_family_woodwinds)["name"],random.choice(concerto_instrument_family_strings)["name"],random.choice(concerto_instrument_family_percussion)["name"],random.choice(concerto_instrument_family_brass)["name"],random.choice(concerto_instrument_family_keys)["name"]])}, {tempo_choice[0]} {tempo_choice_int} bpm, {musical_key_choice[0]}' # single soloist
+            elif concerto_number_of_soloist_choice == 2:
+                combination = f'{concerto_variant_name}, {concerto_variant_ensemble}, {random.choice([random.choice(concerto_instrument_family_woodwinds)["name"],random.choice(concerto_instrument_family_strings)["name"],random.choice(concerto_instrument_family_percussion)["name"],random.choice(concerto_instrument_family_brass)["name"],random.choice(concerto_instrument_family_keys)["name"]])}, {random.choice([random.choice(concerto_instrument_family_woodwinds)["name"],random.choice(concerto_instrument_family_strings)["name"],random.choice(concerto_instrument_family_percussion)["name"],random.choice(concerto_instrument_family_brass)["name"],random.choice(concerto_instrument_family_keys)["name"]])}, {tempo_choice[0]} {tempo_choice_int} bpm, {musical_key_choice[0]}' # double soloists
+            elif concerto_number_of_soloist_choice == 3:
+                combination = f'{concerto_variant_name}, {concerto_variant_ensemble}, {random.choice([random.choice(concerto_instrument_family_woodwinds)["name"],random.choice(concerto_instrument_family_strings)["name"],random.choice(concerto_instrument_family_percussion)["name"],random.choice(concerto_instrument_family_brass)["name"],random.choice(concerto_instrument_family_keys)["name"]])}, {random.choice([random.choice(concerto_instrument_family_woodwinds)["name"],random.choice(concerto_instrument_family_strings)["name"],random.choice(concerto_instrument_family_percussion)["name"],random.choice(concerto_instrument_family_brass)["name"],random.choice(concerto_instrument_family_keys)["name"]])}, {random.choice([random.choice(concerto_instrument_family_woodwinds)["name"],random.choice(concerto_instrument_family_strings)["name"],random.choice(concerto_instrument_family_percussion)["name"],random.choice(concerto_instrument_family_brass)["name"],random.choice(concerto_instrument_family_keys)["name"]])}, {tempo_choice[0]} {tempo_choice_int} bpm, {musical_key_choice[0]}' # triple soloists
+            elif concerto_number_of_soloist_choice == 4:
+                combination = f'{concerto_variant_name}, {concerto_variant_ensemble}, {random.choice([random.choice(concerto_instrument_family_woodwinds)["name"],random.choice(concerto_instrument_family_strings)["name"],random.choice(concerto_instrument_family_percussion)["name"],random.choice(concerto_instrument_family_brass)["name"],random.choice(concerto_instrument_family_keys)["name"]])}, {random.choice([random.choice(concerto_instrument_family_woodwinds)["name"],random.choice(concerto_instrument_family_strings)["name"],random.choice(concerto_instrument_family_percussion)["name"],random.choice(concerto_instrument_family_brass)["name"],random.choice(concerto_instrument_family_keys)["name"]])}, {random.choice([random.choice(concerto_instrument_family_woodwinds)["name"],random.choice(concerto_instrument_family_strings)["name"],random.choice(concerto_instrument_family_percussion)["name"],random.choice(concerto_instrument_family_brass)["name"],random.choice(concerto_instrument_family_keys)["name"]])}, {random.choice([random.choice(concerto_instrument_family_woodwinds)["name"],random.choice(concerto_instrument_family_strings)["name"],random.choice(concerto_instrument_family_percussion)["name"],random.choice(concerto_instrument_family_brass)["name"],random.choice(concerto_instrument_family_keys)["name"]])}, {tempo_choice[0]} {tempo_choice_int} bpm, {musical_key_choice[0]}' # quadruple soloists
+            else:
+                combination = f'{concerto_variant_name}, {concerto_variant_ensemble}, {random.choice(concerto_instrument_family_woodwinds)["name"]}, {random.choice(concerto_instrument_family_strings)["name"]}, {random.choice(concerto_instrument_family_brass)["name"]}, {random.choice(concerto_instrument_family_keys)["name"]}, {random.choice(concerto_instrument_family_percussion)["name"]}, {tempo_choice[0]} {tempo_choice_int} bpm, {musical_key_choice[0]}'
+  
+        if len(combination) < 200:
+            check_and_write_to_file('log/prompt_history.txt', "\n\nGenerated using Suno AI\n Suno_Link_Here\n\nStyle of Music Prompt:\n")
+            print("Generated using Suno AI\n Suno_Link_Here\n\nStyle of Music Prompt:")
+            break
+        
+    return combination
+
 #generate exclude pop genres prompt and write to file
 exclude_styles_pop_genres_prompt = f'\n\nExclude Styles:\n{exclude_pop_genres[0]}, {exclude_pop_genres[1]}, {exclude_pop_genres[2]}, {exclude_pop_genres[3]}, {exclude_pop_genres[4]}, {exclude_pop_genres[5]}, {exclude_pop_genres[6]}, {exclude_pop_genres[7]}, {exclude_pop_genres[8]}, {exclude_pop_genres[9]}'
 
 #generate exclude anti percussion instruments prompt and write to file
-exclude_styles_prompt = f'\n\nExclude Styles:\n{anti_percussion_instruments[0]}, {anti_percussion_instruments[1]}, {anti_percussion_instruments[2]}, {anti_percussion_instruments[3]}, {anti_percussion_instruments[4]}, {anti_percussion_instruments[5]}, {anti_percussion_instruments[6]}, {anti_percussion_instruments[7]}, {anti_percussion_instruments[8]}, {anti_percussion_instruments[9]}, {anti_percussion_instruments[10]}, {anti_percussion_instruments[11]}, {anti_percussion_instruments[12]}, {anti_percussion_instruments[13]}'
+exclude_styles_drum_prompt = f'\n\nExclude Styles:\n{anti_percussion_instruments[0]}, {anti_percussion_instruments[1]}, {anti_percussion_instruments[2]}, {anti_percussion_instruments[3]}, {anti_percussion_instruments[4]}, {anti_percussion_instruments[5]}, {anti_percussion_instruments[6]}, {anti_percussion_instruments[7]}, {anti_percussion_instruments[8]}, {anti_percussion_instruments[9]}, {anti_percussion_instruments[10]}, {anti_percussion_instruments[11]}, {anti_percussion_instruments[12]}, {anti_percussion_instruments[13]}'
 
 new_prompt_div = "\n\n------------------------------New Prompt-------------------------------------\n"
 
@@ -382,11 +515,24 @@ check_and_write_to_file('log/prompt_history.txt', new_prompt_div)
 print("\n------------------------------New Prompt-------------------------------------\n")
 # Generate and print the drum_loop_simple string
 # print("Drum loop prompt less than 200 characters in string length:")
-drum_loop_simple_prompt = generate_drum_loop_simple()
-check_and_write_to_file('log/prompt_history.txt', drum_loop_simple_prompt)
-print(drum_loop_simple_prompt)
-check_and_write_to_file('log/prompt_history.txt', exclude_styles_prompt)
-print(exclude_styles_prompt)
+drum_loop_prompt = generate_drum_loop()
+check_and_write_to_file('log/prompt_history.txt', drum_loop_prompt)
+print(drum_loop_prompt)
+check_and_write_to_file('log/prompt_history.txt', exclude_styles_drum_prompt)
+print(exclude_styles_drum_prompt)
 check_and_write_to_file('log/prompt_history.txt', "\n\n[Drum Loop]")
 print("\n[Drum Loop]")
+check_and_write_to_file('log/prompt_history.txt', "\n\nOwnership and commercial use rights is retained for any songs generated by my self using Suno during active subscription, even after cancelling. Proof of ownership is available upon request. For more information, please reference Suno Knowledge Base Articles at https://help.suno.com/en/articles/2421505")
+
+check_and_write_to_file('log/prompt_history.txt', new_prompt_div)
+print("\n------------------------------New Prompt-------------------------------------\n")
+# Generate and print the generate_concerto_prompt string
+# print("Concerto prompt less than 200 characters in string length:")
+concerto_prompt = generate_concerto_prompt()
+check_and_write_to_file('log/prompt_history.txt', concerto_prompt)
+print(concerto_prompt)
+check_and_write_to_file('log/prompt_history.txt', exclude_styles_pop_genres_prompt)
+print(exclude_styles_pop_genres_prompt)
+check_and_write_to_file('log/prompt_history.txt', "\n\n[Concerto]")
+print("\n[Concerto]")
 check_and_write_to_file('log/prompt_history.txt', "\n\nOwnership and commercial use rights is retained for any songs generated by my self using Suno during active subscription, even after cancelling. Proof of ownership is available upon request. For more information, please reference Suno Knowledge Base Articles at https://help.suno.com/en/articles/2421505")

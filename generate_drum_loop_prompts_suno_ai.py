@@ -63,7 +63,7 @@ def generate_drum_loop_simple():
         musical_key_choice = random.choice(musical_keys)
         
         timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
-        yt_title = f"{drum_loop_genre_choice[0]} [{drum_kit_choice[0]}] [{tempo_choice[0]}] [AI Music]\n\n"
+        yt_title = f"{drum_loop_genre_choice[0]} {timestamp} [{drum_kit_choice[0]}] [{tempo_choice[0]}] [AI Music]\n\n"
         check_and_write_to_file('log/drum_loop_prompt_history.txt', yt_title)
         print(yt_title)
         print("")

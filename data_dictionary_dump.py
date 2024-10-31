@@ -1959,3 +1959,418 @@ try:
         json.dump(exclude_pop_genres_prompt, exclude_pop_genres_data_dump_file)
 except IOError as e:
     print("Error writing to file:", e)
+
+#concerto variants
+concerto_variants = [
+  {
+    "name": "Solo Concerto",
+    "soloists": 1,
+    "ensemble": "Orchestral",
+    "description": "A single instrument with orchestral accompaniment"
+  },
+  {
+    "name": "Double Concerto",
+    "soloists": 2,
+    "ensemble": "Orchestral",
+    "description": "Two solo instruments with orchestra"
+  },
+  {
+    "name": "Triple Concerto",
+    "soloists": 3,
+    "ensemble": "Orchestral",
+    "description": "Three solo instruments with orchestra"
+  },
+  {
+    "name": "Concerto Grosso",
+    "soloists": 5,
+    "ensemble": "Baroque Ensemble",
+    "description": "A Baroque form with a group of solo instruments (the concertino) contrasted with the full ensemble (the ripieno)"
+  },
+  {
+    "name": "Sinfonia Concertante",
+    "soloists": 5,
+    "ensemble": "Symphony",
+    "description": "A hybrid between symphony and concerto with multiple soloists (often wind instruments)"
+  },
+  {
+    "name": "Chamber Concerto",
+    "soloists": 5,
+    "ensemble": "Chamber Ensemble",
+    "description": "A smaller ensemble replaces the full orchestra, with one or more solo instruments highlighted"
+  },
+  {
+    "name": "Baroque Concerto",
+    "soloists": 5,
+    "ensemble": "Baroque Orchestra",
+    "description": "Features polyphonic textures and ornamentation, typical of the Baroque era"
+  },
+  {
+    "name": "Classical Concerto",
+    "soloists": 5,
+    "ensemble": "Classical Orchestra",
+    "description": "Emphasizes clear forms such as sonata form within movements"
+  },
+  {
+    "name": "Romantic Concerto",
+    "soloists": 5,
+    "ensemble": "Romantic Orchestra",
+    "description": "Highly virtuosic with emotional expressiveness, characteristic of the Romantic period"
+  },
+  {
+    "name": "20th-Century & Contemporary Concerto",
+    "soloists": 5,
+    "ensemble": "Orchestral or Experimental",
+    "description": "Experiments with harmony, timbre, and non-traditional forms"
+  },
+  {
+    "name": "Concertino",
+    "soloists": 1,
+    "ensemble": "Orchestral or Piano Accompaniment",
+    "description": "A shorter and simpler form of concerto, often written for students"
+  },
+  {
+    "name": "Concertante Works",
+    "soloists": 5,
+    "ensemble": "Variable",
+    "description": "Works that emphasize the interaction of multiple instruments with the orchestra"
+  }
+]
+
+# Writing to file with error handling
+concerto_variants_dump_file = f"{base_file_path}concerto_variants_dict.json"
+try:
+    with open(concerto_variants_dump_file, 'w') as concerto_variants_data_dump_file:
+        json.dump(concerto_variants, concerto_variants_data_dump_file)
+except IOError as e:
+    print("Error writing to file:", e)
+
+
+concerto_instruments_by_family = [
+  {
+    "family": "String Instruments",
+    "instruments": [
+      {
+        "name": "Violin",
+        "example": "Tchaikovsky, Mendelssohn"
+      },
+      {
+        "name": "Viola",
+        "example": "Bartók, Walton"
+      },
+      {
+        "name": "Cello",
+        "example": "Dvořák, Elgar"
+      },
+      {
+        "name": "Double Bass",
+        "example": "Bottesini"
+      }
+    ]
+  },
+  {
+    "family": "Keyboard Instruments",
+    "instruments": [
+      {
+        "name": "Piano",
+        "example": "Mozart, Rachmaninoff"
+      },
+      {
+        "name": "Harpsichord",
+        "example": "J.S. Bach"
+      },
+      {
+        "name": "Organ",
+        "example": "Handel, Poulenc"
+      }
+    ]
+  },
+  {
+    "family": "Woodwind Instruments",
+    "instruments": [
+      {
+        "name": "Flute",
+        "example": "Mozart, Ibert"
+      },
+      {
+        "name": "Oboe",
+        "example": "Marcello, Strauss"
+      },
+      {
+        "name": "Clarinet",
+        "example": "Mozart, Nielsen"
+      },
+      {
+        "name": "Bassoon",
+        "example": "Vivaldi, Mozart"
+      },
+      {
+        "name": "Saxophone",
+        "example": "Glazunov, Villa-Lobos"
+      }
+    ]
+  },
+  {
+    "family": "Brass Instruments",
+    "instruments": [
+      {
+        "name": "Trumpet",
+        "example": "Haydn, Hummel"
+      },
+      {
+        "name": "Horn",
+        "example": "Mozart, Strauss"
+      },
+      {
+        "name": "Trombone",
+        "example": "Alto Trombone Concerto by Albrechtsberger"
+      },
+      {
+        "name": "Tuba",
+        "example": "Vaughan Williams"
+      }
+    ]
+  },
+  {
+    "family": "Percussion Instruments",
+    "instruments": [
+      {
+        "name": "Marimba",
+        "example": "Ney Rosauro, Séjourné"
+      },
+      {
+        "name": "Vibraphone",
+        "example": ""
+      },
+      {
+        "name": "Timpani",
+        "example": "Werner Thärichen’s Timpani Concerto"
+      }
+    ]
+  }
+]
+
+    
+instrument_families_by_ensemble = [
+  {
+    "ensemble": "Orchestral",
+    "families": [
+      "Strings",
+      "Woodwinds",
+      "Brass",
+      "Percussion",
+      "Keyboard"
+    ]
+  },
+  {
+    "ensemble": "Baroque Ensemble",
+    "families": [
+      "Strings",
+      "Woodwinds",
+      "Harpsichord (Keyboard)",
+      "Occasional Percussion"
+    ]
+  },
+  {
+    "ensemble": "Symphony",
+    "families": [
+      "Strings",
+      "Woodwinds",
+      "Brass",
+      "Percussion",
+      "Keyboard (Piano, Celesta, or Organ)"
+    ]
+  },
+  {
+    "ensemble": "Chamber Ensemble",
+    "families": [
+      "Strings",
+      "Woodwinds",
+      "Occasional Brass",
+      "Percussion (Optional)",
+      "Keyboard (Piano, Harpsichord, or Organ)"
+    ]
+  },
+  {
+    "ensemble": "Baroque Orchestra",
+    "families": [
+      "Strings",
+      "Woodwinds",
+      "Harpsichord or Organ (Keyboard)",
+      "Occasional Brass (Natural Trumpet, Horn)",
+      "Occasional Percussion"
+    ]
+  },
+  {
+    "ensemble": "Classical Orchestra",
+    "families": [
+      "Strings",
+      "Woodwinds",
+      "Brass",
+      "Percussion",
+      "Keyboard (Fortepiano or Harpsichord)"
+    ]
+  },
+  {
+    "ensemble": "Romantic Orchestra",
+    "families": [
+      "Strings",
+      "Woodwinds",
+      "Brass",
+      "Percussion",
+      "Keyboard (Piano or Organ)"
+    ]
+  }
+]
+
+
+instrument_family_string = [
+      {
+        "name": "Violin",
+        "example": "Tchaikovsky, Mendelssohn"
+      },
+      {
+        "name": "Viola",
+        "example": "Bartók, Walton"
+      },
+      {
+        "name": "Cello",
+        "example": "Dvořák, Elgar"
+      },
+      {
+        "name": "Double Bass",
+        "example": "Bottesini"
+      }
+    ]
+    
+ # Writing to file with error handling
+concerto_instrument_family_string_dump_file = f"{base_file_path}concerto_instrument_family_string_dict.json"
+try:
+    with open(concerto_instrument_family_string_dump_file, 'w') as concerto_instrument_family_string_data_dump_file:
+        json.dump(instrument_family_string, concerto_instrument_family_string_data_dump_file)
+except IOError as e:
+    print("Error writing to file:", e)
+
+instrument_family_keys = [
+      {
+        "name": "Piano",
+        "example": "Mozart, Rachmaninoff"
+      },
+      {
+        "name": "Harpsichord",
+        "example": "J.S. Bach"
+      },
+      {
+        "name": "Organ",
+        "example": "Handel, Poulenc"
+      }
+    ]
+    
+ # Writing to file with error handling
+concerto_instrument_family_keys_dump_file = f"{base_file_path}concerto_instrument_family_keys_dict.json"
+try:
+    with open(concerto_instrument_family_keys_dump_file, 'w') as concerto_instrument_family_keys_data_dump_file:
+        json.dump(instrument_family_keys, concerto_instrument_family_keys_data_dump_file)
+except IOError as e:
+    print("Error writing to file:", e)
+
+instrument_family_keys = [
+      {
+        "name": "Piano",
+        "example": "Mozart, Rachmaninoff"
+      },
+      {
+        "name": "Harpsichord",
+        "example": "J.S. Bach"
+      },
+      {
+        "name": "Organ",
+        "example": "Handel, Poulenc"
+      }
+    ]
+    
+ # Writing to file with error handling
+concerto_instrument_family_keys_dump_file = f"{base_file_path}concerto_instrument_family_keys_dict.json"
+try:
+    with open(concerto_instrument_family_keys_dump_file, 'w') as concerto_instrument_family_keys_data_dump_file:
+        json.dump(instrument_family_keys, concerto_instrument_family_keys_data_dump_file)
+except IOError as e:
+    print("Error writing to file:", e)
+
+instrument_family_woodwinds = [
+      {
+        "name": "Flute",
+        "example": "Mozart, Ibert"
+      },
+      {
+        "name": "Oboe",
+        "example": "Marcello, Strauss"
+      },
+      {
+        "name": "Clarinet",
+        "example": "Mozart, Nielsen"
+      },
+      {
+        "name": "Bassoon",
+        "example": "Vivaldi, Mozart"
+      },
+      {
+        "name": "Saxophone",
+        "example": "Glazunov, Villa-Lobos"
+      }
+    ]
+    
+ # Writing to file with error handling
+concerto_instrument_family_woodwinds_dump_file = f"{base_file_path}concerto_instrument_family_woodwinds_dict.json"
+try:
+    with open(concerto_instrument_family_woodwinds_dump_file, 'w') as concerto_instrument_family_woodwinds_data_dump_file:
+        json.dump(instrument_family_woodwinds, concerto_instrument_family_woodwinds_data_dump_file)
+except IOError as e:
+    print("Error writing to file:", e)
+
+instrument_family_brass = [
+      {
+        "name": "Trumpet",
+        "example": "Haydn, Hummel"
+      },
+      {
+        "name": "Horn",
+        "example": "Mozart, Strauss"
+      },
+      {
+        "name": "Trombone",
+        "example": "Alto Trombone Concerto by Albrechtsberger"
+      },
+      {
+        "name": "Tuba",
+        "example": "Vaughan Williams"
+      }
+]
+
+concerto_instrument_family_brass_dump_file = f"{base_file_path}concerto_instrument_family_brass_dict.json"
+try:
+    with open(concerto_instrument_family_brass_dump_file, 'w') as concerto_instrument_family_brass_data_dump_file:
+        json.dump(instrument_family_brass, concerto_instrument_family_brass_data_dump_file)
+except IOError as e:
+    print("Error writing to file:", e)
+
+instrument_family_percussion = [
+      {
+        "name": "Marimba",
+        "example": "Ney Rosauro, Séjourné"
+      },
+      {
+        "name": "Vibraphone",
+        "example": ""
+      },
+      {
+        "name": "Timpani",
+        "example": "Werner Thärichen’s Timpani Concerto"
+      }
+]
+
+concerto_instrument_family_percussion_dump_file = f"{base_file_path}concerto_instrument_family_percussion_dict.json"
+try:
+    with open(concerto_instrument_family_percussion_dump_file, 'w') as concerto_instrument_family_percussion_data_dump_file:
+        json.dump(instrument_family_percussion, concerto_instrument_family_percussion_data_dump_file)
+except IOError as e:
+    print("Error writing to file:", e)
