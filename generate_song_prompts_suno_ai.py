@@ -451,6 +451,81 @@ def generate_concerto_prompt():
         
     return combination
 
+# Function to generate a random biblical song prompt less than 200 characters in string length
+def bible_gateway_votd_concerto_song_custom():
+    lyrics_prompt = ""
+    style_of_music_prompt = ""
+    
+    # Remove while loop. Need to limit length of payload returned from end point first.
+    # while True:
+    concerto_variant_choice = random.choice(concerto_variants)
+    concerto_variant_name = concerto_variant_choice['name']
+    concerto_variant_ensemble = concerto_variant_choice['ensemble']
+    vocalist_choice = random.choice(vocalists)
+
+    # Use Bible Gateway Verse of the Day
+    votds = get_bible_votd_kjv()
+    print("Bible Verse Content: ", votds['votd']['content'])
+    print("Bible Verse reference: ", votds['votd']['reference'])
+    print("Bible Verse reference: ", votds['votd']['version'])
+    biblecontent = votds['votd']['content']
+    biblereference = votds['votd']['reference']
+    biblereference_clean = biblereference.replace(":", "_")
+    bibleversion = votds['votd']['version']
+    verselink = votds['votd']['permalink']
+    print(verselink)
+        
+    tempo_choice = random.choice(tempos)
+    tempo_choice_int = random.randint(tempo_choice[1], tempo_choice[2])
+    musical_key_choice = random.choice(musical_keys)
+        
+    timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+    yt_title = f"VOTD {biblereference} {concerto_variant_name} {timestamp} [{musical_key_choice[0]}] [{tempo_choice[0]}] [AI Music]\n\n"
+    check_and_write_to_file('log/prompt_history.txt', yt_title)
+    print(yt_title)
+    print("")
+
+    suno_song_title = f"VOTD {biblereference_clean} {concerto_variant_name} {tempo_choice[0]} {tempo_choice_int} {musical_key_choice[0]} {timestamp}\n\n"
+    suno_song_title_clean = suno_song_title.replace(",", "")
+    check_and_write_to_file('log/prompt_history.txt', suno_song_title_clean)
+    print(suno_song_title_clean)
+    print("")
+        
+    yt_descr = f"Using AI to generate biblically accurate {concerto_variant_name} songs and music videos.\n\n"
+    check_and_write_to_file('log/prompt_history.txt', yt_descr)
+    print(yt_descr)
+    print("")
+        
+    lyrics_prompt = f'Generate biblically accurate lyrics inspired by the message of {biblereference} quoting this verse verbatim taken from the {bibleversion} bible: {biblecontent}'
+    
+    if len(lyrics_prompt) > 399:
+        lyrics_prompt = {biblecontent}
+    
+    if concerto_variant_ensemble == "Symphony":
+        style_of_music_prompt = f'{concerto_variant_ensemble}, {vocalist_choice[0]} ({vocalist_choice[2]}), {concerto_instrument_family_woodwinds[0]["name"]}, {concerto_instrument_family_woodwinds[1]["name"]}, {concerto_instrument_family_woodwinds[2]["name"]}, {concerto_instrument_family_woodwinds[3]["name"]}, {concerto_instrument_family_woodwinds[4]["name"]}, {tempo_choice[0]} {tempo_choice_int} bpm, {musical_key_choice[0]}'
+    elif concerto_variant_ensemble == "Baroque Ensemble":
+        style_of_music_prompt = f'{concerto_variant_ensemble}, {vocalist_choice[0]} ({vocalist_choice[2]}), {random.choice(concerto_instrument_family_woodwinds)["name"]}, {random.choice(concerto_instrument_family_strings)["name"]}, {random.choice(concerto_instrument_family_brass)["name"]}, Harpsichord, {random.choice(concerto_instrument_family_percussion)["name"]}, {tempo_choice[0]} {tempo_choice_int} bpm, {musical_key_choice[0]}'
+    elif concerto_variant_ensemble == "Baroque Orchestra":
+        style_of_music_prompt = f'{concerto_variant_ensemble}, {vocalist_choice[0]} ({vocalist_choice[2]}), {random.choice(concerto_instrument_family_woodwinds)["name"]}, {random.choice(concerto_instrument_family_strings)["name"]}, {random.choice(["Trumpet","Horn"])}, {random.choice(["Organ","Harpsichord"])}, {random.choice(concerto_instrument_family_percussion)["name"]}, {tempo_choice[0]} {tempo_choice_int} bpm, {musical_key_choice[0]}'
+    elif concerto_variant_ensemble == "Classical Orchestra":
+        style_of_music_prompt = f'{concerto_variant_ensemble}, {vocalist_choice[0]} ({vocalist_choice[2]}), {random.choice(concerto_instrument_family_woodwinds)["name"]}, {random.choice(concerto_instrument_family_strings)["name"]}, {random.choice(concerto_instrument_family_brass)["name"]}, {random.choice(["Fortepiano","Harpsichord"])}, {random.choice(concerto_instrument_family_percussion)["name"]}, {tempo_choice[0]} {tempo_choice_int} bpm, {musical_key_choice[0]}'
+    elif concerto_variant_ensemble == "Romantic Orchestra":
+        style_of_music_prompt = f'{concerto_variant_ensemble}, {vocalist_choice[0]} ({vocalist_choice[2]}), {random.choice(concerto_instrument_family_woodwinds)["name"]}, {random.choice(concerto_instrument_family_strings)["name"]}, {random.choice(concerto_instrument_family_brass)["name"]}, {random.choice(["Piano","Organ"])}, {random.choice(concerto_instrument_family_percussion)["name"]}, {tempo_choice[0]} {tempo_choice_int} bpm, {musical_key_choice[0]}'
+    elif concerto_variant_ensemble == "Variable":
+        style_of_music_prompt = f'Concertante Works, {vocalist_choice[0]} ({vocalist_choice[2]}), {random.choice(concerto_instrument_family_woodwinds)["name"]}, {random.choice(concerto_instrument_family_strings)["name"]}, {random.choice(concerto_instrument_family_brass)["name"]}, {random.choice(concerto_instrument_family_keys)["name"]}, {random.choice(concerto_instrument_family_percussion)["name"]}, {tempo_choice[0]} {tempo_choice_int} bpm, {musical_key_choice[0]}'
+    elif concerto_variant_ensemble == "Orchestral or Experimental":
+        style_of_music_prompt = f'Orchestral, Experimental, {vocalist_choice[0]} ({vocalist_choice[2]}), {random.choice(concerto_instrument_family_woodwinds)["name"]}, {random.choice(concerto_instrument_family_strings)["name"]}, {random.choice(concerto_instrument_family_brass)["name"]}, {random.choice(concerto_instrument_family_keys)["name"]}, {random.choice(concerto_instrument_family_percussion)["name"]}, {tempo_choice[0]} {tempo_choice_int} bpm, {musical_key_choice[0]}'
+    elif concerto_variant_ensemble == "Orchestral or Piano Accompaniment":
+        style_of_music_prompt = f'Orchestral, {vocalist_choice[0]} ({vocalist_choice[2]}), {random.choice(concerto_instrument_family_woodwinds)["name"]}, {random.choice(concerto_instrument_family_strings)["name"]}, {random.choice(concerto_instrument_family_brass)["name"]}, {random.choice(concerto_instrument_family_keys)["name"]}, {random.choice(concerto_instrument_family_percussion)["name"]}, {tempo_choice[0]} {tempo_choice_int} bpm, {musical_key_choice[0]}'
+    else:
+        style_of_music_prompt = f'{concerto_variant_ensemble}, {vocalist_choice[0]} ({vocalist_choice[2]}), {random.choice(concerto_instrument_family_woodwinds)["name"]}, {random.choice(concerto_instrument_family_strings)["name"]}, {random.choice(concerto_instrument_family_brass)["name"]}, {random.choice(concerto_instrument_family_keys)["name"]}, {random.choice(concerto_instrument_family_percussion)["name"]}, {tempo_choice[0]} {tempo_choice_int} bpm, {musical_key_choice[0]}'
+        
+    # if len(style_of_music_prompt) < 120 and len(lyrics_prompt) < 399:
+    concat_prompts = f"Generated using Suno AI\n Suno_Link_Here\n\nStyle of Music Prompt:\n{style_of_music_prompt}\n\nLyrics Prompt:\n{lyrics_prompt}\n\n{bibleversion}\nPublic Domain\n\nPrompt generated using Verse of the Day (votd) endpoint provided by BibleGateway\n{verselink}"
+            # break
+            
+    return concat_prompts
+
 #generate exclude pop genres prompt and write to file
 exclude_styles_pop_genres_prompt = f'\n\nExclude Styles:\n{exclude_pop_genres[0]}, {exclude_pop_genres[1]}, {exclude_pop_genres[2]}, {exclude_pop_genres[3]}, {exclude_pop_genres[4]}, {exclude_pop_genres[5]}, {exclude_pop_genres[6]}, {exclude_pop_genres[7]}, {exclude_pop_genres[8]}, {exclude_pop_genres[9]}'
 
@@ -533,6 +608,20 @@ check_and_write_to_file('log/prompt_history.txt', concerto_prompt)
 print(concerto_prompt)
 check_and_write_to_file('log/prompt_history.txt', exclude_styles_pop_genres_prompt)
 print(exclude_styles_pop_genres_prompt)
+check_and_write_to_file('log/prompt_history.txt', "\n\n[Concerto]")
+print("\n[Concerto]")
+check_and_write_to_file('log/prompt_history.txt', "\n\nOwnership and commercial use rights is retained for any songs generated by my self using Suno during active subscription, even after cancelling. Proof of ownership is available upon request. For more information, please reference Suno Knowledge Base Articles at https://help.suno.com/en/articles/2421505")
+
+check_and_write_to_file('log/prompt_history.txt', new_prompt_div)
+print("\n------------------------------New Prompt-------------------------------------\n")
+# Generate and print the generate_concerto_prompt string
+bible_gateway_votd_concerto_song_prompt = bible_gateway_votd_concerto_song_custom()
+check_and_write_to_file('log/prompt_history.txt', bible_gateway_votd_concerto_song_prompt)
+print(bible_gateway_votd_concerto_song_prompt)
+check_and_write_to_file('log/prompt_history.txt', exclude_styles_pop_genres_prompt)
+print(exclude_styles_pop_genres_prompt)
+check_and_write_to_file('log/prompt_history.txt', "\n\n Lyrics_Here")
+print("\n Lyrics_Here")
 check_and_write_to_file('log/prompt_history.txt', "\n\n[Concerto]")
 print("\n[Concerto]")
 check_and_write_to_file('log/prompt_history.txt', "\n\nOwnership and commercial use rights is retained for any songs generated by my self using Suno during active subscription, even after cancelling. Proof of ownership is available upon request. For more information, please reference Suno Knowledge Base Articles at https://help.suno.com/en/articles/2421505")
