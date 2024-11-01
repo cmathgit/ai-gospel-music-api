@@ -35,7 +35,7 @@ runpy_gen_prompts_suno.bat
 https://github.com/aruljohn/Bible-kjv
 ```
 
-# This project uses the Bible-kjv=1611 repository from the following GitHub repo
+# This project uses the Bible-kjv-1611 repository from the following GitHub repo
 ```
 https://github.com/aruljohn/Bible-kjv-1611
 ```
