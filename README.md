@@ -439,6 +439,174 @@ keys = [
 ]
 ```
 
+# List of tuples to store name and BPM of a song tempo
+# In this list, each tuple contains the name of the tempo, the minimum BPM, and the maximum BPM. For "Prestissimo", since the BPM is 200+, the maximum BPM is represented as infinity (float('inf')). 
+```
+tempos = [
+    ("Largo", 40, 60),
+    ("Larghetto", 60, 66),
+    ("Adagio", 66, 76),
+    ("Andante", 76, 108),
+    ("Moderato", 108, 120),
+    ("Allegro", 120, 168),
+    ("Presto", 168, 200),
+    #("Prestissimo", 200, float('inf'))
+    ("Prestissimo", 200, 420)
+]
+```
+
+# List of concerto variants
+```
+concerto_variants = [
+  {
+    "name": "Solo Concerto",
+    "soloists": 1,
+    "ensemble": "Orchestral",
+    "description": "A single instrument with orchestral accompaniment"
+  },
+  {
+    "name": "Double Concerto",
+    "soloists": 2,
+    "ensemble": "Orchestral",
+    "description": "Two solo instruments with orchestra"
+  },
+  {
+    "name": "Triple Concerto",
+    "soloists": 3,
+    "ensemble": "Orchestral",
+    "description": "Three solo instruments with orchestra"
+  },
+  {
+    "name": "Concerto Grosso",
+    "soloists": 5,
+    "ensemble": "Baroque Ensemble",
+    "description": "A Baroque form with a group of solo instruments (the concertino) contrasted with the full ensemble (the ripieno)"
+  },
+  {
+    "name": "Sinfonia Concertante",
+    "soloists": 5,
+    "ensemble": "Symphony",
+    "description": "A hybrid between symphony and concerto with multiple soloists (often wind instruments)"
+  },
+  {
+    "name": "Chamber Concerto",
+    "soloists": 5,
+    "ensemble": "Chamber Ensemble",
+    "description": "A smaller ensemble replaces the full orchestra, with one or more solo instruments highlighted"
+  },
+  {
+    "name": "Baroque Concerto",
+    "soloists": 5,
+    "ensemble": "Baroque Orchestra",
+    "description": "Features polyphonic textures and ornamentation, typical of the Baroque era"
+  },
+  {
+    "name": "Classical Concerto",
+    "soloists": 5,
+    "ensemble": "Classical Orchestra",
+    "description": "Emphasizes clear forms such as sonata form within movements"
+  },
+  {
+    "name": "Romantic Concerto",
+    "soloists": 5,
+    "ensemble": "Romantic Orchestra",
+    "description": "Highly virtuosic with emotional expressiveness, characteristic of the Romantic period"
+  },
+  {
+    "name": "20th-Century & Contemporary Concerto",
+    "soloists": 5,
+    "ensemble": "Orchestral or Experimental",
+    "description": "Experiments with harmony, timbre, and non-traditional forms"
+  },
+  {
+    "name": "Concertino",
+    "soloists": 1,
+    "ensemble": "Orchestral or Piano Accompaniment",
+    "description": "A shorter and simpler form of concerto, often written for students"
+  },
+  {
+    "name": "Concertante Works",
+    "soloists": 5,
+    "ensemble": "Variable",
+    "description": "Works that emphasize the interaction of multiple instruments with the orchestra"
+  }
+]
+```
+
+# List of instrument families by ensemble
+```
+instrument_families_by_ensemble = [
+  {
+    "ensemble": "Orchestral",
+    "families": [
+      "Strings",
+      "Woodwinds",
+      "Brass",
+      "Percussion",
+      "Keyboard"
+    ]
+  },
+  {
+    "ensemble": "Baroque Ensemble",
+    "families": [
+      "Strings",
+      "Woodwinds",
+      "Harpsichord (Keyboard)",
+      "Occasional Percussion"
+    ]
+  },
+  {
+    "ensemble": "Symphony",
+    "families": [
+      "Strings",
+      "Woodwinds",
+      "Brass",
+      "Percussion",
+      "Keyboard (Piano, Celesta, or Organ)"
+    ]
+  },
+  {
+    "ensemble": "Chamber Ensemble",
+    "families": [
+      "Strings",
+      "Woodwinds",
+      "Occasional Brass",
+      "Percussion (Optional)",
+      "Keyboard (Piano, Harpsichord, or Organ)"
+    ]
+  },
+  {
+    "ensemble": "Baroque Orchestra",
+    "families": [
+      "Strings",
+      "Woodwinds",
+      "Harpsichord or Organ (Keyboard)",
+      "Occasional Brass (Natural Trumpet, Horn)",
+      "Occasional Percussion"
+    ]
+  },
+  {
+    "ensemble": "Classical Orchestra",
+    "families": [
+      "Strings",
+      "Woodwinds",
+      "Brass",
+      "Percussion",
+      "Keyboard (Fortepiano or Harpsichord)"
+    ]
+  },
+  {
+    "ensemble": "Romantic Orchestra",
+    "families": [
+      "Strings",
+      "Woodwinds",
+      "Brass",
+      "Percussion",
+      "Keyboard (Piano or Organ)"
+    ]
+  }
+]
+```
 # Each key can be played using any of the seven diatonic modes, but traditionally, each mode is associated with a particular starting note (or tonic), as listed above.
 
 # list of different types of vocalists, categorized by vocal range and voice type:
@@ -546,6 +714,192 @@ mongolian_throat_singing_styles = [
         ("mongolian guitar"),
         ("horsehead fiddle")
     ]
+```
+
+# List of instruments by family
+```
+concerto_instruments_by_family = [
+  {
+    "family": "String Instruments",
+    "instruments": [
+      {
+        "name": "Violin",
+        "example": "Tchaikovsky, Mendelssohn"
+      },
+      {
+        "name": "Viola",
+        "example": "Bartók, Walton"
+      },
+      {
+        "name": "Cello",
+        "example": "Dvořák, Elgar"
+      },
+      {
+        "name": "Double Bass",
+        "example": "Bottesini"
+      }
+    ]
+  },
+  {
+    "family": "Keyboard Instruments",
+    "instruments": [
+      {
+        "name": "Piano",
+        "example": "Mozart, Rachmaninoff"
+      },
+      {
+        "name": "Harpsichord",
+        "example": "J.S. Bach"
+      },
+      {
+        "name": "Organ",
+        "example": "Handel, Poulenc"
+      }
+    ]
+  },
+  {
+    "family": "Woodwind Instruments",
+    "instruments": [
+      {
+        "name": "Flute",
+        "example": "Mozart, Ibert"
+      },
+      {
+        "name": "Oboe",
+        "example": "Marcello, Strauss"
+      },
+      {
+        "name": "Clarinet",
+        "example": "Mozart, Nielsen"
+      },
+      {
+        "name": "Bassoon",
+        "example": "Vivaldi, Mozart"
+      },
+      {
+        "name": "Saxophone",
+        "example": "Glazunov, Villa-Lobos"
+      }
+    ]
+  },
+  {
+    "family": "Brass Instruments",
+    "instruments": [
+      {
+        "name": "Trumpet",
+        "example": "Haydn, Hummel"
+      },
+      {
+        "name": "Horn",
+        "example": "Mozart, Strauss"
+      },
+      {
+        "name": "Trombone",
+        "example": "Alto Trombone Concerto by Albrechtsberger"
+      },
+      {
+        "name": "Tuba",
+        "example": "Vaughan Williams"
+      }
+    ]
+  },
+  {
+    "family": "Percussion Instruments",
+    "instruments": [
+      {
+        "name": "Marimba",
+        "example": "Ney Rosauro, Séjourné"
+      },
+      {
+        "name": "Vibraphone",
+        "example": ""
+      },
+      {
+        "name": "Timpani",
+        "example": "Werner Thärichen’s Timpani Concerto"
+      }
+    ]
+  }
+]
+```
+
+# List of percussion instruments
+```
+percussion_instruments = [
+    ("Snare Drum", "Traditional", "Drums", "Membranophones"),
+    ("Bass Drum", "Traditional", "Drums", "Membranophones"),
+    ("Rack Tom", "Traditional", "Drums", "Membranophones"),
+    ("Floor Tom", "Traditional", "Drums", "Membranophones"),
+    ("Concert Bass Drum", "Concert", "Drums", "Membranophones"),
+    ("Djembe", "West African Drum", "Drums", "Membranophones"),
+    ("Cajón", "Box Drum", "Drums", "Membranophones"),
+    ("Bongos", "Latin Percussion", "Drums", "Membranophones"),
+    ("Congas", "Cuban Drum", "Drums", "Membranophones"),
+    ("Tabla", "Indian Percussion", "Drums", "Membranophones"),
+    ("Doumbek", "Middle Eastern Drum", "Drums", "Membranophones"),
+    ("Handpan", "Hang Drum", "Drums", "Membranophones"),
+    ("Frame Drum", "Traditional", "Drums", "Membranophones"),
+    ("Timpani", "Orchestral Drum", "Drums", "Membranophones"),
+    ("Taiko Drums", "Japanese Drum", "Drums", "Membranophones"),
+    ("Talking Drum", "Dundun", "Drums", "Membranophones"),
+    ("Octobans", "Extended Tom Drums", "Drums", "Membranophones"),
+    ("Rototoms", "Tunable Drum", "Drums", "Membranophones"),
+    ("Surdo", "Brazilian Bass Drum", "Drums", "Membranophones"),
+    ("Pandeiro", "Brazilian Tambourine", "Drums", "Membranophones"),
+    ("Timbales", "Cuban Drums", "Drums", "Membranophones"),
+    ("Kanjira", "South Indian Frame Drum", "Drums", "Membranophones"),
+    ("Bodhrán", "Irish Frame Drum", "Drums", "Membranophones"),
+    ("Hi-Hats", "Traditional", "Cymbals", "Idiophones"),
+    ("Crash Cymbal", "Traditional", "Cymbals", "Idiophones"),
+    ("Ride Cymbal", "Traditional", "Cymbals", "Idiophones"),
+    ("Splash Cymbal", "Small Cymbal", "Cymbals", "Idiophones"),
+    ("China Cymbal", "Trashy Sounding", "Cymbals", "Idiophones"),
+    ("Bell Cymbal", "Focused Sound", "Cymbals", "Idiophones"),
+    ("Swish Cymbal", "Wide Sound", "Cymbals", "Idiophones"),
+    ("Finger Cymbals", "Zills", "Cymbals", "Idiophones"),
+    ("Gong", "Traditional", "Gongs and Bells", "Idiophones"),
+    ("Tam-tam", "Flat Gong", "Gongs and Bells", "Idiophones"),
+    ("Agogô Bells", "West African", "Gongs and Bells", "Idiophones"),
+    ("Bell Tree", "Chime Tree", "Gongs and Bells", "Idiophones"),
+    ("Cowbell", "Traditional", "Gongs and Bells", "Idiophones"),
+    ("Almglocken", "Tuned Cowbells", "Gongs and Bells", "Idiophones"),
+    ("Hand Bells", "Orchestral", "Gongs and Bells", "Idiophones"),
+    ("Temple Blocks", "Orchestral", "Gongs and Bells", "Idiophones"),
+    ("Crotales", "Antique Cymbals", "Gongs and Bells", "Idiophones"),
+    ("Triangle", "Traditional", "Small Percussive", "Idiophones"),
+    ("Woodblock", "Traditional", "Small Percussive", "Idiophones"),
+    ("Claves", "Traditional", "Small Percussive", "Idiophones"),
+    ("Castanets", "Spanish", "Small Percussive", "Idiophones"),
+    ("Maracas", "Latin Percussion", "Small Percussive", "Idiophones"),
+    ("Guiro", "Latin Percussion", "Small Percussive", "Idiophones"),
+    ("Vibraslap", "Percussive Sound", "Small Percussive", "Idiophones"),
+    ("Cabasa", "Latin Percussion", "Small Percussive", "Idiophones"),
+    ("Shakers", "Traditional", "Small Percussive", "Idiophones"),
+    ("Rainstick", "Ambient", "Small Percussive", "Idiophones"),
+    ("Flexatone", "Unique Sound", "Small Percussive", "Idiophones"),
+    ("Slapstick", "Whip", "Small Percussive", "Idiophones"),
+    ("Chimes", "Tubular Bells", "Chimes and Resonant", "Idiophones"),
+    ("Mark Tree", "Wind Chimes", "Chimes and Resonant", "Idiophones"),
+    ("Glockenspiel", "Orchestral", "Chimes and Resonant", "Idiophones"),
+    ("Xylophone", "Orchestral", "Chimes and Resonant", "Idiophones"),
+    ("Marimba", "Orchestral", "Chimes and Resonant", "Idiophones"),
+    ("Vibraphone", "Jazz", "Chimes and Resonant", "Idiophones"),
+    ("Steelpan", "Caribbean", "Chimes and Resonant", "Idiophones"),
+    ("Electronic Drum Pads", "Roland SPD-SX", "Electronic Percussion", "Pads"),
+    ("Trigger Pads", "Electronic", "Electronic Percussion", "Triggers"),
+    ("Drum Machines", "TR-808", "Electronic Percussion", "Akai MPC"),
+    ("Hybrid Kits", "Acoustic and Electronic", "Electronic Percussion", "Modules"),
+    ("Synth Drums", "Analog and Digital", "Electronic Percussion", "Synthesizers"),
+    ("Tambourine", "Traditional", "Miscellaneous", "Idiophones"),
+    ("Ocean Drum", "Ambient", "Miscellaneous", "Membranophones"),
+    ("Log Drum", "Wooden", "Miscellaneous", "Idiophones"),
+    ("Thunder Sheet", "Special Effect", "Miscellaneous", "Idiophones"),
+    ("Spring Drum", "Special Effect", "Miscellaneous", "Membranophones"),
+    ("Bamboo Wind Chimes", "Traditional", "Miscellaneous", "Idiophones"),
+    ("Anklung", "Indonesian", "Miscellaneous", "Idiophones"),
+    ("Slit Drum", "African", "Miscellaneous", "Idiophones"),
+    ("Bullroarer", "Indigenous", "Miscellaneous", "Aerophones")
+]
 ```
 
 # List of musical genres where True is for instrumental generation
