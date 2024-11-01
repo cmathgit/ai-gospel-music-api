@@ -18,8 +18,7 @@ Python3+
 https://docs.python.org/3/using/windows.html
 ```
 
-# Check that Python is installed
-# Open CMD and execute the following command
+# To check that Python is installed: Open CMD and execute the following command
 ```
 where python
 ```
