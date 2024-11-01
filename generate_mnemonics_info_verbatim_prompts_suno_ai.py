@@ -4,44 +4,35 @@ from datetime import datetime
 from datetime import timedelta
 from write_to_file import check_and_write_to_file
 
-# This file generates prompts for the Suno AI API using bible verses taken from the King James Version of the Bible verbatim to be used as lyrics. This is for custom prompts only.
+# This file generates prompts for the Suno AI API using information verbatim to be used as lyrics to serve as mnemonic device. This is for custom prompts only.
 
-# Load Bible-kjv library
-with open('lib/Books.json') as f:
-    bible_books = json.load(f)
+# Load topics in Mathematics library
+#with open('lib/math_topics.json') as f:
+#    math_topics = json.load(f)
 
-# choose a random bible book
-bible_book_choice = random.choice(bible_books)
+# choose a random math topic
+#math_topic_choice = random.choice(math_topics)
+#print(f"{math_topic_choice}")
 
-# Add space if book name starts with digit
-book_name = bible_book_choice[0]
-if book_name[0].isdigit():
-    book_name = book_name[0] + " " + book_name[1:]
-    print(f"{book_name}")
+# load topics in Computer Science library
+#with open('lib/cs_topics.json') as f:
+#    cs_topics = json.load(f)
 
-# choose a random chapter from the chosen bible book
-bible_chapter_choice = random.randint(1, bible_book_choice[1])
-print(f"{bible_book_choice[0]} {bible_chapter_choice}")
+# choose a random computer science topic
+#cs_topic_choice = random.choice(cs_topics)
+#print(f"{cs_topic_choice}")
 
-# Load bible book and verses
-with open(f'../Bible-kjv/{bible_book_choice[0]}.json') as f:
-    bible_verses = json.load(f)
+# load topics in Cybersecurity library
+#with open('lib/cybersecurity_topics.json') as f:
+#    cybersecurity_topics = json.load(f)
 
-# Select the chosen chapter
-bible_verses_chapter = bible_verses["chapters"][bible_chapter_choice - 1]
+# choose a random cybersecurity topic
+#cybersecurity_topic_choice = random.choice(cybersecurity_topics)
+#print(f"{cybersecurity_topic_choice}")
 
-# Get all verses for the chapter
-verses = bible_verses_chapter["verses"]
-
-# Initialize empty string to store all verses
-chapter_text = ""
-
-# Loop through all verses and concatenate their text
-for verse in verses:
-    chapter_text += verse["text"] + " "  # Add space between verses
-
-# Remove trailing space
-chapter_text = chapter_text.strip()
+# choose a random topic from the three topics
+#topic_choice = random.choice([math_topic_choice, cs_topic_choice, cybersecurity_topic_choice])
+#print(f"{topic_choice}")
 
 # Load data from JSON files
 with open('lib/tempo_dict.json') as f:
@@ -86,10 +77,12 @@ with open('lib/concerto_instrument_family_string_dict.json') as f:
 with open('lib/concerto_instrument_family_keys_dict.json') as f:
     concerto_instrument_family_keys = json.load(f)
 
-# Function to generate a random biblical song prompt less than 200 characters in string length
-def generate_biblical_song_verbatim_custom():
+# Function to generate a random mnemonic song prompt less than 200 characters in string length
+def generate_mnemonic_song_verbatim_custom():
     lyrics_prompt = ""
     style_of_music_prompt = ""
+    topic_choice_fill_in = "PASTEYOURTOPICHERE"
+    lyrics_fill_in = "PASTEYOURINFORMATIONTOBEUSEDASLYRICSHERE"
     #while True:
     song_genre_choice = random.choice(bible_song_genre)
     vocalist_choice = random.choice(vocalists)
@@ -103,34 +96,34 @@ def generate_biblical_song_verbatim_custom():
     timestamp = datetime.now()
     timestamp_str = timestamp.strftime('%Y%m%d_%H%M%S')
     timestamp_plus_1_sec = (timestamp + timedelta(seconds=1)).strftime('%Y%m%d_%H%M%S')
-    yt_title_1 = f"KJV VERBATIM {book_name} {bible_chapter_choice} {song_genre_choice[0]} {timestamp_str} [{musical_key_choice[0]}] [{tempo_choice[0]}] [AI Music]\n\n"
-    check_and_write_to_file('log/verbatim_kjv_prompt_history.txt', 'verbatim_kjv_prompt_history', yt_title_1)
+    yt_title_1 = f"INFO VERBATIM {topic_choice_fill_in} {timestamp_str} [{musical_key_choice[0]}] [{tempo_choice[0]}] [AI Music]\n\n"
+    check_and_write_to_file('log/verbatim_info_prompt_history.txt', 'verbatim_info_prompt_history', yt_title_1)
     print(yt_title_1)
     print("")
         
-    yt_title_2 = f"KJV VERBATIM {book_name} {bible_chapter_choice} {song_genre_choice[0]} {timestamp_plus_1_sec} [{musical_key_choice[0]}] [{tempo_choice[0]}] [AI Music]\n\n"
-    check_and_write_to_file('log/verbatim_kjv_prompt_history.txt', 'verbatim_kjv_prompt_history', yt_title_2)
+    yt_title_2 = f"INFO VERBATIM {topic_choice_fill_in} {timestamp_plus_1_sec} [{musical_key_choice[0]}] [{tempo_choice[0]}] [AI Music]\n\n"
+    check_and_write_to_file('log/verbatim_info_prompt_history.txt', 'verbatim_info_prompt_history', yt_title_2)
     print(yt_title_2)
     print("")
         
-    suno_song_title_1 = f"KJV VERBATIM {book_name} {bible_chapter_choice} {song_genre_choice[0]} {tempo_choice[0]} {tempo_choice_int} {musical_key_choice[0]} {timestamp_str}\n\n"
+    suno_song_title_1 = f"INFO VERBATIM {topic_choice_fill_in} {tempo_choice[0]} {tempo_choice_int} {musical_key_choice[0]} {timestamp_str}\n\n"
     suno_song_title_clean_1 = suno_song_title_1.replace(",", "")
-    check_and_write_to_file('log/verbatim_kjv_prompt_history.txt', 'verbatim_kjv_prompt_history', suno_song_title_clean_1)
+    check_and_write_to_file('log/verbatim_info_prompt_history.txt', 'verbatim_info_prompt_history', suno_song_title_clean_1)
     print(suno_song_title_clean_1)
     print("")
         
-    suno_song_title_2 = f"KJV VERBATIM {book_name} {bible_chapter_choice} {song_genre_choice[0]} {tempo_choice[0]} {tempo_choice_int} {musical_key_choice[0]} {timestamp_plus_1_sec}\n\n"
+    suno_song_title_2 = f"INFO VERBATIM {topic_choice_fill_in} {tempo_choice[0]} {tempo_choice_int} {musical_key_choice[0]} {timestamp_plus_1_sec}\n\n"
     suno_song_title_clean_2 = suno_song_title_2.replace(",", "")
-    check_and_write_to_file('log/verbatim_kjv_prompt_history.txt', 'verbatim_kjv_prompt_history', suno_song_title_clean_2)
+    check_and_write_to_file('log/verbatim_info_prompt_history.txt', 'verbatim_info_prompt_history', suno_song_title_clean_2)
     print(suno_song_title_clean_2)
     print("")
 
-    yt_descr = f"Using AI to generate {song_genre_choice[0]} songs and music videos with lyrics taken from the book of {bible_book_choice[0]} chapter {bible_chapter_choice} of The Holy Bible: King James Version verbatim.\n\n"
-    check_and_write_to_file('log/verbatim_kjv_prompt_history.txt', 'verbatim_kjv_prompt_history', yt_descr)
+    yt_descr = f"The AI-Assisted Memory Mix. Using AI to commit [{topic_choice_fill_in}] information to memory via song. When we were kids, we learned many things through song, e.g., ABCs. I realized how effective this was back in 2015 as a mathematics tutor. I would freestyle MC to beats reading definitions before an exam which helped me commit the information to memory.\n\n"
+    check_and_write_to_file('log/verbatim_info_prompt_history.txt', 'verbatim_info_prompt_history', yt_descr)
     print(yt_descr)
     print("")
         
-    lyrics_prompt = f'{chapter_text}\n\nKing James Version\nPublic Domain'
+    lyrics_prompt = f'{lyrics_fill_in}'
         
     style_of_music_prompt = f'{song_genre_choice[0]}, {vocalist_choice[0]} ({vocalist_choice[2]}), {instrument_choice_1}, {instrument_choice_2}, {instrument_choice_3}, {tempo_choice[0]} {tempo_choice_int} bpm, {musical_key_choice[0]}'
         
@@ -140,11 +133,12 @@ def generate_biblical_song_verbatim_custom():
     
     return concat_prompts
     
-# Function to generate a random biblical song prompt less than 200 characters in string length
-def bible_concerto_kjv_verbatim_custom():
+# Function to generate a random mnemonic song prompt less than 200 characters in string length
+def mnemonic_concerto_song_verbatim_custom():
     lyrics_prompt = ""
     style_of_music_prompt = ""
-    
+    topic_choice_fill_in = "PASTEYOURTOPICHERE"
+    lyrics_fill_in = "PASTEYOURINFORMATIONTOBEUSEDASLYRICSHERE"
     # Remove while loop. Need to limit length of payload returned from end point first.
     # while True:
     concerto_variant_choice = random.choice(concerto_variants)
@@ -160,34 +154,34 @@ def bible_concerto_kjv_verbatim_custom():
     timestamp_str = timestamp.strftime('%Y%m%d_%H%M%S')
     timestamp_plus_1_sec = (timestamp + timedelta(seconds=1)).strftime('%Y%m%d_%H%M%S')
 
-    yt_title_1 = f"KJV VERBATIM {book_name} {bible_chapter_choice} {concerto_variant_name} {timestamp_str} [{musical_key_choice[0]}] [{tempo_choice[0]}] [AI Music]\n\n"
-    check_and_write_to_file('log/verbatim_kjv_prompt_history.txt', 'verbatim_kjv_prompt_history', yt_title_1)
+    yt_title_1 = f"INFO VERBATIM {topic_choice_fill_in} {concerto_variant_name} {timestamp_str} [{musical_key_choice[0]}] [{tempo_choice[0]}] [AI Music]\n\n"
+    check_and_write_to_file('log/verbatim_info_prompt_history.txt', 'verbatim_info_prompt_history', yt_title_1)
     print(yt_title_1)
     print("")
 
-    yt_title_2 = f"KJV VERBATIM {book_name} {bible_chapter_choice} {concerto_variant_name} {timestamp_plus_1_sec} [{musical_key_choice[0]}] [{tempo_choice[0]}] [AI Music]\n\n"
-    check_and_write_to_file('log/verbatim_kjv_prompt_history.txt', 'verbatim_kjv_prompt_history', yt_title_2)
+    yt_title_2 = f"INFO VERBATIM {topic_choice_fill_in} {concerto_variant_name} {timestamp_plus_1_sec} [{musical_key_choice[0]}] [{tempo_choice[0]}] [AI Music]\n\n"
+    check_and_write_to_file('log/verbatim_info_prompt_history.txt', 'verbatim_info_prompt_history', yt_title_2)
     print(yt_title_2)
     print("")
 
-    suno_song_title_1 = f"KJV VERBATIM {book_name} {bible_chapter_choice} {concerto_variant_name} {tempo_choice[0]} {tempo_choice_int} {musical_key_choice[0]} {timestamp_str}\n\n"
+    suno_song_title_1 = f"INFO VERBATIM {topic_choice_fill_in} {concerto_variant_name} {tempo_choice[0]} {tempo_choice_int} {musical_key_choice[0]} {timestamp_str}\n\n"
     suno_song_title_clean_1 = suno_song_title_1.replace(",", "")
-    check_and_write_to_file('log/verbatim_kjv_prompt_history.txt', 'verbatim_kjv_prompt_history', suno_song_title_clean_1)
+    check_and_write_to_file('log/verbatim_info_prompt_history.txt', 'verbatim_info_prompt_history', suno_song_title_clean_1)
     print(suno_song_title_clean_1)
     print("")
 
-    suno_song_title_2 = f"KJV VERBATIM {book_name} {bible_chapter_choice} {concerto_variant_name} {tempo_choice[0]} {tempo_choice_int} {musical_key_choice[0]} {timestamp_plus_1_sec}\n\n"
+    suno_song_title_2 = f"INFO VERBATIM {topic_choice_fill_in} {concerto_variant_name} {tempo_choice[0]} {tempo_choice_int} {musical_key_choice[0]} {timestamp_plus_1_sec}\n\n"
     suno_song_title_clean_2 = suno_song_title_2.replace(",", "")
-    check_and_write_to_file('log/verbatim_kjv_prompt_history.txt', 'verbatim_kjv_prompt_history', suno_song_title_clean_2)
+    check_and_write_to_file('log/verbatim_info_prompt_history.txt', 'verbatim_info_prompt_history', suno_song_title_clean_2)
     print(suno_song_title_clean_2)
     print("")
         
-    yt_descr = f"Using AI to generate {concerto_variant_name} songs and music videos with lyrics taken from the book of {bible_book_choice[0]} chapter {bible_chapter_choice} of The Holy Bible: King James Version verbatim.\n\n"
-    check_and_write_to_file('log/verbatim_kjv_prompt_history.txt', 'verbatim_kjv_prompt_history', yt_descr)
+    yt_descr = f"The AI-Assisted Memory Mix. Using AI to commit [{topic_choice_fill_in}] information to memory via song. When we were kids, we learned many things through song, e.g., ABCs. I realized how effective this was back in 2015 as a mathematics tutor. I would freestyle MC to beats reading definitions before an exam which helped me commit the information to memory.\n\n"
+    check_and_write_to_file('log/verbatim_info_prompt_history.txt', 'verbatim_info_prompt_history', yt_descr)
     print(yt_descr)
     print("")
         
-    lyrics_prompt = f'{chapter_text}\n\nKing James Version\nPublic Domain'
+    lyrics_prompt = f'{lyrics_fill_in}'
      
     if concerto_variant_ensemble == "Symphony":
         style_of_music_prompt = f'{concerto_variant_ensemble}, {vocalist_choice[0]} ({vocalist_choice[2]}), {concerto_instrument_family_woodwinds[0]["name"]}, {concerto_instrument_family_woodwinds[1]["name"]}, {concerto_instrument_family_woodwinds[2]["name"]}, {concerto_instrument_family_woodwinds[3]["name"]}, {concerto_instrument_family_woodwinds[4]["name"]}, {tempo_choice[0]} {tempo_choice_int} bpm, {musical_key_choice[0]}'
@@ -219,29 +213,29 @@ exclude_styles_pop_genres_prompt = f'\nExclude Styles:\n{exclude_pop_genres[0]},
 
 new_prompt_div = "\n\n------------------------------New Prompt-------------------------------------\n"
 
-# Generate and print the generate_biblical_song_verbatim_custom string
+# Generate and print the generate_mnemonic_song_verbatim_custom string
 # print("Biblically inspired song prompt less than 200 characters in string length:")
-check_and_write_to_file('log/verbatim_kjv_prompt_history.txt', 'verbatim_kjv_prompt_history', new_prompt_div)
+check_and_write_to_file('log/verbatim_info_prompt_history.txt', 'verbatim_info_prompt_history', new_prompt_div)
 print(new_prompt_div)
-bible_song_prompt_custom = generate_biblical_song_verbatim_custom()
-check_and_write_to_file('log/verbatim_kjv_prompt_history.txt', 'verbatim_kjv_prompt_history', bible_song_prompt_custom)
-print(bible_song_prompt_custom)
-check_and_write_to_file('log/verbatim_kjv_prompt_history.txt', 'verbatim_kjv_prompt_history ', exclude_styles_pop_genres_prompt)
+mnemonic_song_prompt_custom = generate_mnemonic_song_verbatim_custom()
+check_and_write_to_file('log/verbatim_info_prompt_history.txt', 'verbatim_info_prompt_history', mnemonic_song_prompt_custom)
+print(mnemonic_song_prompt_custom)
+check_and_write_to_file('log/verbatim_info_prompt_history.txt', 'verbatim_info_prompt_history', exclude_styles_pop_genres_prompt)
 print(exclude_styles_pop_genres_prompt)
-check_and_write_to_file('log/verbatim_kjv_prompt_history.txt', 'verbatim_kjv_prompt_history ', "\n\n Lyrics_Here")
+check_and_write_to_file('log/verbatim_info_prompt_history.txt', 'verbatim_info_prompt_history', "\n\n Lyrics_Here")
 print("\n Lyrics_Here")
-check_and_write_to_file('log/verbatim_kjv_prompt_history.txt', 'verbatim_kjv_prompt_history ', "\n\nOwnership and commercial use rights is retained for any songs generated by my self using Suno during active subscription, even after cancelling. Proof of ownership is available upon request. For more information, please reference Suno Knowledge Base Articles at https://help.suno.com/en/articles/2421505")
+check_and_write_to_file('log/verbatim_info_prompt_history.txt', 'verbatim_info_prompt_history', "\n\nOwnership and commercial use rights is retained for any songs generated by my self using Suno during active subscription, even after cancelling. Proof of ownership is available upon request. For more information, please reference Suno Knowledge Base Articles at https://help.suno.com/en/articles/2421505")
 
-# Generate and print the bible_gateway_concerto_verbatim_custom string
-check_and_write_to_file('log/verbatim_kjv_prompt_history.txt', 'verbatim_kjv_prompt_history', new_prompt_div)
+# Generate and print the mnemonic_concerto_song_verbatim_custom string
+check_and_write_to_file('log/verbatim_info_prompt_history.txt', 'verbatim_info_prompt_history', new_prompt_div)
 print(new_prompt_div)
-bible_gateway_concerto_verbatim_prompt = bible_concerto_kjv_verbatim_custom()
-check_and_write_to_file('log/verbatim_kjv_prompt_history.txt', 'verbatim_kjv_prompt_history', bible_gateway_concerto_verbatim_prompt)
-print(bible_gateway_concerto_verbatim_prompt)
-check_and_write_to_file('log/verbatim_kjv_prompt_history.txt', 'verbatim_kjv_prompt_history', exclude_styles_pop_genres_prompt)
+mnemonic_concerto_song_verbatim_prompt = mnemonic_concerto_song_verbatim_custom()
+check_and_write_to_file('log/verbatim_info_prompt_history.txt', 'verbatim_info_prompt_history', mnemonic_concerto_song_verbatim_prompt)
+print(mnemonic_concerto_song_verbatim_prompt)
+check_and_write_to_file('log/verbatim_info_prompt_history.txt', 'verbatim_info_prompt_history', exclude_styles_pop_genres_prompt)
 print(exclude_styles_pop_genres_prompt)
-check_and_write_to_file('log/verbatim_kjv_prompt_history.txt', 'verbatim_kjv_prompt_history', "\n\n Lyrics_Here")
+check_and_write_to_file('log/verbatim_info_prompt_history.txt', 'verbatim_info_prompt_history', "\n\n Lyrics_Here")
 print("\n Lyrics_Here")
-check_and_write_to_file('log/verbatim_kjv_prompt_history.txt', 'verbatim_kjv_prompt_history', "\n\n[Concerto]")
+check_and_write_to_file('log/verbatim_info_prompt_history.txt', 'verbatim_info_prompt_history', "\n\n[Concerto]")
 print("\n[Concerto]")
-check_and_write_to_file('log/verbatim_kjv_prompt_history.txt', 'verbatim_kjv_prompt_history', "\n\nOwnership and commercial use rights is retained for any songs generated by my self using Suno during active subscription, even after cancelling. Proof of ownership is available upon request. For more information, please reference Suno Knowledge Base Articles at https://help.suno.com/en/articles/2421505")
+check_and_write_to_file('log/verbatim_info_prompt_history.txt', 'verbatim_info_prompt_history', "\n\nOwnership and commercial use rights is retained for any songs generated by my self using Suno during active subscription, even after cancelling. Proof of ownership is available upon request. For more information, please reference Suno Knowledge Base Articles at https://help.suno.com/en/articles/2421505")
