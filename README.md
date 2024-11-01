@@ -15,10 +15,10 @@ https://suno.com/@crossofthemessiah
 log/
 ```
 # How to use the prompt history files to generate songs using Suno AI
-# Copy the Lyrics Prompt into the Custom Lyrics Prompt field in the Suno AI interface.
-# Copy the Style of Music Prompt into the Custom Style of Music Prompt field in the Suno AI interface.
-# Copy the title of the song into the Song Title field in the Suno AI interface.
-# Click the Create button in the Suno AI interface.
+# 1. Copy the Lyrics Prompt into the Custom Lyrics Prompt field in the Suno AI interface.
+# 2. Copy the Style of Music Prompt into the Custom Style of Music Prompt field in the Suno AI interface.
+# 3. Copy the title of the song into the Song Title field in the Suno AI interface.
+# 4. Click the Create button in the Suno AI interface.
 
 # How to use this project
 ```
