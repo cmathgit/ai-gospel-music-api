@@ -1,9 +1,6 @@
-import json
-import random
 import os
 import shutil
 from datetime import datetime
-from biblegateway_api import get_bible_votd_kjv, get_bible_votd_amp, get_bible_votd_msg
 
 def check_and_write_to_file(filename, bup_file_prefix, new_text):
     # Define the maximum file size in bytes (5 KB)

@@ -1,4 +1,4 @@
-import requests
+# import requests
 import json
 
 # base_url = 'https://www.biblegateway.com/votd/get/?format=JSON'

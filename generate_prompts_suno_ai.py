@@ -1,10 +1,8 @@
 import json
 import random
-import os
-import shutil
 from datetime import datetime
 from datetime import timedelta
-from biblegateway_api import get_bible_votd_kjv, get_bible_votd_amp, get_bible_votd_msg
+from biblegateway_api import get_bible_votd_kjv #, get_bible_votd_amp, get_bible_votd_msg
 from write_to_file import check_and_write_to_file
 
 # Load data from JSON files
