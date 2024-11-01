@@ -30,9 +30,20 @@ python generate_prompts_suno_ai.py
 runpy_gen_prompts_suno.bat
 ```
 
-# This project uses the Bible-kjv repository from the following GitHub repo
+# This project uses the Bible-kjv repository from the following GitHub repo. You can download the repo and place it in any directory. The contents of the repo are required for the generate_kjv_verbatim_prompts_suno_ai.py script to work. The current build of generate_kjv_verbatim_prompts_suno_ai.py looks for the repo in the parent directory of the script.
 ```
 https://github.com/aruljohn/Bible-kjv
+```
+
+# To download the repo, click the green Code button and select Download ZIP. Extract the contents of the zip file to the parent directory of the generate_kjv_verbatim_prompts_suno_ai.py script.
+# To clone the repo using git, use the following command in the terminal
+```
+git clone https://github.com/aruljohn/Bible-kjv.git
+```
+
+# if SSH is configured, use the following command
+```
+git clone git@github.com:aruljohn/Bible-kjv.git
 ```
 
 # This project uses the Bible-kjv-1611 repository from the following GitHub repo

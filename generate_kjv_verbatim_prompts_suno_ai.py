@@ -8,7 +8,7 @@ from write_to_file import check_and_write_to_file
 # This file generates prompts for the Suno AI API using bible verses taken from the King James Version of the Bible verbatim to be used as lyrics. This is for custom prompts only.
 
 # Load Bible-kjv library
-with open('Bible-kjv/Books.json') as f:
+with open('lib/Books.json') as f:
     bible_books = json.load(f)
 
 # choose a random bible book
@@ -25,7 +25,7 @@ bible_chapter_choice = random.randint(1, bible_book_choice[1])
 print(f"{bible_book_choice[0]} {bible_chapter_choice}")
 
 # Load bible book and verses
-with open(f'Bible-kjv/{bible_book_choice[0]}.json') as f:
+with open(f'../Bible-kjv/{bible_book_choice[0]}.json') as f:
     bible_verses = json.load(f)
 
 # Select the chosen chapter
