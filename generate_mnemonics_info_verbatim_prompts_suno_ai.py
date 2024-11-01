@@ -53,6 +53,9 @@ with open('lib/song_genre_dict.json') as f:
 with open('lib/bible_song_genre_dict.json') as f:
     bible_song_genre = json.load(f)
 
+with open('lib/instrumental_song_genre_dict.json') as f:
+    instrumental_song_genre = json.load(f)
+
 with open('lib/exclude_pop_genres_dict.json') as f:
     exclude_pop_genres = json.load(f)
 
@@ -84,7 +87,7 @@ def generate_mnemonic_song_verbatim_custom():
     topic_choice_fill_in = "PASTEYOURTOPICHERE"
     lyrics_fill_in = "PASTEYOURINFORMATIONTOBEUSEDASLYRICSHERE"
     #while True:
-    song_genre_choice = random.choice(bible_song_genre)
+    song_genre_choice = random.choice(song_genre)
     vocalist_choice = random.choice(vocalists)
     instrument_choice_1 = random.choice(instruments)
     instrument_choice_2 = random.choice(instruments)
@@ -96,23 +99,23 @@ def generate_mnemonic_song_verbatim_custom():
     timestamp = datetime.now()
     timestamp_str = timestamp.strftime('%Y%m%d_%H%M%S')
     timestamp_plus_1_sec = (timestamp + timedelta(seconds=1)).strftime('%Y%m%d_%H%M%S')
-    yt_title_1 = f"INFO VERBATIM {topic_choice_fill_in} {timestamp_str} [{musical_key_choice[0]}] [{tempo_choice[0]}] [AI Music]\n\n"
+    yt_title_1 = f"INFO VERBATIM {topic_choice_fill_in} {song_genre_choice[0]} {timestamp_str} [{musical_key_choice[0]}] [{tempo_choice[0]}] [AI Music]\n\n"
     check_and_write_to_file('log/verbatim_info_prompt_history.txt', 'verbatim_info_prompt_history', yt_title_1)
     print(yt_title_1)
     print("")
         
-    yt_title_2 = f"INFO VERBATIM {topic_choice_fill_in} {timestamp_plus_1_sec} [{musical_key_choice[0]}] [{tempo_choice[0]}] [AI Music]\n\n"
+    yt_title_2 = f"INFO VERBATIM {topic_choice_fill_in} {song_genre_choice[0]} {timestamp_plus_1_sec} [{musical_key_choice[0]}] [{tempo_choice[0]}] [AI Music]\n\n"
     check_and_write_to_file('log/verbatim_info_prompt_history.txt', 'verbatim_info_prompt_history', yt_title_2)
     print(yt_title_2)
     print("")
         
-    suno_song_title_1 = f"INFO VERBATIM {topic_choice_fill_in} {tempo_choice[0]} {tempo_choice_int} {musical_key_choice[0]} {timestamp_str}\n\n"
+    suno_song_title_1 = f"INFO VERBATIM {topic_choice_fill_in} {song_genre_choice[0]} {tempo_choice[0]} {tempo_choice_int} {musical_key_choice[0]} {timestamp_str}\n\n"
     suno_song_title_clean_1 = suno_song_title_1.replace(",", "")
     check_and_write_to_file('log/verbatim_info_prompt_history.txt', 'verbatim_info_prompt_history', suno_song_title_clean_1)
     print(suno_song_title_clean_1)
     print("")
         
-    suno_song_title_2 = f"INFO VERBATIM {topic_choice_fill_in} {tempo_choice[0]} {tempo_choice_int} {musical_key_choice[0]} {timestamp_plus_1_sec}\n\n"
+    suno_song_title_2 = f"INFO VERBATIM {topic_choice_fill_in} {song_genre_choice[0]} {tempo_choice[0]} {tempo_choice_int} {musical_key_choice[0]} {timestamp_plus_1_sec}\n\n"
     suno_song_title_clean_2 = suno_song_title_2.replace(",", "")
     check_and_write_to_file('log/verbatim_info_prompt_history.txt', 'verbatim_info_prompt_history', suno_song_title_clean_2)
     print(suno_song_title_clean_2)
