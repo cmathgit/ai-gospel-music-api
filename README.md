@@ -19,10 +19,9 @@ https://docs.python.org/3/using/windows.html
 ```
 
 # Check that Python is installed
+# Open CMD and execute the following command
 ```
-Open CMD and type python.
-If it exists, to see where this executable lives, type where python
-If not, follow the instructions for installation at python.org
+where python
 ```
 
 # How to compile and run in Windows (back slash)
