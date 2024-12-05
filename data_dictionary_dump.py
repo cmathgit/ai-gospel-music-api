@@ -374,6 +374,7 @@ except IOError as e:
     
 # A list of tuples representing song genre and whether it is instrumental or not
 bible_song_genre = [
+    ('Music Theater', False),
     ('zydeco', False),
     ("experimental hip hop", False),
     ("punk rap", False),
@@ -1007,6 +1008,7 @@ except IOError as e:
     
 # A list of tuples representing song genre
 song_genre = [
+    ('Music Theater', False),
     ("classical acoustic guitar", False),
     ("experimental hip hop", False),
     ("punk rap", False),
