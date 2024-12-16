@@ -55,11 +55,6 @@ https://github.com/aruljohn/Bible-kjv
 git clone https://github.com/aruljohn/Bible-kjv.git
 ```
 
-# if SSH is configured, use the following command
-```
-git clone git@github.com:aruljohn/Bible-kjv.git
-```
-
 # This project uses the Bible-kjv-1611 repository from the following GitHub repo
 ```
 https://github.com/aruljohn/Bible-kjv-1611
