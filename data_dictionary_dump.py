@@ -303,7 +303,8 @@ instruments = [
     ("Strings"),
     ("Sampler"),
     ("Harmonium"),
-    ("Computer-based Effects")
+    ("Computer-based Effects"),
+    ("Handpan")
 ]
 
 # Writing to file with error handling
@@ -1321,8 +1322,18 @@ try:
 except IOError as e:
     print("Error writing to file:", e)
     
-    
+    # [Narrator .Reflective and engaging.]
+    # [Clips of uplifting hymns and soulful vocals play.]
+    # [Shift to darker, bass-heavy beats.]
+    # [Acoustic guitar and live audience sounds play.]
+    # [Trumpets and heavenly hosts sounds play.]
+    # [Studio sounds with energetic drums and loops.]
+    # [Narrator excitedly.]
+    # [Fade out with music crescendoing.]
 simple_bible_prompts = [
+    ("mellow synths, Handpan, Choir, mandolin, trumpet, plucked bass, Triple Concerto, Andante 100 bpm, F Lydian, music plays in the background, gradually building in intensity as the narrator speaks, Fade out with music crescendoing"),
+    ("[Narrator Reflective and engaging.][Clips of uplifting hymns and soulful vocals play.][Shift to darker, bass-heavy beats.][Acoustic guitar and live audience sounds play.][Trumpets and heavenly hosts sounds play.][Studio sounds with energetic drums and loops.][Narrator excitedly.][Fade out with music crescendoing.]"),
+    ("Upbeat music plays in the background, gradually building in intensity as the narrator speaks, Fade out with album covers on screen and music crescendoing"),
     ("slow bossa nova, Tenor (Leggero), saxophone, Psalms 72, Largo 45, C Lydian"),
     ("kpop, Soprano (Dramatic), guitar, Genesis 12, Allegro 145, G# Ionian"),
     ("darkwave, Contralto (Alto), drums, Exodus 22, Presto 190, F# Aeolian"),
@@ -1726,7 +1737,10 @@ except IOError as e:
     print("Error writing to file:", e)
 
 #exclude pop genres
-exclude_pop_genres_prompt = ["pop", "electropop", "synthpop", "indie pop", "K-pop", "J-pop", "dance-pop", "art pop", "teen pop", "hyperpop"]
+# Pop, Electropop, Synthpop, Indie Pop, K-pop, J-pop, Dance-pop, Art Pop, Teen Pop, Hyperpop, Bubblegum Pop, Dream Pop, Power Pop, Pop Rock, Alternative Pop, Soft Pop, Pop Punk, Country Pop, Chamber Pop, Jazz Pop
+#exclude_pop_genres_prompt = ["pop", "electropop", "synthpop", "indie pop", "K-pop", "J-pop", "dance-pop", "art pop", "teen pop", "hyperpop"]
+exclude_pop_genres_prompt = ["pop", "electropop", "synthpop", "indie pop", "K-pop", "J-pop", "dance-pop", "art pop", "teen pop", "hyperpop", "bubblegum pop", "dream pop", "power pop", "pop rock", "alternative pop", "soft pop", "pop punk", "country pop", "chamber pop", "jazz pop"]
+
 
 # Writing to file with error handling
 exclude_pop_genres_dump_file = f"{base_file_path}exclude_pop_genres_dict.json"
