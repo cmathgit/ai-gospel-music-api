@@ -2,6 +2,11 @@
 
 # Using AI to generate biblically accurate gospel songs, among other genres, and music videos. Various Python scripts to auto generate prompts for Suno API requests and integration with Chat-GPT, YouTube, BibleGateway, and more. Utilizes various dictionaries of bible verses, vocal types, musical keys, tempos, genres, instruments, drum kits, concerto variants, and ensemble families to randomly combine strings and generate prompts for Suno AI requests.Using AI to generate instrumentals for vocalists from a variety of genres, musical keys, and modes. Python script to send an API request to generate songs via SUNO AI, save the API response JSON format, read that data, parse the JSON array to get the information that we need, and write that information to execute more api requests or to a text file for logging. 
 
+# Complete Dataset on HuggingFace
+```
+https://huggingface.co/datasets/cmathhug/ai-gospel-music-dictionaries
+```
+
 # Visit my Suno profile
 ```
 https://suno.com/@crossofthemessiah
