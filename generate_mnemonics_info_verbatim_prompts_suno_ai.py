@@ -214,7 +214,7 @@ def mnemonic_concerto_song_verbatim_custom():
     return concat_prompts
 
 #generate exclude pop genres prompt and write to file
-exclude_styles_pop_genres_prompt = f'\nExclude Styles:\n{exclude_pop_genres[0]}, {exclude_pop_genres[1]}, {exclude_pop_genres[2]}, {exclude_pop_genres[3]}, {exclude_pop_genres[4]}, {exclude_pop_genres[5]}, {exclude_pop_genres[6]}, {exclude_pop_genres[7]}, {exclude_pop_genres[8]}, {exclude_pop_genres[9]}'
+exclude_styles_pop_genres_prompt = f'\n\nExclude Styles:\n{exclude_pop_genres[0]}, {exclude_pop_genres[1]}, {exclude_pop_genres[2]}, {exclude_pop_genres[3]}, {exclude_pop_genres[4]}, {exclude_pop_genres[5]}, {exclude_pop_genres[6]}, {exclude_pop_genres[7]}, {exclude_pop_genres[8]}, {exclude_pop_genres[9]}, {exclude_pop_genres[10]}, {exclude_pop_genres[11]}, {exclude_pop_genres[12]}, {exclude_pop_genres[13]}, {exclude_pop_genres[14]}, {exclude_pop_genres[15]}, {exclude_pop_genres[16]}, {exclude_pop_genres[17]}, {exclude_pop_genres[18]}, {exclude_pop_genres[19]}'
 
 new_prompt_div = "\n\n------------------------------New Prompt-------------------------------------\n"
 
