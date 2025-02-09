@@ -84,12 +84,12 @@ def generate_biblical_song_simple():
         timestamp_str = timestamp.strftime('%Y%m%d_%H%M%S')
         timestamp_plus_1_sec = (timestamp + timedelta(seconds=1)).strftime('%Y%m%d_%H%M%S')
 
-        yt_title_1 = f"Bible {bible_book_choice[0]} {bible_chap_choice} {bible_song_genre_choice[0]} {timestamp_str} [{musical_key_choice[0]}] [{tempo_choice[0]}] [AI Music]\n\n"
+        yt_title_1 = f"Bible {bible_book_choice[0]} {bible_chap_choice} {bible_song_genre_choice[0]} {timestamp_str} [{musical_key_choice[0]}] [{tempo_choice[0]}] [AILLM Music]\n\n"
         check_and_write_to_file('log/bible_song_prompt_history.txt', 'bible_song_prompt_history', yt_title_1)
         print(yt_title_1)
         print("")
 
-        yt_title_2 = f"Bible {bible_book_choice[0]} {bible_chap_choice} {bible_song_genre_choice[0]} {timestamp_plus_1_sec} [{musical_key_choice[0]}] [{tempo_choice[0]}] [AI Music]\n\n"
+        yt_title_2 = f"Bible {bible_book_choice[0]} {bible_chap_choice} {bible_song_genre_choice[0]} {timestamp_plus_1_sec} [{musical_key_choice[0]}] [{tempo_choice[0]}] [AILLM Music]\n\n"
         check_and_write_to_file('log/bible_song_prompt_history.txt', 'bible_song_prompt_history', yt_title_2)
         print(yt_title_2)
         print("")
@@ -139,12 +139,12 @@ def generate_biblical_song_custom():
         timestamp = datetime.now()
         timestamp_str = timestamp.strftime('%Y%m%d_%H%M%S')
         timestamp_plus_1_sec = (timestamp + timedelta(seconds=1)).strftime('%Y%m%d_%H%M%S')
-        yt_title_1 = f"Bible {bible_book_choice[0]} {bible_chap_choice} {song_genre_choice[0]} {timestamp_str} [{musical_key_choice[0]}] [{tempo_choice[0]}] [AI Music]\n\n"
+        yt_title_1 = f"Bible {bible_book_choice[0]} {bible_chap_choice} {song_genre_choice[0]} {timestamp_str} [{musical_key_choice[0]}] [{tempo_choice[0]}] [AILLM Music]\n\n"
         check_and_write_to_file('log/bible_song_prompt_history.txt', 'bible_song_prompt_history', yt_title_1)
         print(yt_title_1)
         print("")
         
-        yt_title_2 = f"Bible {bible_book_choice[0]} {bible_chap_choice} {song_genre_choice[0]} {timestamp_plus_1_sec} [{musical_key_choice[0]}] [{tempo_choice[0]}] [AI Music]\n\n"
+        yt_title_2 = f"Bible {bible_book_choice[0]} {bible_chap_choice} {song_genre_choice[0]} {timestamp_plus_1_sec} [{musical_key_choice[0]}] [{tempo_choice[0]}] [AILLM Music]\n\n"
         check_and_write_to_file('log/bible_song_prompt_history.txt', 'bible_song_prompt_history', yt_title_2)
         print(yt_title_2)
         print("")

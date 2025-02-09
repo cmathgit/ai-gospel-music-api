@@ -100,12 +100,12 @@ def generate_bible_gateway_votd_verbatim_custom():
     timestamp_str = timestamp.strftime('%Y%m%d_%H%M%S')
     timestamp_plus_1_sec = (timestamp + timedelta(seconds=1)).strftime('%Y%m%d_%H%M%S')
 
-    yt_title_1 = f"VOTD {biblereference} {song_genre_choice[0]} {timestamp_str} [{musical_key_choice[0]}] [{tempo_choice[0]}] [AI Music]\n\n"
+    yt_title_1 = f"VOTD {biblereference} {song_genre_choice[0]} {timestamp_str} [{musical_key_choice[0]}] [{tempo_choice[0]}] [AILLM Music]\n\n"
     check_and_write_to_file('log/verbatim_votd_prompt_history.txt', 'verbatim_votd_prompt_history', yt_title_1)
     print(yt_title_1)
     print("")
 
-    yt_title_2 = f"VOTD {biblereference} {song_genre_choice[0]} {timestamp_plus_1_sec} [{musical_key_choice[0]}] [{tempo_choice[0]}] [AI Music]\n\n"
+    yt_title_2 = f"VOTD {biblereference} {song_genre_choice[0]} {timestamp_plus_1_sec} [{musical_key_choice[0]}] [{tempo_choice[0]}] [AILLM Music]\n\n"
     check_and_write_to_file('log/verbatim_votd_prompt_history.txt', 'verbatim_votd_prompt_history', yt_title_2)
     print(yt_title_2)
     print("")
@@ -169,12 +169,12 @@ def bible_gateway_votd_concerto_verbatim_custom():
     timestamp_str = timestamp.strftime('%Y%m%d_%H%M%S')
     timestamp_plus_1_sec = (timestamp + timedelta(seconds=1)).strftime('%Y%m%d_%H%M%S')
 
-    yt_title_1 = f"VOTD {biblereference} {concerto_variant_name} {timestamp_str} [{musical_key_choice[0]}] [{tempo_choice[0]}] [AI Music]\n\n"
+    yt_title_1 = f"VOTD {biblereference} {concerto_variant_name} {timestamp_str} [{musical_key_choice[0]}] [{tempo_choice[0]}] [AILLM Music]\n\n"
     check_and_write_to_file('log/verbatim_votd_prompt_history.txt', 'verbatim_votd_prompt_history', yt_title_1)
     print(yt_title_1)
     print("")
 
-    yt_title_2 = f"VOTD {biblereference} {concerto_variant_name} {timestamp_plus_1_sec} [{musical_key_choice[0]}] [{tempo_choice[0]}] [AI Music]\n\n"
+    yt_title_2 = f"VOTD {biblereference} {concerto_variant_name} {timestamp_plus_1_sec} [{musical_key_choice[0]}] [{tempo_choice[0]}] [AILLM Music]\n\n"
     check_and_write_to_file('log/verbatim_votd_prompt_history.txt', 'verbatim_votd_prompt_history', yt_title_2)
     print(yt_title_2)
     print("")
