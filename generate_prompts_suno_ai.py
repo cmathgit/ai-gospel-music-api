@@ -84,12 +84,12 @@ def generate_biblical_song_simple():
         timestamp_str = timestamp.strftime('%Y%m%d_%H%M%S')
         timestamp_plus_1_sec = (timestamp + timedelta(seconds=1)).strftime('%Y%m%d_%H%M%S')
 
-        yt_title_1 = f"Bible {bible_book_choice[0]} {bible_chap_choice} {bible_song_genre_choice[0]} {timestamp_str} [{musical_key_choice[0]}] [{tempo_choice[0]}] [AILLM Music]\n\n"
+        yt_title_1 = f"Bible {bible_book_choice[0]} {bible_chap_choice} {bible_song_genre_choice[0]} {timestamp_str} [{musical_key_choice[0]}] [{tempo_choice[0]}] [AILLMusic]\n\n"
         check_and_write_to_file('log/bible_song_prompt_history.txt', 'bible_song_prompt_history', yt_title_1)
         print(yt_title_1)
         print("")
 
-        yt_title_2 = f"Bible {bible_book_choice[0]} {bible_chap_choice} {bible_song_genre_choice[0]} {timestamp_plus_1_sec} [{musical_key_choice[0]}] [{tempo_choice[0]}] [AILLM Music]\n\n"
+        yt_title_2 = f"Bible {bible_book_choice[0]} {bible_chap_choice} {bible_song_genre_choice[0]} {timestamp_plus_1_sec} [{musical_key_choice[0]}] [{tempo_choice[0]}] [AILLMusic]\n\n"
         check_and_write_to_file('log/bible_song_prompt_history.txt', 'bible_song_prompt_history', yt_title_2)
         print(yt_title_2)
         print("")
@@ -139,12 +139,12 @@ def generate_biblical_song_custom():
         timestamp = datetime.now()
         timestamp_str = timestamp.strftime('%Y%m%d_%H%M%S')
         timestamp_plus_1_sec = (timestamp + timedelta(seconds=1)).strftime('%Y%m%d_%H%M%S')
-        yt_title_1 = f"Bible {bible_book_choice[0]} {bible_chap_choice} {song_genre_choice[0]} {timestamp_str} [{musical_key_choice[0]}] [{tempo_choice[0]}] [AILLM Music]\n\n"
+        yt_title_1 = f"Bible {bible_book_choice[0]} {bible_chap_choice} {song_genre_choice[0]} {timestamp_str} [{musical_key_choice[0]}] [{tempo_choice[0]}] [AILLMusic]\n\n"
         check_and_write_to_file('log/bible_song_prompt_history.txt', 'bible_song_prompt_history', yt_title_1)
         print(yt_title_1)
         print("")
         
-        yt_title_2 = f"Bible {bible_book_choice[0]} {bible_chap_choice} {song_genre_choice[0]} {timestamp_plus_1_sec} [{musical_key_choice[0]}] [{tempo_choice[0]}] [AILLM Music]\n\n"
+        yt_title_2 = f"Bible {bible_book_choice[0]} {bible_chap_choice} {song_genre_choice[0]} {timestamp_plus_1_sec} [{musical_key_choice[0]}] [{tempo_choice[0]}] [AILLMusic]\n\n"
         check_and_write_to_file('log/bible_song_prompt_history.txt', 'bible_song_prompt_history', yt_title_2)
         print(yt_title_2)
         print("")
@@ -194,12 +194,12 @@ def generate_instrumental_song_simple():
         timestamp_str = timestamp.strftime('%Y%m%d_%H%M%S')
         timestamp_plus_1_sec = (timestamp + timedelta(seconds=1)).strftime('%Y%m%d_%H%M%S')
 
-        yt_title_1 = f"Instrumental {instrumental_song_genre_choice[0]} {timestamp_str} [{musical_key_choice[0]}] [{tempo_choice[0]}] [AI Music]\n\n"
+        yt_title_1 = f"Instrumental {instrumental_song_genre_choice[0]} {timestamp_str} [{musical_key_choice[0]}] [{tempo_choice[0]}] [AILLMusic]\n\n"
         check_and_write_to_file('log/instrumental_song_prompt_history.txt', 'instrumental_song_prompt_history', yt_title_1)
         print(yt_title_1)
         print("")
 
-        yt_title_2 = f"Instrumental {instrumental_song_genre_choice[0]} {timestamp_plus_1_sec} [{musical_key_choice[0]}] [{tempo_choice[0]}] [AI Music]\n\n"
+        yt_title_2 = f"Instrumental {instrumental_song_genre_choice[0]} {timestamp_plus_1_sec} [{musical_key_choice[0]}] [{tempo_choice[0]}] [AILLMusic]\n\n"
         check_and_write_to_file('log/instrumental_song_prompt_history.txt', 'instrumental_song_prompt_history', yt_title_2)
         print(yt_title_2)
         print("")
@@ -267,12 +267,12 @@ def generate_bible_gateway_votd_song_custom():
     timestamp_str = timestamp.strftime('%Y%m%d_%H%M%S')
     timestamp_plus_1_sec = (timestamp + timedelta(seconds=1)).strftime('%Y%m%d_%H%M%S')
 
-    yt_title_1 = f"VOTD {biblereference} {song_genre_choice[0]} {timestamp_str} [{musical_key_choice[0]}] [{tempo_choice[0]}] [AI Music]\n\n"
+    yt_title_1 = f"VOTD {biblereference} {song_genre_choice[0]} {timestamp_str} [{musical_key_choice[0]}] [{tempo_choice[0]}] [AILLMusic]\n\n"
     check_and_write_to_file('log/votd_bible_song_prompt_history.txt', 'votd_bible_song_prompt_history', yt_title_1)
     print(yt_title_1)
     print("")
 
-    yt_title_2 = f"VOTD {biblereference} {song_genre_choice[0]} {timestamp_plus_1_sec} [{musical_key_choice[0]}] [{tempo_choice[0]}] [AI Music]\n\n"
+    yt_title_2 = f"VOTD {biblereference} {song_genre_choice[0]} {timestamp_plus_1_sec} [{musical_key_choice[0]}] [{tempo_choice[0]}] [AILLMusic]\n\n"
     check_and_write_to_file('log/votd_bible_song_prompt_history.txt', 'votd_bible_song_prompt_history', yt_title_2)
     print(yt_title_2)
     print("")
@@ -325,12 +325,12 @@ def generate_drum_loop():
         timestamp_str = timestamp.strftime('%Y%m%d_%H%M%S')
         timestamp_plus_1_sec = (timestamp + timedelta(seconds=1)).strftime('%Y%m%d_%H%M%S')
 
-        yt_title_1 = f"{drum_loop_genre_choice[0]} {timestamp_str} [{drum_kit_choice[0]}] [{tempo_choice[0]}] [AI Music]\n\n"
+        yt_title_1 = f"{drum_loop_genre_choice[0]} {timestamp_str} [{drum_kit_choice[0]}] [{tempo_choice[0]}] [AILLMusic]\n\n"
         check_and_write_to_file('log/drum_loop_prompt_history.txt', 'drum_loop_prompt_history', yt_title_1)
         print(yt_title_1)
         print("")
 
-        yt_title_2 = f"{drum_loop_genre_choice[0]} {timestamp_plus_1_sec} [{drum_kit_choice[0]}] [{tempo_choice[0]}] [AI Music]\n\n"
+        yt_title_2 = f"{drum_loop_genre_choice[0]} {timestamp_plus_1_sec} [{drum_kit_choice[0]}] [{tempo_choice[0]}] [AILLMusic]\n\n"
         check_and_write_to_file('log/drum_loop_prompt_history.txt', 'drum_loop_prompt_history', yt_title_2)
         print(yt_title_2)
         print("")
@@ -377,12 +377,12 @@ def generate_concerto_prompt():
         timestamp_str = timestamp.strftime('%Y%m%d_%H%M%S')
         timestamp_plus_1_sec = (timestamp + timedelta(seconds=1)).strftime('%Y%m%d_%H%M%S')
 
-        yt_title_1 = f"{concerto_variant_name} {concerto_variant_ensemble} {timestamp_str} [{tempo_choice[0]}] [{musical_key_choice[0]}] [AI Music]\n\n"
+        yt_title_1 = f"{concerto_variant_name} {concerto_variant_ensemble} {timestamp_str} [{tempo_choice[0]}] [{musical_key_choice[0]}] [AILLMusic]\n\n"
         check_and_write_to_file('log/concerto_prompt_history.txt', 'concerto_prompt_history', yt_title_1)
         print(yt_title_1)
         print("")
 
-        yt_title_2 = f"{concerto_variant_name} {concerto_variant_ensemble} {timestamp_plus_1_sec} [{tempo_choice[0]}] [{musical_key_choice[0]}] [AI Music]\n\n"
+        yt_title_2 = f"{concerto_variant_name} {concerto_variant_ensemble} {timestamp_plus_1_sec} [{tempo_choice[0]}] [{musical_key_choice[0]}] [AILLMusic]\n\n"
         check_and_write_to_file('log/concerto_prompt_history.txt', 'concerto_prompt_history', yt_title_2)
         print(yt_title_2)
         print("")
@@ -519,12 +519,12 @@ def bible_gateway_votd_concerto_song_custom():
     timestamp_str = timestamp.strftime('%Y%m%d_%H%M%S')
     timestamp_plus_1_sec = (timestamp + timedelta(seconds=1)).strftime('%Y%m%d_%H%M%S')
 
-    yt_title_1 = f"VOTD {biblereference} {concerto_variant_name} {timestamp_str} [{musical_key_choice[0]}] [{tempo_choice[0]}] [AI Music]\n\n"
+    yt_title_1 = f"VOTD {biblereference} {concerto_variant_name} {timestamp_str} [{musical_key_choice[0]}] [{tempo_choice[0]}] [AILLMusic]\n\n"
     check_and_write_to_file('log/votd_bible_song_prompt_history.txt', 'votd_bible_song_prompt_history', yt_title_1)
     print(yt_title_1)
     print("")
 
-    yt_title_2 = f"VOTD {biblereference} {concerto_variant_name} {timestamp_plus_1_sec} [{musical_key_choice[0]}] [{tempo_choice[0]}] [AI Music]\n\n"
+    yt_title_2 = f"VOTD {biblereference} {concerto_variant_name} {timestamp_plus_1_sec} [{musical_key_choice[0]}] [{tempo_choice[0]}] [AILLMusic]\n\n"
     check_and_write_to_file('log/votd_bible_song_prompt_history.txt', 'votd_bible_song_prompt_history', yt_title_2)
     print(yt_title_2)
     print("")
