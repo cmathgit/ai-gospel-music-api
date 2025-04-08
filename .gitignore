@@ -1,3 +1,4 @@
+datasets/Bible-kjv/**
 *.env
 env/** 
 venv/**
@@ -8,10 +9,8 @@ outfiles/mp4/**
 outfiles/prompts/*txt
 outfiles/prompts/prompt_history.txt
 outfiles/prompts/prompts_cache.txt
-datasets/Bible-KJV/**
 log/**
 log/*.txt
-*.json
 *.mp4
 *.mp3
 *.wav
