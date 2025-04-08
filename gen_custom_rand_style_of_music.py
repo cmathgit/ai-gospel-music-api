@@ -291,9 +291,10 @@ revised_prompt_7=revise_prompt_with_control_flow(original_prompt_7)
 print("Compare Revised Prompt using ControlFlow with Original Prompt which is a random combination from the library values. Notice how the adjectives make more sense than the random selected adjectives.")
 print("Original Prompt: ", original_prompt_7)
 print("Revised Prompt: ", revised_prompt_7)
-'''
+
 original_prompt_8="A polished fusion of aggressive alt-metal guitar riffs and crisp, punchy hip-hop-inspired beats, wrapped in a sleek, cinematic production. The vocals oscillate between raw, emotional screams and introspective, melodic hooks, often contrasted with rhythmic, spoken-word verses. Electronic textures — glitchy samples, ambient pads, and industrial accents — weave through the mix, enhancing the atmosphere with a sense of digital tension and inner conflict. Lyrics deal with alienation, self-doubt, and emotional resilience, delivered with anthemic intensity. Every track feels like a cathartic release — heavy yet accessible, with explosive choruses designed to hit both heart and gut."
 revised_prompt_8=shorten_prompt_with_control_flow(original_prompt_8)
 print("Compare Revised Prompt using ControlFlow with Original Prompt which is a random combination from the library values. Notice how the adjectives make more sense than the random selected adjectives.")
 print("Original Prompt: ", original_prompt_8)
 print("Revised Prompt: ", revised_prompt_8)
+'''

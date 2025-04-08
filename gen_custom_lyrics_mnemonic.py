@@ -65,7 +65,7 @@ def generate_mnemonic_topic_prompt():
 
 # test the function
 if __name__ == "__main__":
-
+    '''
     #Topic Provided
     mnemonic_topic_10 = "Consider this analogy of Einstein's General Theory of Relativity. When you shoot a basket ball, you perceive an arc, but the ball is actually moving in a straight vector. You, the hoop, and the floor are moving up. The net rises to meet the basketball while the basketball moves in a straight line to the hoop. The general definition of straight and the contiguous line segments. The notion of distance between two points is ambiguous in curved space. By definition, a curve between two points is straight if the tangent vector at point A remains tangent as the vector is parallel transported to point B. Recall that two topological spaces X and Y are said to be topologically equivalent (or homeomorphic), if there exists a homeomorphism, continuous map between the spaces, H∈C(X,Y) which has a continuous inverse H−∈C(Y,X). Exploring Gravity, Relativity, and Spring Dynamics Through Einstein’s Analogies. Einstein’s theories of relativity revolutionized our understanding of gravity, motion, and spacetime. By combining thought experiments like the relativity of simultaneity in trains with realworld phenomena such as the behavior of a falling spring, we can illuminate the principles underlying these theories. This report synthesizes insights from Einstein’s analogies, spring dynamics, and geometric interpretations of gravity to explain why the bottom of a dropped spring remains stationary until the collapsing top reaches it. Einstein’s Train Analogy and the Equivalence Principle: Einstein’s trainandplatform thought experiment illustrates the relativity of simultaneity in special relativity. Observers in different inertial frames (e.g., on a moving train versus a stationary platform) disagree on whether spatially separated events occur simultaneously. While this experiment primarily addresses simultaneity, it also hints at the broader principle that motion and perspective shape physical reality.  The equivalence principle—a cornerstone of general relativity—extends this idea by equating gravitational effects with acceleration. Einstein posited that an observer in free fall (e.g., inside a plummeting elevator) experiences locally gravityfree conditions, akin to floating in deep space. Conversely, an accelerating observer in space perceives forces indistinguishable from gravity. This equivalence underpins the geometric interpretation of gravity as spacetime curvature."  
 
@@ -78,3 +78,4 @@ if __name__ == "__main__":
     print(f"Prompt: {prompt_11}")
     print(f"Revised Mnemonic Topic Prompt: {revised_mnemonic_topic_prompt_11}")
     print(f"Mnemonic Topic Prompt: {mnemonic_topic_prompt_11}")
+    '''
