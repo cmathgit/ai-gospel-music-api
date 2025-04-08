@@ -26,6 +26,7 @@ cf.defaults.model = ChatGoogleGenerativeAI(
 
 # Get controlflow context from the environment variable
 controlflow_context = os.getenv('CONTROL_FLOW_CONTEXT_STYLES')
+controlflow_context_concise = os.getenv('CONTROL_FLOW_CONTEXT_CONCISE_STYLES')
 
 base_lib_file_path = 'datasets/'
 
@@ -89,6 +90,16 @@ def revise_prompt_with_control_flow(combo=""):
 
     combination_revised = cf.run(
         controlflow_context,
+        context=dict(prompt=combo),
+    )
+
+    return combination_revised
+
+def shorten_prompt_with_control_flow(combo=""):
+    combination_revised = ""
+
+    combination_revised = cf.run(
+        controlflow_context_concise,
         context=dict(prompt=combo),
     )
 
@@ -268,6 +279,7 @@ def generate_custom_random_concerto_prompt():
 
 
 # test the functions
+'''
 revised_combination_6, combination_6, exclude_styles_pop_genres_prompt_6 = generate_custom_random_style_of_music_prompt()
 original_prompt_6 = combination_6
 revised_prompt_6 = revised_combination_6
@@ -279,3 +291,9 @@ revised_prompt_7=revise_prompt_with_control_flow(original_prompt_7)
 print("Compare Revised Prompt using ControlFlow with Original Prompt which is a random combination from the library values. Notice how the adjectives make more sense than the random selected adjectives.")
 print("Original Prompt: ", original_prompt_7)
 print("Revised Prompt: ", revised_prompt_7)
+'''
+original_prompt_8="A polished fusion of aggressive alt-metal guitar riffs and crisp, punchy hip-hop-inspired beats, wrapped in a sleek, cinematic production. The vocals oscillate between raw, emotional screams and introspective, melodic hooks, often contrasted with rhythmic, spoken-word verses. Electronic textures — glitchy samples, ambient pads, and industrial accents — weave through the mix, enhancing the atmosphere with a sense of digital tension and inner conflict. Lyrics deal with alienation, self-doubt, and emotional resilience, delivered with anthemic intensity. Every track feels like a cathartic release — heavy yet accessible, with explosive choruses designed to hit both heart and gut."
+revised_prompt_8=shorten_prompt_with_control_flow(original_prompt_8)
+print("Compare Revised Prompt using ControlFlow with Original Prompt which is a random combination from the library values. Notice how the adjectives make more sense than the random selected adjectives.")
+print("Original Prompt: ", original_prompt_8)
+print("Revised Prompt: ", revised_prompt_8)
