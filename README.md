@@ -56,14 +56,20 @@ python generate_biblical_lyrics_simple_prompts.py
 
 It is highly recommended to use a Python virtual environment to manage project dependencies and avoid conflicts with other Python projects or system-wide packages.
 
-1.  **Create a virtual environment:**
+1.  **Clone the Repository (if you haven't already):**
+    ```bash
+    git clone <your-repo-url>
+    cd ai-gospel-music-auto-suno
+    ```
+
+2.  **Create a virtual environment:**
     Open your terminal or command prompt, navigate to the project's root directory (`ai-gospel-music-auto-suno`), and run:
     ```bash
     python -m venv env
     ```
     This command creates a directory named `env` (you can choose a different name) containing a private Python installation.
 
-2.  **Activate the virtual environment:**
+3.  **Activate the virtual environment:**
     *   **On Windows (Command Prompt):**
         ```batch
         .\env\Scripts\activate.bat
