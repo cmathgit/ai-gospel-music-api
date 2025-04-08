@@ -23,7 +23,6 @@ log/*.txt
 *.mov
 client_secrets.json
 .cursorignore
-*.txt
 *.log
 
 # still in development
