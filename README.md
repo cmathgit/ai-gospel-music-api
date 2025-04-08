@@ -2,11 +2,6 @@
 
 # Using AI to generate biblically accurate gospel songs, among other genres, and music videos. Various Python scripts to auto generate prompts for Suno API requests and integration with Chat-GPT, YouTube, BibleGateway, and more. Utilizes various dictionaries of bible verses, vocal types, musical keys, tempos, genres, instruments, drum kits, concerto variants, and ensemble families to randomly combine strings and generate prompts for Suno AI requests.Using AI to generate instrumentals for vocalists from a variety of genres, musical keys, and modes. Python script to send an API request to generate songs via SUNO AI, save the API response JSON format, read that data, parse the JSON array to get the information that we need, and write that information to execute more api requests or to a text file for logging. 
 
-# Complete Dataset on HuggingFace
-```
-https://huggingface.co/datasets/cmathhug/ai-gospel-music-dictionaries
-```
-
 # Visit my Suno profile
 ```
 https://suno.com/@crossofthemessiah
@@ -19,625 +14,29 @@ Portions of this codebase were generated or refined using large language models 
 
 # Limitation of Liability Statement and Statement of Copyright Protection
 
-For a complete Limitation of Liability Statement, please visit my [website](https://crossofthemessiah.w3spaces.com/).
+For the complete statement, please visit my GitHub page [here](https://cmathgit.github.io).
+
+# Looking for a specific style to copy? Try these prompts in ChatGPT or Gemini.
+```
+Without using the band nor album names, give me a Style of music prompt that sounds like Linkin Park's album Meteora
+Without using the band nor album names, give me a Style of music prompt that sounds like Deafheaven's album Dream House
+Without using the band nor album names, give me a Style of music prompt that sounds like The Mars Volta's Album Frances the Mute song L'Via L'Viaquez 
+Without using the band nor album names, give me a Style of music prompt that sounds like Underoath's Album Lost in the Sound of Separation  
+```
 
 # Don't want to run Python scripts? Try this prompt in ChatGPT o1 or Gemini 1.5 Flash
 # We tested this use case in ChatGPT, Gemini 1.5 flash, and Perplexity Pro, and each LLM gave me exactly what I wanted. I wrote all this python code to parse text and JSON arrays to formulate random prompts. We haven't tested with more use cases, so the question to ask is "will the LLM use the same genre and music key tempo every time"? All three LLMs used F# Locrian as the musical key which is not specific to my instructions. Yes, there are examples with that key, but there are other keys also. My python code does handle the random combinations, so it may not be totally useless. :) 
 ```
 I want you to act as a Suno prompt generator, I will send a topic, you have to generate either a simple Suno prompt based on the sample simple prompts below or custom Suno prompt which includes a Style of Music prompt based on the content of the topic using the list of genres, instruments, musical keys and tempos, vocal styles, and more, and if lyrics are provided, format them as the sample format below giving context for the vocalist to emphasize, if those lyrics are KJV bible verses, quote them verbatim, guess what I might do if I were writing the prompt based on my sample prompts below, and the music prompt will simply be a combined list of Genre 1, Genre 2, Instrument 1, Instrument 2, Intrument 3, Vocal Style, Tempo, Key separated by commas and the lyrics will meet the format below. My first request is musical narrative with convicting narrator over heavy ambient drones reading the following KJV bible verses from Proverbs chapter 1: The proverbs of Solomon the son of David, king of Israel; To know wisdom and instruction; to perceive the words of understanding; To receive the instruction of wisdom, justice, and judgment, and equity; To give subtilty to the simple, to the young man knowledge and discretion. A wise man will hear, and will increase learning; and a man of understanding shall attain unto wise counsels: To understand a proverb, and the interpretation; the words of the wise, and their dark sayings. The fear of the Lord is the beginning of knowledge: but fools despise wisdom and instruction. My son, hear the instruction of thy father, and forsake not the law of thy mother: For they shall be an ornament of grace unto thy head, and chains about thy neck. My son, if sinners entice thee, consent thou not. If they say, Come with us, let us lay wait for blood, let us lurk privily for the innocent without cause: Let us swallow them up alive as the grave; and whole, as those that go down into the pit: We shall find all precious substance, we shall fill our houses with spoil: Cast in thy lot among us; let us all have one purse: My son, walk not thou in the way with them; refrain thy foot from their path: For their feet run to evil, and make haste to shed blood. Surely in vain the net is spread in the sight of any bird. And they lay wait for their own blood; they lurk privily for their own lives. So are the ways of every one that is greedy of gain; which taketh away the life of the owners thereof. Wisdom crieth without; she uttereth her voice in the streets: She crieth in the chief place of concourse, in the openings of the gates: in the city she uttereth her words, saying, How long, ye simple ones, will ye love simplicity? and the scorners delight in their scorning, and fools hate knowledge? Turn you at my reproof: behold, I will pour out my spirit unto you, I will make known my words unto you. Because I have called, and ye refused; I have stretched out my hand, and no man regarded; But ye have set at nought all my counsel, and would none of my reproof: I also will laugh at your calamity; I will mock when your fear cometh; When your fear cometh as desolation, and your destruction cometh as a whirlwind; when distress and anguish cometh upon you. Then shall they call upon me, but I will not answer; they shall seek me early, but they shall not find me: For that they hated knowledge, and did not choose the fear of the Lord: They would none of my counsel: they despised all my reproof. Therefore shall they eat of the fruit of their own way, and be filled with their own devices. For the turning away of the simple shall slay them, and the prosperity of fools shall destroy them. But whoso hearkeneth unto me shall dwell safely, and shall be quiet from fear of evil.
 
-Example Simple Prompts:
-1. mellow synths, Handpan, Choir, mandolin, trumpet, plucked bass, Triple Concerto, Andante 100 bpm, F Lydian, music plays in the background, gradually building in intensity as the narrator speaks, Fade out with music crescendoing
-2. [Narrator Reflective and engaging.][Clips of uplifting hymns and soulful vocals play.][Shift to darker, bass-heavy beats.][Acoustic guitar and live audience sounds play.][Trumpets and heavenly hosts sounds play.][Studio sounds with energetic drums and loops.][Narrator excitedly.][Fade out with music crescendoing.]
-3. Upbeat music plays in the background, gradually building in intensity as the narrator speaks, Fade out with album covers on screen and music crescendoing
-6. darkwave, Contralto (Alto), drums, Exodus 22, Presto 190, F# Aeolian
-7. EDM Techno, Countertenor (Countertenor), piano, Ruth 3, Moderato 115, A# Dorian
-8. smooth fusion jazz, Baritone (Dramatic), violin, Isaiah 48, Andante 85, D# Mixolydian
-9. fast reggae, Khoomei (Tuvan Style), trumpet, Matthew 14, Allegro 130, B Locrian
-10. acid jazz, MC (Rapper), clarinet, Revelation 6, Larghetto 64, Eb Phrygian
-11. fast disco, Soprano (Lyric), electric guitar, Job 22, Presto 180, G# Lydian
-12. heavy industrial, Mezzo-Soprano (Lyric), accordion, Nehemiah 7, Moderato 110, C# Ionian
-13. fast hip-hop, Tenor (Lyric), cello, Acts 18, Allegro 160, Bb Aeolian
-14. lo-fi house, Bass (Lyric), bass guitar, Daniel 4, Andante 100, E Mixolydian
-15. smooth vaporwave jazz, Rapper (MC), flute, 1 Samuel 11, Largo 55, Ab Ionian
-16. slow tango, Khoomei (Kharkhiraa Khoomei), harmonica, Romans 8, Larghetto 63, A# Locrian
-17. lo-fi hip hop, Bass (Dramatic), drums, Deuteronomy 25, Presto 175, G# Aeolian
-18. fast salsa, Soprano (Coloratura), harp, Judges 9, Allegro 155, D Lydian
-19. fast drum and bass, Rapper (Emcee), ukulele, Ezekiel 22, Moderato 115, F# Phrygian
-20. minimalist techno, Mezzo-Soprano (Dramatic), mandolin, James 3, Larghetto 61, Bb Ionian
-21. heavy dubstep, Bass (Basso Profondo), guitar, Haggai 1, Presto 195, Eb Lydian
-22. haunting atmospheric witch house, Soprano (Dramatic), violin, Amos 5, Allegro 140, C# Phrygian
-23. fast breakbeat, Tenor (Dramatic), oboe, Lamentations 4, Andante 95, E Aeolian
-24. fast flamenco, Baritone (Lyric), bagpipes, Proverbs 15, Presto 185, G# Mixolydian
-25. slow country folk, Soprano (Dramatic), synthesizer, Leviticus 18, Larghetto 55, F# Dorian
-26. fast bluegrass, Mezzo-Soprano (Coloratura), accordion, Exodus 15, Allegro 150, D Mixolydian
-27. fast screamo, Countertenor (Countertenor), violin, Numbers 28, Presto 195, Bb Locrian
-28. slow indie rock, Contralto (Alto), electric guitar, Joshua 9, Larghetto 62, A Aeolian
-29. fast reggaeton, Soprano (Lyric), drums, Job 40, Allegro 155, C Dorian
-30. fast progressive house, Tenor (Leggero), saxophone, Jeremiah 14, Presto 180, G Lydian
-31. fast trap, Mezzo-Soprano (Dramatic), trombone, Nehemiah 3, Allegro 165, A Mixolydian
-32. slow psychedelic rock, Baritone (Lyric), bass guitar, Ecclesiastes 10, Larghetto 60, F Phrygian
-33. fast techno, Bass (Basso Profondo), synthesizer, Judges 5, Allegro 170, B Mixolydian
-34. slow blues, Contralto (Alto), harmonica, Psalms 119, Larghetto 56, E Aeolian
-35. slow R&B, Tenor (Lyric), electric guitar, Ezekiel 40, Larghetto 58, D Mixolydian
-36. fast punk rock, Soprano (Coloratura), drums, Deuteronomy 7, Allegro 155, G Mixolydian
-37. heavy dubstep, Mezzo-Soprano (Lyric), synthesizer, Genesis 29, Presto 190, Eb Phrygian
-38. fast thrash metal, Countertenor (Countertenor), electric guitar, 1 Chronicles 22, Allegro 175, Bb Dorian
-39. slow bossa nova, Baritone (Lyric), piano, Ruth 2, Larghetto 58, C Phrygian
-40. fast salsa, Soprano (Dramatic), trumpet, Job 4, Allegro 160, E Phrygian
-41. slow tango, Contralto (Alto), violin, Zechariah 5, Larghetto 59, F Lydian
-42. fast flamenco, Tenor (Leggero), flamenco guitar, Psalms 110, Allegro 165, G Mixolydian
-43. heavy metal, Mezzo-Soprano (Dramatic), drums, Jeremiah 48, Presto 185, D Phrygian
-44. fast jazz fusion, Soprano (Lyric), saxophone, Ecclesiastes 7, Allegro 160, A Mixolydian
-45. slow reggae, Countertenor (Countertenor), bass guitar, Exodus 2, Larghetto 54, C Dorian
-46. heavy ambient drone, Baritone (Lyric), synthesizer, Leviticus 1, Presto 200, F# Locrian
-47. slow country folk, Contralto (Alto), banjo, Esther 1, Larghetto 57, G Mixolydian
-48. fast hip-hop, Soprano (Dramatic), electric guitar, Judges 16, Allegro 155, E Dorian
-49. fast bluegrass, Mezzo-Soprano (Coloratura), mandolin, Isaiah 50, Allegro 155, A Mixolydian
-50. fast punk rock, Countertenor (Countertenor), drums, Hosea 3, Allegro 170, G Dorian
-51. slow bossa nova, Baritone (Lyric), accordion, Haggai 2, Larghetto 57, Bb Ionian
-52. fast disco, Tenor (Leggero), synthesizer, Song of Solomon 2, Allegro 175, E Mixolydian
-53. slow tango, Contralto (Alto), bandoneon, Psalms 25, Larghetto 61, Ab Mixolydian
-54. fast flamenco, Mezzo-Soprano (Dramatic), guitar, 1 Samuel 31, Allegro 160, F Phrygian
-55. heavy metal, Soprano (Lyric), drums, Jeremiah 44, Presto 190, D Phrygian
-56. fast jazz fusion, Countertenor (Countertenor), saxophone, Ezekiel 33, Allegro 165, Bb Dorian
-57. slow reggae, Baritone (Lyric), bass guitar, Job 1, Larghetto 56, G# Aeolian
-58. heavy ambient drone, Tenor (Leggero), synthesizer, Numbers 6, Presto 200, C Phrygian
-59. fast hip-hop, Contralto (Alto), electric guitar, Judges 19, Allegro 155, D Dorian
-60. fast bluegrass, Soprano (Dramatic), banjo, Isaiah 2, Allegro 160, E Mixolydian
-61. fast punk rock, Mezzo-Soprano (Coloratura), drums, Hosea 6, Allegro 170, A Mixolydian
-62. slow bossa nova, Countertenor (Countertenor), piano, Haggai 1
+...
 
-Example Custom Style of Music prompts:
-1. Drum Loop Blues Shuffle, Travel Drum Kit, Collapsible, Lightweight, Snare, Bass Drum, Vibraslap, Timbales, Guiro, Spring Drum, Electronic, Presto 174 bpm, C# Locrian
-2. Chamber Concerto, Chamber Ensemble, Oboe, Violin, Trombone, Piano, Marimba, Adagio 71 bpm, Ab Phrygian
-3. Orchestral, Experimental, Soprano (female), Oboe, Violin, Trombone, Harpsichord, Timpani, Presto 191 bpm, F Mixolydian
-4. Christian hip hop, Bass (male), bajo sexto, tambourine, biblically inspired lyrics book of 2 Peter chapter 3, Larghetto 65 bpm, A# Ionian
-5. Renaissance, Polyphonic, modal, vocal, Soprano (female), trumpet, mandolin, synth, Moderato 111 bpm, Db Phrygian
-6. voices, drums, synthesizer, kazoo, ukulele, Andante 81 bpm, Ab Aeolian
-7. Math Rock, cryptic lyricism (Female), fiddle, trombone, harmonica, Adagio 70 bpm, Eb Dorian 
-8. Drum Loop Reggaeton, Vintage Drum Kit, Old Shells, Vintage Tone, Snare, Bass Drum, Glockenspiel, Castanets, Agogô Bells, Rainstick, Pitched Drum Elements, Largo 58 bpm, Ab Mixolydian
-9. Orchestral, Experimental, Soprano (female), Flute, Violin, Horn, Piano, Marimba, Presto 173 bpm, D# Dorian
-10. slow ambient drone christian worship, MC (Female), saxophone, beat, biblically inspired lyrics book of 1 Chronicles chapter 16, Adagio 75 bpm, D# Aeolian
-11. Jazz-funk, Ondes Martenot, tambourine, guttural throat singing, Harmonium, Allegro 128 bpm, C# Lydian
-12. Guitar Solos, MC (Male), synthesizer, vihuela, horsehead fiddle, Moderato 112 bpm, E Ionian
-13. Drum Loop Motown, World Percussion Kit, Congas, Bongos, Djembes, Cajón, Ride Cymbal, Agogô Bells, Thunder Sheet, Bamboo Wind Chimes, Electronic, Allegro 125 bpm, G# Locrian 
-14. Solo Concerto, Trombone, Largo 57 bpm, Ab Lydian
-15. Orchestral, cryptic lyricism (Male), Oboe, Viola, Tuba, Piano, Timpani, Moderato 110 bpm, D# Lydian
-16. Dubstep, MC (Male), conga, double bass, horsehead fiddle, Moderato 120 bpm, A# Mixolydian
-17. Burning Jazz, Liquid Drum and Bass, piano, bongo, Saxophone, double bass, heavy electric guitar solo, Prestissimo 280 bpm, D Lydian
-18. Early 2000s Liquid Grime Drum n Bass Allegro 140 BPM, Electronic, Ab Phrygian (Minor), horn, plucked bass, synth, beat, sub bass
-19.  bluegrass gospel, Music Theater, banjo, fiddle, acoustic guitar, plucked bass, washboard, Choir, trumpet, Triple Concerto, Moderato, E Lydian, music building intensity and fading out crescendoing
-20. Music Theater, Chylandyk (male), Bassoon, Cello, Horn, Harpsichord, Presto 175 bpm, C# Aeolian
-21. Music Theater, Expressionist, ominous drone, rolling percussion, Viola, Choir, trumpet, Sinfonia Concertante, Andante, dissonant chords, E Dorian, music building intensity and fading out crescendoing
-22. Music Theater, Minimalism, hypnotic drone, mechanical percussion rhythms, Viola, Choir, trumpet, Sinfonia Concertante, Andante, electronic chords, E Dorian, subtle crescendos
-
-Example Lyrics with KJV Bible verses format:
-[Intro: Narrator reflective and engaging.]
-And I stood upon the sand of the sea, 
-and saw a beast rise up out of the sea, 
-having seven heads and ten horns, 
-and upon his horns ten crowns, 
-and upon his heads the name of blasphemy.
-
-[Verse 1: bass-heavy beats.]
-And the beast which I saw was like unto a leopard, 
-and his feet were as the feet of a bear, 
-and his mouth as the mouth of a lion: 
-and the dragon gave him his power, 
-and his seat, and great authority.
-
-[Verse 2: soulful vocals.]
-And I saw one of his heads as it were wounded to death; 
-and his deadly wound was healed: 
-and all the world wondered after the beast.
-
-[Chorus 1: Trumpets and heavenly.]
-And they worshipped the dragon which gave power unto the beast: 
-and they worshipped the beast, saying, 
-Who is like unto the beast? 
-who is able to make war with him?
-
-[Bridge: Studio sounds music crescendoing.]
-And there was given unto him a mouth speaking great things and blasphemies; 
-and power was given unto him to continue forty and two months.
-
-[Verse 3: soulful vocals.]
-And he opened his mouth in blasphemy against God, 
-to blaspheme his name, 
-and his tabernacle, 
-and them that dwell in heaven.
-
-[Pre-Chorus: Trumpets and heavenly.]
-And it was given unto him to make war with the saints, and to overcome them: 
-and power was given him over all kindreds, and tongues, and nations.
-
-[Chorus 2: Trumpets and heavenly.]
-And all that dwell upon the earth shall worship him, 
-whose names are not written in the book of life of the Lamb slain from the foundation of the world.
-
-[Outro: music fade out crescendoing.]
-If any man have an ear, let him hear.
-He that leadeth into captivity shall go into captivity: 
-he that killeth with the sword must be killed with the sword. 
-Here is the patience and the faith of the saints.
-
-Example Tempos:
-1. Largo, 40, 60
-2. Larghetto, 60, 66
-3. Adagio, 66, 76
-4. Andante, 76, 108
-5. Moderato, 108, 120
-6. Allegro, 120, 168
-7. Presto, 168, 200
-8. Prestissimo, 200, 420
-
-Example Musical Keys
-1. C Ionian, C, Major, Ionian, 8B
-2. C# Ionian, C#, Major, Ionian, 3B
-3. Db Ionian, Db, Major, Ionian, 3B
-4. D Ionian, D, Major, Ionian, 10B
-5. D# Ionian, D#, Major, Ionian, 5B
-6. Eb Ionian, Eb, Major, Ionian, 5B
-7. E Ionian, E, Major, Ionian, 12B
-8. F Ionian, F, Major, Ionian, 7B
-9. F# Ionian, F#, Major, Ionian, 2B
-10. Gb Ionian, Gb, Major, Ionian, 2B
-11. G Ionian, G, Major, Ionian, 9B
-12. G# Ionian, G#, Major, Ionian, 4B
-13. Ab Ionian, Ab, Major, Ionian, 4B
-14. A Ionian, A, Major, Ionian, 11B
-15. A# Ionian, A#, Major, Ionian, 6B
-16. Bb Ionian, Bb, Major, Ionian, 6B
-17. B Ionian, B, Major, Ionian, 1B
-18. C Dorian, C, Minor, Dorian, 8A
-19. C# Dorian, C#, Minor, Dorian, 3A
-20. Db Dorian, Db, Minor, Dorian, 3A
-21. D Dorian, D, Minor, Dorian, 10A
-22. D# Dorian, D#, Minor, Dorian, 5A
-23. Eb Dorian, Eb, Minor, Dorian, 5A
-24. E Dorian, E, Minor, Dorian, 12A
-25. F Dorian, F, Minor, Dorian, 7A
-26. F# Dorian, F#, Minor, Dorian, 2A
-27. Gb Dorian, Gb, Minor, Dorian, 2A
-28. G Dorian, G, Minor, Dorian, 9A
-29. G# Dorian, G#, Minor, Dorian, 4A
-30. Ab Dorian, Ab, Minor, Dorian, 4A
-31. A Dorian, A, Minor, Dorian, 11A
-32. A# Dorian, A#, Minor, Dorian, 6A
-33. Bb Dorian, Bb, Minor, Dorian, 6A
-34. B Dorian, B, Minor, Dorian, 1A
-35. C Phrygian, C, Minor, Phrygian, 8A
-36. C# Phrygian, C#, Minor, Phrygian, 3A
-37. Db Phrygian, Db, Minor, Phrygian, 3A
-38. D Phrygian, D, Minor, Phrygian, 10A
-39. D# Phrygian, D#, Minor, Phrygian, 5A
-40. Eb Phrygian, Eb, Minor, Phrygian, 5A
-41. E Phrygian, E, Minor, Phrygian, 12A
-42. F Phrygian, F, Minor, Phrygian, 7A
-43. F# Phrygian, F#, Minor, Phrygian, 2A
-44. Gb Phrygian, Gb, Minor, Phrygian, 2A
-45. G Phrygian, G, Minor, Phrygian, 9A
-46. G# Phrygian, G#, Minor, Phrygian, 4A
-47. Ab Phrygian, Ab, Minor, Phrygian, 4A
-48. A Phrygian, A, Minor, Phrygian, 11A
-49. A# Phrygian, A#, Minor, Phrygian, 6A
-50. Bb Phrygian, Bb, Minor, Phrygian, 6A
-51. B Phrygian, B, Minor, Phrygian, 1A
-52. C Lydian, C, Major, Lydian, 8B
-53. C# Lydian, C#, Major, Lydian, 3B
-54. Db Lydian, Db, Major, Lydian, 3B
-55. D Lydian, D, Major, Lydian, 10B
-56. D# Lydian, D#, Major, Lydian, 5B
-57. Eb Lydian, Eb, Major, Lydian, 5B
-58. E Lydian, E, Major, Lydian, 12B
-59. F Lydian, F, Major, Lydian, 7B
-60. F# Lydian, F#, Major, Lydian, 2B
-61. Gb Lydian, Gb, Major, Lydian, 2B
-62. G Lydian, G, Major, Lydian, 9B
-63. G# Lydian, G#, Major, Lydian, 4B
-64. Ab Lydian, Ab, Major, Lydian, 4B
-65. A Lydian, A, Major, Lydian, 11B
-66. A# Lydian, A#, Major, Lydian, 6B
-67. Bb Lydian, Bb, Major, Lydian, 6B
-68. B Lydian, B, Major, Lydian, 1B
-69. C Mixolydian, C, Major, Mixolydian, 8B
-70. C# Mixolydian, C#, Major, Mixolydian, 3B
-71. Db Mixolydian, Db, Major, Mixolydian, 3B
-72. D Mixolydian, D, Major, Mixolydian, 10B
-73. D# Mixolydian, D#, Major, Mixolydian, 5B
-74. Eb Mixolydian, Eb, Major, Mixolydian, 5B
-75. E Mixolydian, E, Major, Mixolydian, 12B
-76. F Mixolydian, F, Major, Mixolydian, 7B
-77. F# Mixolydian, F#, Major, Mixolydian, 2B
-78. Gb Mixolydian, Gb, Major, Mixolydian, 2B
-79. G Mixolydian, G, Major, Mixolydian, 9B
-80. G# Mixolydian, G#, Major, Mixolydian, 4B
-81. Ab Mixolydian, Ab, Major, Mixolydian, 4B
-82. A Mixolydian, A, Major, Mixolydian, 11B
-83. A# Mixolydian, A#, Major, Mixolydian, 6B
-84. Bb Mixolydian, Bb, Major, Mixolydian, 6B
-85. B Mixolydian, B, Major, Mixolydian, 1B
-86. C Aeolian, C, Minor, Aeolian, 8A
-87. C# Aeolian, C#, Minor, Aeolian, 3A
-88. Db Aeolian, Db, Minor, Aeolian, 3A
-89. D Aeolian, D, Minor, Aeolian, 10A
-90. D# Aeolian, D#, Minor, Aeolian, 5A
-91. Eb Aeolian, Eb, Minor, Aeolian, 5A
-92. E Aeolian, E, Minor, Aeolian, 12A
-93. F Aeolian, F, Minor, Aeolian, 7A
-94. F# Aeolian, F#, Minor, Aeolian, 2A
-95. Gb Aeolian, Gb, Minor, Aeolian, 2A
-96. G Aeolian, G, Minor, Aeolian, 9A
-97. G# Aeolian, G#, Minor, Aeolian, 4A
-98. Ab Aeolian, Ab, Minor, Aeolian, 4A
-99. A Aeolian, A, Minor, Aeolian, 11A
-100. A# Aeolian, A#, Minor, Aeolian, 6A
-101. Bb Aeolian, Bb, Minor, Aeolian, 6A
-102. B Aeolian, B, Minor, Aeolian, 1A
-103. C Locrian, C, Minor, Locrian, 8A
-104. C# Locrian, C#, Minor, Locrian, 3A
-105. Db Locrian, Db, Minor, Locrian, 3A
-106. D Locrian, D, Minor, Locrian, 3A
-
-Example Isntruments:
-1. piano
-2. guitar
-3. violin
-4. flute
-5. trumpet
-6. drums
-7. saxophone
-8. cello
-9. clarinet
-10. bass guitar
-11. accordion
-12. harp
-13. trombone
-14. ukulele
-15. banjo
-16. double bass
-17. harmonica
-18. mandolin
-19. xylophone
-20. oboe
-21. electric guitar
-22. bassoon
-23. french horn
-24. synthesizer
-25. accordion
-26. bagpipes
-27. conga
-28. djembe
-29. marimba
-30. organ
-31. steel drum
-32. tabla
-33. tambourine
-34. triangle
-35. vibraphone
-36. zither
-37. cello
-38. bongo
-39. castanets
-40. cowbell
-41. didgeridoo
-42. kazoo
-43. tuba
-44. fiddle
-45. harp
-46. drums
-47. guttural throat singing
-48. mongolian guitar
-49. bajo sexto
-50. vihuela
-51. jarana
-52. horsehead fiddle
-53. plucked bass
-54. synth
-55. horn
-56. beat
-57. sub-bass
-58. oud
-59. kemenche
-60. bağlama
-61. acoustic guitar
-62. Ondes Martenot
-63. Brass
-64. Strings
-65. Sampler
-66. Harmonium
-67. Computer-based Effects
-68. Handpan
-
-Example Vocal styles:
-2.0 Flash Experimental. Might not work as expected.
-1. Soprano, Coloratura, female
-2. Soprano, Lyric, female
-3. Soprano, Dramatic, female
-4. Mezzo-Soprano, Coloratura, female
-5. Mezzo-Soprano, Lyric, female
-6. Mezzo-Soprano, Dramatic, female
-7. Contralto, Alto, female
-8. Countertenor, Countertenor, male
-9. Tenor, Leggero, male
-10. Tenor, Lyric, male
-11. Tenor, Spinto, male
-12. Tenor, Dramatic, male
-13. Baritone, Lyric, male
-14. Baritone, Dramatic, male
-15. Bass, Bass-Baritone, male
-16. Bass, Basso Profondo, male
-17. Bass, Lyric, male
-18. Bass, Dramatic, male
-19. Khoomei, Kharkhiraa Khoomei, male
-20. Khoomei, Tuvan Style, male
-21. Sygyt, , male
-22. Kargyraa, , male
-23. Borbangnadyr, , male
-24. Ezengileer, , male
-25. Chylandyk, , male
-26. Rapper, MC, Male
-27. Rapper, MC, Female
-28. MC, Rapper, Male
-29. MC, Rapper, Female
-30. Emcee, Rapper, Male
-31. Emcee, Rapper, Female
-32. Rapper, Emcee, Male
-33. Rapper, Emcee, Female
-34. MC, Master of Ceremonies, Male
-35. MC, Master of Ceremonies, Female
-36. cryptic lyricism, rapid-fire vocals, Male
-37. cryptic lyricism, rapid-fire vocals, Female
-38. rapid-fire vocals, cryptic lyricism, Male
-39. rapid-fire vocals, cryptic lyricism, Female
-
-Example Genres:
-1. Music Theater, False
-2. zydeco, False
-3. experimental hip hop, False
-4. punk rap, False
-5. noise, False
-6. industrial, False
-7. rap rock, False
-8. electropunk, False
-9. Avant-garde, False
-10. death trips, False
-11. math drums, False
-12. fast drum and bass, False
-13. slow ambient drone, False
-14. progressive metal djent, False
-15. 90s Tech House, False
-16. fast reggaeton, False
-17. heavy thrash metal, False
-18. bolero, False
-19. heavy industrial, False
-20. IDM (Intelligent Dance Music), False
-21. ranchera, False
-22. fast breakbeat, False
-23. Jungle Drum n Bass, False
-24. lo-fi indie, False
-25. 60s Proto Metal, False
-26. Electronic Drum n Bass, False
-27. smooth fusion jazz, False
-28. Grime 140 BPM, False
-29. contemporary classical, False
-30. Avant Garde, False
-31. heavy sludge metal, False
-32. Jazz Fusion, False
-33. Freestyle Electro, False
-34. Freestyle Dance Music, False
-35. minimalist techno, False
-36. Hip Hop 80-115 BPM, False
-37. lo-fi hip hop, False
-38. krautrock, False
-39. progressive metal, False
-40. fast progressive house, False
-41. Math Rock, False
-42. Progressive House, False
-43. Soundtrack, False
-44. slow psychedelic rock, False
-45. Oldskool Latin Freestyle, False
-46. vaporwave lo-fi hip-hop, False
-47. corrido, False
-48. american folk, False
-49. celtic guitar melody, False
-50. Math Prog Rock, False
-51. haunting witch house, False
-52. symphonic metal, False
-53. neofolk, False
-54. Hardstyle, False
-55. glitch, False
-56. Neurofunk Drum n Bass, False
-57. Neurofunk 170-180 BPM, False
-58. Fusion Freestyle, False
-59. heavy death metal, False
-60. American hip hop, False
-61. Liquid Drum n Bass, False
-62. Electronic Dance, False
-63. Heavy Blues, False
-64. contemporary worship, False
-65. Early 90s Freestyle Dance, False
-66. J-Pop, False
-67. chiptune, False
-68. shoegaze, False
-69. heart throb freestyle, False
-70. Space music , False
-71. Acid Rock, False
-72. mongolian folk metal, False
-73. slow indie rock, False
-74. gospel hymn, False
-75. Triphop, False
-76. christian worship, False
-77. Freestyle EDM, False
-78. fast garage rock, False
-79. Drum n Bass BPM 160-180, False
-80. lo-fi hip-hop, False
-81. middle-eastern, False
-82. Progressive Trance, False
-83. fast ska, False
-84. fast disco, False
-85. Fusion House, False
-86. Electronic, False
-87. fast hardcore punk, False
-88. fast flamenco, False
-89. fast techno, False
-90. slow waltz, False
-91. fast salsa, False
-92. 80s heart throb freestyle, False
-93. heavy doom metal, False
-94. Techstep Drum n Bass, False
-95. Freestyle Music Mix, False
-96. Early Metal, False
-97. Early 2000s Drum n Bass, False
-98. vaporwave, False
-99. post-rock, False
-100. Sambass Drum n Bass, False
-101. slow tango, False
-102. Chinese Classical folk, False
-103. Drum n Bass, False
-104. ranchera-Mariachi Fusion, False
-105. noise rock, False
-106. slow country folk, False
-107. fast grindcore, False
-108. Breakcore Drum n Bass, False
-109. Deep House, False
-110. slow bossa nova, False
-111. slow folk ballad, False
-112. witch house, False
-113. Trance, False
-114. fast trap, False
-115. Dubstep, False
-116. film score, False
-117. Drumstep, False
-118. banda, False
-119. chicano rap, False
-120. norteño, False
-121. classical acoustic guitar, False
-122. heavy dubstep, False
-123. mongolian folk, False
-124. darkwave, False
-125. kpop, False
-126. fast house, False
-127. fast hardstyle, False
-128. narcocorridos, False
-129. fast jazz fusion, False
-130. Jazz-funk, False
-131. classical celtic guitar, False
-132. huapango, False
-133. Christian hip hop, False
-134. wonky, False
-135. breakcore, False
-136. Club/Dance, False
-137. classical guitar melody, False
-138. future garage, False
-139. fast punk rock, False
-140. metal djent screamo, False
-141. EDM Techno, False
-142. Oldskool Freestyle Mix, False
-143. fast aggressive phonk, False
-144. Halftime Drum n Bass, False
-145. chillwave, False
-146. Hardstyle 150 BPM, False
-147. mariachi, False
-148. math rock, False
-149. Heavy Psyche, False
-150. EDM, False
-151. minimalism, False
-152. fast screamo, False
-153. slow blues, False
-154. Jump Up Drum n Bass, False
-155. Hip Hop, False
-156. acid jazz, False
-157. Gospel Rap, False
-158. 70s Proto Metal, False
-159. Hip Hop/Rap, False
-160. cumbia, False
-161. christian worship, False
-162. American Christian hip hop, False
-163. ambient Christian worship, False
-164. powernoise, False
-165. lo-fi house, False
-166. aggressive witch house, False
-167. metalcore djent screamo, False
-168. UK funky, False
-169. western, False
-170. Early 90s  Freestyle, False
-171. heavy metal, False
-172. fast bluegrass, False
-173. fast thrash metal, False
-174. smooth vaporwave jazz, False
-175. Concert marches, False
-176. Oldskool Latin Freestyle, False
-177. slow soul, False
-178. Schranz, False
-179. fast hip-hop, False
-180. slow R&B, False
-181. Juke/Footwork, False
-182. Intelligent Drum n Bass, False
-183. fast electroswing, False
-184. bluegrass gospel, False
-185. New Jersey Hip Hop, False
-186. Oldschool jungle, False
-187. slow chamber music, False
-188. son jarocho, False
-189. slow reggae, False
-190. heavy ambient drone, False
-191. NYC Hip Hop, False
-192. jungle, False
-193. Psychedelic , False
-194. electronic dance music, False
-195. Acid Techno, False
-196. UK garage/2-step, False
-197. Motown, False
-198. Mo Town, False
-199. Soulful Motown, False
-200. alternative rock, False
-201. art rock, False
-202. experimental rock, False
-203. art pop, False
-204. Britpop, False
-205. Progressive Rock, False
-206. Post-Rock, False
-207. Motown, False
-208. Mo Town, False
-209. Soulful Motown, False
-210. alternative rock, False
-211. art rock, False
-212. experimental rock, False
-213. art pop, False
-
-Example Concerto Variants:
-1. Solo Concerto, 1, Orchestral, A single instrument with orchestral accompaniment
-2. Double Concerto, 2, Orchestral, Two solo instruments with orchestra
-3. Triple Concerto, 3, Orchestral, Three solo instruments with orchestra
-4. Concerto Grosso, 5, Baroque Ensemble, A Baroque form with a group of solo instruments (the concertino) contrasted with the full ensemble (the ripieno)
-5. Sinfonia Concertante, 5, Symphony, A hybrid between symphony and concerto with multiple soloists (often wind instruments)
-6. Chamber Concerto, 5, Chamber Ensemble, A smaller ensemble replaces the full orchestra, with one or more solo instruments highlighted
-7. Baroque Concerto, 5, Baroque Orchestra, Features polyphonic textures and ornamentation, typical of the Baroque era
-8. Classical Concerto, 5, Classical Orchestra, Emphasizes clear forms such as sonata form within movements
-9. Romantic Concerto, 5, Romantic Orchestra, Highly virtuosic with emotional expressiveness, characteristic of the Romantic period
-10. 20th-Century & Contemporary Concerto, 5, Orchestral or Experimental, Experiments with harmony, timbre, and non-traditional forms
-11. Concertino, 1, Orchestral or Piano Accompaniment, A shorter and simpler form of concerto, often written for students
-12. Concertante Works, 5, Variable, Works that emphasize the interaction of multiple instruments with the orchestra
-
-
-Example Instrument Families by Ensemble:
-1. Orchestral, ['Strings', 'Woodwinds', 'Brass', 'Percussion', 'Keyboard']
-2. Baroque Ensemble, ['Strings', 'Woodwinds', 'Harpsichord (Keyboard)', 'Occasional Percussion']
-3. Symphony, ['Strings', 'Woodwinds', 'Brass', 'Percussion', 'Keyboard (Piano, Celesta, or Organ)']
-4. Chamber Ensemble, ['Strings', 'Woodwinds', 'Occasional Brass', 'Percussion (Optional)', 'Keyboard (Piano, Harpsichord, or Organ)']
-5. Baroque Orchestra, ['Strings', 'Woodwinds', 'Harpsichord or Organ (Keyboard)', 'Occasional Brass (Natural Trumpet, Horn)', 'Occasional Percussion']
-6. Classical Orchestra, ['Strings', 'Woodwinds', 'Brass', 'Percussion', 'Keyboard (Fortepiano or Harpsichord)']
-7. Romantic Orchestra, ['Strings', 'Woodwinds', 'Brass', 'Percussion', 'Keyboard (Piano or Organ)']
-
-```
+See Suno Prompt Generator ChatGPT Prompt.txt for the complete prompt.
 
 # Requirements
 ```
 Python3+
 ```
-
 # install Python in Windows visit
 ```
 https://docs.python.org/3/using/windows.html
@@ -651,6 +50,178 @@ where python
 # How to compile and run in Windows (back slash)
 ```
 python generate_biblical_lyrics_simple_prompts.py
+```
+
+# Setup and Installation (Using Virtual Environment)
+
+It is highly recommended to use a Python virtual environment to manage project dependencies and avoid conflicts with other Python projects or system-wide packages.
+
+1.  **Create a virtual environment:**
+    Open your terminal or command prompt, navigate to the project's root directory (`ai-gospel-music-auto-suno`), and run:
+    ```bash
+    python -m venv env
+    ```
+    This command creates a directory named `env` (you can choose a different name) containing a private Python installation.
+
+2.  **Activate the virtual environment:**
+    *   **On Windows (Command Prompt):**
+        ```batch
+        .\env\Scripts\activate.bat
+        ```
+    *   **On Windows (PowerShell):**
+        ```powershell
+        .\env\Scripts\Activate.ps1
+        ```
+        (If you encounter script execution errors, you might need to adjust your PowerShell execution policy: `Set-ExecutionPolicy RemoteSigned -Scope CurrentUser`)
+    *   **On Linux/macOS (Bash/Zsh):**
+        ```bash
+        source env/bin/activate
+        ```
+    Once activated, your command prompt should show the environment name (e.g., `(env)`).
+
+3.  **Install required packages:**
+    With the virtual environment active, install the dependencies listed in `requirements.txt`:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4.  **Deactivate the virtual environment (when done):**
+    Simply run:
+    ```bash
+    deactivate
+    ```
+
+# Running the Scripts
+
+*   **Basic Prompt Generation:**
+    ```bash
+    # Ensure you are in the project root directory with the virtual environment active
+    python generate_biblical_lyrics_simple_prompts.py
+    ```
+*   **Batch Prompt Generation (Windows):**
+    ```batch
+    # Runs generate_prompts_suno_ai.py 100 times
+    runpy_gen_prompts_suno.bat
+    ```
+*   **Example Usage: Generating Combined Bible Prompts (`generate_prompts_bible.py`)**
+
+    This script provides a practical example of how to combine the functionalities from different generation modules within the project. It demonstrates generating both music style prompts and Bible-based lyrics using the AI refinement features.
+
+    Specifically, `generate_prompts_bible.py` does the following:
+    1.  **Imports:** It imports the necessary generation functions from `gen_custom_rand_style_of_music.py` and `gen_custom_lyrics_kjv_verbatim_votd.py`.
+    2.  **Loads Environment:** It uses `python-dotenv` to load variables from your `.env` file. This is crucial as the imported functions rely on the API keys and Control Flow contexts defined there.
+    3.  **Generates Styles:** It calls functions from `gen_custom_rand_style_of_music.py` to create and print both the original randomly combined and the AI-revised prompts for various music styles: general (with vocals), drum loops, and concertos. It also shows the generated "exclude styles" strings.
+    4.  **Generates Lyrics:**
+        *   It calls `generate_bible_gateway_votd_verbatim_custom` to fetch the KJV Verse of the Day and then uses Control Flow to structure it into lyrics.
+        *   It calls `get_random_bible_passage` to retrieve the text from a random KJV chapter, prints source information, generates a full citation using `get_citation_bible_book_and_chapter`, and then employs `revise_prompt_with_control_flow_kjv_verbatim` to structure the chapter text into lyrics using AI.
+    5.  **Error Handling:** Basic `try...except` blocks are included to gracefully handle potential errors during generation (e.g., API connectivity issues, missing dataset files) and provide informative messages.
+    6.  **Main Guard:** It uses `if __name__ == "__main__":` ensuring the generation process runs only when the script is executed directly.
+    7.  **Prerequisite Check:** Before running the main logic, it performs a basic check for the `GOOGLE_API_KEY` environment variable and warns the user if it's missing, as it's essential for the AI-powered features.
+
+    **To Run the Example:**
+    Ensure your `.env` file is correctly configured with the necessary API keys and Control Flow contexts, and that the required JSON files exist within the `datasets/` directory (including the `Bible-kjv` data). Then, activate your virtual environment and run:
+    ```bash
+    python generate_prompts_bible.py
+    ```
+    This will execute the script and print examples of all the generated outputs to your console.
+
+*   **Example Usage: Generating Combined Mnemonic Prompts (`generate_prompts_mnemonic.py`)**
+
+    This script demonstrates combining mnemonic topic lyric generation with random music style generation.
+
+    This script follows the same pattern as `generate_prompts_bible.py`:
+    1.  **Imports:** It imports functions from `gen_custom_lyrics_mnemonic.py` and `gen_custom_rand_style_of_music.py`.
+    2.  **Loads Environment:** Loads variables from `.env`.
+    3.  **Generates Styles:** Calls the style generation functions (general, drums, concerto) and prints results.
+    4.  **Generates Mnemonic Lyrics:**
+        *   Calls `generate_mnemonic_topic_prompt` which handles selecting a random topic, generating a summary via the LLM, and then structuring that summary into lyrics using Control Flow.
+        *   Takes a pre-defined example text (about Relativity) and passes it directly to `revise_prompt_with_control_flow_mnemonic` to structure it into lyrics.
+    5.  **Error Handling:** Includes `try...except` blocks.
+    6.  **Main Guard:** Uses `if __name__ == "__main__":`.
+    7.  **Prerequisite Checks:** Adds warnings if the necessary API key or Control Flow contexts are missing from the environment.
+
+    **To Run the Example:**
+    Ensure your `.env` file is correctly configured with the necessary API keys and Control Flow contexts, and that the required JSON files exist within the `datasets/` directory (like `random_mnemonic_topics_dict.json`). Then, activate your virtual environment and run:
+    ```bash
+    python generate_prompts_mnemonic.py
+    ```
+    This will execute the script and print examples of the generated styles and mnemonic lyrics to your console.
+
+# Using AI-Powered Prompt Refinement (Control Flow & Gemini)
+
+Some scripts in this project leverage AI models like Google Gemini via the `controlflow` and `langchain-google-genai` libraries to intelligently refine generated prompts or structure content.
+
+*   **Purpose:** These scripts take raw input (like Bible verses, random topics, or combined musical elements) and use an AI model, acting under specific instructions defined by a `CONTROL_FLOW_CONTEXT`, to format the text into more suitable prompts or structured content (like song lyrics) for downstream use (e.g., with the Suno AI).
+*   **Configuration:**
+    *   These scripts require specific environment variables to be set. Create a file named `.env` in the project's root directory if it doesn't already exist.
+    *   Add the necessary variables to your `.env` file. The example below is for using Google Generative AI:
+        ```env
+        # Example for Google Generative AI:
+        GOOGLE_API_KEY="YOUR_GOOGLE_API_KEY_HERE"
+        MODEL_NAME="gemini-1.5-flash" # Or another compatible Google model
+        CONTROL_FLOW_CONTEXT_KJV="your_kjv_verbatim_context_identifier" # Context for KJV verbatim lyrics
+        CONTROL_FLOW_CONTEXT_LYRICIST="your_mnemonic_lyricist_context_identifier" # Context for mnemonic lyric generation
+        CONTROL_FLOW_CONTEXT_STYLES="your_style_refinement_context_identifier" # Context for music style refinement
+
+        # Add other contexts as needed by different scripts
+        ```
+    *   **Important:** The required environment variable for the API key **depends on the LLM provider you choose**. For example:
+        *   Google uses `GOOGLE_API_KEY`.
+        *   OpenAI uses `OPENAI_API_KEY`.
+        *   Anthropic uses `ANTHROPIC_API_KEY`.
+    *   **Always consult the documentation for the specific model provider and LangChain integration you are using** to find the correct environment variable names and any other required configuration settings.
+        *   **ControlFlow LLM Configuration Guide:** [https://controlflow.ai/guides/configure-llms](https://controlflow.ai/guides/configure-llms)
+        *   **LangChain Chat Model Integrations:** [https://python.langchain.com/docs/integrations/chat/](https://python.langchain.com/docs/integrations/chat/)
+    *   The script uses `python-dotenv` to automatically load these variables from the `.env` file when executed.
+    *   **Default Model Interface:** The scripts currently default to using `ChatGoogleGenerativeAI` from the `langchain-google-genai` library as the interface to the specified `MODEL_NAME`. The model configuration (like `temperature`) can be adjusted directly in the script (e.g., `gen_custom_lyrics_kjv_verbatim_votd.py`).
+    *   **Changing the Model/Provider:** While the current setup uses Google Generative AI via LangChain, the `controlflow` library is designed to work with various models and providers supported by LangChain. You can adapt the scripts to use different models or APIs by:
+        1.  Installing the necessary provider package (e.g., `pip install langchain-openai`).
+        2.  Setting the correct API key environment variable (see links above).
+        3.  Modifying the model initialization part in the Python script (e.g., changing `ChatGoogleGenerativeAI` to `ChatOpenAI` or `ChatAnthropic` and updating parameters). Refer to the ControlFlow and LangChain documentation for details.
+*   **Potential Issues:**
+    *   **HTTP 400 Errors:** Occasionally, when using Control Flow with certain models like Gemini, an intermediate step might result in an empty string being passed as input to the model API. This can cause an `HTTP 400 Bad Request` error from the API provider. If you encounter this, check the logs or debug the Control Flow execution to see if an empty prompt is being generated. You might need to add checks in the script to ensure prompts are not empty before calling `cf.run` or adjust the Control Flow context/instructions to prevent empty outputs.
+
+## AI-Powered Script Details
+
+### KJV Verbatim & VotD Lyrics (`gen_custom_lyrics_kjv_verbatim_votd.py`)
+
+*   **Functionality:** This script focuses on generating lyrics directly from King James Version Bible text.
+    *   It can fetch the KJV Verse of the Day (VotD) using the `biblegateway_api`.
+    *   Alternatively, it can select a random chapter from a random book using the `datasets/Bible-kjv` data.
+    *   The selected Bible text is then passed to the `revise_prompt_with_control_flow_kjv_verbatim` function.
+    *   This function uses the AI model (via Control Flow, configured by `CONTROL_FLOW_CONTEXT_KJV`) to arrange the verbatim verses into a conventional song structure (e.g., [Intro], [Verse 1], [Chorus], [Verse 2], etc.) while preserving the original text and verse order. It handles potential length constraints by trimming input if necessary.
+*   **Usage:** These scripts primarily provide functions to be imported and used by other parts of your workflow or potentially by higher-level orchestration scripts. The refined prompts generated by these functions can then be used for Suno API requests.
+    ```python
+    # Example usage from within another script:
+    from gen_custom_lyrics_kjv_verbatim_votd import revise_prompt_with_control_flow_kjv_verbatim
+
+    bible_verses = "Your input bible verses here..."
+    refined_lyrics_prompt = revise_prompt_with_control_flow_kjv_verbatim(bible_verses)
+    print(refined_lyrics_prompt)
+
+    # Or using the Verse of the Day function:
+    from gen_custom_lyrics_kjv_verbatim_votd import generate_bible_gateway_votd_verbatim_custom
+
+    votd_revised_lyrics_prompt, biblecontent, biblereference, bibleversion, verselink = generate_bible_gateway_votd_verbatim_custom()
+    print(votd_revised_lyrics_prompt)
+    ```
+
+# Using the Bible Gateway API
+
+Bible Gateway can be implemented to pull the verse of the day for generating lyrics instead of using the bible book dictionary. For the King James Version, use this url
+
+# Sample code to call the Biblegateway API URI for the Verse of the Day (see `biblegateway_api.py`)
+```python
+    # Use Bible Gateway Verse of the Day
+    from biblegateway_api import get_bible_votd_kjv
+
+    votds = get_bible_votd_kjv()
+    print("Bible Verse Content: ", votds['votd']['content'])
+    print("Bible Verse reference: ", votds['votd']['reference'])
+    print("Bible Verse version: ", votds['votd']['version']) # Corrected key
+    biblecontent = votds['votd']['content']
+    biblereference = votds['votd']['reference']
+    bibleversion = votds['votd']['version'] # Corrected key
 ```
 
 # Bible Gateway can be implemented to pull the verse of the day for generating lyrics instead of using the bible book dictionary. For the King James Version, use this url
@@ -668,6 +239,10 @@ https://www.biblegateway.com/votd/get/?format=JSON&version=9
     biblereference = votds['votd']['reference']
     bibleversion = votds['votd']['version']
 ```
+
+# Bible Data Source (Bible-kjv)
+
+This project uses the Bible-kjv repository from the following GitHub repo [here](https://github.com/aruljohn/Bible-kjv). You can download the repo and place it in the `datasets/` directory. The contents of the repo are required for the `gen_custom_lyrics_kjv_verbatim_votd.py` script to work when generating lyrics from random passages (not the VotD).
 
 # This project uses the Bible-kjv repository from the following GitHub repo. You can download the repo and place it in any directory. The contents of the repo are required for the generate_kjv_verbatim_prompts_suno_ai.py script to work. The current build of generate_kjv_verbatim_prompts_suno_ai.py looks for the repo in the parent directory of the script.
 ```
@@ -1436,7 +1011,7 @@ concerto_instruments_by_family = [
       },
       {
         "name": "Timpani",
-        "example": "Werner Thärichen’s Timpani Concerto"
+        "example": "Werner Thärichen's Timpani Concerto"
       }
     ]
   }
@@ -1883,3 +1458,52 @@ percussion_instruments = [
 
 # Revelation (22 chapters)
 # Revelation contains apocalyptic visions of the future, including the return of Christ, the final judgment, and the establishment of God's eternal kingdom.
+
+# Running the Scripts
+
+*   **Basic Prompt Generation:**
+    ```bash
+    # Ensure you are in the project root directory with the virtual environment active
+    python generate_biblical_lyrics_simple_prompts.py
+    ```
+*   **Batch Prompt Generation (Windows):**
+    ```batch
+    # Runs generate_prompts_suno_ai.py 100 times
+    runpy_gen_prompts_suno.bat
+    ```
+*   **Example Usage: Generating Combined Bible Prompts (`generate_prompts_bible.py`)**
+
+    This script provides a practical example of how to combine the functionalities from different generation modules within the project. It demonstrates generating both music style prompts and Bible-based lyrics using the AI refinement features.
+
+    Specifically, `generate_prompts_bible.py` does the following:
+    1.  **Imports:** It imports the necessary generation functions from `gen_custom_rand_style_of_music.py` and `gen_custom_lyrics_kjv_verbatim_votd.py`.
+    2.  **Loads Environment:** It uses `python-dotenv` to load variables from your `.env` file. This is crucial as the imported functions rely on the API keys and Control Flow contexts defined there.
+    3.  **Generates Styles:** It calls functions from `gen_custom_rand_style_of_music.py` to create and print both the original randomly combined and the AI-revised prompts for various music styles: general (with vocals), drum loops, and concertos. It also shows the generated "exclude styles" strings.
+    4.  **Generates Lyrics:**
+        *   It calls `generate_bible_gateway_votd_verbatim_custom` to fetch the KJV Verse of the Day and then uses Control Flow to structure it into lyrics.
+        *   It calls `get_random_bible_passage` to retrieve the text from a random KJV chapter, prints source information, generates a full citation using `get_citation_bible_book_and_chapter`, and then employs `revise_prompt_with_control_flow_kjv_verbatim` to structure the chapter text into lyrics using AI.
+    5.  **Error Handling:** Basic `try...except` blocks are included to gracefully handle potential errors during generation (e.g., API connectivity issues, missing dataset files) and provide informative messages.
+    6.  **Main Guard:** It uses `if __name__ == "__main__":` ensuring the generation process runs only when the script is executed directly.
+    7.  **Prerequisite Check:** Before running the main logic, it performs a basic check for the `GOOGLE_API_KEY` environment variable and warns the user if it's missing, as it's essential for the AI-powered features.
+
+    **To Run the Example:**
+    Ensure your `.env` file is correctly configured with the necessary API keys and Control Flow contexts, and that the required JSON files exist within the `datasets/` directory (including the `Bible-kjv` data). Then, activate your virtual environment and run:
+    ```bash
+    python generate_prompts_bible.py
+    ```
+    This will execute the script and print examples of all the generated outputs to your console.
+
+# Using AI-Powered Prompt Refinement (Control Flow & Gemini)
+# ... existing AI-Powered Script Details sections ...
+
+### KJV Verbatim & VotD Lyrics (`gen_custom_lyrics_kjv_verbatim_votd.py`)
+# ... existing code ...
+
+### Mnemonic Topic Lyrics (`gen_custom_lyrics_mnemonic.py`)
+# ... existing code ...
+
+### Random Music Style Refinement (`gen_custom_rand_style_of_music.py`)
+# ... existing code ...
+
+# Using the Bible Gateway API
+# ... rest of README.md ...
