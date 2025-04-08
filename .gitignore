@@ -1,4 +1,6 @@
 datasets/Bible-kjv/**
+datasets/*.json
+!datasets/bible_book_chapters.json
 *.env
 env/** 
 venv/**
