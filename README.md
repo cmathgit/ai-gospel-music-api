@@ -109,6 +109,10 @@ Check out these YouTube playlists featuring music and videos created using this 
     *   *Alternatively, download the ZIP from the GitHub page and extract its contents into `datasets/Bible-kjv`.*
     *   This step is *not* required if you only plan to use the Bible Gateway Verse of the Day feature.
 
+5. **Run the data dump script**
+	```bash
+		python dataset_dump.py
+	```
 ## Configuration: Environment Variables (`.env`)
 
 Create a file named `.env` in the project's root directory to store necessary API keys and configuration for the AI features.
