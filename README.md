@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) <!-- Added a license badge example -->
 
-This project has been deprecated. Suno Style of Music prompt generation is now available in the [Suno Style of Music](https://cmathgit.github.io/examples/musicpromptgenerator/) repository.
+This project has been deprecated. Suno Style of Music prompt generation is now available in the [Suno Style of Music](https://cmathgit.github.io/examples/musicpromptgenerator/) repository. For lyrics, see the [Suno Lyrics](https://cmathgit.github.io/examples/kjvlookup/) repository.
 
 Leverages AI (Google Gemini via Control Flow/LangChain) and various data sources to generate randomized, structured prompts (lyrics and music styles) for the Suno AI music generation platform. Focuses on biblically accurate gospel songs (using KJV text) and mnemonic topic-based lyrics.
 
